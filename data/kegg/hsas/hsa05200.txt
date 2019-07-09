@@ -1,0 +1,1640 @@
+ENTRY       hsa05200                    Pathway
+NAME        Pathways in cancer - Homo sapiens (human)
+CLASS       Human Diseases; Cancers: Overview
+PATHWAY_MAP hsa05200  Pathways in cancer
+DISEASE     H00559  von Hippel-Lindau syndrome
+            H00646  Odontoonychodermal dysplasia
+            H00857  Oligodontia-colorectal cancer syndrome
+            H00881  Li-Fraumeni syndrome
+            H00895  Basal cell nevus syndrome
+            H00947  Pilomatricoma
+            H01007  Choroid plexus papilloma
+            H01023  Juvenile polyposis syndrome
+            H01025  Familial adenomatous polyposis
+DRUG        D00094  Tretinoin (JAN/USP/INN)
+            D00327  Fluoxymesterone (JP17/USP/INN)
+            D00408  Methyltestosterone (JP17/USP/INN)
+            D00554  Ethinyl estradiol (USP)
+            D00586  Flutamide (JP17/USP/INN)
+            D00745  Interferon alfa-2a (USAN/INN)
+            D00747  Interferon gamma-1b (USAN/INN)
+            D00748  Aldesleukin (USAN/INN)
+            D00753  Sirolimus (JAN/USAN/INN)
+            D00958  Testosterone enanthate (JP17/USP)
+            D00961  Bicalutamide (JAN/USP/INN)
+            D00965  Nilutamide (USAN/INN)
+            D00966  Tamoxifen citrate (JP17/USP)
+            D00967  Toremifene citrate (JAN/USAN)
+            D01161  Fulvestrant (JAN/USAN/INN)
+            D01441  Imatinib mesylate (USAN)
+            D01534  Dromostanolone propionate (USAN)
+            D01977  Gefitinib (JAN/USAN/INN)
+            D02106  Arsenic trioxide (JP17/USAN)
+            D02714  Everolimus (JAN/USAN/INN)
+            D02745  Interferon alfa-2b (USAN)
+            D02748  Peginterferon alfa-2b (INN)
+            D02815  Alitretinoin (USAN)
+            D02970  Aprinocarsen sodium (USAN)
+            D03061  Batimastat (USAN/INN)
+            D03106  Bexarotene (JAN/USAN/INN)
+            D03218  Axitinib (JAN/USAN)
+            D03235  Filgrastim (USAN/INN)
+            D03247  Lenograstim (USAN/INN)
+            D03252  Bosutinib (USAN)
+            D03257  Trastuzumab (USAN/INN)
+            D03305  Interferon alfa (NAMALWA) (JP17)
+            D03350  Canertinib dihydrochloride (USAN)
+            D03357  Interferon gamma-1a (genetical recombination) (JAN)
+            D03455  Cetuximab (USAN/INN)
+            D03658  Dasatinib (JAN/INN)
+            D03682  Denileukin diftitox (USAN/INN)
+            D03800  Rebimastat (USAN/INN)
+            D03802  Tanomastat (USAN/INN)
+            D04014  Enzastaurin hydrochloride (JAN/USAN)
+            D04023  Erlotinib hydrochloride (JAN/USAN)
+            D04024  Lapatinib ditosylate (USAN)
+            D04025  Mubritinib (USAN/INN)
+            D04162  Fenretinide (USAN/INN)
+            D04696  Lestaurtinib (USAN/INN)
+            D04862  Masoprocol (USAN/INN)
+            D05029  Midostaurin (USAN/INN)
+            D05350  Panitumumab (USAN/INN)
+            D05380  Pazopanib hydrochloride (JAN/USAN)
+            D05386  Pegaptanib sodium (JAN/USAN)
+            D05399  Pelitinib (USAN/INN)
+            D05446  Pertuzumab (USAN/INN)
+            D05803  Sargramostim (USAN/INN)
+            D05819  Semaxanib (USAN/INN)
+            D06005  Tandutinib (USAN/INN)
+            D06068  Temsirolimus (JAN/USAN/INN)
+            D06272  Sorafenib tosylate (USAN)
+            D06285  Vatalanib (USAN/INN)
+            D06320  Vorinostat (JAN/USAN)
+            D06402  Sunitinib malate (JAN/USAN)
+            D06407  Vandetanib (JAN/USAN/INN)
+            D06409  Bevacizumab (USAN)
+            D06413  Nilotinib hydrochloride hydrate (JAN)
+            D06414  Dasatinib (USAN)
+            D06554  Alvespimycin hydrochloride (USAN)
+            D06563  Belagenpumatucel-L (USAN)
+            D06610  Lapuleucel-T (USAN)
+            D06637  Romidepsin (JAN/USAN/INN)
+            D06678  Motesanib
+            D06889  Pegfilgrastim (INN)
+            D07434  Polyestradiol phosphate (INN)
+            D07741  Zibotentan (JAN/USAN/INN)
+            D07907  Erlotinib (INN)
+            D08066  Imatinib (INN)
+            D08108  Lapatinib (INN)
+            D08524  Sorafenib (USAN/INN)
+            D08552  Sunitinib (INN)
+            D08559  Tamoxifen (INN)
+            D08805  Interferon gamma-n1 (JAN)
+            D08870  Belinostat (USAN/INN)
+            D08881  Cediranib (USAN/INN)
+            D08883  Cediranib maleate (JAN/USAN)
+            D08900  Ridaforolimus (JAN/USAN)
+            D08917  Ezatiostat hydrochloride (USAN)
+            D08947  Motesanib diphosphate (USAN)
+            D08950  Neratinib (USAN/INN)
+            D08953  Nilotinib (USAN/INN)
+            D08956  Omacetaxine mepesuccinate (USAN)
+            D08971  Plerixafor (JAN/USAN/INN)
+            D09328  Cixutumumab (USAN)
+            D09338  Entinostat (USAN/INN)
+            D09357  Mocetinostat dihydrobromide (USAN)
+            D09574  Aflibercept (USAN/INN)
+            D09604  Dinaciclib (USAN/INN)
+            D09629  Imetelstat (USAN/INN)
+            D09630  Imetelstat sodium (USAN)
+            D09635  Linifanib (USAN/INN)
+            D09641  Mocetinostat (USAN/INN)
+            D09659  Rilotumumab (USAN/INN)
+            D09660  Rindopepimut (USAN)
+            D09683  Tivozanib (USAN/INN)
+            D09689  Varlitinib (USAN/INN)
+            D09690  Varlitinib tosylate (USAN)
+            D09724  Afatinib (USAN/INN)
+            D09728  Bosutinib hydrate (JAN)
+            D09731  Crizotinib (JAN/USAN/INN)
+            D09733  Afatinib dimaleate (USAN)
+            D09746  Dalotuzumab (USAN)
+            D09864  Amuvatinib (USAN/INN)
+            D09865  Amuvatinib hydrochloride (USAN)
+            D09908  Ganitumab (USAN/INN)
+            D09909  Gataparsen (USAN/INN)
+            D09910  Gataparsen sodium (USAN)
+            D09919  Lenvatinib (USAN/INN)
+            D09920  Lenvatinib mesylate (USAN)
+            D09939  Olaratumab (USAN/INN)
+            D09941  Onartuzumab (USAN/INN)
+            D09950  Ponatinib (USAN/INN)
+            D09951  Ponatinib hydrochloride (JAN/USAN)
+            D09955  Quizartinib (USAN/INN)
+            D09956  Quizartinib dihydrochloride (USAN)
+            D09959  Ruxolitinib (USAN/INN)
+            D09960  Ruxolitinib phosphate (JAN/USAN)
+            D09980  Trastuzumab emtansine (USAN/INN)
+            D09992  Vismodegib (USAN/INN)
+            D09996  Vemurafenib (JAN/USAN/INN)
+            D10019  Panobinostat lactate (JAN)
+            D10031  Zalutumumab (USAN/INN)
+            D10060  Abexinostat (USAN)
+            D10062  Cabozantinib (USAN)
+            D10064  Dabrafenib (USAN)
+            D10076  Olcorolimus (USAN)
+            D10084  Abexinostat hydrochloride (USAN)
+            D10095  Cabozantinib s-malate (USAN)
+            D10102  Crenolanib (USAN)
+            D10103  Crenolanib besylate (USAN)
+            D10104  Dabrafenib mesylate (USAN)
+            D10119  Sonidegib (USAN/INN)
+            D10123  Ficlatuzumab (USAN)
+            D10137  Regorafenib hydrate (JAN)
+            D10138  Regorafenib (USAN/INN)
+            D10164  Sepantronium bromide (JAN/USAN)
+            D10173  Tivantinib (JAN/USAN/INN)
+            D10175  Trametinib (USAN)
+            D10176  Trametinib dimethyl sulfoxide (JAN/USAN)
+            D10189  Pictilisib (USAN)
+            D10190  Tivozanib hydrochloride (USAN)
+            D10218  Enzalutamide (JAN/USAN)
+            D10224  Golvatinib (USAN)
+            D10229  Masitinib (INN)
+            D10242  Lipegfilgrastim (USAN)
+            D10319  Panobinostat (USAN/INN)
+            D10321  Quisinostat (USAN/INN)
+            D10322  Quisinostat hydrochloride (USAN)
+            D10324  Saridegib (USAN)
+            D10325  Saridegib hydrochloride (USAN)
+            D10334  Rebastinib (USAN)
+            D10372  Palbociclib (JAN/USAN)
+            D10381  Afuresertib (USAN)
+            D10382  Afuresertib hydrochloride (USAN)
+            D10396  Nintedanib esylate (USAN)
+            D10399  Rebastinib Tosylate (USAN)
+            D10405  Cobimetinib (USAN/INN)
+            D10410  Vantictumab (USAN)
+            D10423  Ilorasertib (USAN)
+            D10426  Pimasertib (USAN/INN)
+            D10437  Galunisertib (USAN)
+            D10450  Alectinib hydrochloride (JAN)
+            D10464  Firtecan pegol (USAN/INN)
+            D10465  Golvatinib tartrate (USAN)
+            D10481  Nintedanib (USAN/INN)
+            D10486  Pimasertib hydrochloride (USAN)
+            D10542  Alectinib (USAN/INN)
+            D10543  Apitolisib (USAN/INN)
+            D10551  Ceritinib (JAN/USAN/INN)
+            D10552  Dactolisib (USAN/INN)
+            D10555  Duvelisib (USAN/INN)
+            D10560  Idelalisib (JAN/USAN/INN)
+            D10584  Buparlisib (USAN/INN)
+            D10604  Binimetinib (JAN/USAN)
+            D10609  Buparlisib hydrochloride (JAN/USAN)
+            D10615  Cobimetinib fumarate (USAN)
+            D10616  Dactolisib tosylate (USAN)
+            D10635  Gedatolisib (USAN/INN)
+            D10636  Glasdegib (USAN/INN)
+            D10641  Ipatasertib (USAN/INN)
+            D10652  Palbociclib isethionate (USAN)
+            D10671  Taladegib (USAN/INN)
+            D10679  Venetoclax (JAN/USAN/INN)
+            D10688  Abemaciclib (JAN/USAN)
+            D10696  Capmatinib (USAN/INN)
+            D10709  Gilteritinib (USAN/INN)
+            D10717  Napabucasin (JAN/USAN/INN)
+            D10718  Omipalisib (USAN/INN)
+            D10729  Sonidegib phosphate (USAN)
+            D10766  Osimertinib mesylate (USAN)
+            D10797  Copanlisib hydrochloride (USAN)
+            D10798  Copanlisib hydrochloride hydrate (JAN)
+            D10800  Gilteritinib fumarate (JAN/USAN)
+            D10858  Rociletinib (USAN/INN)
+            D10859  Olmutinib (USAN/INN)
+            D10866  Brigatinib (USAN)
+            D10867  Copanlisib (USAN/INN)
+            D10883  Ribociclib (USAN/INN)
+            D10891  Capmatinib hydrochloride (USAN)
+            D10898  Neratinib maleate
+            D10924  Dezapelisib (USAN)
+            D10926  Entrectinib (JAN/USAN/INN)
+            D10958  Naquotinib (USAN/INN)
+            D10977  Remetinostat (USAN/INN)
+            D10979  Ribociclib succinate (USAN)
+            D10981  Rovalpituzumab tesirine (USAN/INN)
+            D10993  Tucidinostat (JAN/USAN/INN)
+            D11011  Alpelisib (JAN/USAN/INN)
+            D11012  Lorlatinib (JAN/USAN/INN)
+            D11032  Plitidepsin (INN)
+            D11038  Ulixertinib (INN)
+            D11040  Apalutamide (JAN/INN)
+            D11045  Darolutamide (JAN/USAN/INN)
+            D11053  Encorafenib (JAN/USAN/INN)
+            D11073  Tepotinib hydrochloride hydrate (JAN)
+            D11074  Ipatasertib hydrochloride (JAN)
+            D11107  Glasdegib maleate (JAN)
+            D11115  Olmutinib hydrochloride (USAN)
+            D11117  Rovalpituzumab (USAN)
+            D11125  Modotuximab (USAN/INN)
+            D11126  Navicixizumab (USAN/INN)
+            D11130  Trilaciclib (USAN/INN)
+            D11136  Glesatinib (USAN/INN)
+            D11137  Larotrectinib (USAN/INN)
+            D11138  Larotrectinib sulfate (USAN)
+            D11139  Savolitinib (USAN/INN)
+            D11140  Sitravatinib (USAN/INN)
+            D11141  Tucatinib (USAN/INN)
+            D11151  Crenigacestat (USAN/INN)
+            D11182  Tinostamustine (USAN/INN)
+            D11184  Ralaniten (USAN/INN)
+            D11185  Ralaniten acetate (USAN)
+            D11229  Brontictuzumab (USAN/INN)
+            D11234  Emactuzumab (USAN/INN)
+            D11251  Icotinib
+            D11264  Brilanestrant (USAN/INN)
+            D11270  Pexidartinib (USAN/INN)
+            D11271  Pexidartinib hydrochloride (USAN)
+            D11279  Avapritinib (USAN/INN)
+            D11307  Telisotuzumab (USAN)
+            D11344  Telisotuzumab vedotin (USAN)
+            D11346  Ensartinib (USAN)
+            D11353  Ripretinib (USAN)
+            D11356  Ensartinib hydrochloride (USAN)
+            D11358  Tagraxofusp (USAN/INN)
+            D11371  Capivasertib (USAN)
+            D11403  Asciminib (USAN/INN)
+            D11404  Asciminib hydrochloride (USAN)
+            D11409  Miransertib (USAN/INN)
+            D11410  Lifirafenib (USAN/INN)
+            D11411  Lifirafenib maleate (USAN)
+            D11417  Pemigatinib (USAN/INN)
+            D11430  Nazartinib (USAN/INN)
+            D11434  Nazartinib mesylate (USAN)
+            D11437  Parsaclisib (USAN/INN)
+            D11440  Bimiralisib (USAN/INN)
+            D11442  Nanatinostat (USAN)
+            D11454  Repotrectinib (USAN)
+            D11455  Lerociclib (USAN)
+            D11501  Samotolisib (USAN)
+            D11506  Parsaclisib hydrochloride (USAN)
+            D11508  Miransertib mesylate (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        1630  DCC; DCC netrin 1 receptor [KO:K06765]
+            836  CASP3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            842  CASP9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            26060  APPL1; adaptor protein, phosphotyrosine interacting with PH domain and leucine zipper 1 [KO:K08733]
+            999  CDH1; cadherin 1 [KO:K05689]
+            1499  CTNNB1; catenin beta 1 [KO:K02105]
+            29119  CTNNA3; catenin alpha 3 [KO:K05691]
+            1495  CTNNA1; catenin alpha 1 [KO:K05691]
+            1496  CTNNA2; catenin alpha 2 [KO:K05691]
+            8312  AXIN1; axin 1 [KO:K02157]
+            8313  AXIN2; axin 2 [KO:K04385]
+            324  APC; APC regulator of WNT signaling pathway [KO:K02085]
+            10297  APC2; APC regulator of WNT signaling pathway 2 [KO:K02085]
+            2932  GSK3B; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            6932  TCF7; transcription factor 7 [KO:K02620]
+            83439  TCF7L1; transcription factor 7 like 1 [KO:K04490]
+            6934  TCF7L2; transcription factor 7 like 2 [KO:K04491]
+            51176  LEF1; lymphoid enhancer binding factor 1 [KO:K04492]
+            332  BIRC5; baculoviral IAP repeat containing 5 [KO:K08731]
+            4609  MYC; MYC proto-oncogene, bHLH transcription factor [KO:K04377]
+            595  CCND1; cyclin D1 [KO:K04503]
+            7471  WNT1; Wnt family member 1 [KO:K03209]
+            7472  WNT2; Wnt family member 2 [KO:K00182]
+            7482  WNT2B; Wnt family member 2B [KO:K00182]
+            7473  WNT3; Wnt family member 3 [KO:K00312]
+            89780  WNT3A; Wnt family member 3A [KO:K00312]
+            54361  WNT4; Wnt family member 4 [KO:K00408]
+            7474  WNT5A; Wnt family member 5A [KO:K00444]
+            81029  WNT5B; Wnt family member 5B [KO:K00444]
+            7475  WNT6; Wnt family member 6 [KO:K00445]
+            7476  WNT7A; Wnt family member 7A [KO:K00572]
+            7477  WNT7B; Wnt family member 7B [KO:K00572]
+            7478  WNT8A; Wnt family member 8A [KO:K00714]
+            7479  WNT8B; Wnt family member 8B [KO:K00714]
+            7483  WNT9A; Wnt family member 9A [KO:K01064]
+            7484  WNT9B; Wnt family member 9B [KO:K01064]
+            7480  WNT10B; Wnt family member 10B [KO:K01357]
+            80326  WNT10A; Wnt family member 10A [KO:K01357]
+            7481  WNT11; Wnt family member 11 [KO:K01384]
+            51384  WNT16; Wnt family member 16 [KO:K01558]
+            8321  FZD1; frizzled class receptor 1 [KO:K02432]
+            8324  FZD7; frizzled class receptor 7 [KO:K02432]
+            2535  FZD2; frizzled class receptor 2 [KO:K02235]
+            7976  FZD3; frizzled class receptor 3 [KO:K02329]
+            8322  FZD4; frizzled class receptor 4 [KO:K02354]
+            7855  FZD5; frizzled class receptor 5 [KO:K02375]
+            8325  FZD8; frizzled class receptor 8 [KO:K02375]
+            8323  FZD6; frizzled class receptor 6 [KO:K02376]
+            11211  FZD10; frizzled class receptor 10 [KO:K02842]
+            8326  FZD9; frizzled class receptor 9 [KO:K02842]
+            4041  LRP5; LDL receptor related protein 5 [KO:K03068]
+            4040  LRP6; LDL receptor related protein 6 [KO:K03068]
+            1857  DVL3; dishevelled segment polarity protein 3 [KO:K02353]
+            1856  DVL2; dishevelled segment polarity protein 2 [KO:K02353]
+            1855  DVL1; dishevelled segment polarity protein 1 [KO:K02353]
+            10023  FRAT1; FRAT regulator of WNT signaling pathway 1 [KO:K03069]
+            23401  FRAT2; FRAT regulator of WNT signaling pathway 2 [KO:K03096]
+            2147  F2; coagulation factor II, thrombin [KO:K01313] [EC:3.4.21.5]
+            183  AGT; angiotensinogen [KO:K09821]
+            2149  F2R; coagulation factor II thrombin receptor [KO:K03914]
+            9002  F2RL3; F2R like thrombin or trypsin receptor 3 [KO:K04236]
+            1902  LPAR1; lysophosphatidic acid receptor 1 [KO:K04289]
+            9170  LPAR2; lysophosphatidic acid receptor 2 [KO:K04291]
+            23566  LPAR3; lysophosphatidic acid receptor 3 [KO:K04294]
+            2846  LPAR4; lysophosphatidic acid receptor 4 [KO:K04275]
+            57121  LPAR5; lysophosphatidic acid receptor 5 [KO:K08390]
+            10161  LPAR6; lysophosphatidic acid receptor 6 [KO:K04273]
+            185  AGTR1; angiotensin II receptor type 1 [KO:K04166]
+            2768  GNA12; G protein subunit alpha 12 [KO:K04346]
+            10672  GNA13; G protein subunit alpha 13 [KO:K04639]
+            23365  ARHGEF12; Rho guanine nucleotide exchange factor 12 [KO:K07532]
+            9826  ARHGEF11; Rho guanine nucleotide exchange factor 11 [KO:K12331]
+            9138  ARHGEF1; Rho guanine nucleotide exchange factor 1 [KO:K12330]
+            57449  PLEKHG5; pleckstrin homology and RhoGEF domain containing G5 [KO:K19464]
+            387  RHOA; ras homolog family member A [KO:K04513]
+            6093  ROCK1; Rho associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            9475  ROCK2; Rho associated coiled-coil containing protein kinase 2 [KO:K17388] [EC:2.7.11.1]
+            6387  CXCL12; C-X-C motif chemokine ligand 12 [KO:K10031]
+            7852  CXCR4; C-X-C motif chemokine receptor 4 [KO:K04189]
+            2770  GNAI1; G protein subunit alpha i1 [KO:K04630]
+            2773  GNAI3; G protein subunit alpha i3 [KO:K04630]
+            2771  GNAI2; G protein subunit alpha i2 [KO:K04630]
+            5731  PTGER1; prostaglandin E receptor 1 [KO:K04258]
+            5732  PTGER2; prostaglandin E receptor 2 [KO:K04259]
+            5733  PTGER3; prostaglandin E receptor 3 [KO:K04260]
+            5734  PTGER4; prostaglandin E receptor 4 [KO:K04261]
+            2778  GNAS; GNAS complex locus [KO:K04632]
+            107  ADCY1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            108  ADCY2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            109  ADCY3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            196883  ADCY4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            111  ADCY5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            112  ADCY6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            113  ADCY7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            114  ADCY8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            115  ADCY9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            5566  PRKACA; protein kinase cAMP-activated catalytic subunit alpha [KO:K04345] [EC:2.7.11.11]
+            5567  PRKACB; protein kinase cAMP-activated catalytic subunit beta [KO:K04345] [EC:2.7.11.11]
+            5568  PRKACG; protein kinase cAMP-activated catalytic subunit gamma [KO:K04345] [EC:2.7.11.11]
+            2782  GNB1; G protein subunit beta 1 [KO:K04536]
+            2783  GNB2; G protein subunit beta 2 [KO:K04537]
+            2784  GNB3; G protein subunit beta 3 [KO:K07825]
+            59345  GNB4; G protein subunit beta 4 [KO:K04538]
+            10681  GNB5; G protein subunit beta 5 [KO:K04539]
+            54331  GNG2; G protein subunit gamma 2 [KO:K07826]
+            2785  GNG3; G protein subunit gamma 3 [KO:K04540]
+            2786  GNG4; G protein subunit gamma 4 [KO:K04541]
+            2787  GNG5; G protein subunit gamma 5 [KO:K04542]
+            2788  GNG7; G protein subunit gamma 7 [KO:K04543]
+            94235  GNG8; G protein subunit gamma 8 [KO:K04544]
+            2790  GNG10; G protein subunit gamma 10 [KO:K04545]
+            2791  GNG11; G protein subunit gamma 11 [KO:K04546]
+            55970  GNG12; G protein subunit gamma 12 [KO:K04347]
+            51764  GNG13; G protein subunit gamma 13 [KO:K04547]
+            2792  GNGT1; G protein subunit gamma transducin 1 [KO:K04548]
+            2793  GNGT2; G protein subunit gamma transducin 2 [KO:K04549]
+            1284  COL4A2; collagen type IV alpha 2 chain [KO:K06237]
+            1286  COL4A4; collagen type IV alpha 4 chain [KO:K06237]
+            1288  COL4A6; collagen type IV alpha 6 chain [KO:K06237]
+            1282  COL4A1; collagen type IV alpha 1 chain [KO:K06237]
+            1287  COL4A5; collagen type IV alpha 5 chain [KO:K06237]
+            1285  COL4A3; collagen type IV alpha 3 chain [KO:K06237]
+            284217  LAMA1; laminin subunit alpha 1 [KO:K05637]
+            3908  LAMA2; laminin subunit alpha 2 [KO:K05637]
+            3909  LAMA3; laminin subunit alpha 3 [KO:K06240]
+            3911  LAMA5; laminin subunit alpha 5 [KO:K06240]
+            3910  LAMA4; laminin subunit alpha 4 [KO:K06241]
+            3912  LAMB1; laminin subunit beta 1 [KO:K05636]
+            3913  LAMB2; laminin subunit beta 2 [KO:K06243]
+            3914  LAMB3; laminin subunit beta 3 [KO:K06244]
+            22798  LAMB4; laminin subunit beta 4 [KO:K06245]
+            3915  LAMC1; laminin subunit gamma 1 [KO:K05635]
+            3918  LAMC2; laminin subunit gamma 2 [KO:K06246]
+            10319  LAMC3; laminin subunit gamma 3 [KO:K06247]
+            2335  FN1; fibronectin 1 [KO:K05717]
+            3673  ITGA2; integrin subunit alpha 2 [KO:K06481]
+            3674  ITGA2B; integrin subunit alpha 2b [KO:K06476]
+            3675  ITGA3; integrin subunit alpha 3 [KO:K06482]
+            3655  ITGA6; integrin subunit alpha 6 [KO:K06485]
+            3685  ITGAV; integrin subunit alpha V [KO:K06487]
+            3688  ITGB1; integrin subunit beta 1 [KO:K05719]
+            5747  PTK2; protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            5728  PTEN; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.67 3.1.3.48 3.1.3.16]
+            4824  NKX3-1; NK3 homeobox 1 [KO:K09348]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            1147  CHUK; component of inhibitor of nuclear factor kappa B kinase complex [KO:K04467] [EC:2.7.11.10]
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta [KO:K07209] [EC:2.7.11.10]
+            8517  IKBKG; inhibitor of nuclear factor kappa B kinase regulatory subunit gamma [KO:K07210]
+            4792  NFKBIA; NFKB inhibitor alpha [KO:K04734]
+            4790  NFKB1; nuclear factor kappa B subunit 1 [KO:K02580]
+            4791  NFKB2; nuclear factor kappa B subunit 2 [KO:K04469]
+            5970  RELA; RELA proto-oncogene, NF-kB subunit [KO:K04735]
+            5743  PTGS2; prostaglandin-endoperoxide synthase 2 [KO:K11987] [EC:1.14.99.1]
+            4843  NOS2; nitric oxide synthase 2 [KO:K13241] [EC:1.14.13.39]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            329  BIRC2; baculoviral IAP repeat containing 2 [KO:K16060]
+            330  BIRC3; baculoviral IAP repeat containing 3 [KO:K16060]
+            331  XIAP; X-linked inhibitor of apoptosis [KO:K04725] [EC:2.3.2.27]
+            79444  BIRC7; baculoviral IAP repeat containing 7 [KO:K16061]
+            112401  BIRC8; baculoviral IAP repeat containing 8 [KO:K16061]
+            598  BCL2L1; BCL2 like 1 [KO:K04570]
+            7185  TRAF1; TNF receptor associated factor 1 [KO:K03172]
+            7186  TRAF2; TNF receptor associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            7187  TRAF3; TNF receptor associated factor 3 [KO:K03174]
+            9618  TRAF4; TNF receptor associated factor 4 [KO:K09848]
+            7188  TRAF5; TNF receptor associated factor 5 [KO:K09849]
+            7189  TRAF6; TNF receptor associated factor 6 [KO:K03175] [EC:2.3.2.27]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            6198  RPS6KB1; ribosomal protein S6 kinase B1 [KO:K04688] [EC:2.7.11.1]
+            6199  RPS6KB2; ribosomal protein S6 kinase B2 [KO:K04688] [EC:2.7.11.1]
+            572  BAD; BCL2 associated agonist of cell death [KO:K02158]
+            2308  FOXO1; forkhead box O1 [KO:K07201]
+            4193  MDM2; MDM2 proto-oncogene [KO:K06643] [EC:2.3.2.27]
+            7157  TP53; tumor protein p53 [KO:K04451]
+            1027  CDKN1B; cyclin dependent kinase inhibitor 1B [KO:K06624]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+            613  BCR; BCR activator of RhoGEF and GTPase [KO:K08878] [EC:2.7.11.1]
+            25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            1398  CRK; CRK proto-oncogene, adaptor protein [KO:K04438]
+            1399  CRKL; CRK like proto-oncogene, adaptor protein [KO:K04438]
+            867  CBL; Cbl proto-oncogene [KO:K04707] [EC:2.3.2.27]
+            6776  STAT5A; signal transducer and activator of transcription 5A [KO:K11223]
+            6777  STAT5B; signal transducer and activator of transcription 5B [KO:K11224]
+            5292  PIM1; Pim-1 proto-oncogene, serine/threonine kinase [KO:K04702] [EC:2.7.11.1]
+            11040  PIM2; Pim-2 proto-oncogene, serine/threonine kinase [KO:K08806] [EC:2.7.11.1]
+            3827  KNG1; kininogen 1 [KO:K03898]
+            1906  EDN1; endothelin 1 [KO:K16366]
+            623  BDKRB1; bradykinin receptor B1 [KO:K03915]
+            624  BDKRB2; bradykinin receptor B2 [KO:K03916]
+            1909  EDNRA; endothelin receptor type A [KO:K04197]
+            1910  EDNRB; endothelin receptor type B [KO:K04198]
+            2776  GNAQ; G protein subunit alpha q [KO:K04634]
+            2767  GNA11; G protein subunit alpha 11 [KO:K04635]
+            23236  PLCB1; phospholipase C beta 1 [KO:K05858] [EC:3.1.4.11]
+            5330  PLCB2; phospholipase C beta 2 [KO:K05858] [EC:3.1.4.11]
+            5331  PLCB3; phospholipase C beta 3 [KO:K05858] [EC:3.1.4.11]
+            5332  PLCB4; phospholipase C beta 4 [KO:K05858] [EC:3.1.4.11]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            3558  IL2; interleukin 2 [KO:K05429]
+            3562  IL3; interleukin 3 [KO:K04736]
+            3565  IL4; interleukin 4 [KO:K05430]
+            3567  IL5; interleukin 5 [KO:K05428]
+            3569  IL6; interleukin 6 [KO:K05405]
+            3574  IL7; interleukin 7 [KO:K05431]
+            3592  IL12A; interleukin 12A [KO:K05406]
+            3593  IL12B; interleukin 12B [KO:K05425]
+            3596  IL13; interleukin 13 [KO:K05435]
+            3600  IL15; interleukin 15 [KO:K05433]
+            51561  IL23A; interleukin 23 subunit alpha [KO:K05426]
+            2056  EPO; erythropoietin [KO:K05437]
+            3439  IFNA1; interferon alpha 1 [KO:K05414]
+            3440  IFNA2; interferon alpha 2 [KO:K05414]
+            3441  IFNA4; interferon alpha 4 [KO:K05414]
+            3442  IFNA5; interferon alpha 5 [KO:K05414]
+            3443  IFNA6; interferon alpha 6 [KO:K05414]
+            3444  IFNA7; interferon alpha 7 [KO:K05414]
+            3445  IFNA8; interferon alpha 8 [KO:K05414]
+            3446  IFNA10; interferon alpha 10 [KO:K05414]
+            3447  IFNA13; interferon alpha 13 [KO:K05414]
+            3448  IFNA14; interferon alpha 14 [KO:K05414]
+            3449  IFNA16; interferon alpha 16 [KO:K05414]
+            3451  IFNA17; interferon alpha 17 [KO:K05414]
+            3452  IFNA21; interferon alpha 21 [KO:K05414]
+            3458  IFNG; interferon gamma [KO:K04687]
+            3559  IL2RA; interleukin 2 receptor subunit alpha [KO:K05068]
+            3560  IL2RB; interleukin 2 receptor subunit beta [KO:K05069]
+            3561  IL2RG; interleukin 2 receptor subunit gamma [KO:K05070]
+            3563  IL3RA; interleukin 3 receptor subunit alpha [KO:K04737]
+            3566  IL4R; interleukin 4 receptor [KO:K05071]
+            1439  CSF2RB; colony stimulating factor 2 receptor beta common subunit [KO:K04738]
+            3568  IL5RA; interleukin 5 receptor subunit alpha [KO:K05067]
+            3570  IL6R; interleukin 6 receptor [KO:K05055]
+            3572  IL6ST; interleukin 6 signal transducer [KO:K05060]
+            3575  IL7R; interleukin 7 receptor [KO:K05072]
+            3594  IL12RB1; interleukin 12 receptor subunit beta 1 [KO:K05063]
+            3595  IL12RB2; interleukin 12 receptor subunit beta 2 [KO:K05064]
+            3597  IL13RA1; interleukin 13 receptor subunit alpha 1 [KO:K05076]
+            3601  IL15RA; interleukin 15 receptor subunit alpha [KO:K05074]
+            149233  IL23R; interleukin 23 receptor [KO:K05065]
+            2057  EPOR; erythropoietin receptor [KO:K05079]
+            3454  IFNAR1; interferon alpha and beta receptor subunit 1 [KO:K05130]
+            3455  IFNAR2; interferon alpha and beta receptor subunit 2 [KO:K05131]
+            3459  IFNGR1; interferon gamma receptor 1 [KO:K05132]
+            3460  IFNGR2; interferon gamma receptor 2 [KO:K05133]
+            27436  EML4; EMAP like 4 [KO:K15420]
+            238  ALK; ALK receptor tyrosine kinase [KO:K05119] [EC:2.7.10.1]
+            10125  RASGRP1; RAS guanyl releasing protein 1 [KO:K04350]
+            10235  RASGRP2; RAS guanyl releasing protein 2 [KO:K12361]
+            25780  RASGRP3; RAS guanyl releasing protein 3 [KO:K12362]
+            115727  RASGRP4; RAS guanyl releasing protein 4 [KO:K12363]
+            3716  JAK1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            3717  JAK2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            3718  JAK3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            6774  STAT3; signal transducer and activator of transcription 3 [KO:K04692]
+            6772  STAT1; signal transducer and activator of transcription 1 [KO:K11220]
+            6773  STAT2; signal transducer and activator of transcription 2 [KO:K11221]
+            6775  STAT4; signal transducer and activator of transcription 4 [KO:K11222]
+            6778  STAT6; signal transducer and activator of transcription 6 [KO:K11225]
+            7422  VEGFA; vascular endothelial growth factor A [KO:K05448]
+            7423  VEGFB; vascular endothelial growth factor B [KO:K16858]
+            5228  PGF; placental growth factor [KO:K16859]
+            7424  VEGFC; vascular endothelial growth factor C [KO:K05449]
+            2277  VEGFD; vascular endothelial growth factor D [KO:K05449]
+            7039  TGFA; transforming growth factor alpha [KO:K08774]
+            1950  EGF; epidermal growth factor [KO:K04357]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            2064  ERBB2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            5154  PDGFA; platelet derived growth factor subunit A [KO:K04359]
+            5155  PDGFB; platelet derived growth factor subunit B [KO:K17386]
+            5156  PDGFRA; platelet derived growth factor receptor alpha [KO:K04363] [EC:2.7.10.1]
+            5159  PDGFRB; platelet derived growth factor receptor beta [KO:K05089] [EC:2.7.10.1]
+            3479  IGF1; insulin like growth factor 1 [KO:K05459]
+            3481  IGF2; insulin like growth factor 2 [KO:K13769]
+            3480  IGF1R; insulin like growth factor 1 receptor [KO:K05087] [EC:2.7.10.1]
+            4254  KITLG; KIT ligand [KO:K05461]
+            3815  KIT; KIT proto-oncogene, receptor tyrosine kinase [KO:K05091] [EC:2.7.10.1]
+            2323  FLT3LG; fms related tyrosine kinase 3 ligand [KO:K05454]
+            2322  FLT3; fms related tyrosine kinase 3 [KO:K05092] [EC:2.7.10.1]
+            3082  HGF; hepatocyte growth factor [KO:K05460]
+            4233  MET; MET proto-oncogene, receptor tyrosine kinase [KO:K05099] [EC:2.7.10.1]
+            2246  FGF1; fibroblast growth factor 1 [KO:K18496]
+            2247  FGF2; fibroblast growth factor 2 [KO:K18497]
+            2248  FGF3; fibroblast growth factor 3 [KO:K04358]
+            2249  FGF4; fibroblast growth factor 4 [KO:K04358]
+            8822  FGF17; fibroblast growth factor 17 [KO:K04358]
+            2251  FGF6; fibroblast growth factor 6 [KO:K04358]
+            2252  FGF7; fibroblast growth factor 7 [KO:K04358]
+            2253  FGF8; fibroblast growth factor 8 [KO:K04358]
+            2254  FGF9; fibroblast growth factor 9 [KO:K04358]
+            2255  FGF10; fibroblast growth factor 10 [KO:K04358]
+            8823  FGF16; fibroblast growth factor 16 [KO:K04358]
+            2250  FGF5; fibroblast growth factor 5 [KO:K04358]
+            8817  FGF18; fibroblast growth factor 18 [KO:K04358]
+            26281  FGF20; fibroblast growth factor 20 [KO:K04358]
+            27006  FGF22; fibroblast growth factor 22 [KO:K04358]
+            9965  FGF19; fibroblast growth factor 19 [KO:K22603]
+            26291  FGF21; fibroblast growth factor 21 [KO:K22429]
+            8074  FGF23; fibroblast growth factor 23 [KO:K22428]
+            2260  FGFR1; fibroblast growth factor receptor 1 [KO:K04362] [EC:2.7.10.1]
+            2263  FGFR2; fibroblast growth factor receptor 2 [KO:K05093] [EC:2.7.10.1]
+            2261  FGFR3; fibroblast growth factor receptor 3 [KO:K05094] [EC:2.7.10.1]
+            2264  FGFR4; fibroblast growth factor receptor 4 [KO:K05095] [EC:2.7.10.1]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            369  ARAF; A-Raf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            673  BRAF; B-Raf proto-oncogene, serine/threonine kinase [KO:K04365] [EC:2.7.11.1]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            3725  JUN; Jun proto-oncogene, AP-1 transcription factor subunit [KO:K04448]
+            2353  FOS; Fos proto-oncogene, AP-1 transcription factor subunit [KO:K04379]
+            2113  ETS1; ETS proto-oncogene 1, transcription factor [KO:K02678]
+            4312  MMP1; matrix metallopeptidase 1 [KO:K01388] [EC:3.4.24.7]
+            4313  MMP2; matrix metallopeptidase 2 [KO:K01398] [EC:3.4.24.24]
+            4318  MMP9; matrix metallopeptidase 9 [KO:K01403] [EC:3.4.24.35]
+            3576  CXCL8; C-X-C motif chemokine ligand 8 [KO:K10030]
+            1019  CDK4; cyclin dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            9252  RPS6KA5; ribosomal protein S6 kinase A5 [KO:K04445] [EC:2.7.11.1]
+            5979  RET; ret proto-oncogene [KO:K05126] [EC:2.7.10.1]
+            8030  CCDC6; coiled-coil domain containing 6 [KO:K09288]
+            8031  NCOA4; nuclear receptor coactivator 4 [KO:K09289]
+            4914  NTRK1; neurotrophic receptor tyrosine kinase 1 [KO:K03176] [EC:2.7.10.1]
+            7170  TPM3; tropomyosin 3 [KO:K09290]
+            7175  TPR; translocated promoter region, nuclear basket protein [KO:K09291]
+            10342  TFG; trafficking from ER to golgi regulator [KO:K09292]
+            11186  RASSF1; Ras association domain family member 1 [KO:K09850]
+            83593  RASSF5; Ras association domain family member 5 [KO:K08015]
+            6789  STK4; serine/threonine kinase 4 [KO:K04411]
+            1612  DAPK1; death associated protein kinase 1 [KO:K08803] [EC:2.7.11.1]
+            1613  DAPK3; death associated protein kinase 3 [KO:K08803] [EC:2.7.11.1]
+            23604  DAPK2; death associated protein kinase 2 [KO:K08803] [EC:2.7.11.1]
+            5335  PLCG1; phospholipase C gamma 1 [KO:K01116] [EC:3.1.4.11]
+            5336  PLCG2; phospholipase C gamma 2 [KO:K05859] [EC:3.1.4.11]
+            2002  ELK1; ETS transcription factor ELK1 [KO:K04375]
+            810  CALML3; calmodulin like 3 [KO:K02183]
+            805  CALM2; calmodulin 2 [KO:K02183]
+            808  CALM3; calmodulin 3 [KO:K02183]
+            801  CALM1; calmodulin 1 [KO:K02183]
+            163688  CALML6; calmodulin like 6 [KO:K02183]
+            51806  CALML5; calmodulin like 5 [KO:K02183]
+            91860  CALML4; calmodulin like 4 [KO:K02183]
+            815  CAMK2A; calcium/calmodulin dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            817  CAMK2D; calcium/calmodulin dependent protein kinase II delta [KO:K04515] [EC:2.7.11.17]
+            816  CAMK2B; calcium/calmodulin dependent protein kinase II beta [KO:K04515] [EC:2.7.11.17]
+            818  CAMK2G; calcium/calmodulin dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            5900  RALGDS; ral guanine nucleotide dissociation stimulator [KO:K08732]
+            5898  RALA; RAS like proto-oncogene A [KO:K07834]
+            5899  RALB; RAS like proto-oncogene B [KO:K07835]
+            10928  RALBP1; ralA binding protein 1 [KO:K08773]
+            998  CDC42; cell division cycle 42 [KO:K04393]
+            5879  RAC1; Rac family small GTPase 1 [KO:K04392]
+            5880  RAC2; Rac family small GTPase 2 [KO:K07860]
+            5881  RAC3; Rac family small GTPase 3 [KO:K07861]
+            5599  MAPK8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            5602  MAPK10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            5601  MAPK9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            7849  PAX8; paired box 8 [KO:K09293]
+            5468  PPARG; peroxisome proliferator activated receptor gamma [KO:K08530]
+            6256  RXRA; retinoid X receptor alpha [KO:K08524]
+            6257  RXRB; retinoid X receptor beta [KO:K08525]
+            6258  RXRG; retinoid X receptor gamma [KO:K08526]
+            5915  RARB; retinoic acid receptor beta [KO:K08528]
+            2099  ESR1; estrogen receptor 1 [KO:K08550]
+            2100  ESR2; estrogen receptor 2 [KO:K08551]
+            8648  NCOA1; nuclear receptor coactivator 1 [KO:K09101] [EC:2.3.1.48]
+            8202  NCOA3; nuclear receptor coactivator 3 [KO:K11256] [EC:2.3.1.48]
+            6667  SP1; Sp1 transcription factor [KO:K04684]
+            5467  PPARD; peroxisome proliferator activated receptor delta [KO:K04504]
+            3728  JUP; junction plakoglobin [KO:K10056]
+            7704  ZBTB16; zinc finger and BTB domain containing 16 [KO:K10055]
+            5371  PML; promyelocytic leukemia [KO:K10054]
+            5914  RARA; retinoic acid receptor alpha [KO:K08527]
+            861  RUNX1; RUNX family transcription factor 1 [KO:K08367]
+            862  RUNX1T1; RUNX1 translocation partner 1 [KO:K10053]
+            6688  SPI1; Spi-1 proto-oncogene [KO:K09438]
+            1050  CEBPA; CCAAT enhancer binding protein alpha [KO:K09055]
+            1438  CSF2RA; colony stimulating factor 2 receptor alpha subunit [KO:K05066]
+            1441  CSF3R; colony stimulating factor 3 receptor [KO:K05061]
+            1436  CSF1R; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            1029  CDKN2A; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            1869  E2F1; E2F transcription factor 1 [KO:K17454]
+            1870  E2F2; E2F transcription factor 2 [KO:K09389]
+            1871  E2F3; E2F transcription factor 3 [KO:K06620]
+            4149  MAX; MYC associated factor X [KO:K04453]
+            7709  ZBTB17; zinc finger and BTB domain containing 17 [KO:K10500]
+            1030  CDKN2B; cyclin dependent kinase inhibitor 2B [KO:K04685]
+            1021  CDK6; cyclin dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            894  CCND2; cyclin D2 [KO:K10151]
+            896  CCND3; cyclin D3 [KO:K10152]
+            1163  CKS1B; CDC28 protein kinase regulatory subunit 1B [KO:K02219]
+            1164  CKS2; CDC28 protein kinase regulatory subunit 2 [KO:K02219]
+            6500  SKP1; S-phase kinase associated protein 1 [KO:K03094]
+            8454  CUL1; cullin 1 [KO:K03347]
+            9978  RBX1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            6502  SKP2; S-phase kinase associated protein 2 [KO:K03875]
+            1017  CDK2; cyclin dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            898  CCNE1; cyclin E1 [KO:K06626]
+            9134  CCNE2; cyclin E2 [KO:K06626]
+            5925  RB1; RB transcriptional corepressor 1 [KO:K06618]
+            1647  GADD45A; growth arrest and DNA damage inducible alpha [KO:K04402]
+            4616  GADD45B; growth arrest and DNA damage inducible beta [KO:K04402]
+            10912  GADD45G; growth arrest and DNA damage inducible gamma [KO:K04402]
+            581  BAX; BCL2 associated X, apoptosis regulator [KO:K02159]
+            578  BAK1; BCL2 antagonist/killer 1 [KO:K14021]
+            1643  DDB2; damage specific DNA binding protein 2 [KO:K10140]
+            51426  POLK; DNA polymerase kappa [KO:K03511] [EC:2.7.7.7]
+            7015  TERT; telomerase reverse transcriptase [KO:K11126] [EC:2.7.7.49]
+            7012  TERC; telomerase RNA component [KO:K22183]
+            4286  MITF; melanocyte inducing transcription factor [KO:K09455]
+            7040  TGFB1; transforming growth factor beta 1 [KO:K13375]
+            7042  TGFB2; transforming growth factor beta 2 [KO:K13376]
+            7043  TGFB3; transforming growth factor beta 3 [KO:K13377]
+            7046  TGFBR1; transforming growth factor beta receptor 1 [KO:K04674] [EC:2.7.11.30]
+            7048  TGFBR2; transforming growth factor beta receptor 2 [KO:K04388] [EC:2.7.11.30]
+            4087  SMAD2; SMAD family member 2 [KO:K04500]
+            4088  SMAD3; SMAD family member 3 [KO:K04500]
+            4089  SMAD4; SMAD family member 4 [KO:K04501]
+            2122  MECOM; MDS1 and EVI1 complex locus [KO:K04462]
+            1487  CTBP1; C-terminal binding protein 1 [KO:K04496]
+            1488  CTBP2; C-terminal binding protein 2 [KO:K04496]
+            3065  HDAC1; histone deacetylase 1 [KO:K06067] [EC:3.5.1.98]
+            3066  HDAC2; histone deacetylase 2 [KO:K06067] [EC:3.5.1.98]
+            4292  MLH1; mutL homolog 1 [KO:K08734]
+            4436  MSH2; mutS homolog 2 [KO:K08735]
+            4437  MSH3; mutS homolog 3 [KO:K08736]
+            2956  MSH6; mutS homolog 6 [KO:K08737]
+            675  BRCA2; BRCA2 DNA repair associated [KO:K08775]
+            5888  RAD51; RAD51 recombinase [KO:K04482]
+            356  FASLG; Fas ligand [KO:K04389]
+            355  FAS; Fas cell surface death receptor [KO:K04390]
+            8772  FADD; Fas associated via death domain [KO:K02373]
+            841  CASP8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            637  BID; BH3 interacting domain death agonist [KO:K04726]
+            5366  PMAIP1; phorbol-12-myristate-13-acetate-induced protein 1 [KO:K10131]
+            27113  BBC3; BCL2 binding component 3 [KO:K10132]
+            10018  BCL2L11; BCL2 like 11 [KO:K16341]
+            54205  CYCS; cytochrome c, somatic [KO:K08738]
+            317  APAF1; apoptotic peptidase activating factor 1 [KO:K02084]
+            840  CASP7; caspase 7 [KO:K04397] [EC:3.4.22.60]
+            9817  KEAP1; kelch like ECH associated protein 1 [KO:K10456]
+            4780  NFE2L2; nuclear factor, erythroid 2 like 2 [KO:K05638]
+            3162  HMOX1; heme oxygenase 1 [KO:K00510] [EC:1.14.14.18]
+            1728  NQO1; NAD(P)H quinone dehydrogenase 1 [KO:K00355] [EC:1.6.5.2]
+            221357  GSTA5; glutathione S-transferase alpha 5 [KO:K00799] [EC:2.5.1.18]
+            2939  GSTA2; glutathione S-transferase alpha 2 [KO:K00799] [EC:2.5.1.18]
+            2941  GSTA4; glutathione S-transferase alpha 4 [KO:K00799] [EC:2.5.1.18]
+            119391  GSTO2; glutathione S-transferase omega 2 [KO:K00799] [EC:2.5.1.18]
+            2948  GSTM4; glutathione S-transferase mu 4 [KO:K00799] [EC:2.5.1.18]
+            2953  GSTT2; glutathione S-transferase theta 2 (gene/pseudogene) [KO:K00799] [EC:2.5.1.18]
+            2952  GSTT1; glutathione S-transferase theta 1 [KO:K00799] [EC:2.5.1.18]
+            2947  GSTM3; glutathione S-transferase mu 3 [KO:K00799] [EC:2.5.1.18]
+            4257  MGST1; microsomal glutathione S-transferase 1 [KO:K00799] [EC:2.5.1.18]
+            4259  MGST3; microsomal glutathione S-transferase 3 [KO:K00799] [EC:2.5.1.18]
+            2950  GSTP1; glutathione S-transferase pi 1 [KO:K00799] [EC:2.5.1.18]
+            2944  GSTM1; glutathione S-transferase mu 1 [KO:K00799] [EC:2.5.1.18]
+            2949  GSTM5; glutathione S-transferase mu 5 [KO:K00799] [EC:2.5.1.18]
+            4258  MGST2; microsomal glutathione S-transferase 2 [KO:K00799] [EC:2.5.1.18]
+            2938  GSTA1; glutathione S-transferase alpha 1 [KO:K00799] [EC:2.5.1.18]
+            2946  GSTM2; glutathione S-transferase mu 2 [KO:K00799] [EC:2.5.1.18]
+            2940  GSTA3; glutathione S-transferase alpha 3 [KO:K00799] [EC:2.5.1.18]
+            9446  GSTO1; glutathione S-transferase omega 1 [KO:K00799] [EC:2.5.1.18]
+            653689  GSTT2B; glutathione S-transferase theta 2B (gene/pseudogene) [KO:K00799] [EC:2.5.1.18]
+            7296  TXNRD1; thioredoxin reductase 1 [KO:K22182] [EC:1.8.1.9]
+            114112  TXNRD3; thioredoxin reductase 3 [KO:K22182] [EC:1.8.1.9]
+            10587  TXNRD2; thioredoxin reductase 2 [KO:K22182] [EC:1.8.1.9]
+            7428  VHL; von Hippel-Lindau tumor suppressor [KO:K03871]
+            6921  ELOC; elongin C [KO:K03872]
+            6923  ELOB; elongin B [KO:K03873]
+            8453  CUL2; cullin 2 [KO:K03870]
+            54583  EGLN1; egl-9 family hypoxia inducible factor 1 [KO:K09592] [EC:1.14.11.29]
+            112399  EGLN3; egl-9 family hypoxia inducible factor 3 [KO:K09592] [EC:1.14.11.29]
+            112398  EGLN2; egl-9 family hypoxia inducible factor 2 [KO:K09592] [EC:1.14.11.29]
+            2271  FH; fumarate hydratase [KO:K01679] [EC:4.2.1.2]
+            3091  HIF1A; hypoxia inducible factor 1 subunit alpha [KO:K08268]
+            2034  EPAS1; endothelial PAS domain protein 1 [KO:K09095]
+            405  ARNT; aryl hydrocarbon receptor nuclear translocator [KO:K09097]
+            9915  ARNT2; aryl hydrocarbon receptor nuclear translocator 2 [KO:K15589]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            6513  SLC2A1; solute carrier family 2 member 1 [KO:K07299]
+            182  JAG1; jagged canonical Notch ligand 1 [KO:K06052]
+            3714  JAG2; jagged canonical Notch ligand 2 [KO:K21635]
+            10683  DLL3; delta like canonical Notch ligand 3 [KO:K06051]
+            28514  DLL1; delta like canonical Notch ligand 1 [KO:K06051]
+            54567  DLL4; delta like canonical Notch ligand 4 [KO:K06051]
+            4851  NOTCH1; notch receptor 1 [KO:K02599]
+            4853  NOTCH2; notch receptor 2 [KO:K20994]
+            4854  NOTCH3; notch receptor 3 [KO:K20995]
+            4855  NOTCH4; notch receptor 4 [KO:K20996]
+            3280  HES1; hes family bHLH transcription factor 1 [KO:K06054]
+            388585  HES5; hes family bHLH transcription factor 5 [KO:K06055]
+            26508  HEYL; hes related family bHLH transcription factor with YRPW motif like [KO:K09091]
+            23462  HEY1; hes related family bHLH transcription factor with YRPW motif 1 [KO:K09091]
+            23493  HEY2; hes related family bHLH transcription factor with YRPW motif 2 [KO:K09091]
+            2324  FLT4; fms related tyrosine kinase 4 [KO:K05097] [EC:2.7.10.1]
+            6469  SHH; sonic hedgehog signaling molecule [KO:K11988]
+            5727  PTCH1; patched 1 [KO:K06225]
+            6608  SMO; smoothened, frizzled class receptor [KO:K06226]
+            374654  KIF7; kinesin family member 7 [KO:K18806]
+            51684  SUFU; SUFU negative regulator of hedgehog signaling [KO:K06229]
+            2735  GLI1; GLI family zinc finger 1 [KO:K16797]
+            2736  GLI2; GLI family zinc finger 2 [KO:K16798]
+            2737  GLI3; GLI family zinc finger 3 [KO:K06230]
+            650  BMP2; bone morphogenetic protein 2 [KO:K21283]
+            652  BMP4; bone morphogenetic protein 4 [KO:K04662]
+            64399  HHIP; hedgehog interacting protein [KO:K06231]
+            8643  PTCH2; patched 2 [KO:K11101]
+            367  AR; androgen receptor [KO:K08557]
+            3320  HSP90AA1; heat shock protein 90 alpha family class A member 1 [KO:K04079]
+            3326  HSP90AB1; heat shock protein 90 alpha family class B member 1 [KO:K04079]
+            7184  HSP90B1; heat shock protein 90 beta family member 1 [KO:K09487]
+            354  KLK3; kallikrein related peptidase 3 [KO:K01351] [EC:3.4.21.77]
+            5337  PLD1; phospholipase D1 [KO:K01115] [EC:3.1.4.4]
+            8900  CCNA1; cyclin A1 [KO:K06627]
+COMPOUND    C00027  Hydrogen peroxide
+            C00039  DNA
+            C00076  Calcium cation
+            C00122  Fumarate
+            C00149  (S)-Malate
+            C00165  Diacylglycerol
+            C00187  Cholesterol
+            C00280  Androstenedione
+            C00410  Progesterone
+            C00416  Phosphatidate
+            C00533  Nitric oxide
+            C00535  Testosterone
+            C00575  3',5'-Cyclic AMP
+            C00584  Prostaglandin E2
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C00704  O2.-
+            C00735  Cortisol
+            C00762  Cortisone
+            C00777  Retinoate
+            C00951  Estradiol-17beta
+            C01227  Dehydroepiandrosterone
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01471  Acrolein
+            C03917  Dihydrotestosterone
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+            C07653  Flutamide
+            C15493  9-cis-Retinoic acid
+            C16038  2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine
+            C16844  Hydroxyl radical
+            C21641  Hydroperoxyl radical
+            C21642  4-Hydroxynonenal
+REFERENCE   
+  AUTHORS   Weinberg RA.
+  TITLE     The biology of cancer
+  JOURNAL   Garland Science, Taylor & Francis Group, LLC (2007)
+REFERENCE   PMID:10647931
+  AUTHORS   Hanahan D, Weinberg RA
+  TITLE     The hallmarks of cancer.
+  JOURNAL   Cell 100:57-70 (2000)
+            DOI:10.1016/S0092-8674(00)81683-9
+REFERENCE   PMID:15000146
+  AUTHORS   Grady WM.
+  TITLE     Genomic instability and colon cancer.
+  JOURNAL   Cancer Metastasis Rev 23:11-27 (2004)
+            DOI:10.1023/A:1025861527711
+REFERENCE   PMID:16555243
+  AUTHORS   Soreide K, Janssen EA, Soiland H, Korner H, Baak JP.
+  TITLE     Microsatellite instability in colorectal cancer.
+  JOURNAL   Br J Surg 93:395-406 (2006)
+            DOI:10.1002/bjs.5328
+REFERENCE   PMID:11078609
+  AUTHORS   Anwar S, Hall C, White J, Deakin M, Farrell W, Elder JB.
+  TITLE     Hereditary non-polyposis colorectal cancer: an updated review.
+  JOURNAL   Eur J Surg Oncol 26:635-45 (2000)
+            DOI:10.1053/ejso.2000.0974
+REFERENCE   PMID:16699851
+  AUTHORS   Takayama T, Miyanishi K, Hayashi T, Sato Y, Niitsu Y.
+  TITLE     Colorectal cancer: genetics of development and metastasis.
+  JOURNAL   J Gastroenterol 41:185-92 (2006)
+            DOI:10.1007/s00535-006-1801-6
+REFERENCE   PMID:12621137
+  AUTHORS   Lynch HT, de la Chapelle A.
+  TITLE     Hereditary colorectal cancer.
+  JOURNAL   N Engl J Med 348:919-32 (2003)
+            DOI:10.1056/NEJMra012242
+REFERENCE   PMID:12951588
+  AUTHORS   Rajagopalan H, Nowak MA, Vogelstein B, Lengauer C.
+  TITLE     The significance of unstable chromosomes in colorectal cancer.
+  JOURNAL   Nat Rev Cancer 3:695-701 (2003)
+            DOI:10.1038/nrc1165
+REFERENCE   PMID:10505543
+  AUTHORS   Behrens J.
+  TITLE     Cadherins and catenins: role in signal transduction and tumor progression.
+  JOURNAL   Cancer Metastasis Rev 18:15-30 (1999)
+            DOI:10.1023/A:1006200102166
+REFERENCE   PMID:16042571
+  AUTHORS   Behrens J.
+  TITLE     The role of the Wnt signalling pathway in colorectal tumorigenesis.
+  JOURNAL   Biochem Soc Trans 33:672-5 (2005)
+            DOI:10.1042/BST0330672
+REFERENCE   PMID:15349822
+  AUTHORS   Behrens J, Lustig B.
+  TITLE     The Wnt connection to tumorigenesis.
+  JOURNAL   Int J Dev Biol 48:477-87 (2004)
+            DOI:10.1387/ijdb.041815jb
+REFERENCE   PMID:9196022
+  AUTHORS   Polakis P.
+  TITLE     The adenomatous polyposis coli (APC) tumor suppressor.
+  JOURNAL   Biochim Biophys Acta 1332:F127-47 (1997)
+            DOI:10.1016/S0304-419X(97)00008-5
+REFERENCE   PMID:12737309
+  AUTHORS   Janssen KP.
+  TITLE     Murine models of colorectal cancer: studying the role of oncogenic K-ras.
+  JOURNAL   Cell Mol Life Sci 60:495-506 (2003)
+            DOI:10.1007/s000180300041
+REFERENCE   PMID:11459867
+  AUTHORS   Adjei AA.
+  TITLE     Blocking oncogenic Ras signaling for cancer therapy.
+  JOURNAL   J Natl Cancer Inst 93:1062-74 (2001)
+            DOI:10.1093/jnci/93.14.1062
+REFERENCE   PMID:15573119
+  AUTHORS   Arakawa H.
+  TITLE     Netrin-1 and its receptors in tumorigenesis.
+  JOURNAL   Nat Rev Cancer 4:978-87 (2004)
+            DOI:10.1038/nrc1504
+REFERENCE   PMID:15310786
+  AUTHORS   Mehlen P, Fearon ER.
+  TITLE     Role of the dependence receptor DCC in colorectal cancer pathogenesis.
+  JOURNAL   J Clin Oncol 22:3420-8 (2004)
+            DOI:10.1200/JCO.2004.02.019
+REFERENCE   PMID:11223406
+  AUTHORS   Peltomaki P.
+  TITLE     DNA mismatch repair and cancer.
+  JOURNAL   Mutat Res 488:77-85 (2001)
+            DOI:10.1016/S1383-5742(00)00058-2
+REFERENCE   PMID:15711891
+  AUTHORS   Li F, Cao Y, Townsend CM Jr, Ko TC.
+  TITLE     TGF-beta signaling in colon cancer cells.
+  JOURNAL   World J Surg 29:306-11 (2005)
+            DOI:10.1007/s00268-004-7813-6
+REFERENCE   PMID:11170304
+  AUTHORS   Roman C, Saha D, Beauchamp R.
+  TITLE     TGF-beta and colorectal carcinogenesis.
+  JOURNAL   Microsc Res Tech 52:450-7 (2001)
+            DOI:10.1002/1097-0029(20010215)52:4<450::AID-JEMT1030>3.0.CO;2-O
+REFERENCE   PMID:16326109
+  AUTHORS   Watson AJ.
+  TITLE     An overview of apoptosis and the prevention of colorectal cancer.
+  JOURNAL   Crit Rev Oncol Hematol 57:107-21 (2006)
+            DOI:10.1016/j.critrevonc.2005.06.005
+REFERENCE   PMID:15479695
+  AUTHORS   Watson AJ.
+  TITLE     Apoptosis and colorectal cancer.
+  JOURNAL   Gut 53:1701-9 (2004)
+            DOI:10.1136/gut.2004.052704
+REFERENCE   PMID:11477132
+  AUTHORS   Houlston RS.
+  TITLE     What we could do now: molecular pathology of colorectal cancer.
+  JOURNAL   Mol Pathol 54:206-14 (2001)
+            DOI:10.1136/mp.54.4.206
+REFERENCE   
+  AUTHORS   Von Hoff D, Evans D, Hruban R (ed).
+  TITLE     Pancreatic cancer
+  JOURNAL   Jones and Bartlett publishers (2005)
+REFERENCE   
+  AUTHORS   Niitsu Y, Yokota J (ed).
+  TITLE     [Oncogenes and Tumor Suppressor Genes for Medical Oncologist] (In Japanese)
+  JOURNAL   Nankodo (1999)
+REFERENCE   PMID:12459728
+  AUTHORS   Bardeesy N, DePinho RA.
+  TITLE     Pancreatic cancer biology and genetics.
+  JOURNAL   Nat Rev Cancer 2:897-909 (2002)
+            DOI:10.1038/nrc949
+REFERENCE   PMID:11407945
+  AUTHORS   Bardeesy N, Sharpless NE, DePinho RA, Merlino G.
+  TITLE     The genetics of pancreatic adenocarcinoma: a roadmap for a mouse model.
+  JOURNAL   Semin Cancer Biol 11:201-18 (2001)
+            DOI:10.1006/scbi.2000.0371
+REFERENCE   PMID:12946833
+  AUTHORS   Cowgill SM, Muscarella P.
+  TITLE     The genetics of pancreatic cancer.
+  JOURNAL   Am J Surg 186:279-86 (2003)
+            DOI:10.1016/S0002-9610(03)00226-5
+REFERENCE   PMID:16702400
+  AUTHORS   Hezel AF, Kimmelman AC, Stanger BZ, Bardeesy N, Depinho RA.
+  TITLE     Genetics and biology of pancreatic ductal adenocarcinoma.
+  JOURNAL   Genes Dev 20:1218-49 (2006)
+            DOI:10.1101/gad.1415606
+REFERENCE   PMID:10740269
+  AUTHORS   Shields JM, Pruitt K, McFall A, Shaub A, Der CJ.
+  TITLE     Understanding Ras: 'it ain't over 'til it's over'.
+  JOURNAL   Trends Cell Biol 10:147-54 (2000)
+            DOI:10.1016/S0962-8924(00)01740-2
+REFERENCE   PMID:12648469
+  AUTHORS   Holbro T, Civenni G, Hynes NE.
+  TITLE     The ErbB receptors and their role in cancer progression.
+  JOURNAL   Exp Cell Res 284:99-110 (2003)
+            DOI:10.1016/S0014-4827(02)00099-X
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:14586404
+  AUTHORS   DeArmond D, Brattain MG, Jessup JM, Kreisberg J, Malik S, Zhao S, Freeman JW.
+  TITLE     Autocrine-mediated ErbB-2 kinase activation of STAT3 is required for growth factor independence of pancreatic cancer cell lines.
+  JOURNAL   Oncogene 22:7781-95 (2003)
+            DOI:10.1038/sj.onc.1206966
+REFERENCE   PMID:12545153
+  AUTHORS   Wei D, Le X, Zheng L, Wang L, Frey JA, Gao AC, Peng Z, Huang S, Xiong HQ, Abbruzzese JL, Xie K.
+  TITLE     Stat3 activation regulates the expression of vascular endothelial growth factor and human pancreatic cancer angiogenesis and metastasis.
+  JOURNAL   Oncogene 22:319-29 (2003)
+            DOI:10.1038/sj.onc.1206122
+REFERENCE   PMID:14580692
+  AUTHORS   Toyonaga T, Nakano K, Nagano M, Zhao G, Yamaguchi K, Kuroki S, Eguchi T, Chijiiwa K, Tsuneyoshi M, Tanaka M.
+  TITLE     Blockade of constitutively activated Janus kinase/signal transducer and activator of transcription-3 pathway inhibits growth of human pancreatic cancer.
+  JOURNAL   Cancer Lett 201:107-16 (2003)
+            DOI:10.1016/S0304-3835(03)00482-8
+REFERENCE   PMID:12079267
+  AUTHORS   Schmid RM.
+  TITLE     Genetic basis of pancreatic cancer.
+  JOURNAL   Best Pract Res Clin Gastroenterol 16:421-33 (2002)
+            DOI:10.1053/bega.2002.0316
+REFERENCE   PMID:15774796
+  AUTHORS   Elliott RL, Blobe GC.
+  TITLE     Role of transforming growth factor Beta in human cancer.
+  JOURNAL   J Clin Oncol 23:2078-93 (2005)
+            DOI:10.1200/JCO.2005.02.047
+REFERENCE   PMID:15823750
+  AUTHORS   Rudkin TM, Foulkes WD.
+  TITLE     BRCA2: breaks, mistakes and failed separations.
+  JOURNAL   Trends Mol Med 11:145-8 (2005)
+            DOI:10.1016/j.molmed.2005.02.003
+REFERENCE   PMID:11707511
+  AUTHORS   Venkitaraman AR.
+  TITLE     Functions of BRCA1 and BRCA2 in the biological response to DNA damage.
+  JOURNAL   J Cell Sci 114:3591-8 (2001)
+REFERENCE   PMID:15639402
+  AUTHORS   Soni D, King JA, Kaye AH, Hovens CM.
+  TITLE     Genetics of glioblastoma multiforme: mitogenic signaling and cell cycle pathways converge.
+  JOURNAL   J Clin Neurosci 12:1-5 (2005)
+            DOI:10.1016/j.jocn.2004.04.001
+REFERENCE   PMID:12154354
+  AUTHORS   Zhu Y, Parada LF.
+  TITLE     The molecular and genetic basis of neurological tumours.
+  JOURNAL   Nat Rev Cancer 2:616-26 (2002)
+            DOI:10.1038/nrc866
+REFERENCE   PMID:11253051
+  AUTHORS   Holland EC.
+  TITLE     Gliomagenesis: genetic alterations and mouse models.
+  JOURNAL   Nat Rev Genet 2:120-9 (2001)
+            DOI:10.1038/35052535
+REFERENCE   PMID:16700615
+  AUTHORS   Bansal K, Liang ML, Rutka JT.
+  TITLE     Molecular biology of human gliomas.
+  JOURNAL   Technol Cancer Res Treat 5:185-94 (2006)
+            DOI:10.1177/153303460600500302
+REFERENCE   
+  AUTHORS   Tabuchi K (ed).
+  TITLE     [Gliomas: Research and therapy] (In Japanese)
+  JOURNAL   Springer-Verlag Tokyo (2006)
+REFERENCE   PMID:12762887
+  AUTHORS   Kapoor GS, O'Rourke DM.
+  TITLE     Mitogenic signaling cascades in glial tumors.
+  JOURNAL   Neurosurgery 52:1425-34; discussion 1434-5 (2003)
+            DOI:10.1227/01.NEU.0000065135.28143.39
+REFERENCE   PMID:16095998
+  AUTHORS   Hulleman E, Helin K.
+  TITLE     Molecular mechanisms in gliomagenesis.
+  JOURNAL   Adv Cancer Res 94:1-27 (2005)
+            DOI:10.1016/S0065-230X(05)94001-3
+REFERENCE   PMID:11057895
+  AUTHORS   Schlessinger J.
+  TITLE     Cell signaling by receptor tyrosine kinases.
+  JOURNAL   Cell 103:211-25 (2000)
+            DOI:10.1016/S0092-8674(00)00114-8
+REFERENCE   PMID:9643506
+  AUTHORS   Ng HK, Lam PY.
+  TITLE     The molecular genetics of central nervous system tumors.
+  JOURNAL   Pathology 30:196-202 (1998)
+REFERENCE   PMID:12084351
+  AUTHORS   Knobbe CB, Merlo A, Reifenberger G.
+  TITLE     Pten signaling in gliomas.
+  JOURNAL   Neuro-oncol 4:196-211 (2002)
+            DOI:10.1093/neuonc/4.3.196
+REFERENCE   PMID:16557281
+  AUTHORS   Kondo T, Ezzat S, Asa SL.
+  TITLE     Pathogenetic mechanisms in thyroid follicular-cell neoplasia.
+  JOURNAL   Nat Rev Cancer 6:292-306 (2006)
+            DOI:10.1038/nrc1836
+REFERENCE   PMID:16551846
+  AUTHORS   Chiloeches A, Marais R.
+  TITLE     Is BRAF the Achilles' Heel of thyroid cancer?
+  JOURNAL   Clin Cancer Res 12:1661-4 (2006)
+            DOI:10.1158/1078-0432.CCR-06-0051
+REFERENCE   PMID:16946003
+  AUTHORS   Reddi HV, McIver B, Grebe SK, Eberhardt NL
+  TITLE     The paired box-8/peroxisome proliferator-activated receptor-gamma oncogene in thyroid tumorigenesis.
+  JOURNAL   Endocrinology 148:932-5 (2007)
+            DOI:10.1210/en.2006-0926
+REFERENCE   PMID:17062879
+  AUTHORS   Santoro M, Melillo RM, Fusco A.
+  TITLE     RET/PTC activation in papillary thyroid carcinoma: European Journal of Endocrinology Prize Lecture.
+  JOURNAL   Eur J Endocrinol 155:645-653 (2006)
+            DOI:10.1530/eje.1.02289
+REFERENCE   PMID:16242838
+  AUTHORS   Pierotti MA, Greco A.
+  TITLE     Oncogenic rearrangements of the NTRK1/NGF receptor.
+  JOURNAL   Cancer Lett 232:90-8 (2006)
+            DOI:10.1016/j.canlet.2005.07.043
+REFERENCE   PMID:16189702
+  AUTHORS   Sobrinho-Simoes M, Preto A, Rocha AS, Castro P, Maximo V, Fonseca E, Soares P.
+  TITLE     Molecular pathology of well-differentiated thyroid carcinomas.
+  JOURNAL   Virchows Arch 447:787-93 (2005)
+            DOI:10.1007/s00428-005-0065-5
+REFERENCE   PMID:11165748
+  AUTHORS   Gimm O.
+  TITLE     Thyroid cancer.
+  JOURNAL   Cancer Lett 163:143-56 (2001)
+            DOI:10.1016/S0304-3835(00)00697-2
+REFERENCE   PMID:12094241
+  AUTHORS   Williams D.
+  TITLE     Cancer after nuclear fallout: lessons from the Chernobyl accident.
+  JOURNAL   Nat Rev Cancer 2:543-9 (2002)
+            DOI:10.1038/nrc845
+REFERENCE   PMID:16236521
+  AUTHORS   Steffen B, Muller-Tidow C, Schwable J, Berdel WE, Serve H.
+  TITLE     The molecular pathogenesis of acute myeloid leukemia.
+  JOURNAL   Crit Rev Oncol Hematol 56:195-221 (2005)
+            DOI:10.1016/j.critrevonc.2004.10.012
+REFERENCE   PMID:12563308
+  AUTHORS   Tenen DG.
+  TITLE     Disruption of differentiation in human cancer: AML shows the way.
+  JOURNAL   Nat Rev Cancer 3:89-101 (2003)
+            DOI:10.1038/nrc989
+REFERENCE   PMID:16146838
+  AUTHORS   Choudhary C, Muller-Tidow C, Berdel WE, Serve H.
+  TITLE     Signal transduction of oncogenic Flt3.
+  JOURNAL   Int J Hematol 82:93-9 (2005)
+            DOI:10.1532/IJH97.05090
+REFERENCE   PMID:12951584
+  AUTHORS   Stirewalt DL, Radich JP.
+  TITLE     The role of FLT3 in haematopoietic malignancies.
+  JOURNAL   Nat Rev Cancer 3:650-65 (2003)
+            DOI:10.1038/nrc1169
+REFERENCE   PMID:16642045
+  AUTHORS   Martelli AM, Nyakern M, Tabellini G, Bortul R, Tazzari PL, Evangelisti C, Cocco L.
+  TITLE     Phosphoinositide 3-kinase/Akt signaling pathway and its therapeutical implications for human acute myeloid leukemia.
+  JOURNAL   Leukemia 20:911-28 (2006)
+            DOI:10.1038/sj.leu.2404245
+REFERENCE   PMID:15625120
+  AUTHORS   Lennartsson J, Jelacic T, Linnekin D, Shivakrupa R.
+  TITLE     Normal and oncogenic forms of the receptor tyrosine kinase kit.
+  JOURNAL   Stem Cells 23:16-43 (2005)
+            DOI:10.1634/stemcells.2004-0117
+REFERENCE   PMID:11721960
+  AUTHORS   Lorsbach RB, Downing JR.
+  TITLE     The role of the AML1 transcription factor in leukemogenesis.
+  JOURNAL   Int J Hematol 74:258-65 (2001)
+            DOI:10.1007/BF02982058
+REFERENCE   PMID:12468433
+  AUTHORS   Mizuki M, Schwable J, Steur C, Choudhary C, Agrawal S, Sargin B, Steffen B, Matsumura I, Kanakura Y, Bohmer FD, Muller-Tidow C, Berdel WE, Serve H.
+  TITLE     Suppression of myeloid transcription factors and induction of STAT response genes by AML-specific Flt3 mutations.
+  JOURNAL   Blood 101:3164-73 (2003)
+            DOI:10.1182/blood-2002-06-1677
+REFERENCE   PMID:17554387
+  AUTHORS   Mikesch JH, Steffen B, Berdel WE, Serve H, Muller-Tidow C.
+  TITLE     The emerging role of Wnt signaling in the pathogenesis of acute myeloid leukemia.
+  JOURNAL   Leukemia 21:1638-47 (2007)
+            DOI:10.1038/sj.leu.2404732
+REFERENCE   PMID:16352814
+  AUTHORS   Mueller BU, Pabst T, Fos J, Petkovic V, Fey MF, Asou N, Buergi U, Tenen DG.
+  TITLE     ATRA resolves the differentiation block in t(15;17) acute myeloid leukemia by restoring PU.1 expression.
+  JOURNAL   Blood 107:3330-8 (2006)
+            DOI:10.1182/blood-2005-07-3068
+REFERENCE   PMID:15719031
+  AUTHORS   Ren R.
+  TITLE     Mechanisms of BCR-ABL in the pathogenesis of chronic myelogenous leukaemia.
+  JOURNAL   Nat Rev Cancer 5:172-83 (2005)
+            DOI:10.1038/nrc1567
+REFERENCE   PMID:11071626
+  AUTHORS   Deininger MW, Goldman JM, Melo JV.
+  TITLE     The molecular biology of chronic myeloid leukemia.
+  JOURNAL   Blood 96:3343-56 (2000)
+REFERENCE   PMID:14982876
+  AUTHORS   Calabretta B, Perrotti D.
+  TITLE     The biology of CML blast crisis.
+  JOURNAL   Blood 103:4010-22 (2004)
+            DOI:10.1182/blood-2003-12-4111
+REFERENCE   PMID:10403855
+  AUTHORS   Faderl S, Talpaz M, Estrov Z, O'Brien S, Kurzrock R, Kantarjian HM.
+  TITLE     The biology of chronic myeloid leukemia.
+  JOURNAL   N Engl J Med 341:164-72 (1999)
+            DOI:10.1056/NEJM199907153410306
+REFERENCE   PMID:15156182
+  AUTHORS   Mitani K.
+  TITLE     Molecular mechanisms of leukemogenesis by AML1/EVI-1.
+  JOURNAL   Oncogene 23:4263-9 (2004)
+            DOI:10.1038/sj.onc.1207777
+REFERENCE   PMID:16484590
+  AUTHORS   Dong M, Blobe GC.
+  TITLE     Role of transforming growth factor-beta in hematologic malignancies.
+  JOURNAL   Blood 107:4589-96 (2006)
+            DOI:10.1182/blood-2005-10-4169
+REFERENCE   PMID:9834202
+  AUTHORS   Kurokawa M, Mitani K, Imai Y, Ogawa S, Yazaki Y, Hirai H.
+  TITLE     The t(3;21) fusion product, AML1/Evi-1, interacts with Smad3 and blocks transforming growth factor-beta-mediated growth inhibition of myeloid cells.
+  JOURNAL   Blood 92:4003-12 (1998)
+REFERENCE   PMID:12801837
+  AUTHORS   Brusa G, Benvenuti M, Mazzacurati L, Mancini M, Pattacini L, Martinelli G, Barbieri E, Greenberger JS, Baccarani M, Santucci MA.
+  TITLE     p53 loss of function enhances genomic instability and accelerates clonal evolution of murine myeloid progenitors expressing the p(210)BCR-ABL tyrosine kinase.
+  JOURNAL   Haematologica 88:622-30 (2003)
+REFERENCE   PMID:11160144
+  AUTHORS   Baldwin AS.
+  TITLE     Control of oncogenesis and cancer therapy resistance by the transcription factor NF-kappaB.
+  JOURNAL   J Clin Invest 107:241-6 (2001)
+            DOI:10.1172/JCI11991
+REFERENCE   PMID:12244301
+  AUTHORS   Shin I, Yakes FM, Rojo F, Shin NY, Bakin AV, Baselga J, Arteaga CL.
+  TITLE     PKB/Akt mediates cell-cycle progression by phosphorylation of p27(Kip1) at threonine 157 and modulation of its cellular localization.
+  JOURNAL   Nat Med 8:1145-52 (2002)
+            DOI:10.1038/nm759
+REFERENCE   PMID:15948971
+  AUTHORS   Tilli CM, Van Steensel MA, Krekels GA, Neumann HA, Ramaekers FC.
+  TITLE     Molecular aetiology and pathogenesis of basal cell carcinoma.
+  JOURNAL   Br J Dermatol 152:1108-24 (2005)
+            DOI:10.1111/j.1365-2133.2005.06587.x
+REFERENCE   PMID:12588368
+  AUTHORS   Saldanha G, Fletcher A, Slater DN.
+  TITLE     Basal cell carcinoma: a dermatopathological and molecular biological update.
+  JOURNAL   Br J Dermatol 148:195-202 (2003)
+            DOI:10.1046/j.1365-2133.2003.05151.x
+REFERENCE   PMID:15978322
+  AUTHORS   Daya-Grosjean L, Couve-Privat S.
+  TITLE     Sonic hedgehog signaling in basal cell carcinomas.
+  JOURNAL   Cancer Lett 225:181-92 (2005)
+            DOI:10.1016/j.canlet.2004.10.003
+REFERENCE   PMID:15468170
+  AUTHORS   Tsai KY, Tsao H.
+  TITLE     The genetics of skin cancer.
+  JOURNAL   Am J Med Genet C Semin Med Genet 131C:82-92 (2004)
+            DOI:10.1002/ajmg.c.30037
+REFERENCE   PMID:16881963
+  AUTHORS   Athar M, Tang X, Lee JL, Kopelovich L, Kim AL.
+  TITLE     Hedgehog signalling in skin development and cancer.
+  JOURNAL   Exp Dermatol 15:667-77 (2006)
+            DOI:10.1111/j.1600-0625.2006.00473.x
+REFERENCE   PMID:16306523
+  AUTHORS   Rubin AI, Chen EH, Ratner D.
+  TITLE     Basal-cell carcinoma.
+  JOURNAL   N Engl J Med 353:2262-9 (2005)
+            DOI:10.1056/NEJMra044151
+REFERENCE   PMID:11276000
+  AUTHORS   Saldanha G.
+  TITLE     The Hedgehog signalling pathway and cancer.
+  JOURNAL   J Pathol 193:427-32 (2001)
+            DOI:10.1002/1096-9896(2000)9999:9999<::AID-PATH815>3.0.CO;2-N
+REFERENCE   PMID:15270885
+  AUTHORS   Saldanha G, Ghura V, Potter L, Fletcher A.
+  TITLE     Nuclear beta-catenin in basal cell carcinoma correlates with increased proliferation.
+  JOURNAL   Br J Dermatol 151:157-64 (2004)
+            DOI:10.1111/j.1365-2133.2004.06048.x
+REFERENCE   PMID:14737121
+  AUTHORS   Pasca di Magliano M, Hebrok M.
+  TITLE     Hedgehog signalling in cancer formation and maintenance.
+  JOURNAL   Nat Rev Cancer 3:903-11 (2003)
+            DOI:10.1038/nrc1229
+REFERENCE   PMID:15656799
+  AUTHORS   Reifenberger J, Wolter M, Knobbe CB, Kohler B, Schonicke A, Scharwachter C, Kumar K, Blaschke B, Ruzicka T, Reifenberger G.
+  TITLE     Somatic mutations in the PTCH, SMOH, SUFUH and TP53 genes in sporadic basal cell carcinomas.
+  JOURNAL   Br J Dermatol 152:43-51 (2005)
+            DOI:10.1111/j.1365-2133.2005.06353.x
+REFERENCE   PMID:14556242
+  AUTHORS   Cohen MM Jr.
+  TITLE     The hedgehog signaling network.
+  JOURNAL   Am J Med Genet A 123:5-28 (2003)
+            DOI:10.1002/ajmg.a.20495
+REFERENCE   PMID:11736900
+  AUTHORS   Yamazaki F, Aragane Y, Kawada A, Tezuka T.
+  TITLE     Immunohistochemical detection for nuclear beta-catenin in sporadic basal cell carcinoma.
+  JOURNAL   Br J Dermatol 145:771-7 (2001)
+            DOI:10.1046/j.1365-2133.2001.04468.x
+REFERENCE   PMID:16054233
+  AUTHORS   Erb P, Ji J, Wernli M, Kump E, Glaser A, Buchner SA.
+  TITLE     Role of apoptosis in basal cell and squamous cell carcinoma formation.
+  JOURNAL   Immunol Lett 100:68-72 (2005)
+            DOI:10.1016/j.imlet.2005.06.008
+REFERENCE   PMID:11130178
+  AUTHORS   Toftgard R.
+  TITLE     Hedgehog signalling in cancer.
+  JOURNAL   Cell Mol Life Sci 57:1720-31 (2000)
+            DOI:10.1007/PL00000654
+REFERENCE   PMID:16822996
+  AUTHORS   Miller AJ, Mihm MC Jr.
+  TITLE     Melanoma.
+  JOURNAL   N Engl J Med 355:51-65 (2006)
+            DOI:10.1056/NEJMra052166
+REFERENCE   PMID:12894244
+  AUTHORS   Chin L.
+  TITLE     The genetics of malignant melanoma: lessons from mouse and man.
+  JOURNAL   Nat Rev Cancer 3:559-70 (2003)
+            DOI:10.1038/nrc1145
+REFERENCE   PMID:16750612
+  AUTHORS   Takata M, Saida T.
+  TITLE     Genetic alterations in melanocytic tumors.
+  JOURNAL   J Dermatol Sci 43:1-10 (2006)
+            DOI:10.1016/j.jdermsci.2006.05.002
+REFERENCE   PMID:15841168
+  AUTHORS   Chudnovsky Y, Khavari PA, Adams AE.
+  TITLE     Melanoma genetics and the development of rational therapeutics.
+  JOURNAL   J Clin Invest 115:813-24 (2005)
+            DOI:10.1172/JCI24808
+REFERENCE   PMID:16001050
+  AUTHORS   Merlino G.
+  TITLE     Cancer biology: the weakest link?
+  JOURNAL   Nature 436:33-5 (2005)
+            DOI:10.1038/436033a
+REFERENCE   PMID:16001072
+  AUTHORS   Garraway LA, Widlund HR, Rubin MA, Getz G, Berger AJ, Ramaswamy S, Beroukhim R, Milner DA, Granter SR, Du J, Lee C, Wagner SN, Li C, Golub TR, Rimm DL, Meyerson ML, Fisher DE, Sellers WR.
+  TITLE     Integrative genomic analyses identify MITF as a lineage survival oncogene amplified in malignant melanoma.
+  JOURNAL   Nature 436:117-22 (2005)
+            DOI:10.1038/nature03664
+REFERENCE   PMID:16899407
+  AUTHORS   Levy C, Khaled M, Fisher DE.
+  TITLE     MITF: master regulator of melanocyte development and melanoma oncogene.
+  JOURNAL   Trends Mol Med 12:406-14 (2006)
+            DOI:10.1016/j.molmed.2006.07.008
+REFERENCE   PMID:15009714
+  AUTHORS   Tsao H, Goel V, Wu H, Yang G, Haluska FG.
+  TITLE     Genetic interaction between NRAS and BRAF mutations and PTEN/MMAC1 inactivation in melanoma.
+  JOURNAL   J Invest Dermatol 122:337-41 (2004)
+            DOI:10.1046/j.0022-202X.2004.22243.x
+REFERENCE   PMID:11224709
+  AUTHORS   Gruss C, Herlyn M.
+  TITLE     Role of cadherins and matrixins in melanoma.
+  JOURNAL   Curr Opin Oncol 13:117-23 (2001)
+REFERENCE   PMID:15721476
+  AUTHORS   Thompson JF, Scolyer RA, Kefford RF.
+  TITLE     Cutaneous melanoma.
+  JOURNAL   Lancet 365:687-701 (2005)
+            DOI:10.1016/S0140-6736(05)17951-3
+REFERENCE   PMID:14695152
+  AUTHORS   Omholt K, Platz A, Kanter L, Ringborg U, Hansson J.
+  TITLE     NRAS and BRAF mutations arise early during melanoma pathogenesis and are preserved throughout tumor progression.
+  JOURNAL   Clin Cancer Res 9:6483-8 (2003)
+REFERENCE   PMID:15557758
+  AUTHORS   Hussein MR.
+  TITLE     The TP53 tumor suppressor gene and melanoma tumorigenesis: is there a relationship?
+  JOURNAL   Tumour Biol 25:200-7 (2004)
+            DOI:10.1159/000081103
+REFERENCE   PMID:10843728
+  AUTHORS   Lazar-Molnar E, Hegyesi H, Toth S, Falus A.
+  TITLE     Autocrine and paracrine regulation by cytokines and growth factors in melanoma.
+  JOURNAL   Cytokine 12:547-54 (2000)
+            DOI:10.1006/cyto.1999.0614
+REFERENCE   PMID:16339096
+  AUTHORS   Cohen HT, McGovern FJ.
+  TITLE     Renal-cell carcinoma.
+  JOURNAL   N Engl J Med 353:2477-90 (2005)
+            DOI:10.1056/NEJMra043172
+REFERENCE   PMID:15122209
+  AUTHORS   Pavlovich CP, Schmidt LS.
+  TITLE     Searching for the hereditary causes of renal-cell carcinoma.
+  JOURNAL   Nat Rev Cancer 4:381-93 (2004)
+            DOI:10.1038/nrc1364
+REFERENCE   PMID:14634372
+  AUTHORS   Linehan WM, Walther MM, Zbar B.
+  TITLE     The genetic basis of cancer of the kidney.
+  JOURNAL   J Urol 170:2163-72 (2003)
+            DOI:10.1097/01.ju.0000096060.92397.ed
+REFERENCE   PMID:14685170
+  AUTHORS   Birchmeier C, Birchmeier W, Gherardi E, Vande Woude GF.
+  TITLE     Met, metastasis, motility and more.
+  JOURNAL   Nat Rev Mol Cell Biol 4:915-25 (2003)
+            DOI:10.1038/nrm1261
+REFERENCE   PMID:15611513
+  AUTHORS   Kim WY, Kaelin WG.
+  TITLE     Role of VHL gene mutation in human cancer.
+  JOURNAL   J Clin Oncol 22:4991-5004 (2004)
+            DOI:10.1200/JCO.2004.05.061
+REFERENCE   PMID:17211469
+  AUTHORS   Sudarshan S, Linehan WM, Neckers L.
+  TITLE     HIF and fumarate hydratase in renal cancer.
+  JOURNAL   Br J Cancer 96:403-7 (2007)
+            DOI:10.1038/sj.bjc.6603547
+REFERENCE   PMID:17287871
+  AUTHORS   Sudarshan S, Pinto PA, Neckers L, Linehan WM.
+  TITLE     Mechanisms of disease: hereditary leiomyomatosis and renal cell cancer--a distinct form of hereditary kidney cancer.
+  JOURNAL   Nat Clin Pract Urol 4:104-10 (2007)
+            DOI:10.1038/ncpuro0711
+REFERENCE   PMID:12351585
+  AUTHORS   Bodmer D, van den Hurk W, van Groningen JJ, Eleveld MJ, Martens GJ, Weterman MA, van Kessel AG.
+  TITLE     Understanding familial and non-familial renal cell cancer.
+  JOURNAL   Hum Mol Genet 11:2489-98 (2002)
+            DOI:10.1093/hmg/11.20.2489
+REFERENCE   PMID:17158541
+  AUTHORS   Mitra AP, Datar RH, Cote RJ.
+  TITLE     Molecular pathways in invasive bladder cancer: new insights into mechanisms, progression, and target identification.
+  JOURNAL   J Clin Oncol 24:5552-64 (2006)
+            DOI:10.1200/JCO.2006.08.2073
+REFERENCE   PMID:16474624
+  AUTHORS   Wolff EM, Liang G, Jones PA.
+  TITLE     Mechanisms of Disease: genetic and epigenetic alterations that drive bladder cancer.
+  JOURNAL   Nat Clin Pract Urol 2:502-10 (2005)
+            DOI:10.1038/ncpuro0318
+REFERENCE   PMID:16110317
+  AUTHORS   Wu XR.
+  TITLE     Urothelial tumorigenesis: a tale of divergent pathways.
+  JOURNAL   Nat Rev Cancer 5:713-25 (2005)
+            DOI:10.1038/nrc1697
+REFERENCE   PMID:11103787
+  AUTHORS   Brown NS, Jones A, Fujiyama C, Harris AL, Bicknell R.
+  TITLE     Thymidine phosphorylase induces carcinoma cell oxidative stress and promotes secretion of angiogenic factors.
+  JOURNAL   Cancer Res 60:6298-302 (2000)
+REFERENCE   PMID:12850530
+  AUTHORS   Bellmunt J, Hussain M, Dinney CP.
+  TITLE     Novel approaches with targeted therapies in bladder cancer. Therapy of bladder cancer by blockade of the epidermal growth factor receptor family.
+  JOURNAL   Crit Rev Oncol Hematol 46 Suppl:S85-104 (2003)
+            DOI:10.1016/S1040-8428(03)00067-2
+REFERENCE   PMID:17149381
+  AUTHORS   Sugano K, Kakizoe T.
+  TITLE     Genetic alterations in bladder cancer and their clinical applications in molecular tumor staging.
+  JOURNAL   Nat Clin Pract Urol 3:642-52 (2006)
+            DOI:10.1038/ncpuro0649
+REFERENCE   PMID:15746962
+  AUTHORS   Dunn KL, Espino PS, Drobic B, He S, Davie JR.
+  TITLE     The Ras-MAPK signal transduction pathway, cancer and chromatin remodeling.
+  JOURNAL   Biochem Cell Biol 83:1-14 (2005)
+            DOI:10.1139/o04-121
+REFERENCE   PMID:15551095
+  AUTHORS   Williams SG, Stein JP.
+  TITLE     Molecular pathways in bladder cancer.
+  JOURNAL   Urol Res 32:373-85 (2004)
+            DOI:10.1007/s00240-003-0345-y
+REFERENCE   PMID:12878745
+  AUTHORS   Nelson WG, De Marzo AM, Isaacs WB.
+  TITLE     Prostate cancer.
+  JOURNAL   N Engl J Med 349:366-81 (2003)
+            DOI:10.1056/NEJMra021562
+REFERENCE   PMID:15724144
+  AUTHORS   Li L, Ittmann MM, Ayala G, Tsai MJ, Amato RJ, Wheeler TM, Miles BJ, Kadmon D, Thompson TC.
+  TITLE     The emerging role of the PI3-K-Akt pathway in prostate cancer progression.
+  JOURNAL   Prostate Cancer Prostatic Dis 8:108-18 (2005)
+            DOI:10.1038/sj.pcan.4500776
+REFERENCE   PMID:16551847
+  AUTHORS   Pienta KJ, Bradley D.
+  TITLE     Mechanisms underlying the development of androgen-independent prostate cancer.
+  JOURNAL   Clin Cancer Res 12:1665-71 (2006)
+            DOI:10.1158/1078-0432.CCR-06-0067
+REFERENCE   PMID:11900250
+  AUTHORS   Feldman BJ, Feldman D.
+  TITLE     The development of androgen-independent prostate cancer.
+  JOURNAL   Nat Rev Cancer 1:34-45 (2001)
+            DOI:10.1038/35094009
+REFERENCE   PMID:15082523
+  AUTHORS   Heinlein CA, Chang C.
+  TITLE     Androgen receptor in prostate cancer.
+  JOURNAL   Endocr Rev 25:276-308 (2004)
+            DOI:10.1210/er.2002-0032
+REFERENCE   PMID:9422516
+  AUTHORS   Koivisto P, Kolmer M, Visakorpi T, Kallioniemi OP.
+  TITLE     Androgen receptor gene and hormonal therapy failure of prostate cancer.
+  JOURNAL   Am J Pathol 152:1-9 (1998)
+REFERENCE   PMID:10835690
+  AUTHORS   Zhao XY, Malloy PJ, Krishnan AV, Swami S, Navone NM, Peehl DM, Feldman D.
+  TITLE     Glucocorticoids can promote androgen-independent growth of prostate cancer cells through a mutated androgen receptor.
+  JOURNAL   Nat Med 6:703-6 (2000)
+            DOI:10.1038/76287
+REFERENCE   PMID:10453277
+  AUTHORS   Macri E, Loda M.
+  TITLE     Role of p27 in prostate carcinogenesis.
+  JOURNAL   Cancer Metastasis Rev 17:337-44 (1998)
+            DOI:10.1023/A:1006133620914
+REFERENCE   PMID:11750244
+  AUTHORS   Steers WD.
+  TITLE     5alpha-reductase activity in the prostate.
+  JOURNAL   Urology 58:17-24; discussion 24 (2001)
+            DOI:10.1016/S0090-4295(01)01299-7
+REFERENCE   PMID:8069858
+  AUTHORS   Lin D, Meyer DJ, Ketterer B, Lang NP, Kadlubar FF.
+  TITLE     Effects of human and rat glutathione S-transferases on the covalent DNA binding of the N-acetoxy derivatives of heterocyclic amine carcinogens in vitro: a possible mechanism of organ specificity in their carcinogenesis.
+  JOURNAL   Cancer Res 54:4920-6 (1994)
+REFERENCE   PMID:11527574
+  AUTHORS   Grimes CA, Jope RS.
+  TITLE     The multifaceted roles of glycogen synthase kinase 3beta in cellular signaling.
+  JOURNAL   Prog Neurobiol 65:391-426 (2001)
+            DOI:10.1016/S0301-0082(01)00011-9
+REFERENCE   PMID:15947972
+  AUTHORS   Ryan AJ, Susil B, Jobling TW, Oehler MK.
+  TITLE     Endometrial cancer.
+  JOURNAL   Cell Tissue Res 322:53-61 (2005)
+            DOI:10.1007/s00441-005-1109-5
+REFERENCE   PMID:14747944
+  AUTHORS   Lax SF.
+  TITLE     Molecular genetic pathways in various types of endometrial carcinoma: from a phenotypical to a molecular-based classification.
+  JOURNAL   Virchows Arch 444:213-23 (2004)
+            DOI:10.1007/s00428-003-0947-3
+REFERENCE   PMID:16508724
+  AUTHORS   Shiozawa T, Konishi I.
+  TITLE     Early endometrial carcinoma: clinicopathology, hormonal aspects, molecular genetics, diagnosis, and treatment.
+  JOURNAL   Int J Clin Oncol 11:13-21 (2006)
+            DOI:10.1007/s10147-005-0546-1
+REFERENCE   PMID:17028294
+  AUTHORS   Hecht JL, Mutter GL.
+  TITLE     Molecular and pathologic aspects of endometrial carcinogenesis.
+  JOURNAL   J Clin Oncol 24:4783-91 (2006)
+            DOI:10.1200/JCO.2006.06.7173
+REFERENCE   PMID:11431710
+  AUTHORS   Matias-Guiu X, Catasus L, Bussaglia E, Lagarda H, Garcia A, Pons C, Munoz J, Arguelles R, Machin P, Prat J.
+  TITLE     Molecular pathology of endometrial hyperplasia and carcinoma.
+  JOURNAL   Hum Pathol 32:569-77 (2001)
+            DOI:10.1053/hupa.2001.25929
+REFERENCE   PMID:15284264
+  AUTHORS   Slomovitz BM, Broaddus RR, Burke TW, Sneige N, Soliman PT, Wu W, Sun CC, Munsell MF, Gershenson DM, Lu KH.
+  TITLE     Her-2/neu overexpression and amplification in uterine papillary serous carcinoma.
+  JOURNAL   J Clin Oncol 22:3126-32 (2004)
+            DOI:10.1200/JCO.2004.11.154
+REFERENCE   PMID:7585656
+  AUTHORS   Saffari B, Jones LA, el-Naggar A, Felix JC, George J, Press MF.
+  TITLE     Amplification and overexpression of HER-2/neu (c-erbB2) in endometrial cancers: correlation with overall survival.
+  JOURNAL   Cancer Res 55:5693-8 (1995)
+REFERENCE   PMID:16248975
+  AUTHORS   Kim D, Chung J.
+  TITLE     Akt: versatile mediator of cell survival and beyond.
+  JOURNAL   J Biochem Mol Biol 35:106-15 (2002)
+REFERENCE   PMID:12711111
+  AUTHORS   Sanchez-Cespedes M.
+  TITLE     Dissecting the genetic alterations involved in lung carcinogenesis.
+  JOURNAL   Lung Cancer 40:111-21 (2003)
+            DOI:10.1016/S0169-5002(03)00033-3
+REFERENCE   PMID:11720739
+  AUTHORS   Kaye FJ.
+  TITLE     Molecular biology of lung cancer.
+  JOURNAL   Lung Cancer 34 Suppl 2:S35-41 (2001)
+            DOI:10.1016/S0169-5002(01)00342-7
+REFERENCE   PMID:12616528
+  AUTHORS   Shivapurkar N, Reddy J, Chaudhary PM, Gazdar AF.
+  TITLE     Apoptosis and lung cancer: a review.
+  JOURNAL   J Cell Biochem 88:885-98 (2003)
+            DOI:10.1002/jcb.10440
+REFERENCE   PMID:11807782
+  AUTHORS   Sartorius UA, Krammer PH.
+  TITLE     Upregulation of Bcl-2 is involved in the mediation of chemotherapy resistance in human small cell lung cancer cell lines.
+  JOURNAL   Int J Cancer 97:584-92 (2002)
+            DOI:10.1002/ijc.10096
+REFERENCE   PMID:16064138
+  AUTHORS   Adhikary S, Eilers M.
+  TITLE     Transcriptional regulation and transformation by Myc proteins.
+  JOURNAL   Nat Rev Mol Cell Biol 6:635-45 (2005)
+            DOI:10.1038/nrm1703
+REFERENCE   PMID:11463388
+  AUTHORS   Spruck C, Strohmaier H, Watson M, Smith AP, Ryan A, Krek TW, Reed SI.
+  TITLE     A CDK-independent function of mammalian Cks1: targeting of SCF(Skp2) to the CDK inhibitor p27Kip1.
+  JOURNAL   Mol Cell 7:639-50 (2001)
+            DOI:10.1016/S1097-2765(01)00210-6
+REFERENCE   PMID:15109562
+  AUTHORS   Buttery RC, Rintoul RC, Sethi T.
+  TITLE     Small cell lung cancer: the importance of the extracellular matrix.
+  JOURNAL   Int J Biochem Cell Biol 36:1154-60 (2004)
+            DOI:10.1016/S1357-2725(03)00261-9
+REFERENCE   PMID:11559746
+  AUTHORS   Yamada KM, Araki M.
+  TITLE     Tumor suppressor PTEN: modulator of cell signaling, growth, migration and apoptosis.
+  JOURNAL   J Cell Sci 114:2375-82 (2001)
+REFERENCE   PMID:11905738
+  AUTHORS   Rintoul RC, Sethi T.
+  TITLE     The role of extracellular matrix in small-cell lung cancer.
+  JOURNAL   Lancet Oncol 2:437-42 (2001)
+            DOI:10.1016/S1470-2045(00)00421-6
+REFERENCE   PMID:12243753
+  AUTHORS   Ekedahl J, Joseph B, Grigoriev MY, Muller M, Magnusson C, Lewensohn R, Zhivotovsky B.
+  TITLE     Expression of inhibitor of apoptosis proteins in small- and non-small-cell lung carcinoma cells.
+  JOURNAL   Exp Cell Res 279:277-90 (2002)
+            DOI:10.1006/excr.2002.5608
+REFERENCE   PMID:12379883
+  AUTHORS   Osada H, Takahashi T.
+  TITLE     Genetic alterations of multiple tumor suppressors and oncogenes in the carcinogenesis and progression of lung cancer.
+  JOURNAL   Oncogene 21:7421-34 (2002)
+            DOI:10.1038/sj.onc.1205802
+REFERENCE   PMID:12741677
+  AUTHORS   Yokota J, Nishioka M, Tani M, Kohno T.
+  TITLE     Genetic alterations responsible for metastatic phenotypes of lung cancer cells.
+  JOURNAL   Clin Exp Metastasis 20:189-93 (2003)
+REFERENCE   PMID:16870043
+  AUTHORS   Aviel-Ronen S, Blackhall FH, Shepherd FA, Tsao MS.
+  TITLE     K-ras mutations in non-small-cell lung carcinoma: a review.
+  JOURNAL   Clin Lung Cancer 8:30-8 (2006)
+            DOI:10.3816/CLC.2006.n.030
+REFERENCE   PMID:15948711
+  AUTHORS   Pfeifer GP, Dammann R.
+  TITLE     Methylation of the tumor suppressor gene RASSF1A in human tumors.
+  JOURNAL   Biochemistry (Mosc) 70:576-83 (2005)
+REFERENCE   PMID:11902573
+  AUTHORS   Altucci L, Gronemeyer H.
+  TITLE     The promise of retinoids to fight against cancer.
+  JOURNAL   Nat Rev Cancer 1:181-93 (2001)
+            DOI:10.1038/35106036
+REFERENCE   PMID:10944551
+  AUTHORS   Virmani AK, Rathi A, Zochbauer-Muller S, Sacchi N, Fukuyama Y, Bryant D, Maitra A, Heda S, Fong KM, Thunnissen F, Minna JD, Gazdar AF.
+  TITLE     Promoter methylation and silencing of the retinoic acid receptor-beta gene in lung carcinomas.
+  JOURNAL   J Natl Cancer Inst 92:1303-7 (2000)
+            DOI:10.1093/jnci/92.16.1303
+REFERENCE   PMID:12867060
+  AUTHORS   Hirsch FR, Scagliotti GV, Langer CJ, Varella-Garcia M, Franklin WA.
+  TITLE     Epidermal growth factor family of receptors in preneoplasia and lung cancer: perspectives for targeted therapies.
+  JOURNAL   Lung Cancer 41 Suppl 1:S29-42 (2003)
+            DOI:10.1016/S0169-5002(03)00137-5
+REFERENCE   PMID:16112428
+  AUTHORS   Panani AD, Roussos C.
+  TITLE     Cytogenetic and molecular aspects of lung cancer.
+  JOURNAL   Cancer Lett 239:1-9 (2006)
+            DOI:10.1016/j.canlet.2005.06.030
+REFERENCE   PMID:12407699
+  AUTHORS   Mitsuuchi Y, Testa JR.
+  TITLE     Cytogenetics and molecular genetics of lung cancer.
+  JOURNAL   Am J Med Genet 115:183-8 (2002)
+            DOI:10.1002/ajmg.10692
+REFERENCE   PMID:15942304
+  AUTHORS   Breuer RH, Postmus PE, Smit EF.
+  TITLE     Molecular pathology of non-small-cell lung cancer.
+  JOURNAL   Respiration 72:313-30 (2005)
+            DOI:10.1159/000085376
+REFERENCE   PMID:11895903
+  AUTHORS   Piyathilake CJ, Frost AR, Manne U, Weiss H, Bell WC, Heimburger DC, Grizzle WE.
+  TITLE     Differential expression of growth factors in squamous cell carcinoma and precancerous lesions of the lung.
+  JOURNAL   Clin Cancer Res 8:734-44 (2002)
+REFERENCE   PMID:16189154
+  AUTHORS   Awaya H, Takeshima Y, Furonaka O, Kohno N, Inai K.
+  TITLE     Gene amplification and protein expression of EGFR and HER2 by chromogenic in situ hybridisation and immunohistochemistry in atypical adenomatous hyperplasia and adenocarcinoma of the lung.
+  JOURNAL   J Clin Pathol 58:1076-80 (2005)
+            DOI:10.1136/jcp.2004.025585
+REFERENCE   PMID:21193867
+  AUTHORS   Lappano R, Maggiolini M
+  TITLE     G protein-coupled receptors: novel targets for drug discovery in cancer.
+  JOURNAL   Nat Rev Drug Discov 10:47-60 (2011)
+            DOI:10.1038/nrd3320
+REFERENCE   PMID:24508914
+  AUTHORS   O'Hayre M, Degese MS, Gutkind JS
+  TITLE     Novel insights into G protein and G protein-coupled receptor signaling in cancer.
+  JOURNAL   Curr Opin Cell Biol 27:126-35 (2014)
+            DOI:10.1016/j.ceb.2014.01.005
+REFERENCE   PMID:17251915
+  AUTHORS   Dorsam RT, Gutkind JS
+  TITLE     G-protein-coupled receptors and cancer.
+  JOURNAL   Nat Rev Cancer 7:79-94 (2007)
+            DOI:10.1038/nrc2069
+KO_PATHWAY  ko05200
+///

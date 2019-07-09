@@ -1,0 +1,24 @@
+Primary Funcion 0; pvalue=4.37e-06; pathway = Cytokine-cytokine receptor interaction
+Primary Funcion 1; pvalue=8.53e-04; pathway = Apoptosis
+Primary Funcion 2; pvalue=8.53e-04; pathway = JAK-STAT signaling pathway
+Primary Funcion 3; pvalue=3.97e-03; pathway = Wnt signaling pathway
+Primary Funcion 4; pvalue=4.50e-03; pathway = Hedgehog signaling pathway
+Metastasis Funcion 5; pvalue=6.88e-03; pathway = cAMP signaling pathway
+Primary Funcion 6; pvalue=1.35e-02; pathway = PI3K-Akt signaling pathway
+Metastasis Funcion 7; pvalue=2.09e-02; pathway = ErbB signaling pathway
+Metastasis Funcion 8; pvalue=4.39e-02; pathway = Calcium signaling pathway
+Primary Funcion 9; pvalue=4.56e-02; pathway = TGF-beta signaling pathway
+Primary Funcion 10; pvalue=4.56e-02; pathway = Notch signaling pathway
+Primary Funcion 11; pvalue=1.56e-01; pathway = PPAR signaling pathway
+Metastasis Funcion 12; pvalue=1.79e-01; pathway = HIF-1 signaling pathway
+Primary Funcion 13; pvalue=2.78e-01; pathway = Focal adhesion
+Primary Funcion 14; pvalue=3.33e-01; pathway = p53 signaling pathway
+Metastasis Funcion 15; pvalue=3.87e-01; pathway = Estrogen signaling pathway
+Metastasis Funcion 16; pvalue=4.05e-01; pathway = RET
+Primary Funcion 17; pvalue=4.89e-01; pathway = Adherens junction
+Primary Funcion 18; pvalue=5.00e-01; pathway = mTOR signaling pathway
+Primary Funcion 19; pvalue=5.24e-01; pathway = VEGF signaling pathway
+Metastasis Funcion 20; pvalue=5.87e-01; pathway = Homologous recombination
+Metastasis Funcion 21; pvalue=7.02e-01; pathway = Cell cycle
+Primary Funcion 22; pvalue=7.33e-01; pathway = MAPK signaling pathway
+Primary Funcion 23; pvalue=8.31e-01; pathway = ECM-receptor interaction

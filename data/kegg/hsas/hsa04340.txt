@@ -1,0 +1,140 @@
+ENTRY       hsa04340                    Pathway
+NAME        Hedgehog signaling pathway - Homo sapiens (human)
+DESCRIPTION The Hedgehog (Hh) signaling pathway has numerous roles in the control of cell proliferation, tissue patterning, stem cell maintenance and development. The primary cilium is an important center for transduction of the Hedgehog signal in vertebrates. In Hh's absence, the Ptch receptor localizes to the cilium, where it inhibits Smo activation. Gli proteins are phosphorylated by PKA, CKI and GSK3B and partially degraded into truncated Gli repressor form (GliR) that suppresses Hh target gene transcription in the nucleus. In Hh's presence, Ptch disappears from the cilium, and activated Smo contributes to the translocation of the protein complex Gli, Sufu, Kif7 to ciliary tip, where Gli dissociates from the negative regulator Sufu. The production of Gli activator form (GliA) occurs and the increased nuclear accumulation of GliA results in activation transcription of Hh target genes.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04340  Hedgehog signaling pathway
+MODULE      hsa_M00678  Hedgehog signaling [PATH:hsa04340]
+NETWORK     nt06217  HH signaling
+            nt06269  Basal cell carcinoma
+  ELEMENT   N00062  Hedgehog signaling pathway
+DISEASE     H00263  Acrocallosal syndrome
+            H00267  Holoprosencephaly
+            H00482  Brachydactyly
+            H00502  Pallister-Hall syndrome
+            H00503  Ellis-van Creveld syndrome
+            H00530  Joubert syndrome
+            H00646  Odontoonychodermal dysplasia
+            H00652  Solitary median maxillary central incisor syndrome
+            H00675  Acrocapitofemoral dysplasia
+            H00855  Triphalangeal thumb-polysyndactyly syndrome
+            H00886  Donnai-Barrow syndrome
+            H00895  Basal cell nevus syndrome
+            H01160  Schizencephaly
+            H01226  Polysyndactyly
+            H01667  Medulloblastoma
+            H02158  Weyers acrodental dysostosis
+            H02161  Greig cephalopolysyndactyly syndrome
+DRUG        D09992  Vismodegib (USAN/INN)
+            D10119  Sonidegib (USAN/INN)
+            D10324  Saridegib (USAN)
+            D10325  Saridegib hydrochloride (USAN)
+            D10636  Glasdegib (USAN/INN)
+            D10671  Taladegib (USAN/INN)
+            D10729  Sonidegib phosphate (USAN)
+            D11107  Glasdegib maleate (JAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        5727  PTCH1; patched 1 [KO:K06225]
+            8643  PTCH2; patched 2 [KO:K11101]
+            6608  SMO; smoothened, frizzled class receptor [KO:K06226]
+            23432  GPR161; G protein-coupled receptor 161 [KO:K08439]
+            5566  PRKACA; protein kinase cAMP-activated catalytic subunit alpha [KO:K04345] [EC:2.7.11.11]
+            5567  PRKACB; protein kinase cAMP-activated catalytic subunit beta [KO:K04345] [EC:2.7.11.11]
+            5568  PRKACG; protein kinase cAMP-activated catalytic subunit gamma [KO:K04345] [EC:2.7.11.11]
+            122011  CSNK1A1L; casein kinase 1 alpha 1 like [KO:K08957] [EC:2.7.11.1]
+            1452  CSNK1A1; casein kinase 1 alpha 1 [KO:K08957] [EC:2.7.11.1]
+            1455  CSNK1G2; casein kinase 1 gamma 2 [KO:K08958] [EC:2.7.11.1]
+            1456  CSNK1G3; casein kinase 1 gamma 3 [KO:K08958] [EC:2.7.11.1]
+            53944  CSNK1G1; casein kinase 1 gamma 1 [KO:K08958] [EC:2.7.11.1]
+            1453  CSNK1D; casein kinase 1 delta [KO:K08959] [EC:2.7.11.1]
+            1454  CSNK1E; casein kinase 1 epsilon [KO:K08960] [EC:2.7.11.1]
+            102800317  TPTEP2-CSNK1E; TPTEP2-CSNK1E readthrough [KO:K08960] [EC:2.7.11.1]
+            2932  GSK3B; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            2735  GLI1; GLI family zinc finger 1 [KO:K16797]
+            2736  GLI2; GLI family zinc finger 2 [KO:K16798]
+            2737  GLI3; GLI family zinc finger 3 [KO:K06230]
+            51684  SUFU; SUFU negative regulator of hedgehog signaling [KO:K06229]
+            374654  KIF7; kinesin family member 7 [KO:K18806]
+            64399  HHIP; hedgehog interacting protein [KO:K06231]
+            595  CCND1; cyclin D1 [KO:K04503]
+            894  CCND2; cyclin D2 [KO:K10151]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            8454  CUL1; cullin 1 [KO:K03347]
+            8945  BTRC; beta-transducin repeat containing E3 ubiquitin protein ligase [KO:K03362]
+            23291  FBXW11; F-box and WD repeat domain containing 11 [KO:K03362]
+            6469  SHH; sonic hedgehog signaling molecule [KO:K11988]
+            3549  IHH; Indian hedgehog signaling molecule [KO:K11989]
+            50846  DHH; desert hedgehog signaling molecule [KO:K11990]
+            91653  BOC; BOC cell adhesion associated, oncogene regulated [KO:K20020]
+            50937  CDON; cell adhesion associated, oncogene regulated [KO:K20033]
+            2619  GAS1; growth arrest specific 1 [KO:K06232]
+            4036  LRP2; LDL receptor related protein 2 [KO:K06233]
+            57154  SMURF1; SMAD specific E3 ubiquitin protein ligase 1 [KO:K04678] [EC:2.3.2.26]
+            64750  SMURF2; SMAD specific E3 ubiquitin protein ligase 2 [KO:K04678] [EC:2.3.2.26]
+            156  GRK2; G protein-coupled receptor kinase 2 [KO:K00910] [EC:2.7.11.15]
+            157  GRK3; G protein-coupled receptor kinase 3 [KO:K00910] [EC:2.7.11.15]
+            2121  EVC; EvC ciliary complex subunit 1 [KO:K19605]
+            132884  EVC2; EvC ciliary complex subunit 2 [KO:K19608]
+            408  ARRB1; arrestin beta 1 [KO:K04439]
+            409  ARRB2; arrestin beta 2 [KO:K04439]
+            11127  KIF3A; kinesin family member 3A [KO:K10394]
+            8452  CUL3; cullin 3 [KO:K03869]
+            8405  SPOP; speckle type BTB/POZ protein [KO:K10523]
+            339745  SPOPL; speckle type BTB/POZ protein like [KO:K10523]
+COMPOUND    C00575  3',5'-Cyclic AMP
+REFERENCE   PMID:26875496
+  AUTHORS   Xavier GM, Seppala M, Barrell W, Birjandi AA, Geoghegan F, Cobourne MT
+  TITLE     Hedgehog receptor function during craniofacial development.
+  JOURNAL   Dev Biol 415:198-215 (2016)
+            DOI:10.1016/j.ydbio.2016.02.009
+REFERENCE   PMID:23719536
+  AUTHORS   Briscoe J, Therond PP
+  TITLE     The mechanisms of Hedgehog signalling and its roles in development and disease.
+  JOURNAL   Nat Rev Mol Cell Biol 14:416-29 (2013)
+            DOI:10.1038/nrm3598
+REFERENCE   PMID:26077918
+  AUTHORS   Alman BA
+  TITLE     The role of hedgehog signalling in skeletal health and disease.
+  JOURNAL   Nat Rev Rheumatol 11:552-60 (2015)
+            DOI:10.1038/nrrheum.2015.84
+REFERENCE   PMID:26064136
+  AUTHORS   Mooney CJ, Hakimjavadi R, Fitzpatrick E, Kennedy E, Walls D, Morrow D, Redmond EM, Cahill PA
+  TITLE     Hedgehog and Resident Vascular Stem Cell Fate.
+  JOURNAL   Stem Cells Int 2015:468428 (2015)
+            DOI:10.1155/2015/468428
+REFERENCE   PMID:23799571
+  AUTHORS   Sasai N, Briscoe J
+  TITLE     Primary cilia and graded Sonic Hedgehog signaling.
+  JOURNAL   Wiley Interdiscip Rev Dev Biol 1:753-72 (2012)
+            DOI:10.1002/wdev.43
+REFERENCE   PMID:20708941
+  AUTHORS   Heretsch P, Tzagkaroulaki L, Giannis A
+  TITLE     Modulators of the hedgehog signaling pathway.
+  JOURNAL   Bioorg Med Chem 18:6613-24 (2010)
+            DOI:10.1016/j.bmc.2010.07.038
+REFERENCE   PMID:22534646
+  AUTHORS   Anderson E, Peluso S, Lettice LA, Hill RE
+  TITLE     Human limb abnormalities caused by disruption of hedgehog signaling.
+  JOURNAL   Trends Genet 28:364-73 (2012)
+            DOI:10.1016/j.tig.2012.03.012
+REFERENCE   PMID:18583599
+  AUTHORS   Rohatgi R, Scott MP
+  TITLE     Cell biology. Arrestin' movement in cilia.
+  JOURNAL   Science 320:1726-7 (2008)
+            DOI:10.1126/science.1160448
+REFERENCE   PMID:24925320
+  AUTHORS   Yue S, Tang LY, Tang Y, Tang Y, Shen QH, Ding J, Chen Y, Zhang Z, Yu TT, Zhang YE, Cheng SY
+  TITLE     Requirement of Smurf-mediated endocytosis of Patched1 in sonic hedgehog signal reception.
+  JOURNAL   Elife 3:e02555 (2014)
+            DOI:10.7554/eLife.02555
+REFERENCE   PMID:22056910
+  AUTHORS   Ok CY, Singh RR, Vega F
+  TITLE     Aberrant activation of the hedgehog signaling pathway in malignant hematological neoplasms.
+  JOURNAL   Am J Pathol 180:2-11 (2012)
+            DOI:10.1016/j.ajpath.2011.09.009
+REFERENCE   PMID:26366162
+  AUTHORS   Hsia EY, Gui Y, Zheng X
+  TITLE     Regulation of Hedgehog signaling by ubiquitination.
+  JOURNAL   Front Biol (Beijing) 10:203-220 (2015)
+            DOI:10.1007/s11515-015-1343-5
+KO_PATHWAY  ko04340
+///

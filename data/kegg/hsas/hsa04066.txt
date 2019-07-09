@@ -1,0 +1,218 @@
+ENTRY       hsa04066                    Pathway
+NAME        HIF-1 signaling pathway - Homo sapiens (human)
+DESCRIPTION Hypoxia-inducible factor 1 (HIF-1) is a transcription factor that functions as a master regulator of oxygen homeostasis. It consists of two subunits: an inducibly-expressed HIF-1alpha subunit and a constitutively-expressed HIF-1beta subunit. Under normoxia, HIF-1 alpha undergoes hydroxylation at specific prolyl residues which leads to an immediate ubiquitination and subsequent proteasomal degradation of the subunit. In contrast, under hypoxia, HIF-1 alpha subunit becomes stable and interacts with coactivators such as p300/CBP to modulate its transcriptional activity. Eventually, HIF-1 acts as a master regulator of numerous hypoxia-inducible genes under hypoxic conditions. The target genes of HIF-1 encode proteins that increase O2 delivery and mediate adaptive responses to O2 deprivation. Despite its name, HIF-1 is induced not only in response to reduced oxygen availability but also by other stimulants, such as nitric oxide, or various growth factors.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04066  HIF-1 signaling pathway
+NETWORK     nt06225  HIF-1 signaling
+            nt06264  Renal cell carcinoma
+  ELEMENT   N00079  HIF-1 signaling pathway
+DISEASE     H01457  Diabetic retinopathy
+            H01510  Malignant paraganglioma
+            H01529  Avascular necrosis of femoral head
+            H01709  Glucocorticoid-induced osteonecrosis
+            H02044  Cutaneous and mucosal venous malformation
+DRUG        D09926  Icrucumab (USAN/INN)
+            D10334  Rebastinib (USAN)
+            D10386  Cindunistat (USAN/INN)
+            D10395  Nesvacumab (USAN)
+            D10399  Rebastinib Tosylate (USAN)
+            D10419  Cindunistat hydrochloride maleate (USAN)
+            D10464  Firtecan pegol (USAN/INN)
+            D10593  Roxadustat (JAN/USAN/INN)
+            D10874  Daprodustat (JAN/USAN/INN)
+            D11078  Vadadustat (JAN/USAN/INN)
+            D11273  Molidustat sodium (JAN)
+            D11452  Tomivosertib (USAN/INN)
+            D11481  Tomivosertib hydrochloride (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        3569  IL6; interleukin 6 [KO:K05405]
+            3570  IL6R; interleukin 6 receptor [KO:K05055]
+            6774  STAT3; signal transducer and activator of transcription 3 [KO:K04692]
+            7099  TLR4; toll like receptor 4 [KO:K10160]
+            3458  IFNG; interferon gamma [KO:K04687]
+            3459  IFNGR1; interferon gamma receptor 1 [KO:K05132]
+            3460  IFNGR2; interferon gamma receptor 2 [KO:K05133]
+            5970  RELA; RELA proto-oncogene, NF-kB subunit [KO:K04735]
+            4790  NFKB1; nuclear factor kappa B subunit 1 [KO:K02580]
+            3630  INS; insulin [KO:K04526]
+            1950  EGF; epidermal growth factor [KO:K04357]
+            3479  IGF1; insulin like growth factor 1 [KO:K05459]
+            3643  INSR; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            3480  IGF1R; insulin like growth factor 1 receptor [KO:K05087] [EC:2.7.10.1]
+            2064  ERBB2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            8569  MKNK1; MAP kinase interacting serine/threonine kinase 1 [KO:K04372] [EC:2.7.11.1]
+            2872  MKNK2; MAP kinase interacting serine/threonine kinase 2 [KO:K04372] [EC:2.7.11.1]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            1978  EIF4EBP1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            1977  EIF4E; eukaryotic translation initiation factor 4E [KO:K03259]
+            9470  EIF4E2; eukaryotic translation initiation factor 4E family member 2 [KO:K03259]
+            253314  EIF4E1B; eukaryotic translation initiation factor 4E family member 1B [KO:K03259]
+            6198  RPS6KB1; ribosomal protein S6 kinase B1 [KO:K04688] [EC:2.7.11.1]
+            6199  RPS6KB2; ribosomal protein S6 kinase B2 [KO:K04688] [EC:2.7.11.1]
+            6194  RPS6; ribosomal protein S6 [KO:K02991]
+            3091  HIF1A; hypoxia inducible factor 1 subunit alpha [KO:K08268]
+            7428  VHL; von Hippel-Lindau tumor suppressor [KO:K03871]
+            9978  RBX1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            6921  ELOC; elongin C [KO:K03872]
+            6923  ELOB; elongin B [KO:K03873]
+            8453  CUL2; cullin 2 [KO:K03870]
+            54583  EGLN1; egl-9 family hypoxia inducible factor 1 [KO:K09592] [EC:1.14.11.29]
+            112399  EGLN3; egl-9 family hypoxia inducible factor 3 [KO:K09592] [EC:1.14.11.29]
+            112398  EGLN2; egl-9 family hypoxia inducible factor 2 [KO:K09592] [EC:1.14.11.29]
+            405  ARNT; aryl hydrocarbon receptor nuclear translocator [KO:K09097]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            1536  CYBB; cytochrome b-245 beta chain [KO:K21421] [EC:1.-.-.-]
+            5335  PLCG1; phospholipase C gamma 1 [KO:K01116] [EC:3.1.4.11]
+            5336  PLCG2; phospholipase C gamma 2 [KO:K05859] [EC:3.1.4.11]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            815  CAMK2A; calcium/calmodulin dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            817  CAMK2D; calcium/calmodulin dependent protein kinase II delta [KO:K04515] [EC:2.7.11.17]
+            816  CAMK2B; calcium/calmodulin dependent protein kinase II beta [KO:K04515] [EC:2.7.11.17]
+            818  CAMK2G; calcium/calmodulin dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            7076  TIMP1; TIMP metallopeptidase inhibitor 1 [KO:K16451]
+            4055  LTBR; lymphotoxin beta receptor [KO:K03159]
+            2056  EPO; erythropoietin [KO:K05437]
+            7018  TF; transferrin [KO:K14736]
+            7037  TFRC; transferrin receptor [KO:K06503]
+            7422  VEGFA; vascular endothelial growth factor A [KO:K05448]
+            2321  FLT1; fms related tyrosine kinase 1 [KO:K05096] [EC:2.7.10.1]
+            5054  SERPINE1; serpin family E member 1 [KO:K03982]
+            284  ANGPT1; angiopoietin 1 [KO:K05465]
+            285  ANGPT2; angiopoietin 2 [KO:K05466]
+            51378  ANGPT4; angiopoietin 4 [KO:K05467]
+            7010  TEK; TEK receptor tyrosine kinase [KO:K05121] [EC:2.7.10.1]
+            1906  EDN1; endothelin 1 [KO:K16366]
+            4843  NOS2; nitric oxide synthase 2 [KO:K13241] [EC:1.14.13.39]
+            4846  NOS3; nitric oxide synthase 3 [KO:K13242] [EC:1.14.13.39]
+            3162  HMOX1; heme oxygenase 1 [KO:K00510] [EC:1.14.14.18]
+            4878  NPPA; natriuretic peptide A [KO:K12334]
+            6513  SLC2A1; solute carrier family 2 member 1 [KO:K07299]
+            5163  PDK1; pyruvate dehydrogenase kinase 1 [KO:K12077] [EC:2.7.11.2]
+            3101  HK3; hexokinase 3 [KO:K00844] [EC:2.7.1.1]
+            3098  HK1; hexokinase 1 [KO:K00844] [EC:2.7.1.1]
+            3099  HK2; hexokinase 2 [KO:K00844] [EC:2.7.1.1]
+            80201  HKDC1; hexokinase domain containing 1 [KO:K00844] [EC:2.7.1.1]
+            2597  GAPDH; glyceraldehyde-3-phosphate dehydrogenase [KO:K00134] [EC:1.2.1.12]
+            2027  ENO3; enolase 3 [KO:K01689] [EC:4.2.1.11]
+            2026  ENO2; enolase 2 [KO:K01689] [EC:4.2.1.11]
+            2023  ENO1; enolase 1 [KO:K01689] [EC:4.2.1.11]
+            387712  ENO4; enolase 4 [KO:K01689] [EC:4.2.1.11]
+            5209  PFKFB3; 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3 [KO:K01103] [EC:3.1.3.46 2.7.1.105]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+            1027  CDKN1B; cyclin dependent kinase inhibitor 1B [KO:K06624]
+            5161  PDHA2; pyruvate dehydrogenase E1 alpha 2 subunit [KO:K00161] [EC:1.2.4.1]
+            5160  PDHA1; pyruvate dehydrogenase E1 alpha 1 subunit [KO:K00161] [EC:1.2.4.1]
+            5162  PDHB; pyruvate dehydrogenase E1 beta subunit [KO:K00162] [EC:1.2.4.1]
+            226  ALDOA; aldolase, fructose-bisphosphate A [KO:K01623] [EC:4.1.2.13]
+            3939  LDHA; lactate dehydrogenase A [KO:K00016] [EC:1.1.1.27]
+            5211  PFKL; phosphofructokinase, liver type [KO:K00850] [EC:2.7.1.11]
+            5230  PGK1; phosphoglycerate kinase 1 [KO:K00927] [EC:2.7.2.3]
+COMPOUND    C00002  ATP
+            C00007  Oxygen
+            C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00026  2-Oxoglutarate
+            C00031  D-Glucose
+            C00072  Ascorbate
+            C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00186  (S)-Lactate
+            C00338  Lipopolysaccharide
+            C00533  Nitric oxide
+            C00704  O2.-
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C14818  Fe2+
+REFERENCE   PMID:20836033
+  AUTHORS   Semenza GL
+  TITLE     Oxygen homeostasis.
+  JOURNAL   Wiley Interdiscip Rev Syst Biol Med 2:336-61 (2010)
+            DOI:10.1002/wsbm.69
+REFERENCE   PMID:17955264
+  AUTHORS   Mole DR, Ratcliffe PJ
+  TITLE     Cellular oxygen sensing in health and disease.
+  JOURNAL   Pediatr Nephrol 23:681-94 (2008)
+            DOI:10.1007/s00467-007-0632-x
+REFERENCE   PMID:22205687
+  AUTHORS   Palazon A, Aragones J, Morales-Kastresana A, de Landazuri MO, Melero I
+  TITLE     Molecular pathways: hypoxia response in immune cells fighting or promoting cancer.
+  JOURNAL   Clin Cancer Res 18:1207-13 (2012)
+            DOI:10.1158/1078-0432.CCR-11-1591
+REFERENCE   PMID:20965423
+  AUTHORS   Majmundar AJ, Wong WJ, Simon MC
+  TITLE     Hypoxia-inducible factors and the response to hypoxic stress.
+  JOURNAL   Mol Cell 40:294-309 (2010)
+            DOI:10.1016/j.molcel.2010.09.022
+REFERENCE   PMID:22562152
+  AUTHORS   Greer SN, Metcalf JL, Wang Y, Ohh M
+  TITLE     The updated biology of hypoxia-inducible factor.
+  JOURNAL   EMBO J 31:2448-60 (2012)
+            DOI:10.1038/emboj.2012.125
+REFERENCE   PMID:15448722
+  AUTHORS   Zagorska A, Dulak J
+  TITLE     HIF-1: the knowns and unknowns of hypoxia sensing.
+  JOURNAL   Acta Biochim Pol 51:563-85 (2004)
+REFERENCE   PMID:19364912
+  AUTHORS   Semenza GL
+  TITLE     Regulation of oxygen homeostasis by hypoxia-inducible factor 1.
+  JOURNAL   Physiology (Bethesda) 24:97-106 (2009)
+            DOI:10.1152/physiol.00045.2008
+REFERENCE   PMID:16234508
+  AUTHORS   Wenger RH, Stiehl DP, Camenisch G
+  TITLE     Integration of oxygen signaling at the consensus HRE.
+  JOURNAL   Sci STKE 2005:re12 (2005)
+            DOI:10.1126/stke.3062005re12
+REFERENCE   PMID:15031665
+  AUTHORS   Lee JW, Bae SH, Jeong JW, Kim SH, Kim KW
+  TITLE     Hypoxia-inducible factor (HIF-1)alpha: its protein stability and biological functions.
+  JOURNAL   Exp Mol Med 36:1-12 (2004)
+            DOI:10.1038/emm.2004.1
+REFERENCE   PMID:18259201
+  AUTHORS   Weidemann A, Johnson RS
+  TITLE     Biology of HIF-1alpha.
+  JOURNAL   Cell Death Differ 15:621-7 (2008)
+            DOI:10.1038/cdd.2008.12
+REFERENCE   PMID:11902584
+  AUTHORS   Harris AL
+  TITLE     Hypoxia--a key regulatory factor in tumour growth.
+  JOURNAL   Nat Rev Cancer 2:38-47 (2002)
+            DOI:10.1038/nrc704
+REFERENCE   PMID:19147540
+  AUTHORS   Knaup KX, Jozefowski K, Schmidt R, Bernhardt WM, Weidemann A, Juergensen JS, Warnecke C, Eckardt KU, Wiesener MS
+  TITLE     Mutual regulation of hypoxia-inducible factor and mammalian target of rapamycin as a function of oxygen availability.
+  JOURNAL   Mol Cancer Res 7:88-98 (2009)
+            DOI:10.1158/1541-7786.MCR-08-0288
+REFERENCE   PMID:18505681
+  AUTHORS   Kaluz S, Kaluzova M, Stanbridge EJ
+  TITLE     Regulation of gene expression by hypoxia: integration of the HIF-transduced hypoxic signal at the hypoxia-responsive element.
+  JOURNAL   Clin Chim Acta 395:6-13 (2008)
+            DOI:10.1016/j.cca.2008.05.002
+REFERENCE   PMID:20679415
+  AUTHORS   Cadenas S, Aragones J, Landazuri MO
+  TITLE     Mitochondrial reprogramming through cardiac oxygen sensors in ischaemic heart disease.
+  JOURNAL   Cardiovasc Res 88:219-28 (2010)
+            DOI:10.1093/cvr/cvq256
+REFERENCE   PMID:19861159
+  AUTHORS   Berchner-Pfannschmidt U, Tug S, Kirsch M, Fandrey J
+  TITLE     Oxygen-sensing under the influence of nitric oxide.
+  JOURNAL   Cell Signal 22:349-56 (2010)
+            DOI:10.1016/j.cellsig.2009.10.004
+KO_PATHWAY  ko04066
+///

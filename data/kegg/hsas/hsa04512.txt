@@ -1,0 +1,195 @@
+ENTRY       hsa04512                    Pathway
+NAME        ECM-receptor interaction - Homo sapiens (human)
+DESCRIPTION The extracellular matrix (ECM) consists of a complex mixture of structural and functional macromolecules and serves an important role in tissue and organ morphogenesis and in the maintenance of cell and tissue structure and function. Specific interactions between cells and the ECM are mediated by transmembrane molecules, mainly integrins and perhaps also proteoglycans, CD36, or other cell-surface-associated components. These interactions lead to a direct or indirect control of cellular activities such as adhesion, migration, differentiation, proliferation, and apoptosis. In addition, integrins function as mechanoreceptors and provide a force-transmitting physical link between the ECM and the cytoskeleton. Integrins are a family of glycosylated, heterodimeric transmembrane adhesion receptors that consist of noncovalently bound alpha- and beta-subunits.
+CLASS       Environmental Information Processing; Signaling molecules and interaction
+PATHWAY_MAP hsa04512  ECM-receptor interaction
+DISEASE     H00219  Hemophilia
+            H00224  Bernard-Soulier syndrome
+            H00226  Glanzmann thrombasthenia
+            H00520  Type II collagenopathies
+            H00576  Pierson syndrome
+            H00579  Hereditary angiopathy with nephropathy, aneurysms, and muscle cramps (HANAC)
+            H00581  Alport syndrome
+            H00582  Benign familial hematuria
+            H00586  Epidermolysis bullosa, junctional
+            H00770  Congenital myasthenic syndrome
+            H00802  Ehlers-Danlos syndrome
+            H00805  Vitreoretinal degeneration
+            H00813  Laryngo onycho cutaneous syndrome
+            H00839  Porencephaly
+            H00877  Brain small vessel disease with hemorrhage
+            H01260  Glomerulopathy with fibronectin deposits
+            H01338  Myosclerosis
+            H01340  Bethlem myopathy
+            H01341  Collagen VI myopathy
+            H01526  Legg-Calve-Perthes Disease
+            H01777  Schwartz-Jampel syndrome
+            H01778  Ullrich disease
+            H01958  Merosin-deficient congenital muscular dystrophy
+            H02066  Achondrogenesis type II
+            H02070  Kniest dysplasia
+            H02071  Czech dysplasia
+            H02072  Stickler syndrome
+            H02241  Ehlers-Danlos syndrome cardiac valvular type
+            H02243  Ehlers-Danlos syndrome arthrochalasia type
+DRUG        D00709  Levetiracetam (JAN/USAN/INN)
+            D01914  Piracetam (JAN/USAN/INN)
+            D03497  Cilengitide (USAN/INN)
+            D04660  Lamifiban hydrochloride (USAN)
+            D05817  Seletracetam (USAN/INN)
+            D06319  Volociximab (USAN)
+            D06590  Firategrast (USAN)
+            D06886  Natalizumab (INN)
+            D08083  Vedolizumab (USAN)
+            D08879  Brivaracetam (USAN/INN)
+            D09342  Etaracizumab (USAN/INN)
+            D09631  Intetumumab (USAN/INN)
+            D09903  Fluciclatide F 18 (USAN/INN)
+            D09929  Maraciclatide (USAN/INN)
+            D10028  Valategrast hydrochloride (USAN)
+DBLINKS     GO: 0005201
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        1277  COL1A1; collagen type I alpha 1 chain [KO:K06236]
+            1278  COL1A2; collagen type I alpha 2 chain [KO:K06236]
+            1280  COL2A1; collagen type II alpha 1 chain [KO:K19719]
+            1284  COL4A2; collagen type IV alpha 2 chain [KO:K06237]
+            1286  COL4A4; collagen type IV alpha 4 chain [KO:K06237]
+            1288  COL4A6; collagen type IV alpha 6 chain [KO:K06237]
+            1282  COL4A1; collagen type IV alpha 1 chain [KO:K06237]
+            1287  COL4A5; collagen type IV alpha 5 chain [KO:K06237]
+            1285  COL4A3; collagen type IV alpha 3 chain [KO:K06237]
+            1291  COL6A1; collagen type VI alpha 1 chain [KO:K06238]
+            1292  COL6A2; collagen type VI alpha 2 chain [KO:K06238]
+            1293  COL6A3; collagen type VI alpha 3 chain [KO:K06238]
+            131873  COL6A6; collagen type VI alpha 6 chain [KO:K06238]
+            256076  COL6A5; collagen type VI alpha 5 chain [KO:K06238]
+            1297  COL9A1; collagen type IX alpha 1 chain [KO:K08131]
+            1298  COL9A2; collagen type IX alpha 2 chain [KO:K08131]
+            1299  COL9A3; collagen type IX alpha 3 chain [KO:K08131]
+            284217  LAMA1; laminin subunit alpha 1 [KO:K05637]
+            3908  LAMA2; laminin subunit alpha 2 [KO:K05637]
+            3909  LAMA3; laminin subunit alpha 3 [KO:K06240]
+            3911  LAMA5; laminin subunit alpha 5 [KO:K06240]
+            3910  LAMA4; laminin subunit alpha 4 [KO:K06241]
+            3912  LAMB1; laminin subunit beta 1 [KO:K05636]
+            3913  LAMB2; laminin subunit beta 2 [KO:K06243]
+            3914  LAMB3; laminin subunit beta 3 [KO:K06244]
+            22798  LAMB4; laminin subunit beta 4 [KO:K06245]
+            3915  LAMC1; laminin subunit gamma 1 [KO:K05635]
+            3918  LAMC2; laminin subunit gamma 2 [KO:K06246]
+            10319  LAMC3; laminin subunit gamma 3 [KO:K06247]
+            1101  CHAD; chondroadherin [KO:K06248]
+            5649  RELN; reelin [KO:K06249] [EC:3.4.21.-]
+            7057  THBS1; thrombospondin 1 [KO:K16857]
+            1311  COMP; cartilage oligomeric matrix protein [KO:K04659]
+            7058  THBS2; thrombospondin 2 [KO:K04659]
+            7059  THBS3; thrombospondin 3 [KO:K04659]
+            7060  THBS4; thrombospondin 4 [KO:K04659]
+            2335  FN1; fibronectin 1 [KO:K05717]
+            6696  SPP1; secreted phosphoprotein 1 [KO:K06250]
+            7448  VTN; vitronectin [KO:K06251]
+            3371  TNC; tenascin C [KO:K06252]
+            63923  TNN; tenascin N [KO:K06252]
+            7143  TNR; tenascin R [KO:K06252]
+            7148  TNXB; tenascin XB [KO:K06252]
+            7450  VWF; von Willebrand factor [KO:K03900]
+            3381  IBSP; integrin binding sialoprotein [KO:K06253]
+            375790  AGRN; agrin [KO:K06254]
+            3339  HSPG2; heparan sulfate proteoglycan 2 [KO:K06255]
+            3672  ITGA1; integrin subunit alpha 1 [KO:K06480]
+            3673  ITGA2; integrin subunit alpha 2 [KO:K06481]
+            3674  ITGA2B; integrin subunit alpha 2b [KO:K06476]
+            3675  ITGA3; integrin subunit alpha 3 [KO:K06482]
+            3676  ITGA4; integrin subunit alpha 4 [KO:K06483]
+            3678  ITGA5; integrin subunit alpha 5 [KO:K06484]
+            3655  ITGA6; integrin subunit alpha 6 [KO:K06485]
+            3679  ITGA7; integrin subunit alpha 7 [KO:K06583]
+            8516  ITGA8; integrin subunit alpha 8 [KO:K06584]
+            3680  ITGA9; integrin subunit alpha 9 [KO:K06585]
+            8515  ITGA10; integrin subunit alpha 10 [KO:K06586]
+            22801  ITGA11; integrin subunit alpha 11 [KO:K06587]
+            3685  ITGAV; integrin subunit alpha V [KO:K06487]
+            3688  ITGB1; integrin subunit beta 1 [KO:K05719]
+            3690  ITGB3; integrin subunit beta 3 [KO:K06493]
+            3691  ITGB4; integrin subunit beta 4 [KO:K06525]
+            3693  ITGB5; integrin subunit beta 5 [KO:K06588]
+            3694  ITGB6; integrin subunit beta 6 [KO:K06589]
+            3695  ITGB7; integrin subunit beta 7 [KO:K06590]
+            3696  ITGB8; integrin subunit beta 8 [KO:K06591]
+            960  CD44; CD44 molecule (Indian blood group) [KO:K06256]
+            6382  SDC1; syndecan 1 [KO:K06257]
+            6385  SDC4; syndecan 4 [KO:K16338]
+            22987  SV2C; synaptic vesicle glycoprotein 2C [KO:K06258]
+            9899  SV2B; synaptic vesicle glycoprotein 2B [KO:K06258]
+            9900  SV2A; synaptic vesicle glycoprotein 2A [KO:K06258]
+            948  CD36; CD36 molecule [KO:K06259]
+            2814  GP5; glycoprotein V platelet [KO:K06260]
+            2811  GP1BA; glycoprotein Ib platelet subunit alpha [KO:K06261]
+            2812  GP1BB; glycoprotein Ib platelet subunit beta [KO:K06262]
+            2815  GP9; glycoprotein IX platelet [KO:K06263]
+            51206  GP6; glycoprotein VI platelet [KO:K06264]
+            1605  DAG1; dystroglycan 1 [KO:K06265]
+            961  CD47; CD47 molecule [KO:K06266]
+            3161  HMMR; hyaluronan mediated motility receptor [KO:K06267]
+COMPOUND    G10505  Hyaluronic acid
+REFERENCE   PMID:11572082
+  AUTHORS   van der Flier A, Sonnenberg A.
+  TITLE     Function and interactions of integrins.
+  JOURNAL   Cell Tissue Res 305:285-98 (2001)
+            DOI:10.1007/s004410100417
+REFERENCE   PMID:12921709
+  AUTHORS   Reddy KV, Mangale SS.
+  TITLE     Integrin receptors: the dynamic modulators of endometrial function.
+  JOURNAL   Tissue Cell 35:260-73 (2003)
+            DOI:10.1016/S0040-8166(03)00039-9
+REFERENCE   PMID:12125070
+  AUTHORS   Milner R, Campbell IL.
+  TITLE     The integrin family of cell adhesion molecules has multiple functions within the CNS.
+  JOURNAL   J Neurosci Res 69:286-91 (2002)
+            DOI:10.1002/jnr.10321
+REFERENCE   PMID:12796473
+  AUTHORS   Cichy J, Pure E.
+  TITLE     The liberation of CD44.
+  JOURNAL   J Cell Biol 161:839-43 (2003)
+            DOI:10.1083/jcb.200302098
+REFERENCE   PMID:7698997
+  AUTHORS   Elenius K, Jalkanen M.
+  TITLE     Function of the syndecans--a family of cell surface proteoglycans.
+  JOURNAL   J Cell Sci 107 ( Pt 11):2975-82 (1994)
+REFERENCE   PMID:10617638
+  AUTHORS   Son YJ, Scranton TW, Sunderland WJ, Baek SJ, Miner JH, Sanes JR, Carlson SS.
+  TITLE     The synaptic vesicle protein SV2 is complexed with an alpha5-containing laminin on the nerve terminal surface.
+  JOURNAL   J Biol Chem 275:451-60 (2000)
+            DOI:10.1074/jbc.275.1.451
+REFERENCE   PMID:15036264
+  AUTHORS   Sid B, Sartelet H, Bellon G, El Btaouri H, Rath G, Delorme N, Haye B, Martiny L.
+  TITLE     Thrombospondin 1: a multifunctional protein implicated in the regulation of tumor growth.
+  JOURNAL   Crit Rev Oncol Hematol 49:245-58 (2004)
+            DOI:10.1016/j.critrevonc.2003.09.009
+REFERENCE   PMID:15381249
+  AUTHORS   Canobbio I, Balduini C, Torti M.
+  TITLE     Signalling through the platelet glycoprotein Ib-V-IX complex.
+  JOURNAL   Cell Signal 16:1329-44 (2004)
+            DOI:10.1016/j.cellsig.2004.05.008
+REFERENCE   PMID:11331578
+  AUTHORS   Nieswandt B, Brakebusch C, Bergmeier W, Schulte V, Bouvard D, Mokhtari-Nejad R, Lindhout T, Heemskerk JW, Zirngibl H, Fassler R.
+  TITLE     Glycoprotein VI but not alpha2beta1 integrin is essential for platelet interaction with collagen.
+  JOURNAL   EMBO J 20:2120-30 (2001)
+            DOI:10.1093/emboj/20.9.2120
+REFERENCE   PMID:12736199
+  AUTHORS   Martin PT.
+  TITLE     Dystroglycan glycosylation and its role in matrix binding in skeletal muscle.
+  JOURNAL   Glycobiology 13:55R-66R (2003)
+            DOI:10.1093/glycob/cwg076
+REFERENCE   PMID:15229478
+  AUTHORS   Toole BP.
+  TITLE     Hyaluronan: from extracellular glue to pericellular cue.
+  JOURNAL   Nat Rev Cancer 4:528-39 (2004)
+            DOI:10.1038/nrc1391
+REFERENCE   PMID:12845610
+  AUTHORS   Bosman FT, Stamenkovic I.
+  TITLE     Functional structure and composition of the extracellular matrix.
+  JOURNAL   J Pathol 200:423-8 (2003)
+            DOI:10.1002/path.1437
+KO_PATHWAY  ko04512
+///

@@ -1,0 +1,94 @@
+ENTRY       hsa03440                    Pathway
+NAME        Homologous recombination - Homo sapiens (human)
+DESCRIPTION Homologous recombination (HR) is essential for the accurate repair of DNA double-strand breaks (DSBs), potentially lethal lesions. HR takes place in the late S-G2 phase of the cell cycle and involves the generation of a single-stranded region of DNA, followed by strand invasion, formation of a Holliday junction, DNA synthesis using the intact strand as a template, branch migration and resolution. It is investigated that RecA/Rad51 family proteins play a central role. The breast cancer susceptibility protein Brca2 and the RecQ helicase BLM (Bloom syndrome mutated) are tumor suppressors that maintain genome integrity, at least in part, through HR.
+CLASS       Genetic Information Processing; Replication and repair
+PATHWAY_MAP hsa03440  Homologous recombination
+MODULE      hsa_M00288  RPA complex [PATH:hsa03440]
+            hsa_M00291  MRN complex [PATH:hsa03440]
+            hsa_M00295  BRCA1-associated genome surveillance complex (BASC) [PATH:hsa03440]
+DISEASE     H00064  Ataxia telangiectasia
+            H00094  Immunodeficiency associated with DNA repair defects
+            H00296  Defects in RecQ helicases
+            H01287  Congenital mirror movements
+            H01344  Nijmegen syndrome
+            H01346  Bloom syndrome
+            H02014  Ataxia-telangiectasia-like syndrome
+DBLINKS     GO: 0000724
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        6742  SSBP1; single stranded DNA binding protein 1 [KO:K03111]
+            10111  RAD50; RAD50 double strand break repair protein [KO:K10866] [EC:3.6.-.-]
+            4361  MRE11; MRE11 homolog, double strand break repair nuclease [KO:K10865]
+            4683  NBN; nibrin [KO:K10867]
+            472  ATM; ATM serine/threonine kinase [KO:K04728] [EC:2.7.11.1]
+            672  BRCA1; BRCA1 DNA repair associated [KO:K10605] [EC:2.3.2.27]
+            580  BARD1; BRCA1 associated RING domain 1 [KO:K10683]
+            5932  RBBP8; RB binding protein 8, endonuclease [KO:K20773] [EC:3.1.-.-]
+            83990  BRIP1; BRCA1 interacting protein C-terminal helicase 1 [KO:K15362] [EC:3.6.4.12]
+            11073  TOPBP1; DNA topoisomerase II binding protein 1 [KO:K10728]
+            84142  ABRAXAS1; abraxas 1, BRCA1 A complex subunit [KO:K20774]
+            51720  UIMC1; ubiquitin interaction motif containing 1 [KO:K20775]
+            29086  BABAM1; BRISC and BRCA1 A complex member 1 [KO:K20776]
+            9577  BABAM2; BRISC and BRCA1 A complex member 2 [KO:K12173]
+            79184  BRCC3; BRCA1/BRCA2-containing complex subunit 3 [KO:K11864] [EC:3.4.19.-]
+            79728  PALB2; partner and localizer of BRCA2 [KO:K10897]
+            675  BRCA2; BRCA2 DNA repair associated [KO:K08775]
+            7979  SEM1; SEM1 26S proteasome complex subunit [KO:K10881]
+            50511  SYCP3; synaptonemal complex protein 3 [KO:K19528]
+            6117  RPA1; replication protein A1 [KO:K07466]
+            6118  RPA2; replication protein A2 [KO:K10739]
+            6119  RPA3; replication protein A3 [KO:K10740]
+            29935  RPA4; replication protein A4 [KO:K10741]
+            5888  RAD51; RAD51 recombinase [KO:K04482]
+            5893  RAD52; RAD52 homolog, DNA repair protein [KO:K10873]
+            5890  RAD51B; RAD51 paralog B [KO:K10869]
+            5889  RAD51C; RAD51 paralog C [KO:K10870]
+            5892  RAD51D; RAD51 paralog D [KO:K10871]
+            7516  XRCC2; X-ray repair cross complementing 2 [KO:K10879]
+            7517  XRCC3; X-ray repair cross complementing 3 [KO:K10880]
+            8438  RAD54L; RAD54 like [KO:K10875] [EC:3.6.4.-]
+            25788  RAD54B; RAD54 homolog B [KO:K10877] [EC:3.6.4.-]
+            5424  POLD1; DNA polymerase delta 1, catalytic subunit [KO:K02327] [EC:2.7.7.7]
+            5425  POLD2; DNA polymerase delta 2, accessory subunit [KO:K02328]
+            10714  POLD3; DNA polymerase delta 3, accessory subunit [KO:K03504]
+            57804  POLD4; DNA polymerase delta 4, accessory subunit [KO:K03505]
+            641  BLM; BLM RecQ like helicase [KO:K10901] [EC:3.6.4.12]
+            7156  TOP3A; DNA topoisomerase III alpha [KO:K03165] [EC:5.6.2.1]
+            8940  TOP3B; DNA topoisomerase III beta [KO:K03165] [EC:5.6.2.1]
+            80198  MUS81; MUS81 structure-specific endonuclease subunit [KO:K08991] [EC:3.1.22.-]
+            146956  EME1; essential meiotic structure-specific endonuclease 1 [KO:K10882] [EC:3.1.22.-]
+REFERENCE   PMID:18086882
+  AUTHORS   Maloisel L, Fabre F, Gangloff S.
+  TITLE     DNA polymerase delta is preferentially recruited during homologous recombination to promote heteroduplex DNA extension.
+  JOURNAL   Mol Cell Biol 28:1373-82 (2008)
+            DOI:10.1128/MCB.01651-07
+REFERENCE   PMID:17571595
+  AUTHORS   Haruta-Takahashi N, Iwasaki H.
+  TITLE     [Recombination mediators] Japanese
+  JOURNAL   Seikagaku 79:449-53 (2007)
+REFERENCE   PMID:18430459
+  AUTHORS   Ouyang KJ, Woo LL, Ellis NA.
+  TITLE     Homologous recombination and maintenance of genome integrity: Cancer and aging through the prism of human RecQ helicases.
+  JOURNAL   Mech Ageing Dev 129:425-40 (2008)
+            DOI:10.1016/j.mad.2008.03.003
+REFERENCE   PMID:15902993
+  AUTHORS   Kawabata M, Kawabata T, Nishibori M.
+  TITLE     Role of recA/RAD51 family proteins in mammals.
+  JOURNAL   Acta Med Okayama 59:1-9 (2005)
+            DOI:10.18926/AMO/31987
+REFERENCE   PMID:12589470
+  AUTHORS   Prado F, Cortes-Ledesma F, Huertas P, Aguilera A.
+  TITLE     Mitotic recombination in Saccharomyces cerevisiae.
+  JOURNAL   Curr Genet 42:185-98 (2003)
+            DOI:10.1007/s00294-002-0346-3
+REFERENCE   PMID:16935872
+  AUTHORS   Heyer WD, Li X, Rolfsmeier M, Zhang XP.
+  TITLE     Rad54: the Swiss Army knife of homologous recombination?
+  JOURNAL   Nucleic Acids Res 34:4115-25 (2006)
+            DOI:10.1093/nar/gkl481
+REFERENCE   PMID:17395553
+  AUTHORS   Michel B, Boubakri H, Baharoglu Z, LeMasson M, Lestini R.
+  TITLE     Recombination proteins and rescue of arrested replication forks.
+  JOURNAL   DNA Repair (Amst) 6:967-80 (2007)
+            DOI:10.1016/j.dnarep.2007.02.016
+KO_PATHWAY  ko03440
+///

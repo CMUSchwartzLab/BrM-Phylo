@@ -1,0 +1,371 @@
+ENTRY       hsa04630                    Pathway
+NAME        JAK-STAT signaling pathway - Homo sapiens (human)
+DESCRIPTION The Janus kinase/signal transducers and activators of transcription (JAK/STAT) pathway is one of a handful of pleiotropic cascades used to transduce a multitude of signals for development and homeostasis in animals, from humans to flies. In mammals, the JAK/STAT pathway is the principal signaling mechanism for a wide array of cytokines and growth factors. Following the binding of cytokines to their cognate receptor, STATs are activated by members of the JAK family of tyrosine kinases. Once activated, they dimerize and translocate to the nucleus and modulate the expression of target genes. In addition to the activation of STATs, JAKs mediate the recruitment of other molecules such as the MAP kinases, PI3 kinase etc. These molecules process downstream signals via the Ras-Raf-MAP kinase and PI3 kinase pathways which results in the activation of additional transcription factors.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04630  JAK-STAT signaling pathway
+MODULE      hsa_M00684  JAK-STAT signaling [PATH:hsa04630]
+NETWORK     nt06119  JAK-STAT signaling (virus)
+            nt06160  Human T-cell leukemia virus 1 (HTLV-1)
+            nt06162  Hepatitis B virus (HBV)
+            nt06164  Kaposi sarcoma-associated herpesvirus (KSHV)
+            nt06165  Epstein-Barr virus (EBV)
+            nt06167  Human cytomegalovirus (HCMV)
+            nt06219  JAK-STAT signaling
+            nt06262  Pancreatic cancer
+            nt06266  Non-small cell lung cancer
+            nt06276  Chronic myeloid leukemia
+  ELEMENT   N00053  Cytokine-Jak-STAT signaling pathway
+            N00094  EGF-Jak-STAT signaling pathway
+            N00415  IL10-Jak-STAT signaling pathway
+DISEASE     H00286  Crohn disease
+            H00408  Type 1 diabetes mellitus
+            H00931  Growth hormone insensitivity with immunodeficiency
+            H00935  Cold-induced sweating syndrome
+            H01018  Metachondromatosis
+            H01109  Chronic mucocutaneous candidiasis
+            H01122  Congenital pulmonary alveolar proteinosis
+            H01217  Primary localized cutaneous amyloidosis
+            H01227  Inflammatory bowel disease (IBD)
+            H01388  Hyperprolactinemia
+            H01466  Ulcerative colitis
+            H01479  Castleman disease
+            H01502  Sjogren syndrome
+            H01605  Myelofibrosis
+            H01672  Juvenile idiopathic arthritis
+            H02037  Laron syndrome
+            H02039  Kowarski syndrome
+            H02059  Leptin deficiency
+            H02060  Leptin receptor deficiency
+            H02254  Craniosynostosis and dental anomalies
+DRUG        D00745  Interferon alfa-2a (USAN/INN)
+            D00746  Interferon beta-1b (USAN/INN)
+            D00747  Interferon gamma-1b (USAN/INN)
+            D00748  Aldesleukin (USAN/INN)
+            D02596  Tocilizumab (USAN/INN)
+            D02691  Somatropin (USP/INN)
+            D02743  Celmoleukin (genetical recombination) (JP17)
+            D02744  Interferon alfacon-1 (USAN/INN)
+            D02745  Interferon alfa-2b (USAN)
+            D02747  Peginterferon alfa-2a (USAN/INN)
+            D02748  Peginterferon alfa-2b (INN)
+            D02749  Teceleukin (USAN)
+            D03003  Atiprimod dihydrochloride (USAN)
+            D03004  Atiprimod dimaleate (USAN)
+            D03058  Basiliximab (USAN/INN)
+            D03231  Epoetin alfa (USAN/INN)
+            D03232  Epoetin beta (USAN/INN)
+            D03235  Filgrastim (USAN/INN)
+            D03245  Nartograstim (genetical recombination) (JP17)
+            D03247  Lenograstim (USAN/INN)
+            D03304  Interferon beta (JAN)
+            D03305  Interferon alfa (NAMALWA) (JP17)
+            D03357  Interferon gamma-1a (genetical recombination) (JAN)
+            D03639  Daclizumab (USAN/INN)
+            D03645  Daniplestim (USAN/INN)
+            D03647  Dapiclermin (USAN/INN)
+            D03651  Darbepoetin alfa (USAN/INN)
+            D03682  Denileukin diftitox (USAN/INN)
+            D03978  Eltrombopag olamine (JAN/USAN)
+            D04032  Epoetin delta (USAN)
+            D04552  Interferon alfa-n1 (USAN)
+            D04553  Interferon alfa-n3 (USAN)
+            D04554  Interferon beta-1a (USAN)
+            D04695  Leridistim (USAN/INN)
+            D04923  Mepolizumab (USAN/INN)
+            D05036  Milodistim (USAN/INN)
+            D05066  Molgramostim (USAN/INN)
+            D05090  Muplestim (USAN/INN)
+            D05266  Oprelvekin (USAN/INN)
+            D05377  Pascolizumab (USAN/INN)
+            D05389  Pegnartograstim (USAN/INN)
+            D05394  Pegvisomant (USAN/INN)
+            D05803  Sargramostim (USAN/INN)
+            D06556  Apilimod mesylate (USAN)
+            D06889  Pegfilgrastim (INN)
+            D08805  Interferon gamma-n1 (JAN)
+            D08844  Albinterferon alfa-2b (USAN)
+            D08985  Reslizumab (USAN)
+            D08990  Romiplostim (USAN/INN)
+            D09024  Totrombopag choline (USAN)
+            D09214  Ustekinumab (USAN/INN)
+            D09332  Denenicokin (USAN/INN)
+            D09588  Briakinumab (USAN/INN)
+            D09633  Lebrikizumab (USAN/INN)
+            D09669  Siltuximab (USAN/INN)
+            D09783  Tofacitinib citrate (JAN/USAN)
+            D09897  Enokizumab (USAN/INN)
+            D09930  Mavrilimumab (USAN/INN)
+            D09946  Peginesatide (USAN/INN)
+            D09947  Peginesatide acetate (JAN/USAN)
+            D09959  Ruxolitinib (USAN/INN)
+            D09960  Ruxolitinib phosphate (JAN/USAN)
+            D09970  Tofacitinib (USAN)
+            D09979  Tralokinumab (USAN/INN)
+            D09998  Epoetin beta pegol (genetical recombination) (JAN)
+            D10000  Epoetin epsilon (INN)
+            D10078  Peginterferon lambda-1a (USAN)
+            D10080  Sirukumab (USAN)
+            D10161  Sarilumab (USAN)
+            D10242  Lipegfilgrastim (USAN)
+            D10308  Baricitinib (JAN/USAN/INN)
+            D10310  Balugrastim (USAN/INN)
+            D10354  Dupilumab (USAN)
+            D10365  Gandotinib (USAN)
+            D10438  Guselkumab (USAN)
+            D10476  Lusutrombopag (JAN/USAN/INN)
+            D10483  Peginterferon beta-1a (USAN/INN)
+            D10630  Fedratinib (USAN/INN)
+            D10717  Napabucasin (JAN/USAN/INN)
+            D10846  Epoetin theta (INN)
+            D10847  Epoetin zeta (INN)
+            D10871  Filgotinib (USAN/INN)
+            D10872  Filgotinib hydrochloride (USAN)
+            D10944  Itacitinib (USAN/INN)
+            D10945  Itacitinib adipate (USAN)
+            D10994  Upadacitinib (USAN/INN)
+            D10995  Upadacitinib tartrate (USAN)
+            D11026  Pegteograstim (INN)
+            D11027  Ropeginterferon alfa-2b (INN)
+            D11046  Delgocitinib (JAN/USAN)
+            D11048  Upadacitinib hydrate (JAN)
+            D11052  Risankizumab (USAN/INN)
+            D11079  Satralizumab (USAN/INN)
+            D11106  Filgotinib maleate (JAN)
+            D11123  Mirikizumab (USAN/INN)
+            D11193  Somavaratan (USAN/INN)
+            D11194  Somapacitan (USAN/INN)
+            D11200  Pegilodecakin (USAN/INN)
+            D11296  Fedratinib hydrochloride (USAN)
+            D11400  Abrocitinib (USAN)
+            D11486  Lonapegsomatropin (USAN/INN)
+DBLINKS     GO: 0007259
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        3558  IL2; interleukin 2 [KO:K05429]
+            3562  IL3; interleukin 3 [KO:K04736]
+            3565  IL4; interleukin 4 [KO:K05430]
+            3567  IL5; interleukin 5 [KO:K05428]
+            3569  IL6; interleukin 6 [KO:K05405]
+            3574  IL7; interleukin 7 [KO:K05431]
+            3578  IL9; interleukin 9 [KO:K05432]
+            3586  IL10; interleukin 10 [KO:K05443]
+            3589  IL11; interleukin 11 [KO:K05417]
+            3592  IL12A; interleukin 12A [KO:K05406]
+            3593  IL12B; interleukin 12B [KO:K05425]
+            3596  IL13; interleukin 13 [KO:K05435]
+            3600  IL15; interleukin 15 [KO:K05433]
+            53342  IL17D; interleukin 17D [KO:K05492]
+            29949  IL19; interleukin 19 [KO:K05444]
+            50604  IL20; interleukin 20 [KO:K22667]
+            59067  IL21; interleukin 21 [KO:K05434]
+            50616  IL22; interleukin 22 [KO:K05445]
+            51561  IL23A; interleukin 23 subunit alpha [KO:K05426]
+            11009  IL24; interleukin 24 [KO:K22668]
+            3439  IFNA1; interferon alpha 1 [KO:K05414]
+            3440  IFNA2; interferon alpha 2 [KO:K05414]
+            3441  IFNA4; interferon alpha 4 [KO:K05414]
+            3442  IFNA5; interferon alpha 5 [KO:K05414]
+            3443  IFNA6; interferon alpha 6 [KO:K05414]
+            3444  IFNA7; interferon alpha 7 [KO:K05414]
+            3445  IFNA8; interferon alpha 8 [KO:K05414]
+            3446  IFNA10; interferon alpha 10 [KO:K05414]
+            3447  IFNA13; interferon alpha 13 [KO:K05414]
+            3448  IFNA14; interferon alpha 14 [KO:K05414]
+            3449  IFNA16; interferon alpha 16 [KO:K05414]
+            3451  IFNA17; interferon alpha 17 [KO:K05414]
+            3452  IFNA21; interferon alpha 21 [KO:K05414]
+            3456  IFNB1; interferon beta 1 [KO:K05415]
+            3458  IFNG; interferon gamma [KO:K04687]
+            338376  IFNE; interferon epsilon [KO:K05442]
+            56832  IFNK; interferon kappa [KO:K05441]
+            282618  IFNL1; interferon lambda 1 [KO:K05447]
+            282616  IFNL2; interferon lambda 2 [KO:K22669]
+            282617  IFNL3; interferon lambda 3 [KO:K22669]
+            3467  IFNW1; interferon omega 1 [KO:K05440]
+            5008  OSM; oncostatin M [KO:K05418]
+            3976  LIF; LIF interleukin 6 family cytokine [KO:K05419]
+            85480  TSLP; thymic stromal lymphopoietin [KO:K05436]
+            1489  CTF1; cardiotrophin 1 [KO:K05422]
+            1437  CSF2; colony stimulating factor 2 [KO:K05427]
+            1270  CNTF; ciliary neurotrophic factor [KO:K05420]
+            1440  CSF3; colony stimulating factor 3 [KO:K05423]
+            2056  EPO; erythropoietin [KO:K05437]
+            2688  GH1; growth hormone 1 [KO:K05438]
+            2689  GH2; growth hormone 2 [KO:K05438]
+            1442  CSH1; chorionic somatomammotropin hormone 1 [KO:K05438]
+            1443  CSH2; chorionic somatomammotropin hormone 2 [KO:K05438]
+            3952  LEP; leptin [KO:K05424]
+            7066  THPO; thrombopoietin [KO:K06854]
+            5617  PRL; prolactin [KO:K05439]
+            1950  EGF; epidermal growth factor [KO:K04357]
+            5154  PDGFA; platelet derived growth factor subunit A [KO:K04359]
+            5155  PDGFB; platelet derived growth factor subunit B [KO:K17386]
+            3559  IL2RA; interleukin 2 receptor subunit alpha [KO:K05068]
+            3560  IL2RB; interleukin 2 receptor subunit beta [KO:K05069]
+            3561  IL2RG; interleukin 2 receptor subunit gamma [KO:K05070]
+            3563  IL3RA; interleukin 3 receptor subunit alpha [KO:K04737]
+            3566  IL4R; interleukin 4 receptor [KO:K05071]
+            3568  IL5RA; interleukin 5 receptor subunit alpha [KO:K05067]
+            3570  IL6R; interleukin 6 receptor [KO:K05055]
+            3575  IL7R; interleukin 7 receptor [KO:K05072]
+            3581  IL9R; interleukin 9 receptor [KO:K05073]
+            3587  IL10RA; interleukin 10 receptor subunit alpha [KO:K05134]
+            3588  IL10RB; interleukin 10 receptor subunit beta [KO:K05135]
+            3590  IL11RA; interleukin 11 receptor subunit alpha [KO:K05056]
+            3594  IL12RB1; interleukin 12 receptor subunit beta 1 [KO:K05063]
+            3595  IL12RB2; interleukin 12 receptor subunit beta 2 [KO:K05064]
+            3597  IL13RA1; interleukin 13 receptor subunit alpha 1 [KO:K05076]
+            3598  IL13RA2; interleukin 13 receptor subunit alpha 2 [KO:K05077]
+            3601  IL15RA; interleukin 15 receptor subunit alpha [KO:K05074]
+            53832  IL20RA; interleukin 20 receptor subunit alpha [KO:K05136]
+            53833  IL20RB; interleukin 20 receptor subunit beta [KO:K05137]
+            50615  IL21R; interleukin 21 receptor [KO:K05075]
+            58985  IL22RA1; interleukin 22 receptor subunit alpha 1 [KO:K05138]
+            116379  IL22RA2; interleukin 22 receptor subunit alpha 2 [KO:K05139]
+            149233  IL23R; interleukin 23 receptor [KO:K05065]
+            9466  IL27RA; interleukin 27 receptor subunit alpha [KO:K19598]
+            3572  IL6ST; interleukin 6 signal transducer [KO:K05060]
+            3454  IFNAR1; interferon alpha and beta receptor subunit 1 [KO:K05130]
+            3455  IFNAR2; interferon alpha and beta receptor subunit 2 [KO:K05131]
+            3459  IFNGR1; interferon gamma receptor 1 [KO:K05132]
+            3460  IFNGR2; interferon gamma receptor 2 [KO:K05133]
+            163702  IFNLR1; interferon lambda receptor 1 [KO:K05140]
+            9180  OSMR; oncostatin M receptor [KO:K05057]
+            3977  LIFR; LIF receptor alpha [KO:K05058]
+            64109  CRLF2; cytokine receptor like factor 2 [KO:K05078]
+            1271  CNTFR; ciliary neurotrophic factor receptor [KO:K05059]
+            1438  CSF2RA; colony stimulating factor 2 receptor alpha subunit [KO:K05066]
+            1439  CSF2RB; colony stimulating factor 2 receptor beta common subunit [KO:K04738]
+            1441  CSF3R; colony stimulating factor 3 receptor [KO:K05061]
+            2057  EPOR; erythropoietin receptor [KO:K05079]
+            2690  GHR; growth hormone receptor [KO:K05080]
+            3953  LEPR; leptin receptor [KO:K05062]
+            4352  MPL; MPL proto-oncogene, thrombopoietin receptor [KO:K05082]
+            5618  PRLR; prolactin receptor [KO:K05081]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            5156  PDGFRA; platelet derived growth factor receptor alpha [KO:K04363] [EC:2.7.10.1]
+            5159  PDGFRB; platelet derived growth factor receptor beta [KO:K05089] [EC:2.7.10.1]
+            3716  JAK1; Janus kinase 1 [KO:K11217] [EC:2.7.10.2]
+            3717  JAK2; Janus kinase 2 [KO:K04447] [EC:2.7.10.2]
+            3718  JAK3; Janus kinase 3 [KO:K11218] [EC:2.7.10.2]
+            7297  TYK2; tyrosine kinase 2 [KO:K11219] [EC:2.7.10.2]
+            6772  STAT1; signal transducer and activator of transcription 1 [KO:K11220]
+            6773  STAT2; signal transducer and activator of transcription 2 [KO:K11221]
+            6774  STAT3; signal transducer and activator of transcription 3 [KO:K04692]
+            6775  STAT4; signal transducer and activator of transcription 4 [KO:K11222]
+            6776  STAT5A; signal transducer and activator of transcription 5A [KO:K11223]
+            6777  STAT5B; signal transducer and activator of transcription 5B [KO:K11224]
+            6778  STAT6; signal transducer and activator of transcription 6 [KO:K11225]
+            1154  CISH; cytokine inducible SH2 containing protein [KO:K04701]
+            8651  SOCS1; suppressor of cytokine signaling 1 [KO:K04694]
+            8835  SOCS2; suppressor of cytokine signaling 2 [KO:K04695]
+            9021  SOCS3; suppressor of cytokine signaling 3 [KO:K04696]
+            122809  SOCS4; suppressor of cytokine signaling 4 [KO:K04697]
+            9655  SOCS5; suppressor of cytokine signaling 5 [KO:K04698]
+            30837  SOCS7; suppressor of cytokine signaling 7 [KO:K04699]
+            9306  SOCS6; suppressor of cytokine signaling 6 [KO:K04699]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            4170  MCL1; MCL1 apoptosis regulator, BCL2 family member [KO:K02539]
+            598  BCL2L1; BCL2 like 1 [KO:K04570]
+            5292  PIM1; Pim-1 proto-oncogene, serine/threonine kinase [KO:K04702] [EC:2.7.11.1]
+            4609  MYC; MYC proto-oncogene, bHLH transcription factor [KO:K04377]
+            595  CCND1; cyclin D1 [KO:K04503]
+            894  CCND2; cyclin D2 [KO:K10151]
+            896  CCND3; cyclin D3 [KO:K10152]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+            316  AOX1; aldehyde oxidase 1 [KO:K00157] [EC:1.2.3.1]
+            2670  GFAP; glial fibrillary acidic protein [KO:K05640]
+            10254  STAM2; signal transducing adaptor molecule 2 [KO:K04705]
+            8027  STAM; signal transducing adaptor molecule [KO:K04705]
+            5771  PTPN2; protein tyrosine phosphatase non-receptor type 2 [KO:K18026] [EC:3.1.3.48]
+            5777  PTPN6; protein tyrosine phosphatase non-receptor type 6 [KO:K05697] [EC:3.1.3.48]
+            10379  IRF9; interferon regulatory factor 9 [KO:K04693]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            8554  PIAS1; protein inhibitor of activated STAT 1 [KO:K04706] [EC:2.3.2.-]
+            9063  PIAS2; protein inhibitor of activated STAT 2 [KO:K16063] [EC:2.3.2.-]
+            10401  PIAS3; protein inhibitor of activated STAT 3 [KO:K16064] [EC:2.3.2.-]
+            51588  PIAS4; protein inhibitor of activated STAT 4 [KO:K16065] [EC:2.3.2.27]
+            2273  FHL1; four and a half LIM domains 1 [KO:K14365]
+            5781  PTPN11; protein tyrosine phosphatase non-receptor type 11 [KO:K07293] [EC:3.1.3.48]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+REFERENCE   PMID:22383755
+  AUTHORS   Harrison DA
+  TITLE     The Jak/STAT pathway.
+  JOURNAL   Cold Spring Harb Perspect Biol 4:a011205 (2012)
+            DOI:10.1101/cshperspect.a011205
+REFERENCE   PMID:22339650
+  AUTHORS   Kiu H, Nicholson SE
+  TITLE     Biology and significance of the JAK/STAT signalling pathways.
+  JOURNAL   Growth Factors 30:88-106 (2012)
+            DOI:10.3109/08977194.2012.660936
+REFERENCE   PMID:21372217
+  AUTHORS   Hervas-Stubbs S, Perez-Gracia JL, Rouzaut A, Sanmamed MF, Le Bon A, Melero I
+  TITLE     Direct effects of type I interferons on cells of the immune system.
+  JOURNAL   Clin Cancer Res 17:2619-27 (2011)
+            DOI:10.1158/1078-0432.CCR-10-1114
+REFERENCE   PMID:25217450
+  AUTHORS   Fish EN, Platanias LC
+  TITLE     Interferon receptor signaling in malignancy: a network of cellular pathways defining biological outcomes.
+  JOURNAL   Mol Cancer Res 12:1691-703 (2014)
+            DOI:10.1158/1541-7786.MCR-14-0450
+REFERENCE   PMID:21034406
+  AUTHORS   Ivanenkov YA, Balakin KV, Lavrovsky Y
+  TITLE     Small molecule inhibitors of NF-kB and JAK/STAT signal transduction pathways as promising anti-inflammatory therapeutics.
+  JOURNAL   Mini Rev Med Chem 11:55-78 (2011)
+            DOI:10.2174/138955711793564079
+REFERENCE   PMID:25587654
+  AUTHORS   O'Shea JJ, Schwartz DM, Villarino AV, Gadina M, McInnes IB, Laurence A
+  TITLE     The JAK-STAT pathway: impact on human disease and therapeutic intervention.
+  JOURNAL   Annu Rev Med 66:311-28 (2015)
+            DOI:10.1146/annurev-med-051113-024537
+REFERENCE   PMID:24069565
+  AUTHORS   Zoranovic T, Grmai L, Bach EA
+  TITLE     Regulation of proliferation, cell competition, and cellular growth by the Drosophila JAK-STAT pathway.
+  JOURNAL   JAKSTAT 2:e25408 (2013)
+            DOI:10.4161/jkst.25408
+REFERENCE   PMID:16204702
+  AUTHORS   Ungureanu D, Silvennoinen O
+  TITLE     SLIM trims STATs: ubiquitin E3 ligases provide insights for specificity in the regulation of cytokine signaling.
+  JOURNAL   Sci STKE 2005:pe49 (2005)
+            DOI:10.1126/stke.3042005pe49
+REFERENCE   PMID:23735217
+  AUTHORS   Richard AJ, Stephens JM
+  TITLE     The role of JAK-STAT signaling in adipose tissue function.
+  JOURNAL   Biochim Biophys Acta 1842:431-9 (2014)
+            DOI:10.1016/j.bbadis.2013.05.030
+REFERENCE   PMID:24606160
+  AUTHORS   Sun Y, Lehmbecker A, Kalkuhl A, Deschl U, Sun W, Rohn K, Tzvetanova ID, Nave KA, Baumgartner W, Ulrich R
+  TITLE     STAT3 represents a molecular switch possibly inducing astroglial instead of oligodendroglial differentiation of oligodendroglial progenitor cells in Theiler's murine encephalomyelitis.
+  JOURNAL   Neuropathol Appl Neurobiol 41:347-70 (2015)
+            DOI:10.1111/nan.12133
+REFERENCE   PMID:10851053
+  AUTHORS   Hirano T, Ishihara K, Hibi M
+  TITLE     Roles of STAT3 in mediating the cell growth, differentiation and survival signals relayed through the IL-6 family of cytokine receptors.
+  JOURNAL   Oncogene 19:2548-56 (2000)
+            DOI:10.1038/sj.onc.1203551
+REFERENCE   PMID:11114747
+  AUTHORS   Rane SG, Reddy EP
+  TITLE     Janus kinases: components of multiple signaling pathways.
+  JOURNAL   Oncogene 19:5662-79 (2000)
+            DOI:10.1038/sj.onc.1203925
+REFERENCE   PMID:8682149
+  AUTHORS   Heim MH
+  TITLE     The Jak-STAT pathway: specific signal transduction from the cell membrane to the nucleus.
+  JOURNAL   Eur J Clin Invest 26:1-12 (1996)
+            DOI:10.1046/j.1365-2362.1996.103248.x
+KO_PATHWAY  ko04630
+///

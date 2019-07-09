@@ -1,0 +1,200 @@
+ENTRY       hsa03320                    Pathway
+NAME        PPAR signaling pathway - Homo sapiens (human)
+DESCRIPTION Peroxisome proliferator-activated receptors (PPARs) are nuclear hormone receptors that are activated by fatty acids and their derivatives. PPAR has three subtypes (PPARalpha, beta/delta, and gamma) showing different expression patterns in vertebrates. Each of them is encoded in a separate gene and binds fatty acids and eicosanoids. PPARalpha plays a role in the clearance of circulating or cellular lipids via the regulation of gene expression involved in lipid metabolism in liver and skeletal muscle. PPARbeta/delta is involved in lipid oxidation and cell proliferation. PPARgamma promotes adipocyte differentiation to enhance blood glucose uptake.
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP hsa03320  PPAR signaling pathway
+DISEASE     H00151  Cerebrotendinous xanthomatosis
+            H00154  Hyperlipoproteinemia, type I
+            H00157  Hyperlipoproteinemia, type V
+            H00407  Peroxisomal beta-oxidation enzyme deficiency
+            H00409  Type 2 diabetes mellitus
+            H00420  Familial partial lipodystrophy
+            H00552  Chromosome Xp21 deletion syndrome
+            H00874  Leukoencephalopathy with dystonia and motor neuropathy
+            H00930  Hypoalphalipoproteinemia
+            H00967  Adiponectin deficiency
+            H01108  CD36 deficiency
+            H01199  Hyperalphalipoproteinemia
+            H02013  Glycerol kinase deficiency
+            H02096  Peroxisomal acyl-CoA oxidase deficiency
+            H02106  Genetic obesity
+DRUG        D00279  Clofibrate (JP17/USP/INN)
+            D00334  Gemfibrozil (JAN/USP/INN)
+            D00395  Troglitazone (JAN/USAN/INN)
+            D00565  Fenofibrate (JAN/INN)
+            D00596  Rosiglitazone maleate (JAN/USAN)
+            D00945  Pioglitazone hydrochloride (JP17/USP)
+            D01208  Aluminum clofibrate (JAN/INN)
+            D01274  Tesaglitazar (JAN/USAN/INN)
+            D01366  Bezafibrate (JP17/USAN/INN)
+            D01971  Reglitazar (JAN/INN)
+            D02047  Dextran sulfate sodium (JAN)
+            D02815  Alitretinoin (USAN)
+            D03106  Bexarotene (JAN/USAN/INN)
+            D03343  Dextran sulfate sodium sulfur 5 (JP17)
+            D03493  Ciglitazone (USAN/INN)
+            D03521  Ciprofibrate (USAN/INN)
+            D03747  Ibrolipim (USAN/INN)
+            D03941  Edaglitazone sodium (USAN)
+            D03996  Englitazone sodium (USAN)
+            D04132  Farglitazar (USAN/INN)
+            D04268  Elastase ES
+            D04411  Halofenate (USAN/INN)
+            D05030  Mifobate (USAN/INN)
+            D05091  Muraglitazar (USAN/INN)
+            D05150  Netoglitazone (USAN/INN)
+            D05255  Omega-3-acid ethyl esters (USAN)
+            D05397  Peliglitazar (USAN)
+            D05739  Rivoglitazone (USAN/INN)
+            D06102  Theofibrate (USAN)
+            D06647  Sodelglitazar (USAN)
+            D07187  Etofibrate (INN)
+            D07724  Magnesium clofibrate (INN)
+            D08378  Pioglitazone (INN)
+            D08491  Rosiglitazone (INN)
+            D08845  Aleglitazar (USAN)
+            D08890  Choline fenofibrate (USAN/INN)
+            D08949  Naveglitazar (USAN/INN)
+            D09350  Indeglitazar (USAN)
+            D09579  Arhalofenate (USAN/INN)
+            D11208  Elafibranor (USAN)
+            D11256  Seladelpar (USAN/INN)
+            D11257  Seladelpar lysine (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        948  CD36; CD36 molecule [KO:K06259]
+            376497  SLC27A1; solute carrier family 27 member 1 [KO:K08745] [EC:6.2.1.-]
+            10999  SLC27A4; solute carrier family 27 member 4 [KO:K08745] [EC:6.2.1.-]
+            11001  SLC27A2; solute carrier family 27 member 2 [KO:K08746] [EC:6.2.1.3 6.2.1.-]
+            10998  SLC27A5; solute carrier family 27 member 5 [KO:K08748] [EC:6.2.1.7]
+            28965  SLC27A6; solute carrier family 27 member 6 [KO:K08749]
+            2168  FABP1; fatty acid binding protein 1 [KO:K08750]
+            2169  FABP2; fatty acid binding protein 2 [KO:K08751]
+            2170  FABP3; fatty acid binding protein 3 [KO:K08752]
+            2167  FABP4; fatty acid binding protein 4 [KO:K08753]
+            2171  FABP5; fatty acid binding protein 5 [KO:K08754]
+            2172  FABP6; fatty acid binding protein 6 [KO:K08755]
+            2173  FABP7; fatty acid binding protein 7 [KO:K08756]
+            5465  PPARA; peroxisome proliferator activated receptor alpha [KO:K07294]
+            6256  RXRA; retinoid X receptor alpha [KO:K08524]
+            6257  RXRB; retinoid X receptor beta [KO:K08525]
+            6258  RXRG; retinoid X receptor gamma [KO:K08526]
+            5467  PPARD; peroxisome proliferator activated receptor delta [KO:K04504]
+            5468  PPARG; peroxisome proliferator activated receptor gamma [KO:K08530]
+            335  APOA1; apolipoprotein A1 [KO:K08757]
+            336  APOA2; apolipoprotein A2 [KO:K08758]
+            345  APOC3; apolipoprotein C3 [KO:K08759]
+            116519  APOA5; apolipoprotein A5 [KO:K09025]
+            5360  PLTP; phospholipid transfer protein [KO:K08761]
+            9415  FADS2; fatty acid desaturase 2 [KO:K10226] [EC:1.14.19.3]
+            6319  SCD; stearoyl-CoA desaturase [KO:K00507] [EC:1.14.19.1]
+            79966  SCD5; stearoyl-CoA desaturase 5 [KO:K00507] [EC:1.14.19.1]
+            1581  CYP7A1; cytochrome P450 family 7 subfamily A member 1 [KO:K00489] [EC:1.14.14.23]
+            1582  CYP8B1; cytochrome P450 family 8 subfamily B member 1 [KO:K07431] [EC:1.14.14.139 1.14.18.8]
+            10062  NR1H3; nuclear receptor subfamily 1 group H member 3 [KO:K08536]
+            1593  CYP27A1; cytochrome P450 family 27 subfamily A member 1 [KO:K00488] [EC:1.14.15.15]
+            1622  DBI; diazepam binding inhibitor, acyl-CoA binding protein [KO:K08762]
+            4023  LPL; lipoprotein lipase [KO:K01059] [EC:3.1.1.34]
+            23305  ACSL6; acyl-CoA synthetase long chain family member 6 [KO:K01897] [EC:6.2.1.3]
+            2182  ACSL4; acyl-CoA synthetase long chain family member 4 [KO:K01897] [EC:6.2.1.3]
+            2180  ACSL1; acyl-CoA synthetase long chain family member 1 [KO:K01897] [EC:6.2.1.3]
+            51703  ACSL5; acyl-CoA synthetase long chain family member 5 [KO:K01897] [EC:6.2.1.3]
+            2181  ACSL3; acyl-CoA synthetase long chain family member 3 [KO:K01897] [EC:6.2.1.3]
+            23205  ACSBG1; acyl-CoA synthetase bubblegum family member 1 [KO:K15013] [EC:6.2.1.3]
+            81616  ACSBG2; acyl-CoA synthetase bubblegum family member 2 [KO:K15013] [EC:6.2.1.3]
+            4973  OLR1; oxidized low density lipoprotein receptor 1 [KO:K08763]
+            1962  EHHADH; enoyl-CoA hydratase and 3-hydroxyacyl CoA dehydrogenase [KO:K07514] [EC:5.3.3.8 1.1.1.35 4.2.1.17]
+            1579  CYP4A11; cytochrome P450 family 4 subfamily A member 11 [KO:K07425] [EC:1.14.14.80]
+            284541  CYP4A22; cytochrome P450 family 4 subfamily A member 22 [KO:K07425] [EC:1.14.14.80]
+            30  ACAA1; acetyl-CoA acyltransferase 1 [KO:K07513] [EC:2.3.1.16]
+            6342  SCP2; sterol carrier protein 2 [KO:K08764] [EC:2.3.1.176]
+            8310  ACOX3; acyl-CoA oxidase 3, pristanoyl [KO:K00232] [EC:1.3.3.6]
+            51  ACOX1; acyl-CoA oxidase 1 [KO:K00232] [EC:1.3.3.6]
+            8309  ACOX2; acyl-CoA oxidase 2 [KO:K10214] [EC:1.17.99.3]
+            1374  CPT1A; carnitine palmitoyltransferase 1A [KO:K08765] [EC:2.3.1.21]
+            1375  CPT1B; carnitine palmitoyltransferase 1B [KO:K19523] [EC:2.3.1.21]
+            126129  CPT1C; carnitine palmitoyltransferase 1C [KO:K19524] [EC:2.3.1.21]
+            1376  CPT2; carnitine palmitoyltransferase 2 [KO:K08766] [EC:2.3.1.21]
+            33  ACADL; acyl-CoA dehydrogenase long chain [KO:K00255] [EC:1.3.8.8]
+            34  ACADM; acyl-CoA dehydrogenase medium chain [KO:K00249] [EC:1.3.8.7]
+            51129  ANGPTL4; angiopoietin like 4 [KO:K08767]
+            10580  SORBS1; sorbin and SH3 domain containing 1 [KO:K06086]
+            5346  PLIN1; perilipin 1 [KO:K08768]
+            123  PLIN2; perilipin 2 [KO:K17284]
+            729359  PLIN4; perilipin 4 [KO:K20254]
+            440503  PLIN5; perilipin 5 [KO:K20255]
+            9370  ADIPOQ; adiponectin, C1Q and collagen domain containing [KO:K07296]
+            4312  MMP1; matrix metallopeptidase 1 [KO:K01388] [EC:3.4.24.7]
+            7350  UCP1; uncoupling protein 1 [KO:K08769]
+            3611  ILK; integrin linked kinase [KO:K06272] [EC:2.7.11.1]
+            5170  PDPK1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            7316  UBC; ubiquitin C [KO:K08770]
+            5105  PCK1; phosphoenolpyruvate carboxykinase 1 [KO:K01596] [EC:4.1.1.32]
+            5106  PCK2; phosphoenolpyruvate carboxykinase 2, mitochondrial [KO:K01596] [EC:4.1.1.32]
+            2712  GK2; glycerol kinase 2 [KO:K00864] [EC:2.7.1.30]
+            2710  GK; glycerol kinase [KO:K00864] [EC:2.7.1.30]
+            364  AQP7; aquaporin 7 [KO:K08771]
+            3158  HMGCS2; 3-hydroxy-3-methylglutaryl-CoA synthase 2 [KO:K01641] [EC:2.3.3.10]
+            4199  ME1; malic enzyme 1 [KO:K00029] [EC:1.1.1.40]
+COMPOUND    C02165  Leukotriene B4
+            C14762  13(S)-HODE
+            C14767  9(S)-HODE
+            C14776  8(S)-HETE
+            C15493  9-cis-Retinoic acid
+REFERENCE   PMID:15828220
+  AUTHORS   Takahashi N, Goto T, Kusudo T, Moriyama T, Kawada T.
+  TITLE     [The structures and functions of peroxisome proliferator-activated receptors (PPARs)]
+  JOURNAL   Nippon Rinsho 63:557-64 (2005)
+REFERENCE   PMID:15828221
+  AUTHORS   Fujii H.
+  TITLE     [PPARs-mediated intracellular signal transduction]
+  JOURNAL   Nippon Rinsho 63:565-71 (2005)
+REFERENCE   PMID:15828222
+  AUTHORS   Takada I, Kato S.
+  TITLE     [PPARs target genes]
+  JOURNAL   Nippon Rinsho 63:573-7 (2005)
+REFERENCE   PMID:15828223
+  AUTHORS   Inoue H.
+  TITLE     [Endogenous ligands for PPARs]
+  JOURNAL   Nippon Rinsho 63:578-83 (2005)
+REFERENCE   PMID:16476485
+  AUTHORS   Feige JN, Gelman L, Michalik L, Desvergne B, Wahli W.
+  TITLE     From molecular action to physiological outputs: peroxisome proliferator-activated receptors are nuclear receptors at the crossroads of key cellular functions.
+  JOURNAL   Prog Lipid Res 45:120-59 (2006)
+            DOI:10.1016/j.plipres.2005.12.002
+REFERENCE   PMID:16601267
+  AUTHORS   Desvergne B, Michalik L, Wahli W.
+  TITLE     Transcriptional regulation of metabolism.
+  JOURNAL   Physiol Rev 86:465-514 (2006)
+            DOI:10.1152/physrev.00025.2005
+REFERENCE   PMID:14999402
+  AUTHORS   Mandard S, Muller M, Kersten S.
+  TITLE     Peroxisome proliferator-activated receptor alpha target genes.
+  JOURNAL   Cell Mol Life Sci 61:393-416 (2004)
+            DOI:10.1007/s00018-003-3216-3
+REFERENCE   PMID:10529898
+  AUTHORS   Desvergne B, Wahli W.
+  TITLE     Peroxisome proliferator-activated receptors: nuclear control of metabolism.
+  JOURNAL   Endocr Rev 20:649-88 (1999)
+            DOI:10.1210/edrv.20.5.0380
+REFERENCE   PMID:15673477
+  AUTHORS   Savage DB.
+  TITLE     PPARgamma as a metabolic regulator: insights from genomics and pharmacology.
+  JOURNAL   Expert Rev Mol Med 2005:1-16 (2005)
+            DOI:10.1017/S1462399405008793
+REFERENCE   PMID:16511590
+  AUTHORS   Semple RK, Chatterjee VK, O'Rahilly S.
+  TITLE     PPAR gamma and human metabolic disease.
+  JOURNAL   J Clin Invest 116:581-9 (2006)
+            DOI:10.1172/JCI28003
+REFERENCE   PMID:16360030
+  AUTHORS   Lehrke M, Lazar MA.
+  TITLE     The many faces of PPARgamma.
+  JOURNAL   Cell 123:993-9 (2005)
+            DOI:10.1016/j.cell.2005.11.026
+REFERENCE   PMID:11921433
+  AUTHORS   Hauner H.
+  TITLE     The mode of action of thiazolidinediones.
+  JOURNAL   Diabetes Metab Res Rev 18 Suppl 2:S10-5 (2002)
+            DOI:10.1002/dmrr.249
+KO_PATHWAY  ko03320
+///

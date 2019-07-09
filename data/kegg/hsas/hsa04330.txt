@@ -1,0 +1,165 @@
+ENTRY       hsa04330                    Pathway
+NAME        Notch signaling pathway - Homo sapiens (human)
+DESCRIPTION The Notch signaling pathway is an evolutionarily conserved, intercellular signaling mechanism essential for proper embryonic development in all metazoan organisms in the Animal kingdom. The Notch proteins (Notch1-Notch4 in vertebrates) are single-pass receptors that are activated by the Delta (or Delta-like) and Jagged/Serrate families of membrane-bound ligands. They are transported to the plasma membrane as cleaved, but otherwise intact polypeptides. Interaction with ligand leads to two additional proteolytic cleavages that liberate the Notch intracellular domain (NICD) from the plasma membrane. The NICD translocates to the nucleus, where it forms a complex with the DNA binding protein CSL, displacing a histone deacetylase (HDAc)-co-repressor (CoR) complex from CSL. Components of an activation complex, such as MAML1 and histone acetyltransferases (HATs), are recruited to the NICD-CSL complex, leading to the transcriptional activation of Notch target genes.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04330  Notch signaling pathway
+MODULE      hsa_M00682  Notch signaling [PATH:hsa04330]
+NETWORK     nt06116  NOTCH signaling (virus)
+            nt06166  Human papillomavirus (HPV)
+            nt06216  NOTCH signaling
+            nt06270  Breast cancer
+  ELEMENT   N00086  Notch signaling pathway
+DISEASE     H00078  Frontotemporal lobar degeneration
+            H00409  Type 2 diabetes mellitus
+            H00517  Spondylocostal dysostosis
+            H00536  Cerebral autosomal dominant arteriopathy with subcortical infarcts and leucoencephalopathy (CADASIL)
+            H00549  Tetralogy of Fallot
+            H00551  Alagille syndrome
+            H00554  Bicuspid aortic valve
+            H00623  Hajdu-Cheney syndrome
+            H00681  Acne inversa
+            H01413  Adams-Oliver syndrome
+            H01508  Salivary gland cancer
+            H01893  Lateral meningocele syndrome
+            H01910  Infantile myofibromatosis
+DRUG        D06320  Vorinostat (JAN/USAN)
+            D06637  Romidepsin (JAN/USAN/INN)
+            D08859  Apratastat (USAN/INN)
+            D08869  Begacestat (USAN/INN)
+            D08870  Belinostat (USAN/INN)
+            D09010  Tarenflurbil (USAN/INN)
+            D09320  Aderbasib (USAN/INN)
+            D09338  Entinostat (USAN/INN)
+            D09357  Mocetinostat dihydrobromide (USAN)
+            D09377  Semagacestat (USAN/INN)
+            D09641  Mocetinostat (USAN/INN)
+            D09869  Avagacestat (USAN)
+            D10019  Panobinostat lactate (JAN)
+            D10060  Abexinostat (USAN)
+            D10084  Abexinostat hydrochloride (USAN)
+            D10319  Panobinostat (USAN/INN)
+            D10321  Quisinostat (USAN/INN)
+            D10322  Quisinostat hydrochloride (USAN)
+            D10460  Enoticumab (USAN/INN)
+            D10960  Nirogacestat (USAN/INN)
+            D10977  Remetinostat (USAN/INN)
+            D10981  Rovalpituzumab tesirine (USAN/INN)
+            D10993  Tucidinostat (JAN/USAN/INN)
+            D11117  Rovalpituzumab (USAN)
+            D11126  Navicixizumab (USAN/INN)
+            D11151  Crenigacestat (USAN/INN)
+            D11182  Tinostamustine (USAN/INN)
+            D11229  Brontictuzumab (USAN/INN)
+            D11442  Nanatinostat (USAN)
+            D11453  Nirogacestat hydrobromide (USAN)
+DBLINKS     GO: 0007219
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        10683  DLL3; delta like canonical Notch ligand 3 [KO:K06051]
+            28514  DLL1; delta like canonical Notch ligand 1 [KO:K06051]
+            54567  DLL4; delta like canonical Notch ligand 4 [KO:K06051]
+            182  JAG1; jagged canonical Notch ligand 1 [KO:K06052]
+            3714  JAG2; jagged canonical Notch ligand 2 [KO:K21635]
+            4242  MFNG; MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            3955  LFNG; LFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            5986  RFNG; RFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase [KO:K05948] [EC:2.4.1.222]
+            4851  NOTCH1; notch receptor 1 [KO:K02599]
+            4853  NOTCH2; notch receptor 2 [KO:K20994]
+            4854  NOTCH3; notch receptor 3 [KO:K20995]
+            4855  NOTCH4; notch receptor 4 [KO:K20996]
+            11317  RBPJL; recombination signal binding protein for immunoglobulin kappa J region like [KO:K06053]
+            3516  RBPJ; recombination signal binding protein for immunoglobulin kappa J region [KO:K06053]
+            3280  HES1; hes family bHLH transcription factor 1 [KO:K06054]
+            388585  HES5; hes family bHLH transcription factor 5 [KO:K06055]
+            171558  PTCRA; pre T cell antigen receptor alpha [KO:K06056]
+            1857  DVL3; dishevelled segment polarity protein 3 [KO:K02353]
+            1856  DVL2; dishevelled segment polarity protein 2 [KO:K02353]
+            1855  DVL1; dishevelled segment polarity protein 1 [KO:K02353]
+            8650  NUMB; NUMB endocytic adaptor protein [KO:K06057]
+            9253  NUMBL; NUMB like endocytic adaptor protein [KO:K06057]
+            113878  DTX2; deltex E3 ubiquitin ligase 2 [KO:K06058] [EC:2.3.2.27]
+            151636  DTX3L; deltex E3 ubiquitin ligase 3L [KO:K06058] [EC:2.3.2.27]
+            1840  DTX1; deltex E3 ubiquitin ligase 1 [KO:K06058] [EC:2.3.2.27]
+            196403  DTX3; deltex E3 ubiquitin ligase 3 [KO:K06058] [EC:2.3.2.27]
+            23220  DTX4; deltex E3 ubiquitin ligase 4 [KO:K06058] [EC:2.3.2.27]
+            6868  ADAM17; ADAM metallopeptidase domain 17 [KO:K06059] [EC:3.4.24.86]
+            5663  PSEN1; presenilin 1 [KO:K04505] [EC:3.4.23.-]
+            5664  PSEN2; presenilin 2 [KO:K04522] [EC:3.4.23.-]
+            55851  PSENEN; presenilin enhancer, gamma-secretase subunit [KO:K06170]
+            23385  NCSTN; nicastrin [KO:K06171]
+            51107  APH1A; aph-1 homolog A, gamma-secretase subunit [KO:K06172]
+            83464  APH1B; aph-1 homolog B, gamma-secretase subunit [KO:K06172]
+            55534  MAML3; mastermind like transcriptional coactivator 3 [KO:K06061]
+            84441  MAML2; mastermind like transcriptional coactivator 2 [KO:K06061]
+            9794  MAML1; mastermind like transcriptional coactivator 1 [KO:K06061]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            8850  KAT2B; lysine acetyltransferase 2B [KO:K06062] [EC:2.3.1.48]
+            2648  KAT2A; lysine acetyltransferase 2A [KO:K06062] [EC:2.3.1.48]
+            22938  SNW1; SNW domain containing 1 [KO:K06063]
+            1487  CTBP1; C-terminal binding protein 1 [KO:K04496]
+            1488  CTBP2; C-terminal binding protein 2 [KO:K04496]
+            9612  NCOR2; nuclear receptor corepressor 2 [KO:K06065]
+            9541  CIR1; corepressor interacting with RBPJ, 1 [KO:K06066]
+            3065  HDAC1; histone deacetylase 1 [KO:K06067] [EC:3.5.1.98]
+            3066  HDAC2; histone deacetylase 2 [KO:K06067] [EC:3.5.1.98]
+REFERENCE   PMID:15288257
+  AUTHORS   Hansson EM, Lendahl U, Chapman G.
+  TITLE     Notch signaling in development and disease.
+  JOURNAL   Semin Cancer Biol 14:320-8 (2004)
+            DOI:10.1016/j.semcancer.2004.04.011
+REFERENCE   PMID:15300010
+  AUTHORS   Callahan R, Egan SE.
+  TITLE     Notch signaling in mammary development and oncogenesis.
+  JOURNAL   J Mammary Gland Biol Neoplasia 9:145-63 (2004)
+            DOI:10.1023/B:JOMG.0000037159.63644.81
+REFERENCE   PMID:15288258
+  AUTHORS   Zweidler-McKay PA, Pear WS.
+  TITLE     Notch and T cell malignancy.
+  JOURNAL   Semin Cancer Biol 14:329-40 (2004)
+            DOI:10.1016/j.semcancer.2004.04.012
+REFERENCE   PMID:15288260
+  AUTHORS   Wu L, Griffin JD.
+  TITLE     Modulation of Notch signaling by mastermind-like (MAML) transcriptional co-activators and their involvement in tumorigenesis.
+  JOURNAL   Semin Cancer Biol 14:348-56 (2004)
+            DOI:10.1016/j.semcancer.2004.04.014
+REFERENCE   PMID:15585829
+  AUTHORS   Tsukumo S, Yasutomo K.
+  TITLE     Notch governing mature T cell differentiation.
+  JOURNAL   J Immunol 173:7109-13 (2004)
+            DOI:10.4049/jimmunol.173.12.7109
+REFERENCE   PMID:12464310
+  AUTHORS   Haltiwanger RS.
+  TITLE     Regulation of signal transduction pathways in development by glycosylation.
+  JOURNAL   Curr Opin Struct Biol 12:593-8 (2002)
+            DOI:10.1016/S0959-440X(02)00371-8
+REFERENCE   PMID:15272268
+  AUTHORS   Koo EH, Kopan R.
+  TITLE     Potential role of presenilin-regulated signaling pathways in sporadic neurodegeneration.
+  JOURNAL   Nat Med 10 Suppl:S26-33 (2004)
+            DOI:10.1038/nm1065
+REFERENCE   PMID:11896183
+  AUTHORS   Okano H, Imai T, Okabe M.
+  TITLE     Musashi: a translational regulator of cell fate.
+  JOURNAL   J Cell Sci 115:1355-9 (2002)
+REFERENCE   PMID:12417415
+  AUTHORS   Haltiwanger RS, Stanley P.
+  TITLE     Modulation of receptor signaling by glycosylation: fringe is an O-fucose-beta1,3-N-acetylglucosaminyltransferase.
+  JOURNAL   Biochim Biophys Acta 1573:328-35 (2002)
+            DOI:10.1016/S0304-4165(02)00400-2
+REFERENCE   PMID:12015972
+  AUTHORS   Das G, Reynolds-Kenneally J, Mlodzik M.
+  TITLE     The atypical cadherin Flamingo links Frizzled and Notch signaling in planar polarity establishment in the Drosophila eye.
+  JOURNAL   Dev Cell 2:655-66 (2002)
+            DOI:10.1016/S1534-5807(02)00147-8
+REFERENCE   PMID:10028969
+  AUTHORS   Cooper MT, Bray SJ.
+  TITLE     Frizzled regulation of Notch signalling polarizes cell fate in the Drosophila eye.
+  JOURNAL   Nature 397:526-30 (1999)
+            DOI:10.1038/17395
+REFERENCE   PMID:12681948
+  AUTHORS   Tanigaki K, Kuroda K, Han H, Honjo T.
+  TITLE     Regulation of B cell development by Notch/RBP-J signaling.
+  JOURNAL   Semin Immunol 15:113-9 (2003)
+            DOI:10.1016/S1044-5323(03)00008-3
+KO_PATHWAY  ko04330
+///

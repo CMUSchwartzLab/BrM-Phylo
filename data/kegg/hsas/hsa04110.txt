@@ -1,0 +1,334 @@
+ENTRY       hsa04110                    Pathway
+NAME        Cell cycle - Homo sapiens (human)
+DESCRIPTION Mitotic cell cycle progression is accomplished through a reproducible sequence of events, DNA replication (S phase) and mitosis (M phase) separated temporally by gaps known as G1 and G2 phases. Cyclin-dependent kinases (CDKs) are key regulatory enzymes, each consisting of a catalytic CDK subunit and an activating cyclin subunit. CDKs regulate the cell's progression through the phases of the cell cycle by modulating the activity of key substrates. Downstream targets of CDKs include transcription factor E2F and its regulator Rb. Precise activation and inactivation of CDKs at specific points in the cell cycle are required for orderly cell division. Cyclin-CDK inhibitors (CKIs), such as p16Ink4a, p15Ink4b, p27Kip1, and p21Cip1, are involved in the negative regulation of CDK activities, thus providing a pathway through which the cell cycle is negatively regulated.
+             Eukaryotic cells respond to DNA damage by activating signaling pathways that promote cell cycle arrest and DNA repair. In response to DNA damage, the checkpoint kinase ATM phosphorylates and activates Chk2, which in turn directly phosphorylates and activates p53 tumor suppressor protein. p53 and its transcriptional targets play an important role in both G1 and G2 checkpoints. ATR-Chk1-mediated protein degradation of Cdc25A protein phosphatase is also a mechanism conferring intra-S-phase checkpoint activation.
+CLASS       Cellular Processes; Cell growth and death
+PATHWAY_MAP hsa04110  Cell cycle
+MODULE      hsa_M00284  Origin recognition complex [PATH:hsa04110]
+            hsa_M00285  MCM complex [PATH:hsa04110]
+            hsa_M00297  DNA-PK complex [PATH:hsa04110]
+            hsa_M00381  SCF-SKP2 complex [PATH:hsa04110]
+            hsa_M00389  APC/C complex [PATH:hsa04110]
+            hsa_M00691  DNA damage-induced cell cycle checkpoints [PATH:hsa04110]
+            hsa_M00692  Cell cycle - G1/S transition [PATH:hsa04110]
+            hsa_M00693  Cell cycle - G2/M transition [PATH:hsa04110]
+NETWORK     nt06130  Cell cycle (virus)
+            nt06160  Human T-cell leukemia virus 1 (HTLV-1)
+            nt06161  Human immunodeficiency virus type 1 (HIV-1)
+            nt06162  Hepatitis B virus (HBV)
+            nt06164  Kaposi sarcoma-associated herpesvirus (KSHV)
+            nt06165  Epstein-Barr virus (EBV)
+            nt06166  Human papillomavirus (HPV)
+            nt06167  Human cytomegalovirus (HCMV)
+            nt06170  Influenza A virus (IAV)
+            nt06230  Cell cycle G1/S
+            nt06261  Gastric cancer
+            nt06262  Pancreatic cancer
+            nt06263  Hepatocellular carcinoma
+            nt06265  Bladder cancer
+            nt06266  Non-small cell lung cancer
+            nt06267  Small cell lung cancer
+            nt06268  Melanoma
+            nt06270  Breast cancer
+            nt06272  Prostate cancer
+            nt06273  Glioma
+            nt06276  Chronic myeloid leukemia
+  ELEMENT   N00066  MDM2-p21-Cell cycle G1/S
+            N00069  p16-Cell cycle G1/S
+            N00090  p15-Cell cycle G1/S
+            N00091  p27-Cell cycle G1/S
+            N00347  p300-p21-Cell cycle G1/S
+            N00455  CDC25-Cell cycle G2/M
+            N00459  WEE1-Cell cycle G2/M
+            N00493  Spindle assembly checkpoint signaling
+            N00496  MDM2-p21-Cell cycle G1/S
+            N00499  ATR-p21-Cell cycle G2/M
+            N00536  MDM2-p21-Cell cycle G1/S
+DISEASE     H00064  Ataxia telangiectasia
+            H00409  Type 2 diabetes mellitus
+            H00631  Cornelia de Lange syndrome
+            H00713  Beckwith-Wiedemann syndrome
+            H00881  Li-Fraumeni syndrome
+            H00992  Seckel syndrome
+            H01007  Choroid plexus papilloma
+            H01023  Juvenile polyposis syndrome
+            H01102  Pituitary adenomas
+            H01288  Mosaic variegated aneuploidy syndrome
+            H01385  Rienhoff syndrome
+            H01509  Tonsillar cancer
+            H01513  Retinoblastoma
+            H01889  Meier-Gorlin syndrome
+            H02102  Myhre syndrome
+DRUG        D05988  Tacedinaline (USAN/INN)
+            D06320  Vorinostat (JAN/USAN)
+            D06637  Romidepsin (JAN/USAN/INN)
+            D08870  Belinostat (USAN/INN)
+            D09338  Entinostat (USAN/INN)
+            D09357  Mocetinostat dihydrobromide (USAN)
+            D09604  Dinaciclib (USAN/INN)
+            D09641  Mocetinostat (USAN/INN)
+            D10019  Panobinostat lactate (JAN)
+            D10060  Abexinostat (USAN)
+            D10084  Abexinostat hydrochloride (USAN)
+            D10154  Rigosertib (USAN)
+            D10155  Rigosertib sodium (JAN/USAN)
+            D10182  Volasertib (USAN)
+            D10183  Volasertib trihydrochloride (USAN)
+            D10319  Panobinostat (USAN/INN)
+            D10321  Quisinostat (USAN/INN)
+            D10322  Quisinostat hydrochloride (USAN)
+            D10372  Palbociclib (JAN/USAN)
+            D10397  Rabusertib (USAN/INN)
+            D10652  Palbociclib isethionate (USAN)
+            D10688  Abemaciclib (JAN/USAN)
+            D10883  Ribociclib (USAN/INN)
+            D10977  Remetinostat (USAN/INN)
+            D10979  Ribociclib succinate (USAN)
+            D10993  Tucidinostat (JAN/USAN/INN)
+            D11130  Trilaciclib (USAN/INN)
+            D11148  Berzosertib (USAN/INN)
+            D11182  Tinostamustine (USAN/INN)
+            D11206  Prexasertib (USAN/INN)
+            D11319  Fimepinostat (USAN/INN)
+            D11361  Adavosertib (USAN)
+            D11442  Nanatinostat (USAN)
+            D11455  Lerociclib (USAN)
+            D11458  Onvansertib (USAN)
+            D11459  Onvansertib fumarate (USAN)
+DBLINKS     GO: 0000278
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        595  CCND1; cyclin D1 [KO:K04503]
+            894  CCND2; cyclin D2 [KO:K10151]
+            896  CCND3; cyclin D3 [KO:K10152]
+            1019  CDK4; cyclin dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            1021  CDK6; cyclin dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            5925  RB1; RB transcriptional corepressor 1 [KO:K06618]
+            5933  RBL1; RB transcriptional corepressor like 1 [KO:K04681]
+            5934  RBL2; RB transcriptional corepressor like 2 [KO:K16332]
+            25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            3065  HDAC1; histone deacetylase 1 [KO:K06067] [EC:3.5.1.98]
+            3066  HDAC2; histone deacetylase 2 [KO:K06067] [EC:3.5.1.98]
+            1869  E2F1; E2F transcription factor 1 [KO:K17454]
+            1870  E2F2; E2F transcription factor 2 [KO:K09389]
+            1871  E2F3; E2F transcription factor 3 [KO:K06620]
+            1874  E2F4; E2F transcription factor 4 [KO:K04682]
+            1875  E2F5; E2F transcription factor 5 [KO:K04682]
+            7027  TFDP1; transcription factor Dp-1 [KO:K04683]
+            7029  TFDP2; transcription factor Dp-2 [KO:K09392]
+            2932  GSK3B; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            7040  TGFB1; transforming growth factor beta 1 [KO:K13375]
+            7042  TGFB2; transforming growth factor beta 2 [KO:K13376]
+            7043  TGFB3; transforming growth factor beta 3 [KO:K13377]
+            4087  SMAD2; SMAD family member 2 [KO:K04500]
+            4088  SMAD3; SMAD family member 3 [KO:K04500]
+            4089  SMAD4; SMAD family member 4 [KO:K04501]
+            4609  MYC; MYC proto-oncogene, bHLH transcription factor [KO:K04377]
+            7709  ZBTB17; zinc finger and BTB domain containing 17 [KO:K10500]
+            1029  CDKN2A; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            1030  CDKN2B; cyclin dependent kinase inhibitor 2B [KO:K04685]
+            1031  CDKN2C; cyclin dependent kinase inhibitor 2C [KO:K06622]
+            1032  CDKN2D; cyclin dependent kinase inhibitor 2D [KO:K06623]
+            1027  CDKN1B; cyclin dependent kinase inhibitor 1B [KO:K06624]
+            1028  CDKN1C; cyclin dependent kinase inhibitor 1C [KO:K09993]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+            898  CCNE1; cyclin E1 [KO:K06626]
+            9134  CCNE2; cyclin E2 [KO:K06626]
+            1017  CDK2; cyclin dependent kinase 2 [KO:K02206] [EC:2.7.11.22]
+            6500  SKP1; S-phase kinase associated protein 1 [KO:K03094]
+            8454  CUL1; cullin 1 [KO:K03347]
+            9978  RBX1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            6502  SKP2; S-phase kinase associated protein 2 [KO:K03875]
+            890  CCNA2; cyclin A2 [KO:K06627]
+            8900  CCNA1; cyclin A1 [KO:K06627]
+            990  CDC6; cell division cycle 6 [KO:K02213]
+            8318  CDC45; cell division cycle 45 [KO:K06628]
+            8317  CDC7; cell division cycle 7 [KO:K02214] [EC:2.7.11.1]
+            10926  DBF4; DBF4 zinc finger [KO:K06629]
+            983  CDK1; cyclin dependent kinase 1 [KO:K02087] [EC:2.7.11.23 2.7.11.22]
+            891  CCNB1; cyclin B1 [KO:K05868]
+            9133  CCNB2; cyclin B2 [KO:K21770]
+            85417  CCNB3; cyclin B3 [KO:K21771]
+            994  CDC25B; cell division cycle 25B [KO:K05866] [EC:3.1.3.48]
+            995  CDC25C; cell division cycle 25C [KO:K05867] [EC:3.1.3.48]
+            7534  YWHAZ; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta [KO:K16197]
+            7529  YWHAB; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein beta [KO:K16197]
+            10971  YWHAQ; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta [KO:K16197]
+            7531  YWHAE; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon [KO:K06630]
+            7533  YWHAH; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein eta [KO:K16198]
+            7532  YWHAG; tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein gamma [KO:K16198]
+            5347  PLK1; polo like kinase 1 [KO:K06631] [EC:2.7.11.21]
+            7465  WEE1; WEE1 G2 checkpoint kinase [KO:K06632] [EC:2.7.11.1]
+            494551  WEE2; WEE1 homolog 2 [KO:K06632] [EC:2.7.11.1]
+            9088  PKMYT1; protein kinase, membrane associated tyrosine/threonine 1 [KO:K06633] [EC:2.7.11.1]
+            902  CCNH; cyclin H [KO:K06634]
+            1022  CDK7; cyclin dependent kinase 7 [KO:K02202] [EC:2.7.11.23 2.7.11.22]
+            64682  ANAPC1; anaphase promoting complex subunit 1 [KO:K03348]
+            29882  ANAPC2; anaphase promoting complex subunit 2 [KO:K03349]
+            996  CDC27; cell division cycle 27 [KO:K03350]
+            29945  ANAPC4; anaphase promoting complex subunit 4 [KO:K03351]
+            51433  ANAPC5; anaphase promoting complex subunit 5 [KO:K03352]
+            8881  CDC16; cell division cycle 16 [KO:K03353]
+            51434  ANAPC7; anaphase promoting complex subunit 7 [KO:K03354]
+            8697  CDC23; cell division cycle 23 [KO:K03355]
+            10393  ANAPC10; anaphase promoting complex subunit 10 [KO:K03357]
+            51529  ANAPC11; anaphase promoting complex subunit 11 [KO:K03358]
+            246184  CDC26; cell division cycle 26 [KO:K03359]
+            25847  ANAPC13; anaphase promoting complex subunit 13 [KO:K12456]
+            991  CDC20; cell division cycle 20 [KO:K03363]
+            9232  PTTG1; PTTG1 regulator of sister chromatid separation, securin [KO:K06635]
+            10744  PTTG2; pituitary tumor-transforming 2 [KO:K06635]
+            9700  ESPL1; extra spindle pole bodies like 1, separase [KO:K02365] [EC:3.4.22.49]
+            8243  SMC1A; structural maintenance of chromosomes 1A [KO:K06636]
+            27127  SMC1B; structural maintenance of chromosomes 1B [KO:K06636]
+            9126  SMC3; structural maintenance of chromosomes 3 [KO:K06669]
+            10735  STAG2; stromal antigen 2 [KO:K06671]
+            10274  STAG1; stromal antigen 1 [KO:K06671]
+            5885  RAD21; RAD21 cohesin complex component [KO:K06670]
+            7272  TTK; TTK protein kinase [KO:K08866] [EC:2.7.12.1]
+            699  BUB1; BUB1 mitotic checkpoint serine/threonine kinase [KO:K02178] [EC:2.7.11.1]
+            9184  BUB3; BUB3 mitotic checkpoint protein [KO:K02180]
+            701  BUB1B; BUB1 mitotic checkpoint serine/threonine kinase B [KO:K06637] [EC:2.7.11.1]
+            8379  MAD1L1; mitotic arrest deficient 1 like 1 [KO:K06679]
+            4085  MAD2L1; mitotic arrest deficient 2 like 1 [KO:K02537]
+            10459  MAD2L2; mitotic arrest deficient 2 like 2 [KO:K13728]
+            51343  FZR1; fizzy and cell division cycle 20 related 1 [KO:K03364]
+            8555  CDC14B; cell division cycle 14B [KO:K06639] [EC:3.1.3.48 3.1.3.16]
+            8556  CDC14A; cell division cycle 14A [KO:K06639] [EC:3.1.3.48 3.1.3.16]
+            545  ATR; ATR serine/threonine kinase [KO:K06640] [EC:2.7.11.1]
+            472  ATM; ATM serine/threonine kinase [KO:K04728] [EC:2.7.11.1]
+            7157  TP53; tumor protein p53 [KO:K04451]
+            1111  CHEK1; checkpoint kinase 1 [KO:K02216] [EC:2.7.11.1]
+            11200  CHEK2; checkpoint kinase 2 [KO:K06641] [EC:2.7.11.1]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            5591  PRKDC; protein kinase, DNA-activated, catalytic subunit [KO:K06642] [EC:2.7.11.1]
+            4193  MDM2; MDM2 proto-oncogene [KO:K06643] [EC:2.3.2.27]
+            1647  GADD45A; growth arrest and DNA damage inducible alpha [KO:K04402]
+            4616  GADD45B; growth arrest and DNA damage inducible beta [KO:K04402]
+            10912  GADD45G; growth arrest and DNA damage inducible gamma [KO:K04402]
+            5111  PCNA; proliferating cell nuclear antigen [KO:K04802]
+            2810  SFN; stratifin [KO:K06644]
+            993  CDC25A; cell division cycle 25A [KO:K06645] [EC:3.1.3.48]
+            4998  ORC1; origin recognition complex subunit 1 [KO:K02603]
+            4999  ORC2; origin recognition complex subunit 2 [KO:K02604]
+            23595  ORC3; origin recognition complex subunit 3 [KO:K02605]
+            5000  ORC4; origin recognition complex subunit 4 [KO:K02606]
+            5001  ORC5; origin recognition complex subunit 5 [KO:K02607]
+            23594  ORC6; origin recognition complex subunit 6 [KO:K02608]
+            4171  MCM2; minichromosome maintenance complex component 2 [KO:K02540] [EC:3.6.4.12]
+            4172  MCM3; minichromosome maintenance complex component 3 [KO:K02541] [EC:3.6.4.12]
+            4173  MCM4; minichromosome maintenance complex component 4 [KO:K02212] [EC:3.6.4.12]
+            4174  MCM5; minichromosome maintenance complex component 5 [KO:K02209] [EC:3.6.4.12]
+            4175  MCM6; minichromosome maintenance complex component 6 [KO:K02542] [EC:3.6.4.12]
+            4176  MCM7; minichromosome maintenance complex component 7 [KO:K02210] [EC:3.6.4.12]
+REFERENCE   PMID:7908906
+  AUTHORS   Matsuoka S, Yamaguchi M, Matsukage A
+  TITLE     D-type cyclin-binding regions of proliferating cell nuclear antigen.
+  JOURNAL   J Biol Chem 269:11030-6 (1994)
+REFERENCE   PMID:8242749
+  AUTHORS   Welch PJ, Wang JY
+  TITLE     A C-terminal protein-binding domain in the retinoblastoma protein regulates nuclear c-Abl tyrosine kinase in the cell cycle.
+  JOURNAL   Cell 75:779-90 (1993)
+            DOI:10.1016/0092-8674(93)90497-E
+REFERENCE   PMID:16936746
+  AUTHORS   Macaluso M, Montanari M, Giordano A
+  TITLE     Rb family proteins as modulators of gene expression and new aspects regarding the interaction with chromatin remodeling enzymes.
+  JOURNAL   Oncogene 25:5263-7 (2006)
+            DOI:10.1038/sj.onc.1209680
+REFERENCE   PMID:15838516
+  AUTHORS   Cobrinik D
+  TITLE     Pocket proteins and cell cycle control.
+  JOURNAL   Oncogene 24:2796-809 (2005)
+            DOI:10.1038/sj.onc.1208619
+REFERENCE   PMID:17568790
+  AUTHORS   Boutros R, Lobjois V, Ducommun B
+  TITLE     CDC25 phosphatases in cancer cells: key players? Good targets?
+  JOURNAL   Nat Rev Cancer 7:495-507 (2007)
+            DOI:10.1038/nrc2169
+REFERENCE   PMID:9832503
+  AUTHORS   Diehl JA, Cheng M, Roussel MF, Sherr CJ
+  TITLE     Glycogen synthase kinase-3beta regulates cyclin D1 proteolysis and subcellular localization.
+  JOURNAL   Genes Dev 12:3499-511 (1998)
+            DOI:10.1101/gad.12.22.3499
+REFERENCE   PMID:19020303
+  AUTHORS   Klein EA, Assoian RK
+  TITLE     Transcriptional regulation of the cyclin D1 gene at a glance.
+  JOURNAL   J Cell Sci 121:3853-7 (2008)
+            DOI:10.1242/jcs.039131
+REFERENCE   PMID:10385618
+  AUTHORS   Sherr CJ, Roberts JM
+  TITLE     CDK inhibitors: positive and negative regulators of G1-phase progression.
+  JOURNAL   Genes Dev 13:1501-12 (1999)
+            DOI:10.1101/gad.13.12.1501
+REFERENCE   PMID:12809600
+  AUTHORS   Shi Y, Massague J.
+  TITLE     Mechanisms of TGF-beta signaling from cell membrane to the nucleus.
+  JOURNAL   Cell 113:685-700 (2003)
+            DOI:10.1016/S0092-8674(03)00432-X
+REFERENCE   PMID:12925736
+  AUTHORS   Kamura T, Hara T, Kotoshiba S, Yada M, Ishida N, Imaki H, Hatakeyama S, Nakayama K, Nakayama KI
+  TITLE     Degradation of p57Kip2 mediated by SCFSkp2-dependent ubiquitylation.
+  JOURNAL   Proc Natl Acad Sci U S A 100:10231-6 (2003)
+            DOI:10.1073/pnas.1831009100
+REFERENCE   PMID:16212951
+  AUTHORS   Bond M, Sala-Newby GB, Wu YJ, Newby AC
+  TITLE     Biphasic effect of p21Cip1 on smooth muscle cell proliferation: role of PI 3-kinase and Skp2-mediated degradation.
+  JOURNAL   Cardiovasc Res 69:198-206 (2006)
+            DOI:10.1016/j.cardiores.2005.08.020
+REFERENCE   PMID:15838523
+  AUTHORS   Harris SL, Levine AJ.
+  TITLE     The p53 pathway: positive and negative feedback loops.
+  JOURNAL   Oncogene 24:2899-908 (2005)
+            DOI:10.1038/sj.onc.1208615
+REFERENCE   PMID:11099028
+  AUTHORS   Vogelstein B, Lane D, Levine AJ
+  TITLE     Surfing the p53 network.
+  JOURNAL   Nature 408:307-10 (2000)
+            DOI:10.1038/35042675
+REFERENCE   PMID:7973727
+  AUTHORS   Smith ML, Chen IT, Zhan Q, Bae I, Chen CY, Gilmer TM, Kastan MB, O'Connor PM, Fornace AJ Jr
+  TITLE     Interaction of the p53-regulated protein Gadd45 with proliferating cell nuclear antigen.
+  JOURNAL   Science 266:1376-80 (1994)
+            DOI:10.1126/science.7973727
+REFERENCE   PMID:9889196
+  AUTHORS   Petersen BO, Lukas J, Sorensen CS, Bartek J, Helin K
+  TITLE     Phosphorylation of mammalian CDC6 by cyclin A/CDK2 regulates its subcellular localization.
+  JOURNAL   EMBO J 18:396-410 (1999)
+            DOI:10.1093/emboj/18.2.396
+REFERENCE   PMID:17018296
+  AUTHORS   Sheu YJ, Stillman B
+  TITLE     Cdc7-Dbf4 phosphorylates MCM proteins via a docking site-mediated mechanism to promote S phase progression.
+  JOURNAL   Mol Cell 24:101-13 (2006)
+            DOI:10.1016/j.molcel.2006.07.033
+REFERENCE   PMID:9029154
+  AUTHORS   Martinez AM, Afshar M, Martin F, Cavadore JC, Labbe JC, Doree M
+  TITLE     Dual phosphorylation of the T-loop in cdk7: its role in controlling cyclin H binding and CAK activity.
+  JOURNAL   EMBO J 16:343-54 (1997)
+            DOI:10.1093/emboj/16.2.343
+REFERENCE   PMID:15876871
+  AUTHORS   Lolli G, Johnson LN
+  TITLE     CAK-Cyclin-dependent Activating Kinase: a key kinase in cell cycle control and a target for drugs?
+  JOURNAL   Cell Cycle 4:572-7 (2005)
+            DOI:10.4161/cc.4.4.1607
+REFERENCE   PMID:17426725
+  AUTHORS   Musacchio A, Salmon ED
+  TITLE     The spindle-assembly checkpoint in space and time.
+  JOURNAL   Nat Rev Mol Cell Biol 8:379-93 (2007)
+            DOI:10.1038/nrm2163
+REFERENCE   PMID:12573239
+  AUTHORS   Uhlmann F
+  TITLE     Chromosome cohesion and separation: from men and molecules.
+  JOURNAL   Curr Biol 13:R104-14 (2003)
+            DOI:10.1016/S0960-9822(03)00039-3
+REFERENCE   PMID:15568976
+  AUTHORS   Stegmeier F, Amon A
+  TITLE     Closing mitosis: the functions of the Cdc14 phosphatase and its regulation.
+  JOURNAL   Annu Rev Genet 38:203-32 (2004)
+            DOI:10.1146/annurev.genet.38.072902.093051
+REFERENCE   PMID:9618481
+  AUTHORS   Moustakas A, Kardassis D
+  TITLE     Regulation of the human p21/WAF1/Cip1 promoter in hepatic cells by functional interactions between Sp1 and Smad family members.
+  JOURNAL   Proc Natl Acad Sci U S A 95:6733-8 (1998)
+            DOI:10.1073/pnas.95.12.6733
+KO_PATHWAY  ko04110
+///

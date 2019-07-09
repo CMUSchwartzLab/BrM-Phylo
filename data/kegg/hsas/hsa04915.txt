@@ -1,0 +1,404 @@
+ENTRY       hsa04915                    Pathway
+NAME        Estrogen signaling pathway - Homo sapiens (human)
+DESCRIPTION Estrogens are steroid hormones that regulate a plethora of physiological processes in mammals, including reproduction, cardiovascular protection, bone integrity, cellular homeostasis, and behavior. Estrogen mediates its cellular actions through two signaling pathways classified as "nuclear-initiated steroid signaling" and "membrane-initiated steroid signaling". In the "nuclear" pathway, estrogen binds either ERalpha or ERbeta, which in turn translocates to the nucleus, binds DNA at ERE elements and activates the expression of ERE-dependent genes. In "membrane" pathway, Estrogen can exert its actions through a subpopulation of ER at the plasma membrane (mER) or novel G-protein coupled E2 receptors (GPER). Upon activation of these receptors various signaling pathways (i.e. Ca2+, cAMP, protein kinase cascades) are rapidly activated and ultimately influence downstream transcription factors.
+CLASS       Organismal Systems; Endocrine system
+PATHWAY_MAP hsa04915  Estrogen signaling pathway
+NETWORK     nt06227  NR signaling
+            nt06270  Breast cancer
+  ELEMENT   N00286  Nuclear-initiated estrogen signaling pathway
+DISEASE     H00684  Pachyonychia congenita
+            H00708  Naegeli-Franceschetti-Jadassohn syndrome
+            H02061  Estrogen resistance syndrome
+DRUG        D00066  Progesterone (JP17/USP/INN)
+            D00067  Estrone (JAN/USP/INN)
+            D00105  Estradiol (JAN/USP/INN)
+            D00182  Norethindrone (USP)
+            D00185  Estriol (JP17/USP)
+            D00269  Chlorotrianisene (INN)
+            D00289  Danazol (JP17/USP/INN)
+            D00312  Estrone sodium sulfate
+            D00554  Ethinyl estradiol (USP)
+            D00575  Mestranol (JP17/USP/INN)
+            D00576  Quinestrol (USAN/INN)
+            D00577  Diethylstilbestrol (USP/INN)
+            D00585  Mifepristone (JAN/USAN/INN)
+            D00898  Dienestrol (USP/INN)
+            D00946  Diethylstilbestrol diphosphate (USP)
+            D00948  Estropipate (USP)
+            D00949  Hydroxyprogesterone caproate (JAN/USP/INN)
+            D00950  Levonorgestrel (JAN/USP/INN)
+            D00951  Medroxyprogesterone acetate (JP17/USP)
+            D00952  Megestrol acetate (USAN)
+            D00953  Norethindrone acetate (USP)
+            D00954  Norgestrel (JP17/USP/INN)
+            D00962  Clomiphene citrate (USP)
+            D00966  Tamoxifen citrate (JP17/USP)
+            D00967  Toremifene citrate (JAN/USAN)
+            D01159  Gestonorone caproate (JAN/USAN)
+            D01161  Fulvestrant (JAN/USAN/INN)
+            D01217  Dydrogesterone (JP17/USP/INN)
+            D01265  Epitiostanol (JAN/INN)
+            D01294  Ethynodiol diacetate (JAN/USP)
+            D01299  Chlormadinone acetate (JP17/USAN)
+            D01374  Allylestrenol (JAN/INN)
+            D01413  Estradiol valerate (JAN/USP/INN)
+            D01414  Ethylestrenol (USAN/INN)
+            D01580  Lynestrenol (JAN/USAN)
+            D01602  Mepitiostane (JP17/INN)
+            D01616  Sodium prasterone sulfate hydrate (JP17)
+            D01617  Estradiol dipropionate (JAN)
+            D01639  Tibolone (JAN/USAN/INN)
+            D01641  Hexestrol (JAN/INN)
+            D01853  Miproxifene phosphate (JAN)
+            D01953  Estradiol benzoate (JP17)
+            D01986  Estriol tripropionate (JAN)
+            D01989  Estriol diacetate benzoate (JAN)
+            D02018  Hexestrol diacetate (JAN)
+            D02217  Raloxifene hydrochloride (JAN/USP)
+            D02367  Desogestrel (USAN/INN)
+            D02758  Acolbifene hydrochloride (USAN)
+            D02993  Arzoxifene hydrochloride (USAN)
+            D02996  Asoprisnil (USAN/INN)
+            D03062  Bazedoxifene acetate (JAN/USAN)
+            D03551  Clometherone (USAN/INN)
+            D03675  Delmadinone acetate (USAN)
+            D03799  Dienogest (JAN/USAN/INN)
+            D03911  Droloxifene (USAN/INN)
+            D03912  Droloxifene citrate (USAN)
+            D03917  Drospirenone (JAN/USP/INN)
+            D04041  Equilin (USP)
+            D04061  Estradiol acetate (USAN)
+            D04063  Estradiol cypionate (USP)
+            D04064  Estradiol enanthate (USAN)
+            D04065  Estradiol undecylate (USAN/INN)
+            D04071  Estrogens, esterified (USP)
+            D04104  Etonogestrel (USAN/INN)
+            D04162  Fenretinide (USAN/INN)
+            D04315  Gestaclone (USAN/INN)
+            D04316  Gestodene (USAN/INN)
+            D04496  Idoxifene (USAN/INN)
+            D04672  Lasofoxifene tartrate (JAN/USAN)
+            D04885  Medrogestone (USAN/INN)
+            D05009  Metogest (USAN/INN)
+            D05106  Nafoxidine hydrochloride (USAN)
+            D05192  Nitromifene citrate (USAN)
+            D05679  Quingestanol acetate (USAN)
+            D05680  Quingestrone (USAN/INN)
+            D06003  Tanaproget (USAN/INN)
+            D06145  Tigestol (USAN/INN)
+            D06197  Tosagestin (USAN/INN)
+            D06235  Trimegestone (USAN/INN)
+            D06245  Trioxifene mesylate (USAN)
+            D06551  Afimoxifene (USAN/INN)
+            D06554  Alvespimycin hydrochloride (USAN)
+            D06631  Prinaberel (USAN/INN)
+            D06650  Tanespimycin (USAN)
+            D07096  Aglepristone (INN)
+            D07121  Alfatradiol (INN)
+            D07220  Norgestrienone (INN)
+            D07221  Promestriene (INN)
+            D07222  Nomegestrol (USAN/INN)
+            D07223  Demegestone (INN)
+            D07434  Polyestradiol phosphate (INN)
+            D07670  Chlormadinone (INN)
+            D07726  Clomifene (INN)
+            D07783  Delmadinone (INN)
+            D07826  Hexestrol diphosphate sodium
+            D07918  Estradiol hemihydrate
+            D07919  Estradiol 17 beta-hemisuccinate
+            D07920  Estriol succinate
+            D07921  Estriol sodium succinate (BAN)
+            D07939  Etynodiol (INN)
+            D07968  Flugestone (INN)
+            D08052  Hydroxyprogesterone (INN)
+            D08053  Hydroxyprogesterone 17alfa-acetate
+            D08166  Medroxyprogesterone (INN)
+            D08167  Megestrol (INN)
+            D08281  Nomegestrol acetate (USAN)
+            D08285  Norethisterone enantate
+            D08301  Ormeloxifene (INN)
+            D08409  Prasterone (USAN/INN)
+            D08431  Promegestone (INN)
+            D08465  Raloxifene (INN)
+            D08559  Tamoxifen (INN)
+            D08620  Toremifene (INN)
+            D08910  Enclomiphene (USAN)
+            D08958  Ospemifene (INN/USAN/BAN)
+            D09375  Retaspimycin (USAN/INN)
+            D09376  Retaspimycin hydrochloride (USAN)
+            D09567  Ulipristal (USAN/INN)
+            D09687  Ulipristal acetate (JAN/USAN)
+            D09834  Levormeloxifene fumarate (JAN)
+            D10016  Lonaprisan (USAN/INN)
+            D10126  Ganetespib (USAN)
+            D10606  Raloxifene hydrochloride hydrate (JAN)
+            D10646  Luminespib (USAN/INN)
+            D10647  Luminespib mesylate (USAN)
+            D10719  Onalespib (USAN/INN)
+            D10876  Enclomiphene citrate (USAN)
+            D10986  Segesterone acetate (USAN)
+            D10987  Segesterone (USAN/INN)
+            D11181  Vilaprisan (USAN/INN)
+            D11264  Brilanestrant (USAN/INN)
+            D11513  Estetrol (USAN)
+            D11514  Estetrol (USAN)
+DBLINKS     GO: 0030520
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        2099  ESR1; estrogen receptor 1 [KO:K08550]
+            2100  ESR2; estrogen receptor 2 [KO:K08551]
+            3320  HSP90AA1; heat shock protein 90 alpha family class A member 1 [KO:K04079]
+            3326  HSP90AB1; heat shock protein 90 alpha family class B member 1 [KO:K04079]
+            7184  HSP90B1; heat shock protein 90 beta family member 1 [KO:K09487]
+            2288  FKBP4; FKBP prolyl isomerase 4 [KO:K09571] [EC:5.2.1.8]
+            2289  FKBP5; FKBP prolyl isomerase 5 [KO:K09571] [EC:5.2.1.8]
+            3312  HSPA8; heat shock protein family A (Hsp70) member 8 [KO:K03283]
+            3303  HSPA1A; heat shock protein family A (Hsp70) member 1A [KO:K03283]
+            3306  HSPA2; heat shock protein family A (Hsp70) member 2 [KO:K03283]
+            3305  HSPA1L; heat shock protein family A (Hsp70) member 1 like [KO:K03283]
+            3304  HSPA1B; heat shock protein family A (Hsp70) member 1B [KO:K03283]
+            3310  HSPA6; heat shock protein family A (Hsp70) member 6 [KO:K03283]
+            8648  NCOA1; nuclear receptor coactivator 1 [KO:K09101] [EC:2.3.1.48]
+            10499  NCOA2; nuclear receptor coactivator 2 [KO:K11255]
+            8202  NCOA3; nuclear receptor coactivator 3 [KO:K11256] [EC:2.3.1.48]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            9166  EBAG9; estrogen receptor binding site associated antigen 9 [KO:K22455]
+            3857  KRT9; keratin 9 [KO:K07604]
+            3858  KRT10; keratin 10 [KO:K07604]
+            3859  KRT12; keratin 12 [KO:K07604]
+            3860  KRT13; keratin 13 [KO:K07604]
+            3861  KRT14; keratin 14 [KO:K07604]
+            3866  KRT15; keratin 15 [KO:K07604]
+            3868  KRT16; keratin 16 [KO:K07604]
+            3872  KRT17; keratin 17 [KO:K07604]
+            3875  KRT18; keratin 18 [KO:K07604]
+            3880  KRT19; keratin 19 [KO:K07604]
+            3881  KRT31; keratin 31 [KO:K07604]
+            3882  KRT32; keratin 32 [KO:K07604]
+            3883  KRT33A; keratin 33A [KO:K07604]
+            3884  KRT33B; keratin 33B [KO:K07604]
+            3885  KRT34; keratin 34 [KO:K07604]
+            3886  KRT35; keratin 35 [KO:K07604]
+            125115  KRT40; keratin 40 [KO:K07604]
+            390792  KRT39; keratin 39 [KO:K07604]
+            25984  KRT23; keratin 23 [KO:K07604]
+            147183  KRT25; keratin 25 [KO:K07604]
+            162605  KRT28; keratin 28 [KO:K07604]
+            192666  KRT24; keratin 24 [KO:K07604]
+            342574  KRT27; keratin 27 [KO:K07604]
+            54474  KRT20; keratin 20 [KO:K07604]
+            8687  KRT38; keratin 38 [KO:K07604]
+            8688  KRT37; keratin 37 [KO:K07604]
+            8689  KRT36; keratin 36 [KO:K07604]
+            100653049  keratin, type I cuticular Ha4 [KO:K07604]
+            353288  KRT26; keratin 26 [KO:K07604]
+            1509  CTSD; cathepsin D [KO:K01379] [EC:3.4.23.5]
+            7031  TFF1; trefoil factor 1 [KO:K22456]
+            5241  PGR; progesterone receptor [KO:K08556]
+            7039  TGFA; transforming growth factor alpha [KO:K08774]
+            5914  RARA; retinoic acid receptor alpha [KO:K08527]
+            2353  FOS; Fos proto-oncogene, AP-1 transcription factor subunit [KO:K04379]
+            3725  JUN; Jun proto-oncogene, AP-1 transcription factor subunit [KO:K04448]
+            6667  SP1; Sp1 transcription factor [KO:K04684]
+            2852  GPER1; G protein-coupled estrogen receptor 1 [KO:K04246]
+            2778  GNAS; GNAS complex locus [KO:K04632]
+            6714  SRC; SRC proto-oncogene, non-receptor tyrosine kinase [KO:K05704] [EC:2.7.10.2]
+            4313  MMP2; matrix metallopeptidase 2 [KO:K01398] [EC:3.4.24.24]
+            4318  MMP9; matrix metallopeptidase 9 [KO:K01403] [EC:3.4.24.35]
+            1839  HBEGF; heparin binding EGF like growth factor [KO:K08523]
+            107  ADCY1; adenylate cyclase 1 [KO:K08041] [EC:4.6.1.1]
+            108  ADCY2; adenylate cyclase 2 [KO:K08042] [EC:4.6.1.1]
+            109  ADCY3; adenylate cyclase 3 [KO:K08043] [EC:4.6.1.1]
+            196883  ADCY4; adenylate cyclase 4 [KO:K08044] [EC:4.6.1.1]
+            111  ADCY5; adenylate cyclase 5 [KO:K08045] [EC:4.6.1.1]
+            112  ADCY6; adenylate cyclase 6 [KO:K08046] [EC:4.6.1.1]
+            113  ADCY7; adenylate cyclase 7 [KO:K08047] [EC:4.6.1.1]
+            114  ADCY8; adenylate cyclase 8 [KO:K08048] [EC:4.6.1.1]
+            115  ADCY9; adenylate cyclase 9 [KO:K08049] [EC:4.6.1.1]
+            5566  PRKACA; protein kinase cAMP-activated catalytic subunit alpha [KO:K04345] [EC:2.7.11.11]
+            5567  PRKACB; protein kinase cAMP-activated catalytic subunit beta [KO:K04345] [EC:2.7.11.11]
+            5568  PRKACG; protein kinase cAMP-activated catalytic subunit gamma [KO:K04345] [EC:2.7.11.11]
+            1385  CREB1; cAMP responsive element binding protein 1 [KO:K05870]
+            1386  ATF2; activating transcription factor 2 [KO:K04450]
+            468  ATF4; activating transcription factor 4 [KO:K04374]
+            10488  CREB3; cAMP responsive element binding protein 3 [KO:K09048]
+            90993  CREB3L1; cAMP responsive element binding protein 3 like 1 [KO:K09048]
+            64764  CREB3L2; cAMP responsive element binding protein 3 like 2 [KO:K09048]
+            84699  CREB3L3; cAMP responsive element binding protein 3 like 3 [KO:K09048]
+            148327  CREB3L4; cAMP responsive element binding protein 3 like 4 [KO:K09048]
+            9586  CREB5; cAMP responsive element binding protein 5 [KO:K09047]
+            1388  ATF6B; activating transcription factor 6 beta [KO:K09049]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            6464  SHC1; SHC adaptor protein 1 [KO:K06279]
+            25759  SHC2; SHC adaptor protein 2 [KO:K17447]
+            53358  SHC3; SHC adaptor protein 3 [KO:K17448]
+            399694  SHC4; SHC adaptor protein 4 [KO:K17449]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            2550  GABBR1; gamma-aminobutyric acid type B receptor subunit 1 [KO:K04615]
+            9568  GABBR2; gamma-aminobutyric acid type B receptor subunit 2 [KO:K04615]
+            2770  GNAI1; G protein subunit alpha i1 [KO:K04630]
+            2773  GNAI3; G protein subunit alpha i3 [KO:K04630]
+            2771  GNAI2; G protein subunit alpha i2 [KO:K04630]
+            2775  GNAO1; G protein subunit alpha o1 [KO:K04534]
+            3760  KCNJ3; potassium voltage-gated channel subfamily J member 3 [KO:K04997]
+            3763  KCNJ6; potassium voltage-gated channel subfamily J member 6 [KO:K05000]
+            3765  KCNJ9; potassium voltage-gated channel subfamily J member 9 [KO:K05002]
+            3762  KCNJ5; potassium voltage-gated channel subfamily J member 5 [KO:K04999]
+            5443  POMC; proopiomelanocortin [KO:K05228]
+            4988  OPRM1; opioid receptor mu 1 [KO:K04215]
+            5580  PRKCD; protein kinase C delta [KO:K06068] [EC:2.7.11.13]
+            2776  GNAQ; G protein subunit alpha q [KO:K04634]
+            23236  PLCB1; phospholipase C beta 1 [KO:K05858] [EC:3.1.4.11]
+            5330  PLCB2; phospholipase C beta 2 [KO:K05858] [EC:3.1.4.11]
+            5331  PLCB3; phospholipase C beta 3 [KO:K05858] [EC:3.1.4.11]
+            5332  PLCB4; phospholipase C beta 4 [KO:K05858] [EC:3.1.4.11]
+            3708  ITPR1; inositol 1,4,5-trisphosphate receptor type 1 [KO:K04958]
+            3709  ITPR2; inositol 1,4,5-trisphosphate receptor type 2 [KO:K04959]
+            3710  ITPR3; inositol 1,4,5-trisphosphate receptor type 3 [KO:K04960]
+            810  CALML3; calmodulin like 3 [KO:K02183]
+            805  CALM2; calmodulin 2 [KO:K02183]
+            808  CALM3; calmodulin 3 [KO:K02183]
+            801  CALM1; calmodulin 1 [KO:K02183]
+            163688  CALML6; calmodulin like 6 [KO:K02183]
+            51806  CALML5; calmodulin like 5 [KO:K02183]
+            91860  CALML4; calmodulin like 4 [KO:K02183]
+            4846  NOS3; nitric oxide synthase 3 [KO:K13242] [EC:1.14.13.39]
+            2911  GRM1; glutamate metabotropic receptor 1 [KO:K04603]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00238  Potassium cation
+            C00334  4-Aminobutanoate
+            C00533  Nitric oxide
+            C00575  3',5'-Cyclic AMP
+            C00951  Estradiol-17beta
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+REFERENCE   PMID:16516516
+  AUTHORS   Zhang D, Trudeau VL
+  TITLE     Integration of membrane and nuclear estrogen receptor signaling.
+  JOURNAL   Comp Biochem Physiol A Mol Integr Physiol 144:306-15 (2006)
+            DOI:10.1016/j.cbpa.2006.01.025
+REFERENCE   PMID:19187465
+  AUTHORS   Roepke TA, Qiu J, Bosch MA, Ronnekleiv OK, Kelly MJ
+  TITLE     Cross-talk between membrane-initiated and nuclear-initiated oestrogen signalling in the hypothalamus.
+  JOURNAL   J Neuroendocrinol 21:263-70 (2009)
+            DOI:10.1111/j.1365-2826.2009.01846.x
+REFERENCE   PMID:19700741
+  AUTHORS   McCarthy MM
+  TITLE     The two faces of estradiol: effects on the developing brain.
+  JOURNAL   Neuroscientist 15:599-610 (2009)
+            DOI:10.1177/1073858409340924
+REFERENCE   PMID:18538919
+  AUTHORS   Kelly MJ, Ronnekleiv OK
+  TITLE     Membrane-initiated estrogen signaling in hypothalamic neurons.
+  JOURNAL   Mol Cell Endocrinol 290:14-23 (2008)
+            DOI:10.1016/j.mce.2008.04.014
+REFERENCE   PMID:16112267
+  AUTHORS   Kelly MJ, Qiu J, Ronnekleiv OK
+  TITLE     Estrogen signaling in the hypothalamus.
+  JOURNAL   Vitam Horm 71:123-45 (2005)
+            DOI:10.1016/S0083-6729(05)71005-0
+REFERENCE   PMID:18253054
+  AUTHORS   Raz L, Khan MM, Mahesh VB, Vadlamudi RK, Brann DW
+  TITLE     Rapid estrogen signaling in the brain.
+  JOURNAL   Neurosignals 16:140-53 (2008)
+            DOI:10.1159/000111559
+REFERENCE   PMID:15862823
+  AUTHORS   Malyala A, Kelly MJ, Ronnekleiv OK
+  TITLE     Estrogen modulation of hypothalamic neurons: activation of multiple signaling pathways and gene expression changes.
+  JOURNAL   Steroids 70:397-406 (2005)
+            DOI:10.1016/j.steroids.2005.03.004
+REFERENCE   PMID:14573532
+  AUTHORS   Qiu J, Bosch MA, Tobias SC, Grandy DK, Scanlan TS, Ronnekleiv OK, Kelly MJ
+  TITLE     Rapid signaling of estrogen in hypothalamic neurons involves a novel G-protein-coupled estrogen receptor that activates protein kinase C.
+  JOURNAL   J Neurosci 23:9529-40 (2003)
+            DOI:10.1523/JNEUROSCI.23-29-09529.2003
+REFERENCE   PMID:14993035
+  AUTHORS   Kelly MJ, Qiu J, Ronnekleiv OK
+  TITLE     Estrogen modulation of G-protein-coupled receptor activation of potassium channels in the central nervous system.
+  JOURNAL   Ann N Y Acad Sci 1007:6-16 (2003)
+            DOI:10.1196/annals.1286.001
+REFERENCE   PMID:19549587
+  AUTHORS   Meyer MR, Haas E, Prossnitz ER, Barton M
+  TITLE     Non-genomic regulation of vascular cell function and growth by estrogen.
+  JOURNAL   Mol Cell Endocrinol 308:9-16 (2009)
+            DOI:10.1016/j.mce.2009.03.009
+REFERENCE   PMID:20694192
+  AUTHORS   do Nascimento GR, Barros YV, Wells AK, Khalil RA
+  TITLE     Research into Specific Modulators of Vascular Sex Hormone Receptors in the Management of Postmenopausal Cardiovascular Disease.
+  JOURNAL   Curr Hypertens Rev 5:283-306 (2009)
+            DOI:10.2174/157340209789587717
+REFERENCE   PMID:15695368
+  AUTHORS   Bjornstrom L, Sjoberg M
+  TITLE     Mechanisms of estrogen receptor signaling: convergence of genomic and nongenomic actions on target genes.
+  JOURNAL   Mol Endocrinol 19:833-42 (2005)
+            DOI:10.1210/me.2004-0486
+REFERENCE   PMID:16270355
+  AUTHORS   Manavathi B, Kumar R
+  TITLE     Steering estrogen signals from the plasma membrane to the nucleus: two sides of the coin.
+  JOURNAL   J Cell Physiol 207:594-604 (2006)
+            DOI:10.1002/jcp.20551
+REFERENCE   PMID:21844907
+  AUTHORS   Prossnitz ER, Barton M
+  TITLE     The G-protein-coupled estrogen receptor GPER in health and disease.
+  JOURNAL   Nat Rev Endocrinol 7:715-26 (2011)
+            DOI:10.1038/nrendo.2011.122
+REFERENCE   PMID:21742056
+  AUTHORS   Meyer MR, Prossnitz ER, Barton M
+  TITLE     The G protein-coupled estrogen receptor GPER/GPR30 as a regulator of cardiovascular function.
+  JOURNAL   Vascul Pharmacol 55:17-25 (2011)
+            DOI:10.1016/j.vph.2011.06.003
+REFERENCE   PMID:19767412
+  AUTHORS   Maggiolini M, Picard D
+  TITLE     The unfolding stories of GPR30, a new membrane-bound estrogen receptor.
+  JOURNAL   J Endocrinol 204:105-14 (2010)
+            DOI:10.1677/JOE-09-0242
+REFERENCE   PMID:19464786
+  AUTHORS   Prossnitz ER, Maggiolini M
+  TITLE     Mechanisms of estrogen signaling and gene expression via GPR30.
+  JOURNAL   Mol Cell Endocrinol 308:32-8 (2009)
+            DOI:10.1016/j.mce.2009.03.026
+REFERENCE   PMID:12650715
+  AUTHORS   Kelly MJ, Qiu J, Wagner EJ, Ronnekleiv OK
+  TITLE     Rapid effects of estrogen on G protein-coupled receptor activation of potassium channels in the central nervous system (CNS).
+  JOURNAL   J Steroid Biochem Mol Biol 83:187-93 (2002)
+            DOI:10.1016/S0960-0760(02)00249-2
+REFERENCE   PMID:9278514
+  AUTHORS   Paech K, Webb P, Kuiper GG, Nilsson S, Gustafsson J, Kushner PJ, Scanlan TS
+  TITLE     Differential ligand activation of estrogen receptors ERalpha and ERbeta at AP1 sites.
+  JOURNAL   Science 277:1508-10 (1997)
+            DOI:10.1126/science.277.5331.1508
+REFERENCE   PMID:12421825
+  AUTHORS   Razandi M, Pedram A, Park ST, Levin ER
+  TITLE     Proximal events in signaling by plasma membrane estrogen receptors.
+  JOURNAL   J Biol Chem 278:2701-12 (2003)
+            DOI:10.1074/jbc.M205692200
+REFERENCE   PMID:18755790
+  AUTHORS   Roepke TA, Xue C, Bosch MA, Scanlan TS, Kelly MJ, Ronnekleiv OK
+  TITLE     Genes associated with membrane-initiated signaling of estrogen and energy homeostasis.
+  JOURNAL   Endocrinology 149:6113-24 (2008)
+            DOI:10.1210/en.2008-0769
+REFERENCE   PMID:21779010
+  AUTHORS   Thomas C, Gustafsson JA
+  TITLE     The different roles of ER subtypes in cancer biology and therapy.
+  JOURNAL   Nat Rev Cancer 11:597-608 (2011)
+            DOI:10.1038/nrc3093
+KO_PATHWAY  ko04915
+///

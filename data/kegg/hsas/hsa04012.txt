@@ -1,0 +1,256 @@
+ENTRY       hsa04012                    Pathway
+NAME        ErbB signaling pathway - Homo sapiens (human)
+DESCRIPTION The ErbB family of receptor tyrosine kinases (RTKs) couples binding of extracellular growth factor ligands to intracellular signaling pathways regulating diverse biologic responses, including proliferation, differentiation, cell motility, and survival. Ligand binding to the four closely related members of this RTK family -epidermal growth factor receptor (EGFR, also known as ErbB-1 or HER1), ErbB-2 (HER2), ErbB-3 (HER3), and ErbB-4 (HER4)-induces the formation of receptor homo- and heterodimers and the activation of the intrinsic kinase domain, resulting in phosphorylation on specific tyrosine residues (pY) within the cytoplasmic tail. Signaling effectors containing binding pockets for pY-containing peptides are recruited to activated receptors and induce the various signaling pathways. The Shc- and/or Grb2-activated mitogen-activated protein kinase (MAPK) pathway is a common target downstream of all ErbB receptors. Similarly, the phosphatidylinositol-3-kinase (PI-3K) pathway is directly or indirectly activated by most ErbBs. Several cytoplasmic docking proteins appear to be recruited by specific ErbB receptors and less exploited by others. These include the adaptors Crk, Nck, the phospholipase C gamma (PLCgamma), the intracellular tyrosine kinase Src, or the Cbl E3 ubiquitin protein ligase.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04012  ErbB signaling pathway
+NETWORK     nt06210  ERK signaling
+            nt06214  PI3K signaling
+            nt06260  Colorectal cancer
+            nt06261  Gastric cancer
+            nt06262  Pancreatic cancer
+            nt06263  Hepatocellular carcinoma
+            nt06265  Bladder cancer
+            nt06270  Breast cancer
+            nt06312  EGFR-ERK-ACTH signaling
+            nt06360  Cushing syndrome
+  ELEMENT   N00021  EGF-ERBB2-RAS-ERK signaling pathway
+            N00229  TGFA-EGFR-RAS-ERK signaling pathway
+            N00231  TGFA-EGFR-PI3K signaling pathway
+            N00277  EREG-EGFR-RAS-ERK signaling pathway
+            N00279  AREG-EGFR-RAS-ERK signaling pathway
+            N00282  EREG-EGFR-PI3K signaling pathway
+            N00284  AREG-EGFR-PI3K signaling pathway
+            N00318  EGFR-ERK-ACTH signaling pathway
+DISEASE     H00931  Growth hormone insensitivity with immunodeficiency
+            H01102  Pituitary adenomas
+            H02190  CBL syndrome
+DRUG        D01977  Gefitinib (JAN/USAN/INN)
+            D02714  Everolimus (JAN/USAN/INN)
+            D03252  Bosutinib (USAN)
+            D03257  Trastuzumab (USAN/INN)
+            D03350  Canertinib dihydrochloride (USAN)
+            D03455  Cetuximab (USAN/INN)
+            D03658  Dasatinib (JAN/INN)
+            D04023  Erlotinib hydrochloride (JAN/USAN)
+            D04024  Lapatinib ditosylate (USAN)
+            D04025  Mubritinib (USAN/INN)
+            D04862  Masoprocol (USAN/INN)
+            D05350  Panitumumab (USAN/INN)
+            D05399  Pelitinib (USAN/INN)
+            D05446  Pertuzumab (USAN/INN)
+            D06068  Temsirolimus (JAN/USAN/INN)
+            D06272  Sorafenib tosylate (USAN)
+            D06407  Vandetanib (JAN/USAN/INN)
+            D06413  Nilotinib hydrochloride hydrate (JAN)
+            D06414  Dasatinib (USAN)
+            D06610  Lapuleucel-T (USAN)
+            D07907  Erlotinib (INN)
+            D08108  Lapatinib (INN)
+            D08279  Tozasertib (USAN)
+            D08344  Tozasertib lactate (USAN)
+            D08524  Sorafenib (USAN/INN)
+            D08950  Neratinib (USAN/INN)
+            D08953  Nilotinib (USAN/INN)
+            D09660  Rindopepimut (USAN)
+            D09664  Saracatinib (USAN/INN)
+            D09665  Saracatinib difumarate (USAN)
+            D09666  Selumetinib (USAN/INN)
+            D09689  Varlitinib (USAN/INN)
+            D09690  Varlitinib tosylate (USAN)
+            D09724  Afatinib (USAN/INN)
+            D09728  Bosutinib hydrate (JAN)
+            D09733  Afatinib dimaleate (USAN)
+            D09883  Dacomitinib (USAN/INN)
+            D09980  Trastuzumab emtansine (USAN/INN)
+            D09996  Vemurafenib (JAN/USAN/INN)
+            D10018  Necitumumab (USAN/INN)
+            D10024  Selumetinib sulfate (JAN/USAN)
+            D10031  Zalutumumab (USAN/INN)
+            D10064  Dabrafenib (USAN)
+            D10104  Dabrafenib mesylate (USAN)
+            D10175  Trametinib (USAN)
+            D10176  Trametinib dimethyl sulfoxide (JAN/USAN)
+            D10426  Pimasertib (USAN/INN)
+            D10486  Pimasertib hydrochloride (USAN)
+            D10514  Dacomitinib (USAN)
+            D10766  Osimertinib mesylate (USAN)
+            D10858  Rociletinib (USAN/INN)
+            D10859  Olmutinib (USAN/INN)
+            D10898  Neratinib maleate
+            D10943  Istiratumab (USAN)
+            D10958  Naquotinib (USAN/INN)
+            D11053  Encorafenib (JAN/USAN/INN)
+            D11115  Olmutinib hydrochloride (USAN)
+            D11141  Tucatinib (USAN/INN)
+            D11239  Lumretuzumab (USAN/INN)
+            D11410  Lifirafenib (USAN/INN)
+            D11411  Lifirafenib maleate (USAN)
+            D11430  Nazartinib (USAN/INN)
+            D11434  Nazartinib mesylate (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        1950  EGF; epidermal growth factor [KO:K04357]
+            7039  TGFA; transforming growth factor alpha [KO:K08774]
+            374  AREG; amphiregulin [KO:K09782]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            2064  ERBB2; erb-b2 receptor tyrosine kinase 2 [KO:K05083] [EC:2.7.10.1]
+            5335  PLCG1; phospholipase C gamma 1 [KO:K01116] [EC:3.1.4.11]
+            5336  PLCG2; phospholipase C gamma 2 [KO:K05859] [EC:3.1.4.11]
+            815  CAMK2A; calcium/calmodulin dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            817  CAMK2D; calcium/calmodulin dependent protein kinase II delta [KO:K04515] [EC:2.7.11.17]
+            816  CAMK2B; calcium/calmodulin dependent protein kinase II beta [KO:K04515] [EC:2.7.11.17]
+            818  CAMK2G; calcium/calmodulin dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            867  CBL; Cbl proto-oncogene [KO:K04707] [EC:2.3.2.27]
+            868  CBLB; Cbl proto-oncogene B [KO:K22517] [EC:2.3.2.27]
+            6776  STAT5A; signal transducer and activator of transcription 5A [KO:K11223]
+            6777  STAT5B; signal transducer and activator of transcription 5B [KO:K11224]
+            6714  SRC; SRC proto-oncogene, non-receptor tyrosine kinase [KO:K05704] [EC:2.7.10.2]
+            5747  PTK2; protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            1398  CRK; CRK proto-oncogene, adaptor protein [KO:K04438]
+            1399  CRKL; CRK like proto-oncogene, adaptor protein [KO:K04438]
+            25  ABL1; ABL proto-oncogene 1, non-receptor tyrosine kinase [KO:K06619] [EC:2.7.10.2]
+            27  ABL2; ABL proto-oncogene 2, non-receptor tyrosine kinase [KO:K08887] [EC:2.7.10.2]
+            4690  NCK1; NCK adaptor protein 1 [KO:K07365]
+            8440  NCK2; NCK adaptor protein 2 [KO:K19862]
+            5058  PAK1; p21 (RAC1) activated kinase 1 [KO:K04409] [EC:2.7.11.1]
+            5062  PAK2; p21 (RAC1) activated kinase 2 [KO:K04410] [EC:2.7.11.1]
+            5063  PAK3; p21 (RAC1) activated kinase 3 [KO:K05733] [EC:2.7.11.1]
+            10298  PAK4; p21 (RAC1) activated kinase 4 [KO:K05734] [EC:2.7.11.1]
+            57144  PAK5; p21 (RAC1) activated kinase 5 [KO:K05736] [EC:2.7.11.1]
+            56924  PAK6; p21 (RAC1) activated kinase 6 [KO:K05735] [EC:2.7.11.1]
+            106821730  BUB1B-PAK6; BUB1B-PAK6 readthrough [KO:K05735] [EC:2.7.11.1]
+            6416  MAP2K4; mitogen-activated protein kinase kinase 4 [KO:K04430] [EC:2.7.12.2]
+            5609  MAP2K7; mitogen-activated protein kinase kinase 7 [KO:K04431] [EC:2.7.12.2]
+            5599  MAPK8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            5602  MAPK10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            5601  MAPK9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            3725  JUN; Jun proto-oncogene, AP-1 transcription factor subunit [KO:K04448]
+            2002  ELK1; ETS transcription factor ELK1 [KO:K04375]
+            685  BTC; betacellulin [KO:K09783]
+            1839  HBEGF; heparin binding EGF like growth factor [KO:K08523]
+            2069  EREG; epiregulin [KO:K09784]
+            2065  ERBB3; erb-b2 receptor tyrosine kinase 3 [KO:K05084] [EC:2.7.10.1]
+            3084  NRG1; neuregulin 1 [KO:K05455]
+            9542  NRG2; neuregulin 2 [KO:K05456]
+            2066  ERBB4; erb-b2 receptor tyrosine kinase 4 [KO:K05085] [EC:2.7.10.1]
+            6464  SHC1; SHC adaptor protein 1 [KO:K06279]
+            25759  SHC2; SHC adaptor protein 2 [KO:K17447]
+            53358  SHC3; SHC adaptor protein 3 [KO:K17448]
+            399694  SHC4; SHC adaptor protein 4 [KO:K17449]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            369  ARAF; A-Raf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            673  BRAF; B-Raf proto-oncogene, serine/threonine kinase [KO:K04365] [EC:2.7.11.1]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            4609  MYC; MYC proto-oncogene, bHLH transcription factor [KO:K04377]
+            2549  GAB1; GRB2 associated binding protein 1 [KO:K09593]
+            10718  NRG3; neuregulin 3 [KO:K05457]
+            145957  NRG4; neuregulin 4 [KO:K05458]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            6198  RPS6KB1; ribosomal protein S6 kinase B1 [KO:K04688] [EC:2.7.11.1]
+            6199  RPS6KB2; ribosomal protein S6 kinase B2 [KO:K04688] [EC:2.7.11.1]
+            1978  EIF4EBP1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            572  BAD; BCL2 associated agonist of cell death [KO:K02158]
+            2932  GSK3B; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            1027  CDKN1B; cyclin dependent kinase inhibitor 1B [KO:K06624]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:14967450
+  AUTHORS   Marmor MD, Skaria KB, Yarden Y.
+  TITLE     Signal transduction and oncogenesis by ErbB/HER receptors.
+  JOURNAL   Int J Radiat Oncol Biol Phys 58:903-13 (2004)
+            DOI:10.1016/j.ijrobp.2003.06.002
+REFERENCE   PMID:11252954
+  AUTHORS   Yarden Y, Sliwkowski MX.
+  TITLE     Untangling the ErbB signalling network.
+  JOURNAL   Nat Rev Mol Cell Biol 2:127-37 (2001)
+            DOI:10.1038/35052073
+REFERENCE   PMID:16829981
+  AUTHORS   Citri A, Yarden Y.
+  TITLE     EGF-ERBB signalling: towards the systems level.
+  JOURNAL   Nat Rev Mol Cell Biol 7:505-16 (2006)
+            DOI:10.1038/nrm1962
+REFERENCE   PMID:17000658
+  AUTHORS   Scaltriti M, Baselga J.
+  TITLE     The epidermal growth factor receptor pathway: a model for targeted therapy.
+  JOURNAL   Clin Cancer Res 12:5268-72 (2006)
+            DOI:10.1158/1078-0432.CCR-05-1554
+REFERENCE   PMID:16377102
+  AUTHORS   Normanno N, De Luca A, Bianco C, Strizzi L, Mancino M, Maiello MR, Carotenuto A, De Feo G, Caponigro F, Salomon DS.
+  TITLE     Epidermal growth factor receptor (EGFR) signaling in cancer.
+  JOURNAL   Gene 366:2-16 (2006)
+            DOI:10.1016/j.gene.2005.10.018
+REFERENCE   PMID:14744244
+  AUTHORS   Holbro T, Hynes NE.
+  TITLE     ErbB receptors: directing key signaling networks throughout life.
+  JOURNAL   Annu Rev Pharmacol Toxicol 44:195-217 (2004)
+            DOI:10.1146/annurev.pharmtox.44.101802.121440
+REFERENCE   PMID:12851486
+  AUTHORS   Liang J, Slingerland JM.
+  TITLE     Multiple roles of the PI3K/PKB (Akt) pathway in cell cycle progression.
+  JOURNAL   Cell Cycle 2:339-45 (2003)
+            DOI:10.4161/cc.2.4.433
+REFERENCE   PMID:15864276
+  AUTHORS   Hynes NE, Lane HA.
+  TITLE     ERBB receptors and cancer: the complexity of targeted inhibitors.
+  JOURNAL   Nat Rev Cancer 5:341-54 (2005)
+            DOI:10.1038/nrc1609
+REFERENCE   PMID:16729045
+  AUTHORS   Oda K, Matsuoka Y, Funahashi A, Kitano H.
+  TITLE     A comprehensive pathway map of epidermal growth factor receptor signaling.
+  JOURNAL   Mol Syst Biol 1:2005.0010 (2005)
+            DOI:10.1038/msb4100014
+REFERENCE   PMID:16729043
+  AUTHORS   Schulze WX, Deng L, Mann M.
+  TITLE     Phosphotyrosine interactome of the ErbB-receptor kinase family.
+  JOURNAL   Mol Syst Biol 1:2005.0008 (2005)
+            DOI:10.1038/msb4100012
+REFERENCE   PMID:10880430
+  AUTHORS   Olayioye MA, Neve RM, Lane HA, Hynes NE.
+  TITLE     The ErbB signaling network: receptor heterodimerization in development and cancer.
+  JOURNAL   EMBO J 19:3159-67 (2000)
+            DOI:10.1093/emboj/19.13.3159
+REFERENCE   PMID:9872057
+  AUTHORS   McCarty JH.
+  TITLE     The Nck SH2/SH3 adaptor protein: a regulator of multiple intracellular signal transduction events.
+  JOURNAL   Bioessays 20:913-21 (1998)
+            DOI:10.1002/(SICI)1521-1878(199811)20:11<913::AID-BIES6>3.0.CO;2-T
+REFERENCE   PMID:15863494
+  AUTHORS   Clark DE, Williams CC, Duplessis TT, Moring KL, Notwick AR, Long W, Lane WS, Beuvink I, Hynes NE, Jones FE.
+  TITLE     ERBB4/HER4 potentiates STAT5A transcriptional activity by regulating novel STAT5A serine phosphorylation events.
+  JOURNAL   J Biol Chem 280:24175-80 (2005)
+            DOI:10.1074/jbc.M414044200
+REFERENCE   PMID:10490623
+  AUTHORS   Muthuswamy SK, Gilman M, Brugge JS.
+  TITLE     Controlled dimerization of ErbB receptors provides evidence for differential signaling by homo- and heterodimers.
+  JOURNAL   Mol Cell Biol 19:6845-57 (1999)
+            DOI:10.1128/MCB.19.10.6845
+REFERENCE   PMID:9642287
+  AUTHORS   Hashimoto Y, Katayama H, Kiyokawa E, Ota S, Kurata T, Gotoh N, Otsuka N, Shibata M, Matsuda M.
+  TITLE     Phosphorylation of CrkII adaptor protein at tyrosine 221 by epidermal growth factor receptor.
+  JOURNAL   J Biol Chem 273:17186-91 (1998)
+            DOI:10.1074/jbc.273.27.17186
+KO_PATHWAY  ko04012
+///

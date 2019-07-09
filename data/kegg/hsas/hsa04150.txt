@@ -1,0 +1,283 @@
+ENTRY       hsa04150                    Pathway
+NAME        mTOR signaling pathway - Homo sapiens (human)
+DESCRIPTION The mammalian (mechanistic) target of rapamycin (mTOR) is a highly conserved serine/threonine protein kinase, which exists in two complexes termed mTOR complex 1 (mTORC1) and 2 (mTORC2). mTORC1 contains mTOR, Raptor, PRAS40, Deptor, mLST8, Tel2 and Tti1. mTORC1 is activated by the presence of growth factors, amino acids, energy status, stress and oxygen levels to regulate several biological processes, including lipid metabolism, autophagy, protein synthesis and ribosome biogenesis. On the other hand, mTORC2, which consists of mTOR, mSin1, Rictor, Protor, Deptor, mLST8, Tel2 and Tti1, responds to growth factors and controls cytoskeletal organization, metabolism and survival.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04150  mTOR signaling pathway
+NETWORK     nt06114  PI3K signaling (virus)
+            nt06166  Human papillomavirus (HPV)
+            nt06167  Human cytomegalovirus (HCMV)
+            nt06168  Herpes simplex virus 1 (HSV-1)
+  ELEMENT   N00582  IGF-IGF1R-PI3K signaling pathway
+DISEASE     H00666  Peutz-Jeghers syndrome
+            H00896  Lymphangioleiomyomatosis
+            H00915  Tuberous sclerosis complex
+            H01112  Polyhydramnios, megalencephaly, and symptomatic epilepsy
+            H01251  Focal cortical dysplasia of Taylor
+            H01691  Renal angiomyolipoma
+            H01692  Subependymal giant cell astrocytoma
+            H01885  Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome
+            H01909  Hypoinsulinemic hypoglycemia with hemihypertrophy
+            H01912  Congenital lipomatous overgrowth, vascular malformations, and epidermal nevi
+            H01928  Smith-Kingsmore syndrome
+            H02111  Autism
+            H02119  Proteus syndrome
+            H02153  Megalencephaly-capillary malformation syndrome
+            H02214  Familial focal epilepsy with variable foci
+            H02219  DDOD syndrome
+            H02297  CLAPO syndrome
+DRUG        D00753  Sirolimus (JAN/USAN/INN)
+            D02714  Everolimus (JAN/USAN/INN)
+            D05393  Pegsunercept (USAN)
+            D06068  Temsirolimus (JAN/USAN/INN)
+            D06221  Triciribine phosphate (USAN)
+            D06669  Zotarolimus (USAN/INN)
+            D08900  Ridaforolimus (JAN/USAN)
+            D10076  Olcorolimus (USAN)
+            D11183  Sapanisertib (USAN/INN)
+            D11440  Bimiralisib (USAN/INN)
+            D11501  Samotolisib (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        8140  SLC7A5; solute carrier family 7 member 5 [KO:K13780]
+            6520  SLC3A2; solute carrier family 3 member 2 [KO:K06519]
+            153129  SLC38A9; solute carrier family 38 member 9 [KO:K14995]
+            523  ATP6V1A; ATPase H+ transporting V1 subunit A [KO:K02145] [EC:7.1.2.2]
+            525  ATP6V1B1; ATPase H+ transporting V1 subunit B1 [KO:K02147]
+            526  ATP6V1B2; ATPase H+ transporting V1 subunit B2 [KO:K02147]
+            245973  ATP6V1C2; ATPase H+ transporting V1 subunit C2 [KO:K02148]
+            528  ATP6V1C1; ATPase H+ transporting V1 subunit C1 [KO:K02148]
+            51382  ATP6V1D; ATPase H+ transporting V1 subunit D [KO:K02149]
+            90423  ATP6V1E2; ATPase H+ transporting V1 subunit E2 [KO:K02150]
+            529  ATP6V1E1; ATPase H+ transporting V1 subunit E1 [KO:K02150]
+            9296  ATP6V1F; ATPase H+ transporting V1 subunit F [KO:K02151]
+            9550  ATP6V1G1; ATPase H+ transporting V1 subunit G1 [KO:K02152]
+            127124  ATP6V1G3; ATPase H+ transporting V1 subunit G3 [KO:K02152]
+            534  ATP6V1G2; ATPase H+ transporting V1 subunit G2 [KO:K02152]
+            51606  ATP6V1H; ATPase H+ transporting V1 subunit H [KO:K02144]
+            55004  LAMTOR1; late endosomal/lysosomal adaptor, MAPK and MTOR activator 1 [KO:K20397]
+            28956  LAMTOR2; late endosomal/lysosomal adaptor, MAPK and MTOR activator 2 [KO:K20398]
+            8649  LAMTOR3; late endosomal/lysosomal adaptor, MAPK and MTOR activator 3 [KO:K04370]
+            389541  LAMTOR4; late endosomal/lysosomal adaptor, MAPK and MTOR activator 4 [KO:K20399]
+            10542  LAMTOR5; late endosomal/lysosomal adaptor, MAPK and MTOR activator 5 [KO:K16344]
+            201163  FLCN; folliculin [KO:K09594]
+            96459  FNIP1; folliculin interacting protein 1 [KO:K20400]
+            57600  FNIP2; folliculin interacting protein 2 [KO:K20401]
+            10670  RRAGA; Ras related GTP binding A [KO:K16185]
+            10325  RRAGB; Ras related GTP binding B [KO:K16185]
+            64121  RRAGC; Ras related GTP binding C [KO:K16186]
+            58528  RRAGD; Ras related GTP binding D [KO:K16186]
+            83667  SESN2; sestrin 2 [KO:K20394]
+            652968  CASTOR1; cytosolic arginine sensor for mTORC1 subunit 1 [KO:K23080]
+            729438  CASTOR2; cytosolic arginine sensor for mTORC1 subunit 2 [KO:K23081]
+            54468  MIOS; meiosis regulator for oocyte development [KO:K20407]
+            81929  SEH1L; SEH1 like nucleoporin [KO:K14299]
+            84219  WDR24; WD repeat domain 24 [KO:K20408]
+            79726  WDR59; WD repeat domain 59 [KO:K20409]
+            6396  SEC13; SEC13 homolog, nuclear pore and COPII coat complex component [KO:K14004]
+            9681  DEPDC5; DEP domain containing 5 [KO:K20404]
+            10641  NPRL2; NPR2 like, GATOR1 complex subunit [KO:K20405]
+            8131  NPRL3; NPR3 like, GATOR1 complex subunit [KO:K20406]
+            6502  SKP2; S-phase kinase associated protein 2 [KO:K03875]
+            220441  RNF152; ring finger protein 152 [KO:K15705] [EC:2.3.2.27]
+            57521  RPTOR; regulatory associated protein of MTOR complex 1 [KO:K07204]
+            84335  AKT1S1; AKT1 substrate 1 [KO:K16184]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            64798  DEPTOR; DEP domain containing MTOR interacting protein [KO:K20402]
+            64223  MLST8; MTOR associated protein, LST8 homolog [KO:K08266]
+            9894  TELO2; telomere maintenance 2 [KO:K11137]
+            9675  TTI1; TELO2 interacting protein 1 [KO:K20403]
+            6249  CLIP1; CAP-Gly domain containing linker protein 1 [KO:K10421]
+            2887  GRB10; growth factor receptor bound protein 10 [KO:K20064]
+            8408  ULK1; unc-51 like autophagy activating kinase 1 [KO:K21357] [EC:2.7.11.1]
+            9706  ULK2; unc-51 like autophagy activating kinase 2 [KO:K08269] [EC:2.7.11.1]
+            1978  EIF4EBP1; eukaryotic translation initiation factor 4E binding protein 1 [KO:K07205]
+            1977  EIF4E; eukaryotic translation initiation factor 4E [KO:K03259]
+            9470  EIF4E2; eukaryotic translation initiation factor 4E family member 2 [KO:K03259]
+            253314  EIF4E1B; eukaryotic translation initiation factor 4E family member 1B [KO:K03259]
+            6198  RPS6KB1; ribosomal protein S6 kinase B1 [KO:K04688] [EC:2.7.11.1]
+            6199  RPS6KB2; ribosomal protein S6 kinase B2 [KO:K04688] [EC:2.7.11.1]
+            1975  EIF4B; eukaryotic translation initiation factor 4B [KO:K03258]
+            6194  RPS6; ribosomal protein S6 [KO:K02991]
+            92335  STRADA; STE20 related adaptor alpha [KO:K08271]
+            55437  STRADB; STE20 related adaptor beta [KO:K17532]
+            6794  STK11; serine/threonine kinase 11 [KO:K07298] [EC:2.7.11.1]
+            51719  CAB39; calcium binding protein 39 [KO:K08272]
+            81617  CAB39L; calcium binding protein 39 like [KO:K08272]
+            5562  PRKAA1; protein kinase AMP-activated catalytic subunit alpha 1 [KO:K07198] [EC:2.7.11.11]
+            5563  PRKAA2; protein kinase AMP-activated catalytic subunit alpha 2 [KO:K07198] [EC:2.7.11.11]
+            7248  TSC1; TSC complex subunit 1 [KO:K07206]
+            7249  TSC2; TSC complex subunit 2 [KO:K07207]
+            51256  TBC1D7; TBC1 domain family member 7 [KO:K20396]
+            107080638  TBC1D7-LOC100130357 readthrough [KO:K20396]
+            6009  RHEB; Ras homolog, mTORC1 binding [KO:K07208]
+            54541  DDIT4; DNA damage inducible transcript 4 [KO:K08270]
+            7471  WNT1; Wnt family member 1 [KO:K03209]
+            7472  WNT2; Wnt family member 2 [KO:K00182]
+            7482  WNT2B; Wnt family member 2B [KO:K00182]
+            7473  WNT3; Wnt family member 3 [KO:K00312]
+            89780  WNT3A; Wnt family member 3A [KO:K00312]
+            54361  WNT4; Wnt family member 4 [KO:K00408]
+            7474  WNT5A; Wnt family member 5A [KO:K00444]
+            81029  WNT5B; Wnt family member 5B [KO:K00444]
+            7475  WNT6; Wnt family member 6 [KO:K00445]
+            7476  WNT7A; Wnt family member 7A [KO:K00572]
+            7477  WNT7B; Wnt family member 7B [KO:K00572]
+            7478  WNT8A; Wnt family member 8A [KO:K00714]
+            7479  WNT8B; Wnt family member 8B [KO:K00714]
+            7483  WNT9A; Wnt family member 9A [KO:K01064]
+            7484  WNT9B; Wnt family member 9B [KO:K01064]
+            7480  WNT10B; Wnt family member 10B [KO:K01357]
+            80326  WNT10A; Wnt family member 10A [KO:K01357]
+            7481  WNT11; Wnt family member 11 [KO:K01384]
+            51384  WNT16; Wnt family member 16 [KO:K01558]
+            8321  FZD1; frizzled class receptor 1 [KO:K02432]
+            8324  FZD7; frizzled class receptor 7 [KO:K02432]
+            2535  FZD2; frizzled class receptor 2 [KO:K02235]
+            7976  FZD3; frizzled class receptor 3 [KO:K02329]
+            8322  FZD4; frizzled class receptor 4 [KO:K02354]
+            7855  FZD5; frizzled class receptor 5 [KO:K02375]
+            8325  FZD8; frizzled class receptor 8 [KO:K02375]
+            8323  FZD6; frizzled class receptor 6 [KO:K02376]
+            11211  FZD10; frizzled class receptor 10 [KO:K02842]
+            8326  FZD9; frizzled class receptor 9 [KO:K02842]
+            4041  LRP5; LDL receptor related protein 5 [KO:K03068]
+            4040  LRP6; LDL receptor related protein 6 [KO:K03068]
+            1857  DVL3; dishevelled segment polarity protein 3 [KO:K02353]
+            1856  DVL2; dishevelled segment polarity protein 2 [KO:K02353]
+            1855  DVL1; dishevelled segment polarity protein 1 [KO:K02353]
+            2932  GSK3B; glycogen synthase kinase 3 beta [KO:K03083] [EC:2.7.11.26]
+            7124  TNF; tumor necrosis factor [KO:K03156]
+            7132  TNFRSF1A; TNF receptor superfamily member 1A [KO:K03158]
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta [KO:K07209] [EC:2.7.11.10]
+            3630  INS; insulin [KO:K04526]
+            3479  IGF1; insulin like growth factor 1 [KO:K05459]
+            3643  INSR; insulin receptor [KO:K04527] [EC:2.7.10.1]
+            3480  IGF1R; insulin like growth factor 1 receptor [KO:K05087] [EC:2.7.10.1]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            673  BRAF; B-Raf proto-oncogene, serine/threonine kinase [KO:K04365] [EC:2.7.11.1]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            6197  RPS6KA3; ribosomal protein S6 kinase A3 [KO:K04373] [EC:2.7.11.1]
+            6195  RPS6KA1; ribosomal protein S6 kinase A1 [KO:K04373] [EC:2.7.11.1]
+            6196  RPS6KA2; ribosomal protein S6 kinase A2 [KO:K04373] [EC:2.7.11.1]
+            27330  RPS6KA6; ribosomal protein S6 kinase A6 [KO:K04373] [EC:2.7.11.1]
+            3667  IRS1; insulin receptor substrate 1 [KO:K16172]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5728  PTEN; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.67 3.1.3.48 3.1.3.16]
+            5170  PDPK1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            1147  CHUK; component of inhibitor of nuclear factor kappa B kinase complex [KO:K04467] [EC:2.7.11.10]
+            79109  MAPKAP1; mitogen-activated protein kinase associated protein 1 [KO:K20410]
+            253260  RICTOR; RPTOR independent companion of MTOR complex 2 [KO:K08267]
+            55615  PRR5; proline rich 5 [KO:K20411]
+            387  RHOA; ras homolog family member A [KO:K04513]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            6446  SGK1; serum/glucocorticoid regulated kinase 1 [KO:K13302] [EC:2.7.11.1]
+            23175  LPIN1; lipin 1 [KO:K15728] [EC:3.1.3.4]
+COMPOUND    C00020  AMP
+            C00062  L-Arginine
+            C00123  L-Leucine
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:27304501
+  AUTHORS   Kennedy BK, Lamming DW
+  TITLE     The Mechanistic Target of Rapamycin: The Grand ConducTOR of Metabolism and Aging.
+  JOURNAL   Cell Metab 23:990-1003 (2016)
+            DOI:10.1016/j.cmet.2016.05.009
+REFERENCE   PMID:24556838
+  AUTHORS   Shimobayashi M, Hall MN
+  TITLE     Making new contacts: the mTOR network in metabolism and signalling crosstalk.
+  JOURNAL   Nat Rev Mol Cell Biol 15:155-62 (2014)
+            DOI:10.1038/nrm3757
+REFERENCE   PMID:25242279
+  AUTHORS   Huang K, Fingar DC
+  TITLE     Growing knowledge of the mTOR signaling network.
+  JOURNAL   Semin Cell Dev Biol 36:79-90 (2014)
+            DOI:10.1016/j.semcdb.2014.09.011
+REFERENCE   PMID:26269525
+  AUTHORS   Bockaert J, Marin P
+  TITLE     mTOR in Brain Physiology and Pathologies.
+  JOURNAL   Physiol Rev 95:1157-87 (2015)
+            DOI:10.1152/physrev.00038.2014
+REFERENCE   PMID:26185979
+  AUTHORS   Caron A, Richard D, Laplante M
+  TITLE     The Roles of mTOR Complexes in Lipid Metabolism.
+  JOURNAL   Annu Rev Nutr 35:321-48 (2015)
+            DOI:10.1146/annurev-nutr-071714-034355
+REFERENCE   PMID:26658722
+  AUTHORS   Shimobayashi M, Hall MN
+  TITLE     Multiple amino acid sensing inputs to mTORC1.
+  JOURNAL   Cell Res 26:7-20 (2016)
+            DOI:10.1038/cr.2015.146
+REFERENCE   PMID:24698685
+  AUTHORS   Bar-Peled L, Sabatini DM
+  TITLE     Regulation of mTORC1 by amino acids.
+  JOURNAL   Trends Cell Biol 24:400-6 (2014)
+            DOI:10.1016/j.tcb.2014.03.003
+REFERENCE   PMID:26046644
+  AUTHORS   Fingar DC
+  TITLE     Rag Ubiquitination Recruits a GATOR1: Attenuation of Amino Acid-Induced mTORC1 Signaling.
+  JOURNAL   Mol Cell 58:713-5 (2015)
+            DOI:10.1016/j.molcel.2015.05.029
+REFERENCE   PMID:26700098
+  AUTHORS   Cai H, Dong LQ, Liu F
+  TITLE     Recent Advances in Adipose mTOR Signaling and Function: Therapeutic Prospects.
+  JOURNAL   Trends Pharmacol Sci 37:303-17 (2016)
+            DOI:10.1016/j.tips.2015.11.011
+REFERENCE   PMID:24842496
+  AUTHORS   Eyre TA, Collins GP, Goldstone AH, Cwynarski K
+  TITLE     Time now to TORC the TORC? New developments in mTOR pathway inhibition in lymphoid malignancies.
+  JOURNAL   Br J Haematol 166:336-51 (2014)
+            DOI:10.1111/bjh.12945
+REFERENCE   PMID:23465396
+  AUTHORS   Jewell JL, Guan KL
+  TITLE     Nutrient signaling to mTOR and cell growth.
+  JOURNAL   Trends Biochem Sci 38:233-42 (2013)
+            DOI:10.1016/j.tibs.2013.01.004
+REFERENCE   PMID:23421405
+  AUTHORS   Wood TL, Bercury KK, Cifelli SE, Mursch LE, Min J, Dai J, Macklin WB
+  TITLE     mTOR: a link from the extracellular milieu to transcriptional regulation of oligodendrocyte development.
+  JOURNAL   ASN Neuro 5:e00108 (2013)
+            DOI:10.1042/AN20120092
+REFERENCE   PMID:23694989
+  AUTHORS   Kim SG, Buel GR, Blenis J
+  TITLE     Nutrient regulation of the mTOR complex 1 signaling pathway.
+  JOURNAL   Mol Cells 35:463-73 (2013)
+            DOI:10.1007/s10059-013-0138-2
+REFERENCE   PMID:19812304
+  AUTHORS   Laplante M, Sabatini DM
+  TITLE     mTOR signaling at a glance.
+  JOURNAL   J Cell Sci 122:3589-94 (2009)
+            DOI:10.1242/jcs.051011
+REFERENCE   PMID:16756488
+  AUTHORS   Alessi DR, Sakamoto K, Bayascas JR
+  TITLE     LKB1-dependent signaling pathways.
+  JOURNAL   Annu Rev Biochem 75:137-63 (2006)
+            DOI:10.1146/annurev.biochem.75.103004.142702
+REFERENCE   PMID:27027448
+  AUTHORS   Dan HC, Antonia RJ, Baldwin AS
+  TITLE     PI3K/Akt promotes feedforward mTORC2 activation through IKKalpha.
+  JOURNAL   Oncotarget 7:21064-75 (2016)
+            DOI:10.18632/oncotarget.8383
+REFERENCE   PMID:28283069
+  AUTHORS   Saxton RA, Sabatini DM
+  TITLE     mTOR Signaling in Growth, Metabolism, and Disease.
+  JOURNAL   Cell 168:960-976 (2017)
+            DOI:10.1016/j.cell.2017.02.004
+KO_PATHWAY  ko04150
+///

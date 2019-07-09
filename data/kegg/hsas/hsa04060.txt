@@ -1,0 +1,601 @@
+ENTRY       hsa04060                    Pathway
+NAME        Cytokine-cytokine receptor interaction - Homo sapiens (human)
+DESCRIPTION Cytokines are soluble extracellular proteins or glycoproteins that are crucial intercellular regulators and mobilizers of cells engaged in innate as well as adaptive inflammatory host defenses, cell growth, differentiation, cell death, angiogenesis, and development and repair processes aimed at the restoration of homeostasis. Cytokines are released by various cells in the body, usually in response to an activating stimulus, and they induce responses through binding to specific receptors on the cell surface of target cells. Cytokines can be grouped by structure into different families and their receptors can likewise be grouped.
+CLASS       Environmental Information Processing; Signaling molecules and interaction
+PATHWAY_MAP hsa04060  Cytokine-cytokine receptor interaction
+DISEASE     H00097  Chemokine receptor defect
+            H00227  Congenital amegakaryocytic thrombocytopenia
+            H00286  Crohn disease
+            H00344  Leprosy
+            H00408  Type 1 diabetes mellitus
+            H00609  Persistent Mullerian duct syndrome
+            H00632  Heterotaxy
+            H00651  Hypohidrotic ectodermal dysplasia
+            H00800  Loeys-Dietz syndrome
+            H00801  Familial thoracic aortic aneurysm and dissection
+            H00912  Tumor necrosis factor receptor-associated periodic syndrome
+            H00935  Cold-induced sweating syndrome
+            H01023  Juvenile polyposis syndrome
+            H01024  Hereditary mixed polyposis syndrome
+            H01109  Chronic mucocutaneous candidiasis
+            H01122  Congenital pulmonary alveolar proteinosis
+            H01217  Primary localized cutaneous amyloidosis
+            H01227  Inflammatory bowel disease (IBD)
+            H01466  Ulcerative colitis
+            H01479  Castleman disease
+            H01672  Juvenile idiopathic arthritis
+            H02037  Laron syndrome
+            H02039  Kowarski syndrome
+            H02059  Leptin deficiency
+            H02060  Leptin receptor deficiency
+            H02254  Craniosynostosis and dental anomalies
+DRUG        D00742  Etanercept (USAN/INN)
+            D00745  Interferon alfa-2a (USAN/INN)
+            D00746  Interferon beta-1b (USAN/INN)
+            D00747  Interferon gamma-1b (USAN/INN)
+            D00748  Aldesleukin (USAN/INN)
+            D00754  Thalidomide (JAN/USP/INN)
+            D01583  Pirfenidone (JAN/USAN/INN)
+            D02596  Tocilizumab (USAN/INN)
+            D02597  Adalimumab (USAN/INN)
+            D02598  Infliximab (USAN/INN)
+            D02664  Mirimostim (JAN/INN)
+            D02691  Somatropin (USP/INN)
+            D02743  Celmoleukin (genetical recombination) (JP17)
+            D02744  Interferon alfacon-1 (USAN/INN)
+            D02745  Interferon alfa-2b (USAN)
+            D02747  Peginterferon alfa-2a (USAN/INN)
+            D02748  Peginterferon alfa-2b (INN)
+            D02749  Teceleukin (USAN)
+            D02934  Anakinra (USAN/INN)
+            D03058  Basiliximab (USAN/INN)
+            D03068  Belimumab (USAN)
+            D03210  Ancriviroc (USAN/INN)
+            D03231  Epoetin alfa (USAN/INN)
+            D03232  Epoetin beta (USAN/INN)
+            D03235  Filgrastim (USAN/INN)
+            D03245  Nartograstim (genetical recombination) (JP17)
+            D03247  Lenograstim (USAN/INN)
+            D03304  Interferon beta (JAN)
+            D03305  Interferon alfa (NAMALWA) (JP17)
+            D03357  Interferon gamma-1a (genetical recombination) (JAN)
+            D03441  Certolizumab pegol (USAN/INN)
+            D03639  Daclizumab (USAN/INN)
+            D03645  Daniplestim (USAN/INN)
+            D03647  Dapiclermin (USAN/INN)
+            D03651  Darbepoetin alfa (USAN/INN)
+            D03682  Denileukin diftitox (USAN/INN)
+            D03684  Denosumab (USAN)
+            D03779  Dibotermin alfa (USAN/INN)
+            D03978  Eltrombopag olamine (JAN/USAN)
+            D04032  Epoetin delta (USAN)
+            D04242  Fontolizumab (USAN/INN)
+            D04358  Golimumab (USAN/INN)
+            D04487  Iboctadekin (USAN/INN)
+            D04505  Ilodecakin (USAN/INN)
+            D04552  Interferon alfa-n1 (USAN)
+            D04553  Interferon alfa-n3 (USAN)
+            D04554  Interferon beta-1a (USAN)
+            D04612  Iratumumab (USAN)
+            D04687  Lenalidomide (USAN/INN)
+            D04690  Lenercept (USAN/INN)
+            D04695  Leridistim (USAN/INN)
+            D04858  Mapatumumab (USAN/INN)
+            D04923  Mepolizumab (USAN/INN)
+            D05014  Metreleptin (USAN/INN)
+            D05036  Milodistim (USAN/INN)
+            D05066  Molgramostim (USAN/INN)
+            D05090  Muplestim (USAN/INN)
+            D05146  Nerelimomab (USAN/INN)
+            D05263  Onercept (USAN/INN)
+            D05266  Oprelvekin (USAN/INN)
+            D05377  Pascolizumab (USAN/INN)
+            D05389  Pegnartograstim (USAN/INN)
+            D05393  Pegsunercept (USAN)
+            D05394  Pegvisomant (USAN/INN)
+            D05610  Priliximab (USAN/INN)
+            D05777  Ruplizumab (USAN/INN)
+            D05803  Sargramostim (USAN/INN)
+            D05884  Somatrem (USAN)
+            D05917  Stamulumab (USAN)
+            D06071  Teneliximab (USAN/INN)
+            D06193  Toralizumab (USAN/INN)
+            D06297  Vicriviroc maleate (USAN)
+            D06356  Zanolimumab (USAN/INN)
+            D06556  Apilimod mesylate (USAN)
+            D06557  Aplaviroc hydrochloride (USAN)
+            D06563  Belagenpumatucel-L (USAN)
+            D06635  Rilonacept (USAN/INN)
+            D06670  Maraviroc (JAN/INN)
+            D06889  Pegfilgrastim (INN)
+            D07436  Afelimomab (INN)
+            D08562  Tasonermin (INN)
+            D08805  Interferon gamma-n1 (JAN)
+            D08844  Albinterferon alfa-2b (USAN)
+            D08866  Baminercept (USAN/INN)
+            D08877  Briobacept (USAN)
+            D08971  Plerixafor (JAN/USAN/INN)
+            D08976  Pomalidomide (JAN/USAN/INN)
+            D08984  Reparixin (USAN/INN)
+            D08985  Reslizumab (USAN)
+            D08990  Romiplostim (USAN/INN)
+            D09024  Totrombopag choline (USAN)
+            D09214  Ustekinumab (USAN/INN)
+            D09315  Canakinumab (USAN/INN)
+            D09332  Denenicokin (USAN/INN)
+            D09587  Brentuximab vedotin (USAN)
+            D09588  Briakinumab (USAN/INN)
+            D09620  Fresolimumab (USAN/INN)
+            D09633  Lebrikizumab (USAN/INN)
+            D09635  Linifanib (USAN/INN)
+            D09669  Siltuximab (USAN/INN)
+            D09670  Sotatercept (USAN/INN)
+            D09704  Atacicept (USAN/INN)
+            D09761  Mogamulizumab (USAN)
+            D09813  Lenalidomide hydrate (JAN)
+            D09874  Benralizumab (USAN/INN)
+            D09877  Carlumab (USAN)
+            D09878  Cenicriviroc (USAN/INN)
+            D09879  Cenicriviroc mesylate (USAN)
+            D09888  Drozitumab (USAN/INN)
+            D09896  Enavatuzumab (USAN/INN)
+            D09897  Enokizumab (USAN/INN)
+            D09911  Gevokizumab (USAN/INN)
+            D09930  Mavrilimumab (USAN/INN)
+            D09943  Oxelumab (USAN/INN)
+            D09944  Ozoralizumab (USAN)
+            D09946  Peginesatide (USAN/INN)
+            D09947  Peginesatide acetate (JAN/USAN)
+            D09967  Secukinumab (USAN/INN)
+            D09979  Tralokinumab (USAN/INN)
+            D09984  Urelumab (USAN/INN)
+            D09998  Epoetin beta pegol (genetical recombination) (JAN)
+            D10000  Epoetin epsilon (INN)
+            D10061  Brodalumab (USAN)
+            D10071  Ixekizumab (USAN)
+            D10075  Navarixin (USAN)
+            D10078  Peginterferon lambda-1a (USAN)
+            D10080  Sirukumab (USAN)
+            D10083  Tabalumab (USAN)
+            D10161  Sarilumab (USAN)
+            D10187  Pateclizumab (USAN)
+            D10242  Lipegfilgrastim (USAN)
+            D10310  Balugrastim (USAN/INN)
+            D10332  Elubrixin (USAN)
+            D10341  Vorsetuzumab mafodotin (USAN/INN)
+            D10342  Vorsetuzumab (USAN/INN)
+            D10347  Ramatercept (USAN)
+            D10354  Dupilumab (USAN)
+            D10378  Vercirnon (USAN/INN)
+            D10379  Vercirnon sodium (USAN)
+            D10387  Danirixin (USAN/INN)
+            D10420  Elubrixin tosylate (USAN)
+            D10438  Guselkumab (USAN)
+            D10476  Lusutrombopag (JAN/USAN/INN)
+            D10483  Peginterferon beta-1a (USAN/INN)
+            D10846  Epoetin theta (INN)
+            D10847  Epoetin zeta (INN)
+            D10902  Afasevikumab (USAN/INN)
+            D10912  Brazikumab (USAN/INN)
+            D10972  Plozalizumab (USAN/INN)
+            D11026  Pegteograstim (INN)
+            D11027  Ropeginterferon alfa-2b (INN)
+            D11028  Cenegermin (INN)
+            D11047  Domagrozumab (USAN/INN)
+            D11052  Risankizumab (USAN/INN)
+            D11079  Satralizumab (USAN/INN)
+            D11080  Nemolizumab (INN)
+            D11082  Anifrolumab (USAN)
+            D11121  Gimsilumab (USAN/INN)
+            D11122  Letolizumab (USAN/INN)
+            D11123  Mirikizumab (USAN/INN)
+            D11127  Tibulizumab (USAN/INN)
+            D11161  Atesidorsen (USAN/INN)
+            D11162  Atesidorsen sodium (USNA)
+            D11193  Somavaratan (USAN/INN)
+            D11194  Somapacitan (USAN/INN)
+            D11200  Pegilodecakin (USAN/INN)
+            D11234  Emactuzumab (USAN/INN)
+            D11235  Landogrozumab (USAN/INN)
+            D11236  Lenzilumab (USAN/INN)
+            D11242  Trevogrumab (USAN/INN)
+            D11253  Bermekimab (USAN)
+            D11265  Talditercept alfa (USAN)
+            D11268  Vonlerolizumab (USAN/INN)
+            D11270  Pexidartinib (USAN/INN)
+            D11271  Pexidartinib hydrochloride (USAN)
+            D11324  Camidanlumab (USAN)
+            D11325  Camidanlumab tesirine (USAN)
+            D11343  Otilimab (USAN)
+            D11357  Bleselumab (USAN)
+            D11378  Edicotinib (USAN)
+            D11379  Edicotinib hydrochloride (USAN)
+            D11397  Darvadstrocel (INN)
+            D11399  Leronlimab (USAN/INN)
+            D11449  Etokimab (USAN)
+            D11486  Lonapegsomatropin (USAN/INN)
+            D11491  Selicrelumab (USAN/INN)
+            D11498  Quetmolimab (USAN)
+            D11510  Mavorixafor (USAN)
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        6346  CCL1; C-C motif chemokine ligand 1 [KO:K05514]
+            6370  CCL25; C-C motif chemokine ligand 25 [KO:K13072]
+            6363  CCL19; C-C motif chemokine ligand 19 [KO:K05512]
+            6366  CCL21; C-C motif chemokine ligand 21 [KO:K16062]
+            6348  CCL3; C-C motif chemokine ligand 3 [KO:K05408]
+            6349  CCL3L1; C-C motif chemokine ligand 3 like 1 [KO:K05408]
+            414062  CCL3L3; C-C motif chemokine ligand 3 like 3 [KO:K05408]
+            6351  CCL4; C-C motif chemokine ligand 4 [KO:K12964]
+            9560  CCL4L2; C-C motif chemokine ligand 4 like 2 [KO:K12964]
+            388372  CCL4L1; C-C motif chemokine ligand 4 like 1 [KO:K12964]
+            6361  CCL17; C-C motif chemokine ligand 17 [KO:K21083]
+            6367  CCL22; C-C motif chemokine ligand 22 [KO:K21095]
+            6352  CCL5; C-C motif chemokine ligand 5 [KO:K12499]
+            6355  CCL8; C-C motif chemokine ligand 8 [KO:K16596]
+            6358  CCL14; C-C motif chemokine ligand 14 [KO:K21092]
+            6360  CCL16; C-C motif chemokine ligand 16 [KO:K21093]
+            6359  CCL15; C-C motif chemokine ligand 15 [KO:K05511]
+            6368  CCL23; C-C motif chemokine ligand 23 [KO:K05511]
+            6357  CCL13; C-C motif chemokine ligand 13 [KO:K16595]
+            6354  CCL7; C-C motif chemokine ligand 7 [KO:K05509]
+            6347  CCL2; C-C motif chemokine ligand 2 [KO:K14624]
+            6356  CCL11; C-C motif chemokine ligand 11 [KO:K16597]
+            6369  CCL24; C-C motif chemokine ligand 24 [KO:K21097]
+            10344  CCL26; C-C motif chemokine ligand 26 [KO:K21096]
+            10850  CCL27; C-C motif chemokine ligand 27 [KO:K16598]
+            56477  CCL28; C-C motif chemokine ligand 28 [KO:K05513]
+            6362  CCL18; C-C motif chemokine ligand 18 [KO:K21094]
+            6364  CCL20; C-C motif chemokine ligand 20 [KO:K14625]
+            2919  CXCL1; C-X-C motif chemokine ligand 1 [KO:K05505]
+            2920  CXCL2; C-X-C motif chemokine ligand 2 [KO:K05505]
+            2921  CXCL3; C-X-C motif chemokine ligand 3 [KO:K05505]
+            6374  CXCL5; C-X-C motif chemokine ligand 5 [KO:K05506]
+            6372  CXCL6; C-X-C motif chemokine ligand 6 [KO:K05506]
+            3576  CXCL8; C-X-C motif chemokine ligand 8 [KO:K10030]
+            5473  PPBP; pro-platelet basic protein [KO:K10029]
+            5196  PF4; platelet factor 4 [KO:K05407]
+            5197  PF4V1; platelet factor 4 variant 1 [KO:K05407]
+            4283  CXCL9; C-X-C motif chemokine ligand 9 [KO:K05416]
+            3627  CXCL10; C-X-C motif chemokine ligand 10 [KO:K12671]
+            6373  CXCL11; C-X-C motif chemokine ligand 11 [KO:K12672]
+            10563  CXCL13; C-X-C motif chemokine ligand 13 [KO:K10032]
+            6387  CXCL12; C-X-C motif chemokine ligand 12 [KO:K10031]
+            58191  CXCL16; C-X-C motif chemokine ligand 16 [KO:K10035]
+            9547  CXCL14; C-X-C motif chemokine ligand 14 [KO:K10033]
+            284340  CXCL17; C-X-C motif chemokine ligand 17 [KO:K22627]
+            6375  XCL1; X-C motif chemokine ligand 1 [KO:K05507]
+            6846  XCL2; X-C motif chemokine ligand 2 [KO:K22675]
+            6376  CX3CL1; C-X3-C motif chemokine ligand 1 [KO:K05508]
+            3558  IL2; interleukin 2 [KO:K05429]
+            3565  IL4; interleukin 4 [KO:K05430]
+            3574  IL7; interleukin 7 [KO:K05431]
+            3578  IL9; interleukin 9 [KO:K05432]
+            3600  IL15; interleukin 15 [KO:K05433]
+            59067  IL21; interleukin 21 [KO:K05434]
+            85480  TSLP; thymic stromal lymphopoietin [KO:K05436]
+            3562  IL3; interleukin 3 [KO:K04736]
+            3567  IL5; interleukin 5 [KO:K05428]
+            1437  CSF2; colony stimulating factor 2 [KO:K05427]
+            3596  IL13; interleukin 13 [KO:K05435]
+            2056  EPO; erythropoietin [KO:K05437]
+            2688  GH1; growth hormone 1 [KO:K05438]
+            2689  GH2; growth hormone 2 [KO:K05438]
+            1442  CSH1; chorionic somatomammotropin hormone 1 [KO:K05438]
+            1443  CSH2; chorionic somatomammotropin hormone 2 [KO:K05438]
+            5617  PRL; prolactin [KO:K05439]
+            7066  THPO; thrombopoietin [KO:K06854]
+            1440  CSF3; colony stimulating factor 3 [KO:K05423]
+            3952  LEP; leptin [KO:K05424]
+            3569  IL6; interleukin 6 [KO:K05405]
+            3589  IL11; interleukin 11 [KO:K05417]
+            3592  IL12A; interleukin 12A [KO:K05406]
+            3593  IL12B; interleukin 12B [KO:K05425]
+            51561  IL23A; interleukin 23 subunit alpha [KO:K05426]
+            246778  IL27; interleukin 27 [KO:K22629]
+            386653  IL31; interleukin 31 [KO:K22631]
+            23529  CLCF1; cardiotrophin like cytokine factor 1 [KO:K05421]
+            1270  CNTF; ciliary neurotrophic factor [KO:K05420]
+            1489  CTF1; cardiotrophin 1 [KO:K05422]
+            3976  LIF; LIF interleukin 6 family cytokine [KO:K05419]
+            5008  OSM; oncostatin M [KO:K05418]
+            3586  IL10; interleukin 10 [KO:K05443]
+            29949  IL19; interleukin 19 [KO:K05444]
+            50604  IL20; interleukin 20 [KO:K22667]
+            11009  IL24; interleukin 24 [KO:K22668]
+            50616  IL22; interleukin 22 [KO:K05445]
+            55801  IL26; interleukin 26 [KO:K05446]
+            282616  IFNL2; interferon lambda 2 [KO:K22669]
+            282617  IFNL3; interferon lambda 3 [KO:K22669]
+            282618  IFNL1; interferon lambda 1 [KO:K05447]
+            3439  IFNA1; interferon alpha 1 [KO:K05414]
+            3440  IFNA2; interferon alpha 2 [KO:K05414]
+            3441  IFNA4; interferon alpha 4 [KO:K05414]
+            3442  IFNA5; interferon alpha 5 [KO:K05414]
+            3443  IFNA6; interferon alpha 6 [KO:K05414]
+            3444  IFNA7; interferon alpha 7 [KO:K05414]
+            3445  IFNA8; interferon alpha 8 [KO:K05414]
+            3446  IFNA10; interferon alpha 10 [KO:K05414]
+            3447  IFNA13; interferon alpha 13 [KO:K05414]
+            3448  IFNA14; interferon alpha 14 [KO:K05414]
+            3449  IFNA16; interferon alpha 16 [KO:K05414]
+            3451  IFNA17; interferon alpha 17 [KO:K05414]
+            3452  IFNA21; interferon alpha 21 [KO:K05414]
+            3456  IFNB1; interferon beta 1 [KO:K05415]
+            3467  IFNW1; interferon omega 1 [KO:K05440]
+            56832  IFNK; interferon kappa [KO:K05441]
+            338376  IFNE; interferon epsilon [KO:K05442]
+            3458  IFNG; interferon gamma [KO:K04687]
+            3552  IL1A; interleukin 1 alpha [KO:K04383]
+            3553  IL1B; interleukin 1 beta [KO:K04519]
+            3557  IL1RN; interleukin 1 receptor antagonist [KO:K05481]
+            26525  IL36RN; interleukin 36 receptor antagonist [KO:K05483]
+            27179  IL36A; interleukin 36 alpha [KO:K05484]
+            27177  IL36B; interleukin 36 beta [KO:K05486]
+            56300  IL36G; interleukin 36 gamma [KO:K05487]
+            84639  IL1F10; interleukin 1 family member 10 [KO:K05488]
+            27178  IL37; interleukin 37 [KO:K05485]
+            3606  IL18; interleukin 18 [KO:K05482]
+            90865  IL33; interleukin 33 [KO:K12967]
+            3605  IL17A; interleukin 17A [KO:K05489]
+            112744  IL17F; interleukin 17F [KO:K05494]
+            27190  IL17B; interleukin 17B [KO:K05490]
+            27189  IL17C; interleukin 17C [KO:K05491]
+            53342  IL17D; interleukin 17D [KO:K05492]
+            64806  IL25; interleukin 25 [KO:K05493]
+            3603  IL16; interleukin 16 [KO:K22628]
+            9235  IL32; interleukin 32 [KO:K22632]
+            146433  IL34; interleukin 34 [KO:K22633]
+            1435  CSF1; colony stimulating factor 1 [KO:K05453]
+            7124  TNF; tumor necrosis factor [KO:K03156]
+            4049  LTA; lymphotoxin alpha [KO:K05468]
+            4050  LTB; lymphotoxin beta [KO:K03157]
+            8740  TNFSF14; TNF superfamily member 14 [KO:K05477]
+            356  FASLG; Fas ligand [KO:K04389]
+            9966  TNFSF15; TNF superfamily member 15 [KO:K05478]
+            8743  TNFSF10; TNF superfamily member 10 [KO:K04721]
+            1896  EDA; ectodysplasin A [KO:K05480]
+            4803  NGF; nerve growth factor [KO:K02582]
+            8600  TNFSF11; TNF superfamily member 11 [KO:K05473]
+            8742  TNFSF12; TNF superfamily member 12 [KO:K05474]
+            970  CD70; CD70 molecule [KO:K05470]
+            944  TNFSF8; TNF superfamily member 8 [KO:K05471]
+            959  CD40LG; CD40 ligand [KO:K03161]
+            8744  TNFSF9; TNF superfamily member 9 [KO:K05472]
+            7292  TNFSF4; TNF superfamily member 4 [KO:K05469]
+            8995  TNFSF18; TNF superfamily member 18 [KO:K05479]
+            8741  TNFSF13; TNF superfamily member 13 [KO:K05475]
+            10673  TNFSF13B; TNF superfamily member 13b [KO:K05476]
+            7040  TGFB1; transforming growth factor beta 1 [KO:K13375]
+            7042  TGFB2; transforming growth factor beta 2 [KO:K13376]
+            7043  TGFB3; transforming growth factor beta 3 [KO:K13377]
+            9518  GDF15; growth differentiation factor 15 [KO:K05504]
+            2658  GDF2; growth differentiation factor 2 [KO:K05503]
+            27302  BMP10; bone morphogenetic protein 10 [KO:K22670]
+            3623  INHA; inhibin subunit alpha [KO:K05500]
+            651  BMP3; bone morphogenetic protein 3 [KO:K05496]
+            2662  GDF10; growth differentiation factor 10 [KO:K22674]
+            10220  GDF11; growth differentiation factor 11 [KO:K22679]
+            2660  MSTN; myostatin [KO:K05497]
+            3624  INHBA; inhibin subunit beta A [KO:K04667]
+            3625  INHBB; inhibin subunit beta B [KO:K22687]
+            2657  GDF1; growth differentiation factor 1 [KO:K05495]
+            9573  GDF3; growth differentiation factor 3 [KO:K22672]
+            4838  NODAL; nodal growth differentiation factor [KO:K04666]
+            2661  GDF9; growth differentiation factor 9 [KO:K22673]
+            3626  INHBC; inhibin subunit beta C [KO:K22688]
+            83729  INHBE; inhibin subunit beta E [KO:K22689]
+            268  AMH; anti-Mullerian hormone [KO:K04665]
+            650  BMP2; bone morphogenetic protein 2 [KO:K21283]
+            652  BMP4; bone morphogenetic protein 4 [KO:K04662]
+            8200  GDF5; growth differentiation factor 5 [KO:K04664]
+            392255  GDF6; growth differentiation factor 6 [KO:K20012]
+            151449  GDF7; growth differentiation factor 7 [KO:K20013]
+            9210  BMP15; bone morphogenetic protein 15 [KO:K05498]
+            653  BMP5; bone morphogenetic protein 5 [KO:K04663]
+            654  BMP6; bone morphogenetic protein 6 [KO:K16620]
+            655  BMP7; bone morphogenetic protein 7 [KO:K16621]
+            656  BMP8B; bone morphogenetic protein 8b [KO:K16622]
+            353500  BMP8A; bone morphogenetic protein 8a [KO:K16622]
+            1237  CCR8; C-C motif chemokine receptor 8 [KO:K04183]
+            10803  CCR9; C-C motif chemokine receptor 9 [KO:K04184]
+            51554  ACKR4; atypical chemokine receptor 4 [KO:K04186]
+            1236  CCR7; C-C motif chemokine receptor 7 [KO:K04182]
+            1233  CCR4; C-C motif chemokine receptor 4 [KO:K04179]
+            1234  CCR5; C-C motif chemokine receptor 5 (gene/pseudogene) [KO:K04180]
+            1232  CCR3; C-C motif chemokine receptor 3 [KO:K04178]
+            729230  CCR2; C-C motif chemokine receptor 2 [KO:K04177]
+            1230  CCR1; C-C motif chemokine receptor 1 [KO:K04176]
+            2826  CCR10; C-C motif chemokine receptor 10 [KO:K04185]
+            1235  CCR6; C-C motif chemokine receptor 6 [KO:K04181]
+            3577  CXCR1; C-X-C motif chemokine receptor 1 [KO:K04175]
+            3579  CXCR2; C-X-C motif chemokine receptor 2 [KO:K05050]
+            2833  CXCR3; C-X-C motif chemokine receptor 3 [KO:K04188]
+            643  CXCR5; C-X-C motif chemokine receptor 5 [KO:K04190]
+            7852  CXCR4; C-X-C motif chemokine receptor 4 [KO:K04189]
+            57007  ACKR3; atypical chemokine receptor 3 [KO:K04304]
+            10663  CXCR6; C-X-C motif chemokine receptor 6 [KO:K04191]
+            2829  XCR1; X-C motif chemokine receptor 1 [KO:K04193]
+            1524  CX3CR1; C-X3-C motif chemokine receptor 1 [KO:K04192]
+            3559  IL2RA; interleukin 2 receptor subunit alpha [KO:K05068]
+            3560  IL2RB; interleukin 2 receptor subunit beta [KO:K05069]
+            3561  IL2RG; interleukin 2 receptor subunit gamma [KO:K05070]
+            3566  IL4R; interleukin 4 receptor [KO:K05071]
+            3575  IL7R; interleukin 7 receptor [KO:K05072]
+            3581  IL9R; interleukin 9 receptor [KO:K05073]
+            3601  IL15RA; interleukin 15 receptor subunit alpha [KO:K05074]
+            50615  IL21R; interleukin 21 receptor [KO:K05075]
+            64109  CRLF2; cytokine receptor like factor 2 [KO:K05078]
+            3563  IL3RA; interleukin 3 receptor subunit alpha [KO:K04737]
+            1439  CSF2RB; colony stimulating factor 2 receptor beta common subunit [KO:K04738]
+            3568  IL5RA; interleukin 5 receptor subunit alpha [KO:K05067]
+            1438  CSF2RA; colony stimulating factor 2 receptor alpha subunit [KO:K05066]
+            3597  IL13RA1; interleukin 13 receptor subunit alpha 1 [KO:K05076]
+            3598  IL13RA2; interleukin 13 receptor subunit alpha 2 [KO:K05077]
+            2057  EPOR; erythropoietin receptor [KO:K05079]
+            2690  GHR; growth hormone receptor [KO:K05080]
+            5618  PRLR; prolactin receptor [KO:K05081]
+            4352  MPL; MPL proto-oncogene, thrombopoietin receptor [KO:K05082]
+            1441  CSF3R; colony stimulating factor 3 receptor [KO:K05061]
+            3953  LEPR; leptin receptor [KO:K05062]
+            3570  IL6R; interleukin 6 receptor [KO:K05055]
+            3572  IL6ST; interleukin 6 signal transducer [KO:K05060]
+            3590  IL11RA; interleukin 11 receptor subunit alpha [KO:K05056]
+            3594  IL12RB1; interleukin 12 receptor subunit beta 1 [KO:K05063]
+            3595  IL12RB2; interleukin 12 receptor subunit beta 2 [KO:K05064]
+            149233  IL23R; interleukin 23 receptor [KO:K05065]
+            9466  IL27RA; interleukin 27 receptor subunit alpha [KO:K19598]
+            133396  IL31RA; interleukin 31 receptor A [KO:K22630]
+            1271  CNTFR; ciliary neurotrophic factor receptor [KO:K05059]
+            3977  LIFR; LIF receptor alpha [KO:K05058]
+            9180  OSMR; oncostatin M receptor [KO:K05057]
+            3587  IL10RA; interleukin 10 receptor subunit alpha [KO:K05134]
+            3588  IL10RB; interleukin 10 receptor subunit beta [KO:K05135]
+            53832  IL20RA; interleukin 20 receptor subunit alpha [KO:K05136]
+            53833  IL20RB; interleukin 20 receptor subunit beta [KO:K05137]
+            58985  IL22RA1; interleukin 22 receptor subunit alpha 1 [KO:K05138]
+            163702  IFNLR1; interferon lambda receptor 1 [KO:K05140]
+            3454  IFNAR1; interferon alpha and beta receptor subunit 1 [KO:K05130]
+            3455  IFNAR2; interferon alpha and beta receptor subunit 2 [KO:K05131]
+            3459  IFNGR1; interferon gamma receptor 1 [KO:K05132]
+            3460  IFNGR2; interferon gamma receptor 2 [KO:K05133]
+            3554  IL1R1; interleukin 1 receptor type 1 [KO:K04386]
+            3556  IL1RAP; interleukin 1 receptor accessory protein [KO:K04723]
+            7850  IL1R2; interleukin 1 receptor type 2 [KO:K04387]
+            8808  IL1RL2; interleukin 1 receptor like 2 [KO:K05172]
+            8809  IL18R1; interleukin 18 receptor 1 [KO:K05173]
+            8807  IL18RAP; interleukin 18 receptor accessory protein [KO:K05174]
+            9173  IL1RL1; interleukin 1 receptor like 1 [KO:K05171]
+            23765  IL17RA; interleukin 17 receptor A [KO:K05164]
+            84818  IL17RC; interleukin 17 receptor C [KO:K05166]
+            55540  IL17RB; interleukin 17 receptor B [KO:K05165]
+            132014  IL17RE; interleukin 17 receptor E [KO:K05168]
+            920  CD4; CD4 molecule [KO:K06454]
+            1436  CSF1R; colony stimulating factor 1 receptor [KO:K05090] [EC:2.7.10.1]
+            7132  TNFRSF1A; TNF receptor superfamily member 1A [KO:K03158]
+            7133  TNFRSF1B; TNF receptor superfamily member 1B [KO:K05141]
+            4055  LTBR; lymphotoxin beta receptor [KO:K03159]
+            8764  TNFRSF14; TNF receptor superfamily member 14 [KO:K05152]
+            8771  TNFRSF6B; TNF receptor superfamily member 6b [KO:K05143]
+            355  FAS; Fas cell surface death receptor [KO:K04390]
+            8718  TNFRSF25; TNF receptor superfamily member 25 [KO:K05160]
+            8797  TNFRSF10A; TNF receptor superfamily member 10a [KO:K04722]
+            8795  TNFRSF10B; TNF receptor superfamily member 10b [KO:K04722]
+            8794  TNFRSF10C; TNF receptor superfamily member 10c [KO:K22701]
+            8793  TNFRSF10D; TNF receptor superfamily member 10d [KO:K22702]
+            27242  TNFRSF21; TNF receptor superfamily member 21 [KO:K05157]
+            10913  EDAR; ectodysplasin A receptor [KO:K05162]
+            60401  EDA2R; ectodysplasin A2 receptor [KO:K05163]
+            4804  NGFR; nerve growth factor receptor [KO:K02583]
+            4982  TNFRSF11B; TNF receptor superfamily member 11b [KO:K05148]
+            8792  TNFRSF11A; TNF receptor superfamily member 11a [KO:K05147]
+            51330  TNFRSF12A; TNF receptor superfamily member 12A [KO:K05149]
+            939  CD27; CD27 molecule [KO:K05144]
+            943  TNFRSF8; TNF receptor superfamily member 8 [KO:K05145]
+            958  CD40; CD40 molecule [KO:K03160]
+            3604  TNFRSF9; TNF receptor superfamily member 9 [KO:K05146]
+            7293  TNFRSF4; TNF receptor superfamily member 4 [KO:K05142]
+            8784  TNFRSF18; TNF receptor superfamily member 18 [KO:K05154]
+            608  TNFRSF17; TNF receptor superfamily member 17 [KO:K05153]
+            23495  TNFRSF13B; TNF receptor superfamily member 13B [KO:K05150]
+            115650  TNFRSF13C; TNF receptor superfamily member 13C [KO:K05151]
+            55504  TNFRSF19; TNF receptor superfamily member 19 [KO:K05155]
+            84957  RELT; RELT TNF receptor [KO:K05156]
+            7046  TGFBR1; transforming growth factor beta receptor 1 [KO:K04674] [EC:2.7.11.30]
+            7048  TGFBR2; transforming growth factor beta receptor 2 [KO:K04388] [EC:2.7.11.30]
+            94  ACVRL1; activin A receptor like type 1 [KO:K13594] [EC:2.7.11.30]
+            92  ACVR2A; activin A receptor type 2A [KO:K04670] [EC:2.7.11.30]
+            659  BMPR2; bone morphogenetic protein receptor type 2 [KO:K04671] [EC:2.7.11.30]
+            93  ACVR2B; activin A receptor type 2B [KO:K13596] [EC:2.7.11.30]
+            91  ACVR1B; activin A receptor type 1B [KO:K13567] [EC:2.7.11.30]
+            130399  ACVR1C; activin A receptor type 1C [KO:K13568] [EC:2.7.11.30]
+            90  ACVR1; activin A receptor type 1 [KO:K04675] [EC:2.7.11.30]
+            269  AMHR2; anti-Mullerian hormone receptor type 2 [KO:K04672] [EC:2.7.11.30]
+            657  BMPR1A; bone morphogenetic protein receptor type 1A [KO:K04673] [EC:2.7.11.30]
+            658  BMPR1B; bone morphogenetic protein receptor type 1B [KO:K13578] [EC:2.7.11.30]
+REFERENCE   PMID:24892271
+  AUTHORS   Turner MD, Nedjai B, Hurst T, Pennington DJ
+  TITLE     Cytokines and chemokines: At the crossroads of cell signalling and inflammatory disease.
+  JOURNAL   Biochim Biophys Acta 1843:2563-2582 (2014)
+            DOI:10.1016/j.bbamcr.2014.05.014
+REFERENCE   PMID:21106488
+  AUTHORS   Brocker C, Thompson D, Matsumoto A, Nebert DW, Vasiliou V
+  TITLE     Evolutionary divergence and functions of the human interleukin (IL) gene family.
+  JOURNAL   Hum Genomics 5:30-55 (2010)
+            DOI:10.1186/1479-7364-5-1-30
+REFERENCE   PMID:27577879
+  AUTHORS   Akdis M, Aab A, Altunbulakli C, Azkur K, Costa RA, Crameri R, Duan S, Eiwegger T, Eljaszewicz A, Ferstl R, Frei R, Garbani M, Globinska A, Hess L, Huitema C, Kubo T, Komlosi Z, Konieczna P, Kovacs N, Kucuksezer UC, Meyer N, Morita H, Olzhausen J, O'Mahony L, Pezer M, Prati M, Rebane A, Rhyner C, Rinaldi A, Sokolowska M, Stanic B, Sugita K, Treis A, van de Veen W, Wanke K, Wawrzyniak M, Wawrzyniak P, Wirz OF, Zakzuk JS, Akdis CA
+  TITLE     Interleukins (from IL-1 to IL-38), interferons, transforming growth factor beta, and TNF-alpha: Receptors, functions, and roles in diseases.
+  JOURNAL   J Allergy Clin Immunol 138:984-1010 (2016)
+            DOI:10.1016/j.jaci.2016.06.033
+REFERENCE   PMID:15500860
+  AUTHORS   Boulanger MJ, Garcia KC
+  TITLE     Shared cytokine signaling receptors: structural insights from the gp130 system.
+  JOURNAL   Adv Protein Chem 68:107-46 (2004)
+            DOI:10.1016/S0065-3233(04)68004-1
+REFERENCE   PMID:16034365
+  AUTHORS   Allan SM, Tyrrell PJ, Rothwell NJ
+  TITLE     Interleukin-1 and neuronal injury.
+  JOURNAL   Nat Rev Immunol 5:629-40 (2005)
+            DOI:10.1038/nri1664
+REFERENCE   PMID:23847622
+  AUTHORS   Lopetuso LR, Chowdhry S, Pizarro TT
+  TITLE     Opposing Functions of Classic and Novel IL-1 Family Members in Gut Health and Disease.
+  JOURNAL   Front Immunol 4:181 (2013)
+            DOI:10.3389/fimmu.2013.00181
+REFERENCE   PMID:21349428
+  AUTHORS   Iwakura Y, Ishigame H, Saijo S, Nakae S
+  TITLE     Functional specialization of interleukin-17 family members.
+  JOURNAL   Immunity 34:149-62 (2011)
+            DOI:10.1016/j.immuni.2011.02.012
+REFERENCE   PMID:17530315
+  AUTHORS   Fischer P, Hilfiker-Kleiner D
+  TITLE     Survival pathways in hypertrophy and heart failure: the gp130-STAT3 axis.
+  JOURNAL   Basic Res Cardiol 102:279-97 (2007)
+            DOI:10.1007/s00395-007-0658-z
+REFERENCE   PMID:24381786
+  AUTHORS   Richards CD
+  TITLE     The enigmatic cytokine oncostatin m and roles in disease.
+  JOURNAL   ISRN Inflamm 2013:512103 (2013)
+            DOI:10.1155/2013/512103
+REFERENCE   PMID:18926762
+  AUTHORS   Zhang Q, Putheti P, Zhou Q, Liu Q, Gao W
+  TITLE     Structures and biological functions of IL-31 and IL-31 receptors.
+  JOURNAL   Cytokine Growth Factor Rev 19:347-56 (2008)
+            DOI:10.1016/j.cytogfr.2008.08.003
+REFERENCE   PMID:21155715
+  AUTHORS   Meenhuis A, Verwijmeren C, Roovers O, Touw IP
+  TITLE     The deubiquitinating enzyme DUB2A enhances CSF3 signalling by attenuating lysosomal routing of the CSF3 receptor.
+  JOURNAL   Biochem J 434:343-51 (2011)
+            DOI:10.1042/BJ20101628
+REFERENCE   PMID:22410872
+  AUTHORS   de Weerd NA, Nguyen T
+  TITLE     The interferons and their receptors--distribution and regulation.
+  JOURNAL   Immunol Cell Biol 90:483-91 (2012)
+            DOI:10.1038/icb.2012.9
+REFERENCE   PMID:12949498
+  AUTHORS   Aggarwal BB
+  TITLE     Signalling pathways of the TNF superfamily: a double-edged sword.
+  JOURNAL   Nat Rev Immunol 3:745-56 (2003)
+            DOI:10.1038/nri1184
+REFERENCE   PMID:12189384
+  AUTHORS   Ashkenazi A
+  TITLE     Targeting death and decoy receptors of the tumour-necrosis factor superfamily.
+  JOURNAL   Nat Rev Cancer 2:420-30 (2002)
+            DOI:10.1038/nrc821
+REFERENCE   PMID:26115564
+  AUTHORS   Seeger P, Musso T, Sozzani S
+  TITLE     The TGF-beta superfamily in dendritic cell biology.
+  JOURNAL   Cytokine Growth Factor Rev 26:647-57 (2015)
+            DOI:10.1016/j.cytogfr.2015.06.002
+REFERENCE   PMID:23612460
+  AUTHORS   Wakefield LM, Hill CS
+  TITLE     Beyond TGFbeta: roles of other TGFbeta superfamily members in cancer.
+  JOURNAL   Nat Rev Cancer 13:328-41 (2013)
+            DOI:10.1038/nrc3500
+REFERENCE   PMID:22710174
+  AUTHORS   Mueller TD, Nickel J
+  TITLE     Promiscuity and specificity in BMP receptor activation.
+  JOURNAL   FEBS Lett 586:1846-59 (2012)
+            DOI:10.1016/j.febslet.2012.02.043
+KO_PATHWAY  ko04060
+///

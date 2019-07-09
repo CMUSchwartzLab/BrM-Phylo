@@ -1,0 +1,175 @@
+ENTRY       hsa05214                    Pathway
+NAME        Glioma - Homo sapiens (human)
+DESCRIPTION Gliomas are the most common of the primary brain tumors and account for more than 40% of all central nervous system neoplasms. Gliomas include tumours that are composed predominantly of astrocytes (astrocytomas), oligodendrocytes (oligodendrogliomas), mixtures of various glial cells (for example,oligoastrocytomas) and ependymal cells (ependymomas). The most malignant form of infiltrating astrocytoma - glioblastoma multiforme (GBM) - is one of the most aggressive human cancers. GBM may develop de novo (primary glioblastoma) or by progression from low-grade or anaplastic astrocytoma (secondary glioblastoma). Primary glioblastomas develop in older patients and typically show genetic alterations (EGFR amplification, p16/INK4a deletion, and PTEN mutations) at frequencies of 24-34%. Secondary glioblastomas develop in younger patients and frequently show overexpression of PDGF and CDK4 as well as p53 mutations (65%) and loss of Rb playing major roles in such transformations. Loss of PTEN has been implicated in both pathways, although it is much more common in the pathogenesis of primary GBM.
+CLASS       Human Diseases; Cancers: Specific types
+PATHWAY_MAP hsa05214  Glioma
+NETWORK     nt06210  ERK signaling
+            nt06214  PI3K signaling
+            nt06220  Calcium signaling
+            nt06230  Cell cycle G1/S
+            nt06240  Transcription
+            nt06260  Colorectal cancer
+            nt06261  Gastric cancer
+            nt06262  Pancreatic cancer
+            nt06263  Hepatocellular carcinoma
+            nt06265  Bladder cancer
+            nt06266  Non-small cell lung cancer
+            nt06267  Small cell lung cancer
+            nt06268  Melanoma
+            nt06269  Basal cell carcinoma
+            nt06270  Breast cancer
+            nt06271  Endometrial cancer
+            nt06272  Prostate cancer
+            nt06273  Glioma
+            nt06274  Thyroid cancer
+            nt06276  Chronic myeloid leukemia
+  ELEMENT   N00006  Amplified EGFR to RAS-ERK signaling pathway
+            N00016  PDGF-overexpression to RAS-ERK signaling pathway
+            N00018  Amplified PDGFR to RAS-ERK signaling pathway
+            N00027  Amplified EGFR to PLCG-CAMK signaling pathway
+            N00029  Amplified PDGFR to PLCG-CAMK signaling pathway
+            N00035  Amplified EGFR to PI3K signaling pathway
+            N00040  Amplified PDGFR to PI3K signaling pathway
+            N00041  EGFR-overexpression to RAS-ERK signaling pathway
+            N00042  EGFR-overexpression to PI3K signaling pathway
+            N00051  Deleted PTEN to PI3K signaling pathway
+            N00052  Mutation-inactivated PTEN to PI3K signaling pathway
+            N00067  Deleted p14(ARF) to p21-cell cycle G1/S
+            N00068  Amplified MDM2 to p21-cell cycle G1/S
+            N00071  Deleted p16(INK4a) to p16-cell cycle G1/S
+            N00072  Amplified CDK4 to cell cycle G1/S
+            N00074  Loss of RB1 to cell cycle G1/S
+            N00115  Mutation-inactivated TP53 to transcription
+            N00513  Mutation-activated EGFR to RAS-ERK signaling pathway
+            N00514  Mutation-activated EGFR to PI3K signaling pathway
+DISEASE     H00042  Glioma
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        1950  EGF; epidermal growth factor [KO:K04357]
+            7039  TGFA; transforming growth factor alpha [KO:K08774]
+            1956  EGFR; epidermal growth factor receptor [KO:K04361] [EC:2.7.10.1]
+            5154  PDGFA; platelet derived growth factor subunit A [KO:K04359]
+            5155  PDGFB; platelet derived growth factor subunit B [KO:K17386]
+            5156  PDGFRA; platelet derived growth factor receptor alpha [KO:K04363] [EC:2.7.10.1]
+            5159  PDGFRB; platelet derived growth factor receptor beta [KO:K05089] [EC:2.7.10.1]
+            3479  IGF1; insulin like growth factor 1 [KO:K05459]
+            3480  IGF1R; insulin like growth factor 1 receptor [KO:K05087] [EC:2.7.10.1]
+            5335  PLCG1; phospholipase C gamma 1 [KO:K01116] [EC:3.1.4.11]
+            5336  PLCG2; phospholipase C gamma 2 [KO:K05859] [EC:3.1.4.11]
+            810  CALML3; calmodulin like 3 [KO:K02183]
+            805  CALM2; calmodulin 2 [KO:K02183]
+            808  CALM3; calmodulin 3 [KO:K02183]
+            801  CALM1; calmodulin 1 [KO:K02183]
+            163688  CALML6; calmodulin like 6 [KO:K02183]
+            51806  CALML5; calmodulin like 5 [KO:K02183]
+            91860  CALML4; calmodulin like 4 [KO:K02183]
+            57118  CAMK1D; calcium/calmodulin dependent protein kinase ID [KO:K08794] [EC:2.7.11.17]
+            57172  CAMK1G; calcium/calmodulin dependent protein kinase IG [KO:K08794] [EC:2.7.11.17]
+            8536  CAMK1; calcium/calmodulin dependent protein kinase I [KO:K08794] [EC:2.7.11.17]
+            815  CAMK2A; calcium/calmodulin dependent protein kinase II alpha [KO:K04515] [EC:2.7.11.17]
+            817  CAMK2D; calcium/calmodulin dependent protein kinase II delta [KO:K04515] [EC:2.7.11.17]
+            816  CAMK2B; calcium/calmodulin dependent protein kinase II beta [KO:K04515] [EC:2.7.11.17]
+            818  CAMK2G; calcium/calmodulin dependent protein kinase II gamma [KO:K04515] [EC:2.7.11.17]
+            814  CAMK4; calcium/calmodulin dependent protein kinase IV [KO:K05869] [EC:2.7.11.17]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            6464  SHC1; SHC adaptor protein 1 [KO:K06279]
+            25759  SHC2; SHC adaptor protein 2 [KO:K17447]
+            53358  SHC3; SHC adaptor protein 3 [KO:K17448]
+            399694  SHC4; SHC adaptor protein 4 [KO:K17449]
+            2885  GRB2; growth factor receptor bound protein 2 [KO:K04364]
+            6654  SOS1; SOS Ras/Rac guanine nucleotide exchange factor 1 [KO:K03099]
+            6655  SOS2; SOS Ras/Rho guanine nucleotide exchange factor 2 [KO:K03099]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            369  ARAF; A-Raf proto-oncogene, serine/threonine kinase [KO:K08845] [EC:2.7.11.1]
+            673  BRAF; B-Raf proto-oncogene, serine/threonine kinase [KO:K04365] [EC:2.7.11.1]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            2475  MTOR; mechanistic target of rapamycin kinase [KO:K07203] [EC:2.7.11.1]
+            5728  PTEN; phosphatase and tensin homolog [KO:K01110] [EC:3.1.3.67 3.1.3.48 3.1.3.16]
+            1029  CDKN2A; cyclin dependent kinase inhibitor 2A [KO:K06621]
+            4193  MDM2; MDM2 proto-oncogene [KO:K06643] [EC:2.3.2.27]
+            7157  TP53; tumor protein p53 [KO:K04451]
+            1026  CDKN1A; cyclin dependent kinase inhibitor 1A [KO:K06625]
+            595  CCND1; cyclin D1 [KO:K04503]
+            1019  CDK4; cyclin dependent kinase 4 [KO:K02089] [EC:2.7.11.22]
+            1021  CDK6; cyclin dependent kinase 6 [KO:K02091] [EC:2.7.11.22]
+            5925  RB1; RB transcriptional corepressor 1 [KO:K06618]
+            1869  E2F1; E2F transcription factor 1 [KO:K17454]
+            1870  E2F2; E2F transcription factor 2 [KO:K09389]
+            1871  E2F3; E2F transcription factor 3 [KO:K06620]
+            1647  GADD45A; growth arrest and DNA damage inducible alpha [KO:K04402]
+            4616  GADD45B; growth arrest and DNA damage inducible beta [KO:K04402]
+            10912  GADD45G; growth arrest and DNA damage inducible gamma [KO:K04402]
+            581  BAX; BCL2 associated X, apoptosis regulator [KO:K02159]
+            578  BAK1; BCL2 antagonist/killer 1 [KO:K14021]
+            1643  DDB2; damage specific DNA binding protein 2 [KO:K10140]
+            51426  POLK; DNA polymerase kappa [KO:K03511] [EC:2.7.7.7]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:15639402
+  AUTHORS   Soni D, King JA, Kaye AH, Hovens CM.
+  TITLE     Genetics of glioblastoma multiforme: mitogenic signaling and cell cycle pathways converge.
+  JOURNAL   J Clin Neurosci 12:1-5 (2005)
+            DOI:10.1016/j.jocn.2004.04.001
+REFERENCE   PMID:12154354
+  AUTHORS   Zhu Y, Parada LF.
+  TITLE     The molecular and genetic basis of neurological tumours.
+  JOURNAL   Nat Rev Cancer 2:616-26 (2002)
+            DOI:10.1038/nrc866
+REFERENCE   PMID:11253051
+  AUTHORS   Holland EC.
+  TITLE     Gliomagenesis: genetic alterations and mouse models.
+  JOURNAL   Nat Rev Genet 2:120-9 (2001)
+            DOI:10.1038/35052535
+REFERENCE   PMID:16700615
+  AUTHORS   Bansal K, Liang ML, Rutka JT.
+  TITLE     Molecular biology of human gliomas.
+  JOURNAL   Technol Cancer Res Treat 5:185-94 (2006)
+            DOI:10.1177/153303460600500302
+REFERENCE   (Japanese)
+  AUTHORS   Tabuchi K (ed).
+  TITLE     [Gliomas: Research and therapy] (In Japanese)
+  JOURNAL   Springer-Verlag Tokyo (2006)
+REFERENCE   PMID:12762887
+  AUTHORS   Kapoor GS, O'Rourke DM.
+  TITLE     Mitogenic signaling cascades in glial tumors.
+  JOURNAL   Neurosurgery 52:1425-34; discussion 1434-5 (2003)
+            DOI:10.1227/01.NEU.0000065135.28143.39
+REFERENCE   PMID:16095998
+  AUTHORS   Hulleman E, Helin K.
+  TITLE     Molecular mechanisms in gliomagenesis.
+  JOURNAL   Adv Cancer Res 94:1-27 (2005)
+            DOI:10.1016/S0065-230X(05)94001-3
+REFERENCE   PMID:11057895
+  AUTHORS   Schlessinger J.
+  TITLE     Cell signaling by receptor tyrosine kinases.
+  JOURNAL   Cell 103:211-25 (2000)
+            DOI:10.1016/S0092-8674(00)00114-8
+REFERENCE   PMID:9643506
+  AUTHORS   Ng HK, Lam PY.
+  TITLE     The molecular genetics of central nervous system tumors.
+  JOURNAL   Pathology 30:196-202 (1998)
+REFERENCE   PMID:12084351
+  AUTHORS   Knobbe CB, Merlo A, Reifenberger G.
+  TITLE     Pten signaling in gliomas.
+  JOURNAL   Neuro-oncol 4:196-211 (2002)
+            DOI:10.1093/neuonc/4.3.196
+KO_PATHWAY  ko05214
+///

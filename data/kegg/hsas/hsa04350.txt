@@ -1,0 +1,260 @@
+ENTRY       hsa04350                    Pathway
+NAME        TGF-beta signaling pathway - Homo sapiens (human)
+DESCRIPTION The transforming growth factor-beta (TGF-beta) family members, which include TGF-betas, activins and bone morphogenetic proteins (BMPs), are structurally related secreted cytokines found in species ranging from worms and insects to mammals. A wide spectrum of cellular functions such as proliferation, apoptosis, differentiation and migration are regulated by TGF-beta family members. TGF-beta family member binds to the Type II receptor and recruits Type I, whereby Type II receptor phosphorylates and activates Type I. The Type I receptor, in turn, phosphorylates receptor-activated Smads ( R-Smads: Smad1, Smad2, Smad3, Smad5, and Smad8). Once phosphorylated, R-Smads associate with the co-mediator Smad, Smad4, and the heteromeric complex then translocates into the nucleus. In the nucleus, Smad complexes activate specific genes through cooperative interactions with other DNA-binding and coactivator (or co-repressor) proteins.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04350  TGF-beta signaling pathway
+MODULE      hsa_M00679  BMP signaling [PATH:hsa04350]
+            hsa_M00680  TGF-beta signaling [PATH:hsa04350]
+            hsa_M00681  Activin signaling [PATH:hsa04350]
+NETWORK     nt06118  TGFB signaling (virus)
+            nt06160  Human T-cell leukemia virus 1 (HTLV-1)
+            nt06162  Hepatitis B virus (HBV)
+            nt06218  TGFB signaling
+            nt06260  Colorectal cancer
+            nt06261  Gastric cancer
+            nt06263  Hepatocellular carcinoma
+            nt06276  Chronic myeloid leukemia
+  ELEMENT   N00063  TGF-beta signaling pathway
+DISEASE     H00409  Type 2 diabetes mellitus
+            H00430  Fibrodysplasia ossificans progressiva
+            H00431  Ossification of the posterior longitudinal ligament of spine
+            H00434  Camurati-Engelmann disease
+            H00466  Grebe dysplasia
+            H00467  Fibular hypoplasia and complex brachydactyly
+            H00468  Acromesomelic dysplasia, Demirhan type
+            H00482  Brachydactyly
+            H00483  Angel shaped phalangoepiphyseal dysplasia
+            H00484  Multiple synostosis syndrome
+            H00533  Hereditary hemorrhagic telangiectasia
+            H00554  Bicuspid aortic valve
+            H00609  Persistent Mullerian duct syndrome
+            H00620  Axenfeld-Rieger syndrome
+            H00632  Heterotaxy
+            H00778  Tarsal-carpal coalition syndrome
+            H00800  Loeys-Dietz syndrome
+            H00801  Familial thoracic aortic aneurysm and dissection
+            H00852  Klippel-Feil syndrome
+            H00868  Stapes ankylosis with broad thumb and toes
+            H00958  Congenital stromal corneal dystrophy
+            H01023  Juvenile polyposis syndrome
+            H01024  Hereditary mixed polyposis syndrome
+            H01075  Peters anomaly
+            H01149  Ring dermoid of cornea
+            H01385  Rienhoff syndrome
+            H01619  Primary pulmonary hypertension
+            H01621  Pulmonary arterial hypertension
+            H02102  Myhre syndrome
+DRUG        D00742  Etanercept (USAN/INN)
+            D01583  Pirfenidone (JAN/USAN/INN)
+            D02597  Adalimumab (USAN/INN)
+            D02598  Infliximab (USAN/INN)
+            D03441  Certolizumab pegol (USAN/INN)
+            D04358  Golimumab (USAN/INN)
+            D05146  Nerelimomab (USAN/INN)
+            D05263  Onercept (USAN/INN)
+            D05393  Pegsunercept (USAN)
+            D06563  Belagenpumatucel-L (USAN)
+            D07436  Afelimomab (INN)
+            D09014  Terameprocol (INN/USAN)
+            D09620  Fresolimumab (USAN/INN)
+            D09670  Sotatercept (USAN/INN)
+            D09944  Ozoralizumab (USAN)
+            D10437  Galunisertib (USAN)
+            D11397  Darvadstrocel (INN)
+DBLINKS     GO: 0007179
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        8646  CHRD; chordin [KO:K04657]
+            9241  NOG; noggin [KO:K04658]
+            4681  NBL1; NBL1, DAN family BMP antagonist [KO:K19558]
+            100532736  MICOS10-NBL1; MICOS10-NBL1 readthrough [KO:K19558]
+            26585  GREM1; gremlin 1, DAN family BMP antagonist [KO:K23318]
+            64388  GREM2; gremlin 2, DAN family BMP antagonist [KO:K23318]
+            7057  THBS1; thrombospondin 1 [KO:K16857]
+            1634  DCN; decorin [KO:K04660]
+            2331  FMOD; fibromodulin [KO:K08121]
+            10637  LEFTY1; left-right determination factor 1 [KO:K04668]
+            7044  LEFTY2; left-right determination factor 2 [KO:K04668]
+            10468  FST; follistatin [KO:K04661]
+            650  BMP2; bone morphogenetic protein 2 [KO:K21283]
+            652  BMP4; bone morphogenetic protein 4 [KO:K04662]
+            654  BMP6; bone morphogenetic protein 6 [KO:K16620]
+            3625  INHBB; inhibin subunit beta B [KO:K22687]
+            653  BMP5; bone morphogenetic protein 5 [KO:K04663]
+            655  BMP7; bone morphogenetic protein 7 [KO:K16621]
+            656  BMP8B; bone morphogenetic protein 8b [KO:K16622]
+            353500  BMP8A; bone morphogenetic protein 8a [KO:K16622]
+            8200  GDF5; growth differentiation factor 5 [KO:K04664]
+            392255  GDF6; growth differentiation factor 6 [KO:K20012]
+            151449  GDF7; growth differentiation factor 7 [KO:K20013]
+            268  AMH; anti-Mullerian hormone [KO:K04665]
+            4052  LTBP1; latent transforming growth factor beta binding protein 1 [KO:K19559]
+            7040  TGFB1; transforming growth factor beta 1 [KO:K13375]
+            7042  TGFB2; transforming growth factor beta 2 [KO:K13376]
+            7043  TGFB3; transforming growth factor beta 3 [KO:K13377]
+            3624  INHBA; inhibin subunit beta A [KO:K04667]
+            3626  INHBC; inhibin subunit beta C [KO:K22688]
+            83729  INHBE; inhibin subunit beta E [KO:K22689]
+            4838  NODAL; nodal growth differentiation factor [KO:K04666]
+            4756  NEO1; neogenin 1 [KO:K06766]
+            148738  HJV; hemojuvelin BMP co-receptor [KO:K23100]
+            657  BMPR1A; bone morphogenetic protein receptor type 1A [KO:K04673] [EC:2.7.11.30]
+            658  BMPR1B; bone morphogenetic protein receptor type 1B [KO:K13578] [EC:2.7.11.30]
+            90  ACVR1; activin A receptor type 1 [KO:K04675] [EC:2.7.11.30]
+            659  BMPR2; bone morphogenetic protein receptor type 2 [KO:K04671] [EC:2.7.11.30]
+            92  ACVR2A; activin A receptor type 2A [KO:K04670] [EC:2.7.11.30]
+            56963  RGMA; repulsive guidance molecule BMP co-receptor a [KO:K23096]
+            285704  RGMB; repulsive guidance molecule BMP co-receptor b [KO:K06847]
+            269  AMHR2; anti-Mullerian hormone receptor type 2 [KO:K04672] [EC:2.7.11.30]
+            7046  TGFBR1; transforming growth factor beta receptor 1 [KO:K04674] [EC:2.7.11.30]
+            7048  TGFBR2; transforming growth factor beta receptor 2 [KO:K04388] [EC:2.7.11.30]
+            91  ACVR1B; activin A receptor type 1B [KO:K13567] [EC:2.7.11.30]
+            93  ACVR2B; activin A receptor type 2B [KO:K13596] [EC:2.7.11.30]
+            130399  ACVR1C; activin A receptor type 1C [KO:K13568] [EC:2.7.11.30]
+            25805  BAMBI; BMP and activin membrane bound inhibitor [KO:K10162]
+            4086  SMAD1; SMAD family member 1 [KO:K04676]
+            4090  SMAD5; SMAD family member 5 [KO:K16790]
+            4093  SMAD9; SMAD family member 9 [KO:K16791]
+            4087  SMAD2; SMAD family member 2 [KO:K04500]
+            4088  SMAD3; SMAD family member 3 [KO:K04500]
+            4089  SMAD4; SMAD family member 4 [KO:K04501]
+            4091  SMAD6; SMAD family member 6 [KO:K04677]
+            4092  SMAD7; SMAD family member 7 [KO:K19631]
+            57154  SMURF1; SMAD specific E3 ubiquitin protein ligase 1 [KO:K04678] [EC:2.3.2.26]
+            64750  SMURF2; SMAD specific E3 ubiquitin protein ligase 2 [KO:K04678] [EC:2.3.2.26]
+            9372  ZFYVE9; zinc finger FYVE-type containing 9 [KO:K04679]
+            9765  ZFYVE16; zinc finger FYVE-type containing 16 [KO:K04679]
+            57817  HAMP; hepcidin antimicrobial peptide [KO:K23106]
+            3397  ID1; inhibitor of DNA binding 1, HLH protein [KO:K04680]
+            3398  ID2; inhibitor of DNA binding 2 [KO:K17693]
+            3399  ID3; inhibitor of DNA binding 3, HLH protein [KO:K17694]
+            3400  ID4; inhibitor of DNA binding 4, HLH protein [KO:K17695]
+            5933  RBL1; RB transcriptional corepressor like 1 [KO:K04681]
+            1874  E2F4; E2F transcription factor 4 [KO:K04682]
+            1875  E2F5; E2F transcription factor 5 [KO:K04682]
+            7027  TFDP1; transcription factor Dp-1 [KO:K04683]
+            1387  CREBBP; CREB binding protein [KO:K04498] [EC:2.3.1.48]
+            2033  EP300; E1A binding protein p300 [KO:K04498] [EC:2.3.1.48]
+            6667  SP1; Sp1 transcription factor [KO:K04684]
+            7050  TGIF1; TGFB induced factor homeobox 1 [KO:K19383]
+            60436  TGIF2; TGFB induced factor homeobox 2 [KO:K19553]
+            4609  MYC; MYC proto-oncogene, bHLH transcription factor [KO:K04377]
+            1030  CDKN2B; cyclin dependent kinase inhibitor 2B [KO:K04685]
+            5308  PITX2; paired like homeodomain 2 [KO:K04686]
+            9978  RBX1; ring-box 1 [KO:K03868] [EC:2.3.2.32]
+            8454  CUL1; cullin 1 [KO:K03347]
+            6500  SKP1; S-phase kinase associated protein 1 [KO:K03094]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            3458  IFNG; interferon gamma [KO:K04687]
+            7124  TNF; tumor necrosis factor [KO:K03156]
+            387  RHOA; ras homolog family member A [KO:K04513]
+            6093  ROCK1; Rho associated coiled-coil containing protein kinase 1 [KO:K04514] [EC:2.7.11.1]
+            5519  PPP2R1B; protein phosphatase 2 scaffold subunit Abeta [KO:K03456]
+            5518  PPP2R1A; protein phosphatase 2 scaffold subunit Aalpha [KO:K03456]
+            5515  PPP2CA; protein phosphatase 2 catalytic subunit alpha [KO:K04382] [EC:3.1.3.16]
+            5516  PPP2CB; protein phosphatase 2 catalytic subunit beta [KO:K04382] [EC:3.1.3.16]
+            6198  RPS6KB1; ribosomal protein S6 kinase B1 [KO:K04688] [EC:2.7.11.1]
+            6199  RPS6KB2; ribosomal protein S6 kinase B2 [KO:K04688] [EC:2.7.11.1]
+REFERENCE   PMID:12809600
+  AUTHORS   Shi Y, Massague J.
+  TITLE     Mechanisms of TGF-beta signaling from cell membrane to the nucleus.
+  JOURNAL   Cell 113:685-700 (2003)
+            DOI:10.1016/S0092-8674(03)00432-X
+REFERENCE   PMID:14534577
+  AUTHORS   Derynck R, Zhang YE.
+  TITLE     Smad-dependent and Smad-independent pathways in TGF-beta family signalling.
+  JOURNAL   Nature 425:577-84 (2003)
+            DOI:10.1038/nature02006
+REFERENCE   PMID:11252892
+  AUTHORS   Massague J.
+  TITLE     How cells read TGF-beta signals.
+  JOURNAL   Nat Rev Mol Cell Biol 1:169-78 (2000)
+            DOI:10.1038/35043051
+REFERENCE   PMID:14557817
+  AUTHORS   Siegel PM, Massague J.
+  TITLE     Cytostatic and apoptotic actions of TGF-beta in homeostasis and cancer.
+  JOURNAL   Nat Rev Cancer 3:807-21 (2003)
+            DOI:10.1038/nrc1208
+REFERENCE   PMID:14769828
+  AUTHORS   Shimasaki S, Moore RK, Otsuka F, Erickson GF.
+  TITLE     The bone morphogenetic protein system in mammalian reproduction.
+  JOURNAL   Endocr Rev 25:72-101 (2004)
+            DOI:10.1210/er.2003-0007
+REFERENCE   PMID:11252746
+  AUTHORS   De Robertis EM, Larrain J, Oelgeschlager M, Wessely O.
+  TITLE     The establishment of Spemann's organizer and patterning of the vertebrate embryo.
+  JOURNAL   Nat Rev Genet 1:171-81 (2000)
+            DOI:10.1038/35042039
+REFERENCE   PMID:12163231
+  AUTHORS   Gumienny TL, Padgett RW.
+  TITLE     The other side of TGF-beta superfamily signal regulation: thinking outside the cell.
+  JOURNAL   Trends Endocrinol Metab 13:295-9 (2002)
+            DOI:10.1016/S1043-2760(02)00615-X
+REFERENCE   PMID:11836504
+  AUTHORS   Hamada H, Meno C, Watanabe D, Saijoh Y.
+  TITLE     Establishment of vertebrate left-right asymmetry.
+  JOURNAL   Nat Rev Genet 3:103-13 (2002)
+            DOI:10.1038/nrg732
+REFERENCE   PMID:12466190
+  AUTHORS   Chang H, Brown CW, Matzuk MM.
+  TITLE     Genetic analysis of the mammalian transforming growth factor-beta superfamily.
+  JOURNAL   Endocr Rev 23:787-823 (2002)
+            DOI:10.1210/er.2002-0003
+REFERENCE   PMID:10021351
+  AUTHORS   Morita K, Chow KL, Ueno N.
+  TITLE     Regulation of body length and male tail ray pattern formation of Caenorhabditis elegans by a member of TGF-beta family.
+  JOURNAL   Development 126:1337-47 (1999)
+REFERENCE   PMID:9847239
+  AUTHORS   Krishna S, Maduzia LL, Padgett RW.
+  TITLE     Specificity of TGFbeta signaling is conferred by distinct type I receptors and their associated SMAD proteins in Caenorhabditis elegans.
+  JOURNAL   Development 126:251-60 (1999)
+REFERENCE   PMID:15063168
+  AUTHORS   Chen Y, Mironova E, Whitaker LL, Edwards L, Yost HJ, Ramsdell AF.
+  TITLE     ALK4 functions as a receptor for multiple TGF beta-related ligands to regulate left-right axis determination and mesoderm induction in Xenopus.
+  JOURNAL   Dev Biol 268:280-94 (2004)
+            DOI:10.1016/j.ydbio.2003.12.035
+REFERENCE   PMID:10519551
+  AUTHORS   Onichtchouk D, Chen YG, Dosch R, Gawantka V, Delius H, Massague J, Niehrs C
+  TITLE     Silencing of TGF-beta signalling by the pseudoreceptor BAMBI.
+  JOURNAL   Nature 401:480-5 (1999)
+            DOI:10.1038/46794
+REFERENCE   PMID:19758997
+  AUTHORS   Yan X, Lin Z, Chen F, Zhao X, Chen H, Ning Y, Chen YG
+  TITLE     Human BAMBI cooperates with Smad7 to inhibit transforming growth factor-beta signaling.
+  JOURNAL   J Biol Chem 284:30097-104 (2009)
+            DOI:10.1074/jbc.M109.049304
+REFERENCE   PMID:8093006
+  AUTHORS   Hildebrand A, Romaris M, Rasmussen LM, Heinegard D, Twardzik DR, Border WA, Ruoslahti E
+  TITLE     Interaction of the small interstitial proteoglycans biglycan, decorin and fibromodulin with transforming growth factor beta.
+  JOURNAL   Biochem J 302 ( Pt 2):527-34 (1994)
+REFERENCE   PMID:10934147
+  AUTHORS   Soo C, Hu FY, Zhang X, Wang Y, Beanes SR, Lorenz HP, Hedrick MH, Mackool RJ, Plaas A, Kim SJ, Longaker MT, Freymiller E, Ting K
+  TITLE     Differential expression of fibromodulin, a transforming growth factor-beta modulator, in fetal skin development and scarless repair.
+  JOURNAL   Am J Pathol 157:423-33 (2000)
+REFERENCE   PMID:16642010
+  AUTHORS   Anderson GJ, Frazer DM
+  TITLE     Iron metabolism meets signal transduction.
+  JOURNAL   Nat Genet 38:503-4 (2006)
+            DOI:10.1038/ng0506-503
+REFERENCE   PMID:26735394
+  AUTHORS   Canali S, Core AB, Zumbrennen-Bullough KB, Merkulova M, Wang CY, Schneyer AL, Pietrangelo A, Babitt JL
+  TITLE     Activin B Induces Noncanonical SMAD1/5/8 Signaling via BMP Type I Receptors in Hepatocytes: Evidence for a Role in Hepcidin Induction by Inflammation in Male Mice.
+  JOURNAL   Endocrinology 157:1146-62 (2016)
+            DOI:10.1210/en.2015-1747
+REFERENCE   PMID:26160612
+  AUTHORS   Ganz T, Nemeth E
+  TITLE     Iron homeostasis in host defence and inflammation.
+  JOURNAL   Nat Rev Immunol 15:500-10 (2015)
+            DOI:10.1038/nri3863
+REFERENCE   PMID:15975920
+  AUTHORS   Babitt JL, Zhang Y, Samad TA, Xia Y, Tang J, Campagna JA, Schneyer AL, Woolf CJ, Lin HY
+  TITLE     Repulsive guidance molecule (RGMa), a DRAGON homologue, is a bone morphogenetic protein co-receptor.
+  JOURNAL   J Biol Chem 280:29820-7 (2005)
+            DOI:10.1074/jbc.M503511200
+REFERENCE   PMID:15671031
+  AUTHORS   Samad TA, Rebbapragada A, Bell E, Zhang Y, Sidis Y, Jeong SJ, Campagna JA, Perusini S, Fabrizio DA, Schneyer AL, Lin HY, Brivanlou AH, Attisano L, Woolf CJ
+  TITLE     DRAGON, a bone morphogenetic protein co-receptor.
+  JOURNAL   J Biol Chem 280:14122-9 (2005)
+            DOI:10.1074/jbc.M410034200
+KO_PATHWAY  ko04350
+///

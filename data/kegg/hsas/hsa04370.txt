@@ -1,0 +1,171 @@
+ENTRY       hsa04370                    Pathway
+NAME        VEGF signaling pathway - Homo sapiens (human)
+DESCRIPTION There is now much evidence that VEGFR-2 is the major mediator of VEGF-driven responses in endothelial cells and it is considered to be a crucial signal transducer in both physiologic and pathologic angiogenesis. The binding of VEGF to VEGFR-2 leads to a cascade of different signaling pathways, resulting in the up-regulation of genes involved in mediating the proliferation and migration of endothelial cells and promoting their survival and vascular permeability. For example, the binding of VEGF to VEGFR-2 leads to dimerization of the receptor, followed by intracellular activation of the PLCgamma;PKC-Raf kinase-MEK-mitogen-activated protein kinase (MAPK) pathway and subsequent initiation of DNA synthesis and cell growth, whereas activation of the phosphatidylinositol 3' -kinase (PI3K)-Akt pathway leads to increased endothelial-cell survival. Activation of PI3K, FAK, and p38 MAPK is implicated in cell migration signaling.
+CLASS       Environmental Information Processing; Signal transduction
+PATHWAY_MAP hsa04370  VEGF signaling pathway
+DISEASE     H01482  Infantile hemangioma
+            H01529  Avascular necrosis of femoral head
+DRUG        D03218  Axitinib (JAN/USAN)
+            D03658  Dasatinib (JAN/INN)
+            D03736  Doramapimod (USAN/INN)
+            D05029  Midostaurin (USAN/INN)
+            D05386  Pegaptanib sodium (JAN/USAN)
+            D05697  Ranibizumab (USAN/INN)
+            D05819  Semaxanib (USAN/INN)
+            D06272  Sorafenib tosylate (USAN)
+            D06285  Vatalanib (USAN/INN)
+            D06402  Sunitinib malate (JAN/USAN)
+            D06407  Vandetanib (JAN/USAN/INN)
+            D06409  Bevacizumab (USAN)
+            D06414  Dasatinib (USAN)
+            D08503  Toceranib (USAN)
+            D08524  Sorafenib (USAN/INN)
+            D08544  Toceranib phosphate (USAN)
+            D08552  Sunitinib (INN)
+            D08874  Bevasiranib sodium (USAN)
+            D08878  Brivanib alaninate (JAN/USAN/INN)
+            D08881  Cediranib (USAN/INN)
+            D08883  Cediranib maleate (JAN/USAN)
+            D08947  Motesanib diphosphate (USAN)
+            D08963  Pamapimod (INN/USAN)
+            D09371  Ramucirumab (USAN)
+            D09386  Talmapimod (USAN/INN)
+            D09574  Aflibercept (USAN/INN)
+            D09589  Brivanib (USAN)
+            D09602  Dilmapimod (USAN/INN)
+            D09603  Dilmapimod tosylate (USAN)
+            D09618  Foretinib (USAN/INN)
+            D09635  Linifanib (USAN/INN)
+            D09639  Losmapimod (USAN/INN)
+            D09664  Saracatinib (USAN/INN)
+            D09665  Saracatinib difumarate (USAN)
+            D09683  Tivozanib (USAN/INN)
+            D09919  Lenvatinib (USAN/INN)
+            D09920  Lenvatinib mesylate (USAN)
+            D09945  Pegdinetanib (USAN/INN)
+            D10062  Cabozantinib (USAN)
+            D10095  Cabozantinib s-malate (USAN)
+            D10137  Regorafenib hydrate (JAN)
+            D10138  Regorafenib (USAN/INN)
+            D10190  Tivozanib hydrochloride (USAN)
+            D10224  Golvatinib (USAN)
+            D10396  Nintedanib esylate (USAN)
+            D10426  Pimasertib (USAN/INN)
+            D10465  Golvatinib tartrate (USAN)
+            D10481  Nintedanib (USAN/INN)
+            D10486  Pimasertib hydrochloride (USAN)
+            D11083  Brolucizumab (USAN/INN)
+            D11126  Navicixizumab (USAN/INN)
+            D11244  Vanucizumab (USAN/INN)
+            D11288  Rivoceranib (USAN/INN)
+            D11289  Rivoceranib mesylate (USAN)
+            D11517  Abicipar pegol (USAN/INN)
+DBLINKS     GO: 0048010
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        7422  VEGFA; vascular endothelial growth factor A [KO:K05448]
+            3791  KDR; kinase insert domain receptor [KO:K05098] [EC:2.7.10.1]
+            9047  SH2D2A; SH2 domain containing 2A [KO:K08273]
+            5335  PLCG1; phospholipase C gamma 1 [KO:K01116] [EC:3.1.4.11]
+            5336  PLCG2; phospholipase C gamma 2 [KO:K05859] [EC:3.1.4.11]
+            5578  PRKCA; protein kinase C alpha [KO:K02677] [EC:2.7.11.13]
+            5579  PRKCB; protein kinase C beta [KO:K19662] [EC:2.7.11.13]
+            5582  PRKCG; protein kinase C gamma [KO:K19663] [EC:2.7.11.13]
+            8877  SPHK1; sphingosine kinase 1 [KO:K04718] [EC:2.7.1.91]
+            56848  SPHK2; sphingosine kinase 2 [KO:K04718] [EC:2.7.1.91]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+            123745  PLA2G4E; phospholipase A2 group IVE [KO:K16342] [EC:3.1.1.4]
+            5321  PLA2G4A; phospholipase A2 group IVA [KO:K16342] [EC:3.1.1.4]
+            8681  JMJD7-PLA2G4B; JMJD7-PLA2G4B readthrough [KO:K16342] [EC:3.1.1.4]
+            100137049  PLA2G4B; phospholipase A2 group IVB [KO:K16342] [EC:3.1.1.4]
+            8605  PLA2G4C; phospholipase A2 group IVC [KO:K16342] [EC:3.1.1.4]
+            283748  PLA2G4D; phospholipase A2 group IVD [KO:K16342] [EC:3.1.1.4]
+            255189  PLA2G4F; phospholipase A2 group IVF [KO:K16342] [EC:3.1.1.4]
+            5530  PPP3CA; protein phosphatase 3 catalytic subunit alpha [KO:K04348] [EC:3.1.3.16]
+            5532  PPP3CB; protein phosphatase 3 catalytic subunit beta [KO:K04348] [EC:3.1.3.16]
+            5533  PPP3CC; protein phosphatase 3 catalytic subunit gamma [KO:K04348] [EC:3.1.3.16]
+            5534  PPP3R1; protein phosphatase 3 regulatory subunit B, alpha [KO:K06268]
+            5535  PPP3R2; protein phosphatase 3 regulatory subunit B, beta [KO:K06268]
+            4773  NFATC2; nuclear factor of activated T cells 2 [KO:K17332]
+            5743  PTGS2; prostaglandin-endoperoxide synthase 2 [KO:K11987] [EC:1.14.99.1]
+            5747  PTK2; protein tyrosine kinase 2 [KO:K05725] [EC:2.7.10.2]
+            25759  SHC2; SHC adaptor protein 2 [KO:K17447]
+            5829  PXN; paxillin [KO:K05760]
+            998  CDC42; cell division cycle 42 [KO:K04393]
+            5600  MAPK11; mitogen-activated protein kinase 11 [KO:K04441] [EC:2.7.11.24]
+            6300  MAPK12; mitogen-activated protein kinase 12 [KO:K04441] [EC:2.7.11.24]
+            5603  MAPK13; mitogen-activated protein kinase 13 [KO:K04441] [EC:2.7.11.24]
+            1432  MAPK14; mitogen-activated protein kinase 14 [KO:K04441] [EC:2.7.11.24]
+            9261  MAPKAPK2; mitogen-activated protein kinase-activated protein kinase 2 [KO:K04443] [EC:2.7.11.1]
+            7867  MAPKAPK3; mitogen-activated protein kinase-activated protein kinase 3 [KO:K04444] [EC:2.7.11.1]
+            3315  HSPB1; heat shock protein family B (small) member 1 [KO:K04455]
+            6714  SRC; SRC proto-oncogene, non-receptor tyrosine kinase [KO:K05704] [EC:2.7.10.2]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            5879  RAC1; Rac family small GTPase 1 [KO:K04392]
+            5880  RAC2; Rac family small GTPase 2 [KO:K07860]
+            5881  RAC3; Rac family small GTPase 3 [KO:K07861]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            4846  NOS3; nitric oxide synthase 3 [KO:K13242] [EC:1.14.13.39]
+            842  CASP9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            572  BAD; BCL2 associated agonist of cell death [KO:K02158]
+COMPOUND    C00076  Calcium cation
+            C00165  Diacylglycerol
+            C00533  Nitric oxide
+            C01245  D-myo-Inositol 1,4,5-trisphosphate
+            C01312  Prostaglandin I2
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:13678960
+  AUTHORS   Cross MJ, Dixelius J, Matsumoto T, Claesson-Welsh L.
+  TITLE     VEGF-receptor signal transduction.
+  JOURNAL   Trends Biochem Sci 28:488-94 (2003)
+            DOI:10.1016/S0968-0004(03)00193-2
+REFERENCE   PMID:11741095
+  AUTHORS   Matsumoto T, Claesson-Welsh L.
+  TITLE     VEGF receptor signal transduction.
+  JOURNAL   Sci STKE 2001:RE21 (2001)
+            DOI:10.1126/stke.2001.112.re21
+REFERENCE   PMID:15602010
+  AUTHORS   Hoeben A, Landuyt B, Highley MS, Wildiers H, Van Oosterom AT, De Bruijn EA.
+  TITLE     Vascular endothelial growth factor and angiogenesis.
+  JOURNAL   Pharmacol Rev 56:549-80 (2004)
+            DOI:10.1124/pr.56.4.3
+REFERENCE   PMID:16104843
+  AUTHORS   Takahashi H, Shibuya M.
+  TITLE     The vascular endothelial growth factor (VEGF)/VEGF receptor system and its role under physiological and pathological conditions.
+  JOURNAL   Clin Sci (Lond) 109:227-41 (2005)
+            DOI:10.1042/CS20040370
+REFERENCE   PMID:14641020
+  AUTHORS   Zachary I.
+  TITLE     VEGF signalling: integration and multi-tasking in endothelial cell biology.
+  JOURNAL   Biochem Soc Trans 31:1171-7 (2003)
+            DOI:10.1042/bst0311171
+REFERENCE   PMID:15338053
+  AUTHORS   Munoz-Chapuli R, Quesada AR, Angel Medina M.
+  TITLE     Angiogenesis and signal transduction in endothelial cells.
+  JOURNAL   Cell Mol Life Sci 61:2224-43 (2004)
+            DOI:10.1007/s00018-004-4070-7
+REFERENCE   PMID:14724572
+  AUTHORS   Lamalice L, Houle F, Jourdan G, Huot J.
+  TITLE     Phosphorylation of tyrosine 1214 on VEGFR2 is required for VEGF-induced activation of Cdc42 upstream of SAPK2/p38.
+  JOURNAL   Oncogene 23:434-45 (2004)
+            DOI:10.1038/sj.onc.1207034
+REFERENCE   PMID:12391145
+  AUTHORS   Shu X, Wu W, Mosteller RD, Broek D.
+  TITLE     Sphingosine kinase mediates vascular endothelial growth factor-induced activation of ras and mitogen-activated protein kinases.
+  JOURNAL   Mol Cell Biol 22:7758-68 (2002)
+            DOI:10.1128/MCB.22.22.7758-7768.2002
+KO_PATHWAY  ko04370
+///

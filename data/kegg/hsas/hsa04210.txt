@@ -1,0 +1,371 @@
+ENTRY       hsa04210                    Pathway
+NAME        Apoptosis - Homo sapiens (human)
+DESCRIPTION Apoptosis is a genetically programmed process for the elimination of damaged or redundant cells by activation of caspases (aspartate-specific cysteine proteases). The onset of apoptosis is controlled by numerous interrelating processes. The 'extrinsic' pathway involves stimulation of members of the tumor necrosis factor (TNF) receptor subfamily, such as TNFRI, CD95/Fas or TRAILR (death receptors), located at the cell surface, by their specific ligands, such as TNF-alpha, FasL or TRAIL, respectively. The 'intrinsic' pathway is activated mainly by non-receptor stimuli, such as DNA damage, ER stress, metabolic stress, UV radiation or growth-factor deprivation. The central event in the 'intrinsic' pathway is the mitochondrial outer membrane permeabilization (MOMP), which leads to the release of cytochrome c. These two pathways converge at the level of effector caspases, such as caspase-3 and caspase-7. The third major pathway is initiated by the constituents of cytotoxic granules (e.g. Perforin and Granzyme B) that are released by CTLs (cytotoxic T-cells) and NK (natural killer) cells. Granzyme B, similarly to the caspases, cleaves its substrates after aspartic acid residues, suggesting that this protease has the ability to activate members of the caspase family directly. It is the balance between the pro-apoptotic and anti-apoptotic signals that eventually determines whether cells will undergo apoptosis, survive or proliferate. TNF family of ligands activates anti-apoptotic or cell-survival signals as well as apoptotic signals. NGF and Interleukin-3 promotes the survival, proliferation and differentiation of neurons or hematopoietic cells, respectively. Withdrawal of these growth factors leads to cell death, as described above.
+CLASS       Cellular Processes; Cell growth and death
+PATHWAY_MAP hsa04210  Apoptosis
+MODULE      hsa_M00685  Apoptotic machinery [PATH:hsa04210]
+NETWORK     nt06131  Apoptosis (virus)
+            nt06161  Human immunodeficiency virus type 1 (HIV-1)
+            nt06162  Hepatitis B virus (HBV)
+            nt06163  Hepatitis C virus (HCV)
+            nt06164  Kaposi sarcoma-associated herpesvirus (KSHV)
+            nt06165  Epstein-Barr virus (EBV)
+            nt06166  Human papillomavirus (HPV)
+            nt06167  Human cytomegalovirus (HCMV)
+            nt06168  Herpes simplex virus 1 (HSV-1)
+            nt06170  Influenza A virus (IAV)
+            nt06231  Apoptosis
+            nt06260  Colorectal cancer
+            nt06267  Small cell lung cancer
+  ELEMENT   N00098  Intrinsic apoptotic pathway
+            N00145  Extrinsic apoptotic pathway
+            N00146  Crosstalk between extrinsic and intrinsic apoptotic pathways
+DISEASE     H00108  Autoimmune lymphoproliferative syndromes
+            H00265  Hereditary sensory and autonomic neuropathy
+            H00540  Osteoporosis, lymphedema, anhydrotic ectodermal dysplasia with immunodeficiency (OLEDAID)
+            H00645  Incontinentia pigmenti
+            H00721  Pyogenic bacterial infections, recurrent, due to MYD88 deficiency
+            H00881  Li-Fraumeni syndrome
+            H00882  Cocoon syndrome
+            H00912  Tumor necrosis factor receptor-associated periodic syndrome
+            H01007  Choroid plexus papilloma
+            H01102  Pituitary adenomas
+            H01969  X-linked lymphoproliferative syndrome
+            H02279  Cathepsin D deficiency
+DRUG        D00742  Etanercept (USAN/INN)
+            D02597  Adalimumab (USAN/INN)
+            D02598  Infliximab (USAN/INN)
+            D03441  Certolizumab pegol (USAN/INN)
+            D03645  Daniplestim (USAN/INN)
+            D04358  Golimumab (USAN/INN)
+            D04687  Lenalidomide (USAN/INN)
+            D04858  Mapatumumab (USAN/INN)
+            D05146  Nerelimomab (USAN/INN)
+            D05216  Oblimersen sodium (USAN)
+            D06634  Relacatib (USAN/INN)
+            D07436  Afelimomab (INN)
+            D08290  Oblimersen (INN)
+            D08954  Obatoclax mesylate (USAN)
+            D08976  Pomalidomide (JAN/USAN/INN)
+            D09692  Veliparib (JAN/USAN/INN)
+            D09730  Olaparib (JAN/USAN/INN)
+            D09813  Lenalidomide hydrate (JAN)
+            D09888  Drozitumab (USAN/INN)
+            D09907  Fulranumab (USAN/INN)
+            D09913  Iniparib (USAN/INN)
+            D10079  Rucaparib (USAN/INN)
+            D10140  Niraparib (USAN)
+            D10157  Rucaparib phosphate (USAN)
+            D10381  Afuresertib (USAN)
+            D10382  Afuresertib hydrochloride (USAN)
+            D10560  Idelalisib (JAN/USAN/INN)
+            D10679  Venetoclax (JAN/USAN/INN)
+            D10732  Talazoparib (USAN/INN)
+            D10733  Talazoparib tosylate (USAN)
+            D10982  Rucaparib camsylate (USAN)
+            D10988  Selonsertib (USAN/INN)
+            D11195  Rimiducid (USAN/INN)
+            D11358  Tagraxofusp (USAN/INN)
+            D11426  Pamiparib (USAN/INN)
+DBLINKS     GO: 0006915
+ORGANISM    Homo sapiens (human) [GN:hsa]
+GENE        8743  TNFSF10; TNF superfamily member 10 [KO:K04721]
+            8797  TNFRSF10A; TNF receptor superfamily member 10a [KO:K04722]
+            8795  TNFRSF10B; TNF receptor superfamily member 10b [KO:K04722]
+            356  FASLG; Fas ligand [KO:K04389]
+            355  FAS; Fas cell surface death receptor [KO:K04390]
+            8772  FADD; Fas associated via death domain [KO:K02373]
+            7124  TNF; tumor necrosis factor [KO:K03156]
+            7132  TNFRSF1A; TNF receptor superfamily member 1A [KO:K03158]
+            8717  TRADD; TNFRSF1A associated via death domain [KO:K03171]
+            8837  CFLAR; CASP8 and FADD like apoptosis regulator [KO:K04724]
+            841  CASP8; caspase 8 [KO:K04398] [EC:3.4.22.61]
+            843  CASP10; caspase 10 [KO:K04400] [EC:3.4.22.63]
+            839  CASP6; caspase 6 [KO:K04396] [EC:3.4.22.59]
+            836  CASP3; caspase 3 [KO:K02187] [EC:3.4.22.56]
+            840  CASP7; caspase 7 [KO:K04397] [EC:3.4.22.60]
+            637  BID; BH3 interacting domain death agonist [KO:K04726]
+            581  BAX; BCL2 associated X, apoptosis regulator [KO:K02159]
+            578  BAK1; BCL2 antagonist/killer 1 [KO:K14021]
+            56616  DIABLO; diablo IAP-binding mitochondrial protein [KO:K10522]
+            5414  SEPTIN4; septin 4 [KO:K16943]
+            27429  HTRA2; HtrA serine peptidase 2 [KO:K08669] [EC:3.4.21.108]
+            54205  CYCS; cytochrome c, somatic [KO:K08738]
+            317  APAF1; apoptotic peptidase activating factor 1 [KO:K02084]
+            842  CASP9; caspase 9 [KO:K04399] [EC:3.4.22.62]
+            5551  PRF1; perforin 1 [KO:K07818]
+            3002  GZMB; granzyme B [KO:K01353] [EC:3.4.21.79]
+            10376  TUBA1B; tubulin alpha 1b [KO:K07374]
+            7277  TUBA4A; tubulin alpha 4a [KO:K07374]
+            7278  TUBA3C; tubulin alpha 3c [KO:K07374]
+            7846  TUBA1A; tubulin alpha 1a [KO:K07374]
+            84790  TUBA1C; tubulin alpha 1c [KO:K07374]
+            51807  TUBA8; tubulin alpha 8 [KO:K07374]
+            112714  TUBA3E; tubulin alpha 3e [KO:K07374]
+            113457  TUBA3D; tubulin alpha 3d [KO:K07374]
+            79861  TUBAL3; tubulin alpha like 3 [KO:K07374]
+            4170  MCL1; MCL1 apoptosis regulator, BCL2 family member [KO:K02539]
+            60  ACTB; actin beta [KO:K05692]
+            71  ACTG1; actin gamma 1 [KO:K05692]
+            6708  SPTA1; spectrin alpha, erythrocytic 1 [KO:K06114]
+            6709  SPTAN1; spectrin alpha, non-erythrocytic 1 [KO:K06114]
+            4000  LMNA; lamin A/C [KO:K12641]
+            4001  LMNB1; lamin B1 [KO:K07611]
+            84823  LMNB2; lamin B2 [KO:K07611]
+            10038  PARP2; poly(ADP-ribose) polymerase 2 [KO:K10798] [EC:2.4.2.30]
+            142  PARP1; poly(ADP-ribose) polymerase 1 [KO:K10798] [EC:2.4.2.30]
+            10039  PARP3; poly(ADP-ribose) polymerase family member 3 [KO:K10798] [EC:2.4.2.30]
+            143  PARP4; poly(ADP-ribose) polymerase family member 4 [KO:K10798] [EC:2.4.2.30]
+            1676  DFFA; DNA fragmentation factor subunit alpha [KO:K02310]
+            1677  DFFB; DNA fragmentation factor subunit beta [KO:K02311] [EC:3.-.-.-]
+            2021  ENDOG; endonuclease G [KO:K01173]
+            9131  AIFM1; apoptosis inducing factor mitochondria associated 1 [KO:K04727] [EC:1.-.-.-]
+            2081  ERN1; endoplasmic reticulum to nucleus signaling 1 [KO:K08852] [EC:3.1.26.- 2.7.11.1]
+            7186  TRAF2; TNF receptor associated factor 2 [KO:K03173] [EC:2.3.2.27]
+            3708  ITPR1; inositol 1,4,5-trisphosphate receptor type 1 [KO:K04958]
+            3709  ITPR2; inositol 1,4,5-trisphosphate receptor type 2 [KO:K04959]
+            3710  ITPR3; inositol 1,4,5-trisphosphate receptor type 3 [KO:K04960]
+            823  CAPN1; calpain 1 [KO:K01367] [EC:3.4.22.52]
+            824  CAPN2; calpain 2 [KO:K03853] [EC:3.4.22.53]
+            100506742  CASP12; caspase 12 (gene/pseudogene) [KO:K04741] [EC:3.4.22.-]
+            9451  EIF2AK3; eukaryotic translation initiation factor 2 alpha kinase 3 [KO:K08860] [EC:2.7.11.1]
+            1965  EIF2S1; eukaryotic translation initiation factor 2 subunit alpha [KO:K03237]
+            468  ATF4; activating transcription factor 4 [KO:K04374]
+            1649  DDIT3; DNA damage inducible transcript 3 [KO:K04452]
+            1508  CTSB; cathepsin B [KO:K01363] [EC:3.4.22.1]
+            1075  CTSC; cathepsin C [KO:K01275] [EC:3.4.14.1]
+            1509  CTSD; cathepsin D [KO:K01379] [EC:3.4.23.5]
+            8722  CTSF; cathepsin F [KO:K01373] [EC:3.4.22.41]
+            1512  CTSH; cathepsin H [KO:K01366] [EC:3.4.22.16]
+            1513  CTSK; cathepsin K [KO:K01371] [EC:3.4.22.38]
+            1514  CTSL; cathepsin L [KO:K01365] [EC:3.4.22.15]
+            1519  CTSO; cathepsin O [KO:K01374] [EC:3.4.22.42]
+            1520  CTSS; cathepsin S [KO:K01368] [EC:3.4.22.27]
+            1515  CTSV; cathepsin V [KO:K01375] [EC:3.4.22.43]
+            1521  CTSW; cathepsin W [KO:K08569] [EC:3.4.22.-]
+            1522  CTSZ; cathepsin Z [KO:K08568] [EC:3.4.18.1]
+            329  BIRC2; baculoviral IAP repeat containing 2 [KO:K16060]
+            330  BIRC3; baculoviral IAP repeat containing 3 [KO:K16060]
+            331  XIAP; X-linked inhibitor of apoptosis [KO:K04725] [EC:2.3.2.27]
+            332  BIRC5; baculoviral IAP repeat containing 5 [KO:K08731]
+            10018  BCL2L11; BCL2 like 11 [KO:K16341]
+            598  BCL2L1; BCL2 like 1 [KO:K04570]
+            596  BCL2; BCL2 apoptosis regulator [KO:K02161]
+            1616  DAXX; death domain associated protein [KO:K02308]
+            8737  RIPK1; receptor interacting serine/threonine kinase 1 [KO:K02861] [EC:2.7.11.1]
+            153090  DAB2IP; DAB2 interacting protein [KO:K19901]
+            4217  MAP3K5; mitogen-activated protein kinase kinase kinase 5 [KO:K04426] [EC:2.7.11.25]
+            5599  MAPK8; mitogen-activated protein kinase 8 [KO:K04440] [EC:2.7.11.24]
+            5602  MAPK10; mitogen-activated protein kinase 10 [KO:K04440] [EC:2.7.11.24]
+            5601  MAPK9; mitogen-activated protein kinase 9 [KO:K04440] [EC:2.7.11.24]
+            572  BAD; BCL2 associated agonist of cell death [KO:K02158]
+            3725  JUN; Jun proto-oncogene, AP-1 transcription factor subunit [KO:K04448]
+            2353  FOS; Fos proto-oncogene, AP-1 transcription factor subunit [KO:K04379]
+            7157  TP53; tumor protein p53 [KO:K04451]
+            8739  HRK; harakiri, BCL2 interacting protein [KO:K02512]
+            9020  MAP3K14; mitogen-activated protein kinase kinase kinase 14 [KO:K04466] [EC:2.7.11.25]
+            1147  CHUK; component of inhibitor of nuclear factor kappa B kinase complex [KO:K04467] [EC:2.7.11.10]
+            3551  IKBKB; inhibitor of nuclear factor kappa B kinase subunit beta [KO:K07209] [EC:2.7.11.10]
+            8517  IKBKG; inhibitor of nuclear factor kappa B kinase regulatory subunit gamma [KO:K07210]
+            4792  NFKBIA; NFKB inhibitor alpha [KO:K04734]
+            4790  NFKB1; nuclear factor kappa B subunit 1 [KO:K02580]
+            5970  RELA; RELA proto-oncogene, NF-kB subunit [KO:K04735]
+            5783  PTPN13; protein tyrosine phosphatase non-receptor type 13 [KO:K02374]
+            1647  GADD45A; growth arrest and DNA damage inducible alpha [KO:K04402]
+            4616  GADD45B; growth arrest and DNA damage inducible beta [KO:K04402]
+            10912  GADD45G; growth arrest and DNA damage inducible gamma [KO:K04402]
+            7185  TRAF1; TNF receptor associated factor 1 [KO:K03172]
+            597  BCL2A1; BCL2 related protein A1 [KO:K02162]
+            472  ATM; ATM serine/threonine kinase [KO:K04728] [EC:2.7.11.1]
+            55367  PIDD1; p53-induced death domain protein 1 [KO:K10130]
+            63970  TP53AIP1; tumor protein p53 regulated apoptosis inducing protein 1 [KO:K13773]
+            27113  BBC3; BCL2 binding component 3 [KO:K10132]
+            5366  PMAIP1; phorbol-12-myristate-13-acetate-induced protein 1 [KO:K10131]
+            835  CASP2; caspase 2 [KO:K02186] [EC:3.4.22.55]
+            4803  NGF; nerve growth factor [KO:K02582]
+            4914  NTRK1; neurotrophic receptor tyrosine kinase 1 [KO:K03176] [EC:2.7.10.1]
+            3562  IL3; interleukin 3 [KO:K04736]
+            3563  IL3RA; interleukin 3 receptor subunit alpha [KO:K04737]
+            1439  CSF2RB; colony stimulating factor 2 receptor beta common subunit [KO:K04738]
+            5290  PIK3CA; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [KO:K00922] [EC:2.7.1.153]
+            5293  PIK3CD; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [KO:K00922] [EC:2.7.1.153]
+            5291  PIK3CB; phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [KO:K00922] [EC:2.7.1.153]
+            5295  PIK3R1; phosphoinositide-3-kinase regulatory subunit 1 [KO:K02649]
+            5296  PIK3R2; phosphoinositide-3-kinase regulatory subunit 2 [KO:K02649]
+            8503  PIK3R3; phosphoinositide-3-kinase regulatory subunit 3 [KO:K02649]
+            5170  PDPK1; 3-phosphoinositide dependent protein kinase 1 [KO:K06276] [EC:2.7.11.1]
+            207  AKT1; AKT serine/threonine kinase 1 [KO:K04456] [EC:2.7.11.1]
+            208  AKT2; AKT serine/threonine kinase 2 [KO:K04456] [EC:2.7.11.1]
+            10000  AKT3; AKT serine/threonine kinase 3 [KO:K04456] [EC:2.7.11.1]
+            3265  HRAS; HRas proto-oncogene, GTPase [KO:K02833]
+            3845  KRAS; KRAS proto-oncogene, GTPase [KO:K07827]
+            4893  NRAS; NRAS proto-oncogene, GTPase [KO:K07828]
+            5894  RAF1; Raf-1 proto-oncogene, serine/threonine kinase [KO:K04366] [EC:2.7.11.1]
+            5604  MAP2K1; mitogen-activated protein kinase kinase 1 [KO:K04368] [EC:2.7.12.2]
+            5605  MAP2K2; mitogen-activated protein kinase kinase 2 [KO:K04369] [EC:2.7.12.2]
+            5594  MAPK1; mitogen-activated protein kinase 1 [KO:K04371] [EC:2.7.11.24]
+            5595  MAPK3; mitogen-activated protein kinase 3 [KO:K04371] [EC:2.7.11.24]
+COMPOUND    C00027  Hydrogen peroxide
+            C00076  Calcium cation
+            C00319  Sphingosine
+            C05981  Phosphatidylinositol-3,4,5-trisphosphate
+REFERENCE   PMID:26615431
+  AUTHORS   Savitskaya MA, Onishchenko GE
+  TITLE     Mechanisms of Apoptosis.
+  JOURNAL   Biochemistry (Mosc) 80:1393-417 (2015)
+            DOI:10.1134/S0006297915110012
+REFERENCE   PMID:23803157
+  AUTHORS   Schleich K, Lavrik IN
+  TITLE     Mathematical modeling of apoptosis.
+  JOURNAL   Cell Commun Signal 11:44 (2013)
+            DOI:10.1186/1478-811X-11-44
+REFERENCE   PMID:15654015
+  AUTHORS   Lavrik I, Golks A, Krammer PH
+  TITLE     Death receptor signaling.
+  JOURNAL   J Cell Sci 118:265-7 (2005)
+            DOI:10.1242/jcs.01610
+REFERENCE   PMID:15725726
+  AUTHORS   Jin Z, El-Deiry WS
+  TITLE     Overview of cell death signaling pathways.
+  JOURNAL   Cancer Biol Ther 4:139-63 (2005)
+            DOI:10.4161/cbt.4.2.1508
+REFERENCE   PMID:15322527
+  AUTHORS   Benn SC, Woolf CJ
+  TITLE     Adult neuron survival strategies--slamming on the brakes.
+  JOURNAL   Nat Rev Neurosci 5:686-700 (2004)
+            DOI:10.1038/nrn1477
+REFERENCE   PMID:12838338
+  AUTHORS   Orrenius S, Zhivotovsky B, Nicotera P
+  TITLE     Regulation of cell death: the calcium-apoptosis link.
+  JOURNAL   Nat Rev Mol Cell Biol 4:552-65 (2003)
+            DOI:10.1038/nrm1150
+REFERENCE   PMID:19148180
+  AUTHORS   Clarke P, Tyler KL
+  TITLE     Apoptosis in animal models of virus-induced disease.
+  JOURNAL   Nat Rev Microbiol 7:144-55 (2009)
+            DOI:10.1038/nrmicro2071
+REFERENCE   PMID:22429822
+  AUTHORS   Wen X, Lin ZQ, Liu B, Wei YQ
+  TITLE     Caspase-mediated programmed cell death pathways as potential therapeutic targets in cancer.
+  JOURNAL   Cell Prolif 45:217-24 (2012)
+            DOI:10.1111/j.1365-2184.2012.00814.x
+REFERENCE   PMID:25526085
+  AUTHORS   Shalini S, Dorstyn L, Dawar S, Kumar S
+  TITLE     Old, new and emerging functions of caspases.
+  JOURNAL   Cell Death Differ 22:526-39 (2015)
+            DOI:10.1038/cdd.2014.216
+REFERENCE   PMID:15601572
+  AUTHORS   Philchenkov A
+  TITLE     Caspases: potential targets for regulating cell death.
+  JOURNAL   J Cell Mol Med 8:432-44 (2004)
+            DOI:10.1111/j.1582-4934.2004.tb00468.x
+REFERENCE   PMID:9894605
+  AUTHORS   Stroh C, Schulze-Osthoff K
+  TITLE     Death by a thousand cuts: an ever increasing list of caspase substrates.
+  JOURNAL   Cell Death Differ 5:997-1000 (1998)
+            DOI:10.1038/sj.cdd.4400451
+REFERENCE   PMID:23070002
+  AUTHORS   Safa AR
+  TITLE     c-FLIP, a master anti-apoptotic regulator.
+  JOURNAL   Exp Oncol 34:176-84 (2012)
+REFERENCE   PMID:18304445
+  AUTHORS   Jeong SY, Seol DW
+  TITLE     The role of mitochondria in apoptosis.
+  JOURNAL   BMB Rep 41:11-22 (2008)
+REFERENCE   PMID:20533903
+  AUTHORS   Parsons MJ, Green DR
+  TITLE     Mitochondria in cell death.
+  JOURNAL   Essays Biochem 47:99-114 (2010)
+            DOI:10.1042/bse0470099
+REFERENCE   PMID:15719025
+  AUTHORS   Strasser A
+  TITLE     The role of BH3-only proteins in the immune system.
+  JOURNAL   Nat Rev Immunol 5:189-200 (2005)
+            DOI:10.1038/nri1568
+REFERENCE   PMID:24278747
+  AUTHORS   Schonthal AH
+  TITLE     Endoplasmic reticulum stress: its role in disease and novel prospects for therapy.
+  JOURNAL   Scientifica (Cairo) 2012:857516 (2012)
+            DOI:10.6064/2012/857516
+REFERENCE   PMID:21145844
+  AUTHORS   Malhi H, Kaufman RJ
+  TITLE     Endoplasmic reticulum stress in liver disease.
+  JOURNAL   J Hepatol 54:795-809 (2011)
+            DOI:10.1016/j.jhep.2010.11.005
+REFERENCE   PMID:18023214
+  AUTHORS   Malhotra JD, Kaufman RJ
+  TITLE     The endoplasmic reticulum and the unfolded protein response.
+  JOURNAL   Semin Cell Dev Biol 18:716-31 (2007)
+            DOI:10.1016/j.semcdb.2007.09.003
+REFERENCE   PMID:16397578
+  AUTHORS   Wu J, Kaufman RJ
+  TITLE     From acute ER stress to physiological roles of the Unfolded Protein Response.
+  JOURNAL   Cell Death Differ 13:374-84 (2006)
+            DOI:10.1038/sj.cdd.4401840
+REFERENCE   PMID:21914490
+  AUTHORS   Repnik U, Stoka V, Turk V, Turk B
+  TITLE     Lysosomes and lysosomal cathepsins in cell death.
+  JOURNAL   Biochim Biophys Acta 1824:22-33 (2012)
+            DOI:10.1016/j.bbapap.2011.08.016
+REFERENCE   PMID:22465226
+  AUTHORS   Cesen MH, Pegan K, Spes A, Turk B
+  TITLE     Lysosomal pathways to cell death and their therapeutic applications.
+  JOURNAL   Exp Cell Res 318:1245-51 (2012)
+            DOI:10.1016/j.yexcr.2012.03.005
+REFERENCE   PMID:26231733
+  AUTHORS   Dashzeveg N, Yoshida K
+  TITLE     Cell death decision by p53 via control of the mitochondrial membrane.
+  JOURNAL   Cancer Lett 367:108-12 (2015)
+            DOI:10.1016/j.canlet.2015.07.019
+REFERENCE   PMID:22075987
+  AUTHORS   Bouchier-Hayes L, Green DR
+  TITLE     Caspase-2: the orphan caspase.
+  JOURNAL   Cell Death Differ 19:51-7 (2012)
+            DOI:10.1038/cdd.2011.157
+REFERENCE   PMID:18238895
+  AUTHORS   Baptiste-Okoh N, Barsotti AM, Prives C
+  TITLE     A role for caspase 2 and PIDD in the process of p53-mediated apoptosis.
+  JOURNAL   Proc Natl Acad Sci U S A 105:1937-42 (2008)
+            DOI:10.1073/pnas.0711800105
+REFERENCE   PMID:12949498
+  AUTHORS   Aggarwal BB
+  TITLE     Signalling pathways of the TNF superfamily: a double-edged sword.
+  JOURNAL   Nat Rev Immunol 3:745-56 (2003)
+            DOI:10.1038/nri1184
+REFERENCE   PMID:14737178
+  AUTHORS   Steelman LS, Pohnert SC, Shelton JG, Franklin RA, Bertrand FE, McCubrey JA.
+  TITLE     JAK/STAT, Raf/MEK/ERK, PI3K/Akt and BCR-ABL in cell cycle progression and leukemogenesis.
+  JOURNAL   Leukemia 18:189-218 (2004)
+            DOI:10.1038/sj.leu.2403241
+REFERENCE   PMID:9916983
+  AUTHORS   Dragovich T, Rudin CM, Thompson CB
+  TITLE     Signal transduction pathways that regulate cell survival and cell death.
+  JOURNAL   Oncogene 17:3207-13 (1998)
+            DOI:10.1038/sj.onc.1202587
+REFERENCE   PMID:11520933
+  AUTHORS   Sofroniew MV, Howe CL, Mobley WC
+  TITLE     Nerve growth factor signaling, neuroprotection, and neural repair.
+  JOURNAL   Annu Rev Neurosci 24:1217-81 (2001)
+            DOI:10.1146/annurev.neuro.24.1.1217
+REFERENCE   PMID:24769728
+  AUTHORS   Kristiansen M, Ham J
+  TITLE     Programmed cell death during neuronal development: the sympathetic neuron model.
+  JOURNAL   Cell Death Differ 21:1025-35 (2014)
+            DOI:10.1038/cdd.2014.47
+REFERENCE   PMID:18208375
+  AUTHORS   Logue SE, Martin SJ
+  TITLE     Caspase activation cascades in apoptosis.
+  JOURNAL   Biochem Soc Trans 36:1-9 (2008)
+            DOI:10.1042/BST0360001
+REFERENCE   PMID:19770840
+  AUTHORS   Boivin WA, Cooper DM, Hiebert PR, Granville DJ
+  TITLE     Intracellular versus extracellular granzyme B in immunity and disease: challenging the dogma.
+  JOURNAL   Lab Invest 89:1195-220 (2009)
+            DOI:10.1038/labinvest.2009.91
+REFERENCE   PMID:20075940
+  AUTHORS   Cullen SP, Brunet M, Martin SJ
+  TITLE     Granzymes in cancer and immunity.
+  JOURNAL   Cell Death Differ 17:616-23 (2010)
+            DOI:10.1038/cdd.2009.206
+KO_PATHWAY  ko04210
+///
