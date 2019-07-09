@@ -14,12 +14,12 @@ class DataProcessor():
     df_modu, len_kegg = dataprocessor.load_modu_data()
   """
 
-  def __init__(self, path='data/brainMetPairs.salmon.cts.txt'):
+  def __init__(self, path="data/brainMetPairs.salmon.cts.txt"):
     """
     path: path to the raw transcriptome data.
     """
     # self.df: raw gene data
-    self.df = pd.read_csv(path, sep='\t', index_col=0)
+    self.df = pd.read_csv(path, sep="\t", index_col=0)
     self.ensg2gene = self.get_ensg2gene()
     self.build_data()
 
@@ -39,17 +39,17 @@ class DataProcessor():
     return ensg2gene
 
 
-  def load_prot_gene(self, path='data/genelist/mart_export.txt'):
+  def load_prot_gene(self, path="data/genelist/mart_export.txt"):
     """ Load list of protein coding genes.
     """
     prot_gene = []
-    with open(path,'r') as f:
+    with open(path,"r") as f:
       next(f)
       idx = 1
       for line in f:
         idx += 1
         line = line.strip()
-        line = line.split('\t')
+        line = line.split("\t")
         if len(line) > 1:
           prot_gene.append(line[0])
 
@@ -125,8 +125,8 @@ class DataProcessor():
     # possibly due to the errors in Python mygene package.
     # We just keep it here since they just consist of a minor part of the
     # whole data.
-    # ['GAGE12B', 'LOC102723655', 'PI4K2B', 'ARHGEF18', 'HOXD4', 'NPFF',
-    # 'MATR3', 'TMSB15B', 'PINX1', 'IRS4', 'MPV17L']
+    # ["GAGE12B", "LOC102723655", "PI4K2B", "ARHGEF18", "HOXD4", "NPFF",
+    # "MATR3", "TMSB15B", "PINX1", "IRS4", "MPV17L"]
     self.df = pd.DataFrame(
         data=self.df.values,
         index=[self.ensg2gene.get(ensg, "no_match") for ensg in self.df.index],
@@ -165,10 +165,10 @@ class DataProcessor():
     """
     flag = False
     list_genes = []
-    with open(path+hsa+'.txt', 'r') as f:
+    with open(path+hsa+".txt", "r") as f:
       for idx, line in enumerate(f):
         line = line.strip().split()
-        if line[0] != 'NAME':
+        if line[0] != "NAME":
           continue
         else:
           pathway = " ".join(line[1:-4])
@@ -176,7 +176,7 @@ class DataProcessor():
       for idx, line in enumerate(f):
         line = line.strip().split()
         if not flag:
-          if line[0] != 'GENE':
+          if line[0] != "GENE":
             continue
           else:
             g = line[2][:-1]
@@ -184,7 +184,7 @@ class DataProcessor():
               list_genes.append(g)
             flag = True
         else:
-          if (line[0] != 'COMPOUND') and (line[0] != 'REFERENCE'):
+          if (line[0] != "COMPOUND") and (line[0] != "REFERENCE"):
             g = line[1][:-1]
             if g in self.df.index:
               list_genes.append(g)
@@ -194,7 +194,7 @@ class DataProcessor():
     return pathway, list_genes
 
 
-  def get_kegg_list(self, path='data/kegg/hsas/'):
+  def get_kegg_list(self, path="data/kegg/hsas/"):
     """ Get the KEGG cancer-related pathways.
 
     Returns
@@ -204,9 +204,9 @@ class DataProcessor():
     list_funcs: list of str
       each element corresponds to a KEGG cancer pathway.
     """
-    list_genes, list_funcs = [['RET']], ['RET']
+    list_genes, list_funcs = [["RET"]], ["RET"]
     for file_name in os.listdir(path):
-      if file_name != '.DS_Store':
+      if file_name != ".DS_Store":
         hsa = file_name[:-4]
         pathway, list_gene = self.parse_hsa(hsa, path)
         list_funcs.append(pathway)
@@ -215,7 +215,7 @@ class DataProcessor():
     return list_genes, list_funcs
 
 
-  def get_david_list(self, path='data/david/prot_gene_list_3000_cluster.txt'):
+  def get_david_list(self, path="data/david/prot_gene_list_3000_cluster.txt"):
     """ Load gene function modules.
     Each module contains a list of genes and related functions.
     list_genes: list of list of genes
@@ -229,30 +229,30 @@ class DataProcessor():
 
     enrich = 0
     idx = 0
-    with open(path,'r') as f:
+    with open(path,"r") as f:
       for line in f:
         idx += 1
-        line = line.strip('\n')
-        if line == '':
+        line = line.strip("\n")
+        if line == "":
           list_funcs.append("; ".join(funcs))
           list_genes.append([self.ensg2gene.get(g, "no_match")for g in list(set(genes))])
           funcs = []
           genes = []
-        elif line.startswith('Annotation Cluster'):
-          enrich = float(line.split('\t')[1].split(': ')[1])
+        elif line.startswith("Annotation Cluster"):
+          enrich = float(line.split("\t")[1].split(": ")[1])
           if enrich <= 1.0:
             break
-        elif line.startswith('Category'):
+        elif line.startswith("Category"):
           pass
         else:
-          line = line.split('\t')
-          funcs.append(line[0]+' | '+line[1])
-          genes = genes+line[5].split(', ')
+          line = line.split("\t")
+          funcs.append(line[0]+" | "+line[1])
+          genes = genes+line[5].split(", ")
 
     return list_genes, list_funcs
 
 
-  def load_modu_data(self, mode='zscore'):
+  def load_modu_data(self, mode="zscore"):
     """ Load z-scored gene module dataframe.
 
     Returns
@@ -262,7 +262,7 @@ class DataProcessor():
       are compressed gene module from DAVID.
     """
 
-    assert mode in ['zscore', 'mean']
+    assert mode in ["zscore", "mean"]
 
     list_genes_kegg, list_funcs_kegg = self.get_kegg_list()
     list_genes_david, list_funcs_david = self.get_david_list()
@@ -274,7 +274,7 @@ class DataProcessor():
 
     for idx, genes in enumerate(list_genes):
       df_modu[idx, :] = self.df.loc[genes].mean()
-    if mode == 'zscore':
+    if mode == "zscore":
       df_modu = scipy.stats.mstats.zscore(df_modu, axis=1)
 
     self.df_modu = pd.DataFrame(

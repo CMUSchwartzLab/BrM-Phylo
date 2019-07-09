@@ -11,7 +11,7 @@ This repository contains code for the following work:
 
 The code runs on `Python 2.7`.
 * Common Python packages need to be installed: `os`, `random`, `numpy`, `pandas`, `pickle`, `scipy`, `sklearn`, `matplotlib`, `seaborn`, `cStringIO`, `collections`.
-* These additional packages are required in some experiments: `statsmodels`, `networkx`, `skbio`, `Bio`, `PyTorch`.
+* These additional Python packages are required in some experiments: `statsmodels`, `networkx`, `skbio`, `Bio`, `PyTorch`.
 
 ## Usage
 
@@ -29,7 +29,7 @@ This step finds the optimal number of components for deconvolution. Results avai
 python run_ica.py
 ```
 
-This unmixes the bulk data using the optimal number of components (5 in our case). Results available at `data/ica/BCF.pkl`.
+This unmixes the bulk data using the selected number of components (5 in our case). Results available at `data/ica/BCF.pkl`.
 
 ### Analysis
 

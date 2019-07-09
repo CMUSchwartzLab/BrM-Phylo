@@ -18,9 +18,9 @@ data_proc = DataProcessor()
 df_gene = data_proc.load_top_gene_data(top_k=3000)
 df_modu, len_kegg = data_proc.load_modu_data()
 BCF = pickle.load(open( "data/ica/BCF.pkl", "rb" ))
-B, C, F = BCF['B'], BCF['C'], BCF['F']
+B, C, F = BCF["B"], BCF["C"], BCF["F"]
 CF = np.dot(C, F)
-df_modu = df_modu.drop(labels=['Pathways in cancer', 'Glioma', 'Breast cancer'], axis=0)
+df_modu = df_modu.drop(labels=["Pathways in cancer", "Glioma", "Breast cancer"], axis=0)
 # 5, 24, 25
 len_kegg -= 3
 B = np.delete(B, [5, 24, 25], axis=0)
@@ -30,16 +30,16 @@ CF = np.delete(CF, [5, 24, 25], axis=0)
 
 # Hierarchical clustering.
 x = df_modu.values
-hc_analysis(x, df_modu.columns, feature='Pathway')
+hc_analysis(x, df_modu.columns, feature="Pathway")
 
 x = df_gene.values
-hc_analysis(x, df_modu.columns, feature='Genes')
+hc_analysis(x, df_modu.columns, feature="Genes")
 
 # Differentially expressed pathways.
 differential_pathway(df_modu, len_kegg, pval_threshold=1.0)
 
 # Plot the PCA of bulk data
-plot_3d_B(B, data_name='Pathway')
+plot_3d_B(B, data_name="Pathway")
 
 # Portions of components
 comp_p = component_portion(F, plot_mode=True)

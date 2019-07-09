@@ -38,7 +38,7 @@ def calculate_msd(distance, set_idx_p, set_idx_m, show=False):
 
   Returns
   -------
-  MSD and ratio of MSD/negative-MSD
+  positive-MSD and ratio of positive-MSD/negative-MSD
   """
 
   p2p, p2m = [], []
@@ -71,13 +71,13 @@ def calculate_msd(distance, set_idx_p, set_idx_m, show=False):
   msd, nmsd = np.mean([p**2 for p in p2p]), np.mean([p**2 for p in p2m])
 
   if show:
-    print('MSD=%.2f, nMSD=%.2f'%(
+    print("MSD=%.2f, nMSD=%.2f"%(
         msd, nmsd))
 
   return msd, msd/nmsd
 
 
-def hc_analysis(x, samples, feature='Pathway'):
+def hc_analysis(x, samples, feature="Pathway"):
   """ Implement hierarchical clustering of genes/gene modules and samples.
 
   Parameters
@@ -89,62 +89,62 @@ def hc_analysis(x, samples, feature='Pathway'):
   """
 
   size_label = 18
-  colors = {idx:'gray' for idx in range(50000)}
-  print('feature: %s'%feature)
+  colors = {idx:"gray" for idx in range(50000)}
+  print("feature: %s"%feature)
 
   fig = plt.figure(figsize=(10, 8))
 
   #ylabel
   ax1 = fig.add_axes([0.09,0.1,0.01,0.55])
-  Y = linkage(x, method='ward')
-  Z1 = dendrogram(Y, orientation='left', link_color_func=lambda k: colors[k], no_plot=True)
+  Y = linkage(x, method="ward")
+  Z1 = dendrogram(Y, orientation="left", link_color_func=lambda k: colors[k], no_plot=True)
   ax1.set_xticks([])
   ax1.set_yticks([])
-  ax1.axis('off')
+  ax1.axis("off")
 
   # xlabel
   # Compute and plot the dendrogram.
   ax2 = fig.add_axes([0.1,0.71,0.6,0.1])
-  Y = linkage(x.T, method='ward')
+  Y = linkage(x.T, method="ward")
   Z2 = dendrogram(Y, link_color_func=lambda k: colors[k])
   ax2.set_xticks([])
   ax2.set_yticks([])
-  ax2.axis('off')
+  ax2.axis("off")
 
   # Plot distance matrix.
   axmatrix = fig.add_axes([0.1,0.1,0.6,0.55])
-  idx1 = Z1['leaves']
-  idx2 = Z2['leaves']
+  idx1 = Z1["leaves"]
+  idx2 = Z2["leaves"]
   tmp = x[idx1,:]
   tmp = tmp[:,idx2]
-  im = axmatrix.matshow(1-tmp, aspect='auto', origin='lower', cmap=plt.cm.get_cmap('YlGnBu'))#cmap=pylab.cm.YlGnBu)#bwr
+  im = axmatrix.matshow(1-tmp, aspect="auto", origin="lower", cmap=plt.cm.get_cmap("YlGnBu"))#cmap=pylab.cm.YlGnBu)#bwr
 
-  samples = [samples[idx] for idx in Z2['leaves']]
+  samples = [samples[idx] for idx in Z2["leaves"]]
   plt.xticks([i+0.0 for i in range(len(samples))], samples, rotation=90)
 
   plt.ylabel(feature, fontsize=size_label)
   axmatrix.yaxis.set_label_position("right")
-  axmatrix.xaxis.set_ticks_position('bottom')
+  axmatrix.xaxis.set_ticks_position("bottom")
   axmatrix.set_yticks([])
 
   # Plot the sample types
   axmatrix = fig.add_axes([0.1,0.66,0.6,0.04])
 
   list_pm = np.zeros((1,44),dtype=float)
-  tmp = [(idx+1)%2 for idx in Z2['leaves']] #1:primary, 0:metastatic
+  tmp = [(idx+1)%2 for idx in Z2["leaves"]] #1:primary, 0:metastatic
   list_pm[0] = tmp
 
-  im = axmatrix.matshow(list_pm, aspect='auto', origin='lower', cmap=plt.cm.get_cmap('autumn'))
+  im = axmatrix.matshow(list_pm, aspect="auto", origin="lower", cmap=plt.cm.get_cmap("autumn"))
 
   for idx in range(44-1):
-    axmatrix.plot([0.5+idx, 0.5+idx], [-0.5, 0.5], 'gray')
+    axmatrix.plot([0.5+idx, 0.5+idx], [-0.5, 0.5], "gray")
   axmatrix.set_xticks([])
   axmatrix.set_yticks([])
 
   plt.show()
 
-  #fig.savefig('figures/fig10hcpathway.pdf', bbox_inches='tight')
-  #fig.savefig('figures/fig11hcgenes.pdf', bbox_inches='tight')
+  #fig.savefig("figures/fig10hcpathway.pdf", bbox_inches="tight")
+  #fig.savefig("figures/fig11hcgenes.pdf", bbox_inches="tight")
 
   # Statistical test.
   list_a = Y[:,0]
@@ -193,10 +193,10 @@ def hc_analysis(x, samples, feature='Pathway'):
   zrmsd = (rmsd-np.mean(list_rand_rmsd))/np.std(list_rand_rmsd)
 
   #p_values = scipy.stats.norm.sf(16.1004606)
-  print('Z_MSD=%.2f, Z_rMSD=%.2f'%(zmsd, zrmsd))
+  print("Z_MSD=%.2f, Z_rMSD=%.2f"%(zmsd, zrmsd))
 
 
-def plot_3d_B(B, data_name='B'):
+def plot_3d_B(B, data_name="B"):
   """ Plot the first three PCA of bulk data.
 
   """
@@ -204,7 +204,7 @@ def plot_3d_B(B, data_name='B'):
   size_title = 20
   size_legend = 15
   size_tick = 12
-  sns.set_style('white')
+  sns.set_style("white")
 
   pca = PCA(n_components=3)
   pca.fit(B.T)
@@ -214,28 +214,28 @@ def plot_3d_B(B, data_name='B'):
   idxm = [idx*2+1 for idx in range(B.shape[1]/2)]
 
   fig = plt.figure()
-  ax = plt.axes(projection='3d')
+  ax = plt.axes(projection="3d")
   for idx in range(len(idxp)):
     ax.plot3D(
         [B_pca[idxp[idx],0],B_pca[idxm[idx],0]],
         [B_pca[idxp[idx],1],B_pca[idxm[idx],1]],
         [B_pca[idxp[idx],2],B_pca[idxm[idx],2]],
-        'gray',alpha=0.5)
+        "gray",alpha=0.5)
 
-  ax.plot3D(B_pca[idxp,0], B_pca[idxp,1], B_pca[idxp,2], '2',label='Primary', markersize=10)
-  ax.plot3D(B_pca[idxm,0], B_pca[idxm,1], B_pca[idxm,2],'1',label='Metastatic', markersize=10)
+  ax.plot3D(B_pca[idxp,0], B_pca[idxp,1], B_pca[idxp,2], "2",label="Primary", markersize=10)
+  ax.plot3D(B_pca[idxm,0], B_pca[idxm,1], B_pca[idxm,2],"1",label="Metastatic", markersize=10)
 
-  ax.legend(fancybox=True, framealpha=0.5, prop={'size':size_legend})
+  ax.legend(fancybox=True, framealpha=0.5, prop={"size":size_legend})
 
-  plt.xlabel('PCA 1', fontsize=size_label)
-  plt.ylabel('PCA 2', fontsize=size_label)
-  ax.set_zlabel('PCA 3', fontsize=size_label)
+  plt.xlabel("PCA 1", fontsize=size_label)
+  plt.ylabel("PCA 2", fontsize=size_label)
+  ax.set_zlabel("PCA 3", fontsize=size_label)
   plt.tick_params(labelsize=size_tick)
   plt.title(data_name, fontsize=size_title)
   plt.xlim([-15,10])
   plt.ylim([0,15])
   ax.set_zlim(-8,4)
-  ##fig.savefig('figures/fig12pcapathway.pdf', bbox_inches='tight')
+  ##fig.savefig("figures/fig12pcapathway.pdf", bbox_inches="tight")
 
 
 def get_ary_pm_comp(F, threshold=0.05):
@@ -250,9 +250,9 @@ def get_labels_comp(F, is_p, is_m):
   """ Get labels of each component based on their relative portions.
 
   """
-  labels = ['C'+str(idx+1)+'|P' if is_p[idx]
-    else 'C'+str(idx+1)+'|M' if is_m[idx]
-    else 'C'+str(idx+1) for idx in range(F.shape[0])]
+  labels = ["C"+str(idx+1)+"|P" if is_p[idx]
+    else "C"+str(idx+1)+"|M" if is_m[idx]
+    else "C"+str(idx+1) for idx in range(F.shape[0])]
   return labels
 
 
@@ -279,7 +279,7 @@ def differential_pathway(df_modu, len_kegg, pval_threshold = 0.01):
   _, pvalues = stats.ttest_ind(B[:,idx_p], B[:,idx_m], axis=1)
   # bonferroni test
   _, pvalues_bon = fdrcorrection(pvalues)
-  print( str(sum(pvalues_bon < pval_threshold))+'/'+str(len(pvalues_bon))+' modules selected' )
+  print( str(sum(pvalues_bon < pval_threshold))+"/"+str(len(pvalues_bon))+" modules selected" )
 
   idx_sel = sorted(range(len(pvalues_bon)), key=pvalues_bon.__getitem__)[0:sum(pvalues_bon < pval_threshold)]
   list_funcs_sel = [list_funcs[idx] for idx in idx_sel]
@@ -288,14 +288,14 @@ def differential_pathway(df_modu, len_kegg, pval_threshold = 0.01):
   is_metastasis = B_sel[:,idx_p].mean(axis=1) < B_sel[:,idx_m].mean(axis=1)
 
   # save results
-  with open('data/function/function.txt', "w") as f:
+  with open("data/function/function.txt", "w") as f:
     for idx, funcs in enumerate(list_funcs_sel):
       if is_metastasis[idx]:
-        f.write('Metastasis Funcion '+str(idx)+'; pvalue='+'%.2e'%(list_pvalues_bon_sel[idx])+'; pathway = '+funcs+'\n')
-        print('Metastatic & %.2e & %s\\\\'%(list_pvalues_bon_sel[idx], funcs))
+        f.write("Metastasis Funcion "+str(idx)+"; pvalue="+"%.2e"%(list_pvalues_bon_sel[idx])+"; pathway = "+funcs+"\n")
+        print("Metastatic & %.2e & %s\\\\"%(list_pvalues_bon_sel[idx], funcs))
       else:
-        f.write('Primary Funcion '+str(idx)+'; pvalue='+'%.2e'%(list_pvalues_bon_sel[idx])+'; pathway = '+funcs+'\n')
-        print('Primary & %.2e & %s \\\\'%(list_pvalues_bon_sel[idx], funcs))
+        f.write("Primary Funcion "+str(idx)+"; pvalue="+"%.2e"%(list_pvalues_bon_sel[idx])+"; pathway = "+funcs+"\n")
+        print("Primary & %.2e & %s \\\\"%(list_pvalues_bon_sel[idx], funcs))
 
 
 def component_portion(F, plot_mode=True):
@@ -316,18 +316,18 @@ def component_portion(F, plot_mode=True):
   M_m = F[:,idx_m]
 
   if plot_mode:
-    list_cmp_p = ['C'+str(idx+1) for idx in range(M_p.shape[0]) for idy in range(M_p.shape[1])]
-    list_cmp_m = ['C'+str(idx+1) for idx in range(M_m.shape[0]) for idy in range(M_m.shape[1])]
+    list_cmp_p = ["C"+str(idx+1) for idx in range(M_p.shape[0]) for idy in range(M_p.shape[1])]
+    list_cmp_m = ["C"+str(idx+1) for idx in range(M_m.shape[0]) for idy in range(M_m.shape[1])]
 
     list_val_p = [M_p[idx,idy] for idx in range(M_p.shape[0]) for idy in range(M_p.shape[1])]
     list_val_m = [M_m[idx,idy] for idx in range(M_m.shape[0]) for idy in range(M_m.shape[1])]
 
-    list_typ = ['Primary'] * M_p.size + ['Metastatic'] * M_m.size
+    list_typ = ["Primary"] * M_p.size + ["Metastatic"] * M_m.size
     list_cmp = list_cmp_p+list_cmp_m
     list_val = list_val_p+list_val_m
 
     df_clone = pd.DataFrame(data=np.array([list_typ,list_cmp,list_val]).T,
-                            columns=['Type','Component','Portion'])
+                            columns=["Type","Component","Portion"])
     df_clone["Portion"] = pd.to_numeric(df_clone["Portion"])
 
     sns.set_style("darkgrid")
@@ -336,29 +336,29 @@ def component_portion(F, plot_mode=True):
 
     for idx in range(1, F.shape[0]+1):
       y_p = list(
-          df_clone['Portion'][(df_clone['Component'] == 'C'+str(idx)) & (df_clone['Type'] == 'Primary')]
+          df_clone["Portion"][(df_clone["Component"] == "C"+str(idx)) & (df_clone["Type"] == "Primary")]
           )
 
       y_m = list(
-          df_clone['Portion'][(df_clone['Component'] == 'C'+str(idx)) & (df_clone['Type'] == 'Metastatic')]
+          df_clone["Portion"][(df_clone["Component"] == "C"+str(idx)) & (df_clone["Type"] == "Metastatic")]
           )
       # Add some random "jitter" to the x-axis
       x_p = np.random.normal(idx-1-0.2, 0.025, size=len(y_p))#0.025
       x_m = np.random.normal(idx-1+0.2, 0.025, size=len(y_m))#0.025
 
       for idx_p in range(len(y_p)):
-        plt.plot([x_p[idx_p], x_m[idx_p]], [y_p[idx_p], y_m[idx_p]], 'k-', alpha=0.2)
+        plt.plot([x_p[idx_p], x_m[idx_p]], [y_p[idx_p], y_m[idx_p]], "k-", alpha=0.2)
       for idx_p in range(len(y_p)):
-        plt.plot(x_p[idx_p], y_p[idx_p], 'b.', alpha=0.5)
+        plt.plot(x_p[idx_p], y_p[idx_p], "b.", alpha=0.5)
       for idx_p in range(len(y_p)):
-        plt.plot(x_m[idx_p], y_m[idx_p], 'r.', alpha=0.5)
+        plt.plot(x_m[idx_p], y_m[idx_p], "r.", alpha=0.5)
 
-    ax.tick_params(axis='both', which='major', labelsize=size_tick)
+    ax.tick_params(axis="both", which="major", labelsize=size_tick)
     ax.xaxis.label.set_fontsize(size_label)
     ax.yaxis.label.set_fontsize(size_label)
-    plt.legend(loc=2,fancybox=True, framealpha=0.5,prop={'size':size_legend-4})
+    plt.legend(loc=2,fancybox=True, framealpha=0.5,prop={"size":size_legend-4})
     plt.show()
-    ##fig.savefig("figures/fig3portion.pdf", bbox_inches='tight')
+    ##fig.savefig("figures/fig3portion.pdf", bbox_inches="tight")
     sns.set_style("white")
 
   plt.show()
@@ -411,12 +411,12 @@ def pattern2case(pattern):
   """
   pattern = pattern.split("|")
   p, m = pattern[0], pattern[1]
-  pattern = ''.join(['0' if (p[idx] == '0' and m[idx] == '0') else '1' for idx in range(len(p))])
-  if pattern == '11111':
+  pattern = "".join(["0" if (p[idx] == "0" and m[idx] == "0") else "1" for idx in range(len(p))])
+  if pattern == "11111":
     c = 1
-  elif pattern == '01111':
+  elif pattern == "01111":
     c = 2
-  elif pattern == '10111':
+  elif pattern == "10111":
     c = 3
   else:
     c = 4
@@ -450,7 +450,7 @@ def plot_patients_F(F, threshold_0=1e-2):
       data[0] += line[0]
       data[1] += line[1]
       data[2] += line[2]
-    data = pd.DataFrame(data=np.array(data).T,columns=['Portion','Type','Component'])
+    data = pd.DataFrame(data=np.array(data).T,columns=["Portion","Type","Component"])
     data["Portion"] = pd.to_numeric(data["Portion"])
     pattern2df[pattern] = data
 
@@ -459,8 +459,8 @@ def plot_patients_F(F, threshold_0=1e-2):
     c = pattern2case(pattern)
     case2pattern[c].append(pattern)
 
-  pp2alphabet = {0:'a',1:'b', 2:'c', 3:'d', 4:'e', 5:'f',
-                 6:'g',7:'h',8:'i',9:'j',10:'k'}
+  pp2alphabet = {0:"a",1:"b", 2:"c", 3:"d", 4:"e", 5:"f",
+                 6:"g",7:"h",8:"i",9:"j",10:"k"}
   fig = plt.figure(figsize=(14, 9))
   idx_pattern = 0
   for idx_case in range(len(case2pattern.keys())):
@@ -473,10 +473,10 @@ def plot_patients_F(F, threshold_0=1e-2):
       ax = sns.barplot(x="Component", y="Portion", hue="Type", data=data)
       plt.ylim([0, 0.6])
       plt.title("Case %s%s (#patient:%2d)"%(str(c), pp2alphabet[idx_pp], data.shape[0]/10), fontsize=size_title-4)
-      ax.tick_params(axis='both', which='major', labelsize=size_tick)
+      ax.tick_params(axis="both", which="major", labelsize=size_tick)
       ax.xaxis.label.set_fontsize(size_label)
       ax.yaxis.label.set_fontsize(size_label)
-      plt.legend(loc=1,fancybox=True, framealpha=0.5,prop={'size':size_legend-4})
+      plt.legend(loc=1,fancybox=True, framealpha=0.5,prop={"size":size_legend-4})
       if idx_pattern != 1:
         ax.get_legend().remove()
       if idx_pattern <= 8:
@@ -485,7 +485,7 @@ def plot_patients_F(F, threshold_0=1e-2):
       if idx_pattern % 4 != 1:
         ax.get_yaxis().set_visible(False)
   plt.subplots_adjust(wspace=0.1, hspace=0.5)
-  ##fig.savefig("figures/fig13instances.pdf", bbox_inches='tight')
+  ##fig.savefig("figures/fig13instances.pdf", bbox_inches="tight")
 
 
 def get_min_max_weight_edges(G):
@@ -495,8 +495,8 @@ def get_min_max_weight_edges(G):
   min_weight = 1e10
   max_weight = 0
   for edge in G.edges(data=True):
-    min_weight = min(1.0/edge[2]['weight'], min_weight)
-    max_weight = max(1.0/edge[2]['weight'], max_weight)
+    min_weight = min(1.0/edge[2]["weight"], min_weight)
+    max_weight = max(1.0/edge[2]["weight"], max_weight)
   return min_weight, max_weight
 
 
@@ -522,8 +522,8 @@ def iter_func(root_name, root, set_traverse, list_funcs, G, strings,
     if root.name == root_name:
       next_pos[0] = cur_pos[0]
     else:
-      next_pos[0] = cur_pos[0] + xgrain*flag_pn*( 0.8+0.2*(nbs[nb]['weight']-1.0/max_weight)/(1.0/min_weight-1.0/max_weight) ) #* (nbs[nb]['weight']-1.0/max_weight)/(1.0/min_weight-1.0/max_weight)
-    next_pos[1] = cur_pos[1] + 3.0*(nbs[nb]['weight']-1.0/max_weight)/(1.0/min_weight-1.0/max_weight)
+      next_pos[0] = cur_pos[0] + xgrain*flag_pn*( 0.8+0.2*(nbs[nb]["weight"]-1.0/max_weight)/(1.0/min_weight-1.0/max_weight) ) #* (nbs[nb]["weight"]-1.0/max_weight)/(1.0/min_weight-1.0/max_weight)
+    next_pos[1] = cur_pos[1] + 3.0*(nbs[nb]["weight"]-1.0/max_weight)/(1.0/min_weight-1.0/max_weight)
     next_pos[2] = nb.name
 
     flag_pn = flag_pn*(-1)
@@ -575,37 +575,37 @@ def component_func(B, C, F, list_funcs, len_kegg, threshold=0.05):
   for idx_c in range(C.shape[1]):
     clone_num = idx_c +1
     if idx_c in is_p:
-      color='green'
-      label = 'C'+str(clone_num)+'|P'
+      color="green"
+      label = "C"+str(clone_num)+"|P"
     elif idx_c in is_m:
-      color='red'
-      label = 'C'+str(clone_num)+'|M'
+      color="red"
+      label = "C"+str(clone_num)+"|M"
     else:
-      color = 'royalblue'
-      label = 'C'+str(clone_num)
+      color = "royalblue"
+      label = "C"+str(clone_num)
 
     if clone_num in [1]:
-      marker = '$1$'
+      marker = "$1$"
     elif clone_num in [2]:
-      marker = '$2$'
+      marker = "$2$"
     elif clone_num in [3]:
-      marker = '$3$'
+      marker = "$3$"
     elif clone_num in [4]:
-      marker = '$4$'
+      marker = "$4$"
     elif clone_num in [5]:
-      marker = '$5$'
+      marker = "$5$"
     elif clone_num in [6]:
-      marker = '$6$'
+      marker = "$6$"
     else:
-      print('error')
-    plt.plot(C[:,idx_c],range(len_kegg), color=color, marker=marker, markersize=10, linestyle='',label=label, alpha=0.5)
+      print("error")
+    plt.plot(C[:,idx_c],range(len_kegg), color=color, marker=marker, markersize=10, linestyle="",label=label, alpha=0.5)
 
   plt.yticks(range(len_kegg), list_funcs)
-  plt.xlabel('Pathway strength', fontsize=size_label)
+  plt.xlabel("Pathway strength", fontsize=size_label)
   plt.legend()
   plt.tick_params(labelsize=size_tick-4)
   plt.show()
-  ##fig.savefig('figures/fig7compfunc.pdf', bbox_inches='tight')
+  ##fig.savefig("figures/fig7compfunc.pdf", bbox_inches="tight")
 
 
 def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
@@ -653,7 +653,7 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
     if node.name != None:
       node.pathway = C_raw[:,int(node.name[1])-1]
     else:
-      node.name = 'S'+str(idx)
+      node.name = "S"+str(idx)
       idx += 1
       node.pathway = [0]
     if node.branch_length == None:
@@ -669,10 +669,10 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
   ary_c = [np.zeros(n_s, dtype=float) for _ in range(dim_path)]
 
   for edge in edges:
-    wt = edge[2]['weight'] # It's length, not weight!
+    wt = edge[2]["weight"] # It's length, not weight!
     wt = 1.0/wt
 
-    if (edge[0].name[0] == 'S') and (edge[1].name[0] == 'S'):
+    if (edge[0].name[0] == "S") and (edge[1].name[0] == "S"):
       nodes, nodet = edge[0], edge[1]
       ids, idt = int(nodes.name[1])-1, int(nodet.name[1])-1
       mat_Q[ids, ids] += wt
@@ -681,12 +681,12 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
       mat_Q[idt, ids] -= wt
     else:
       nodes, nodec = None, None
-      if (edge[0].name[0] == 'S') and (edge[1].name[0] == 'C'):
+      if (edge[0].name[0] == "S") and (edge[1].name[0] == "C"):
         nodes, nodec = edge[0], edge[1]
-      elif (edge[0].name[0] == 'C') and (edge[1].name[0] == 'S'):
+      elif (edge[0].name[0] == "C") and (edge[1].name[0] == "S"):
         nodes, nodec = edge[1], edge[0]
       else:
-        print('error')
+        print("error")
       ids, idc = int(nodes.name[1])-1, int(nodec.name[1])-1
       mat_Q[ids, ids] += wt
 
@@ -703,7 +703,7 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
   S = np.asarray(s_pathway, dtype=float)
 
   for node in G.nodes():
-    if node.name[0] == 'S':
+    if node.name[0] == "S":
       node.pathway = S[:, int(node.name[1])-1]
 
   min_weight, max_weight = get_min_max_weight_edges(G)
@@ -740,29 +740,29 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
   for edge in G.edges(data=True):
     ax0.plot([node2pos[edge[0].name][0],node2pos[edge[1].name][0]],
              [node2pos[edge[0].name][1],node2pos[edge[1].name][1]],
-             '-', color='gray',
-             linewidth=min_linewidth+(max_linewidth-min_linewidth)*(1.0/edge[2]['weight']-min_weight)/max_weight,
+             "-", color="gray",
+             linewidth=min_linewidth+(max_linewidth-min_linewidth)*(1.0/edge[2]["weight"]-min_weight)/max_weight,
              alpha=0.3)
 
   for node in node2pos.keys():
     pos = node2pos[node]
-    if node[0] == 'S':
-      color = 'gray'
-    elif node[-1] == 'P':
-      color = 'green'
-    elif node[-1] == 'M':
-      color = 'red'
+    if node[0] == "S":
+      color = "gray"
+    elif node[-1] == "P":
+      color = "green"
+    elif node[-1] == "M":
+      color = "red"
     else:
-      color = 'royalblue'
+      color = "royalblue"
 
-    ax0.plot(pos[0], pos[1], 'o', markersize=50, color=color, alpha=0.5)#markeredgecolor='k',
+    ax0.plot(pos[0], pos[1], "o", markersize=50, color=color, alpha=0.5)#markeredgecolor="k",
     ax0.annotate(
         s=node,
         xy=(pos[0], pos[1]),
         ha="center",
         va="center",
         size=22,
-        fontweight='bold',
+        fontweight="bold",
         )
     xmin = min(xmin, pos[0])
     xmax = max(xmax, pos[0])
@@ -776,26 +776,26 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
 
 #  ax0.annotate("Progression", xy=(xmin-delta*xratio, ymax), xytext=(xmin-delta*xratio,ymin),
 #               ha="center",
-#               arrowprops=dict(facecolor='black',alpha=0.7),
+#               arrowprops=dict(facecolor="black",alpha=0.7),
 #               size=22,
-#               fontweight='bold',
+#               fontweight="bold",
 #               rotation=0,
 #               )
 
   plt.gca().invert_yaxis()
-  ax0.spines['right'].set_visible(False)
-  ax0.spines['top'].set_visible(False)
-  ax0.spines['left'].set_visible(False)
-  ax0.spines['bottom'].set_visible(False)
+  ax0.spines["right"].set_visible(False)
+  ax0.spines["top"].set_visible(False)
+  ax0.spines["left"].set_visible(False)
+  ax0.spines["bottom"].set_visible(False)
   ax0.get_xaxis().set_ticks([])
   ax0.get_yaxis().set_ticks([])
   plt.show()
-  ##fig.savefig('figures/fig8phylo3.pdf', bbox_inches='tight')
+  ##fig.savefig("figures/fig8phylo3.pdf", bbox_inches="tight")
 
   for tmp in strings:
     node_src, node_tgt = tmp[0], tmp[1]
-    print('\colrule')
-    print('$%s \\rightarrow %s$'%(node_src.name, node_tgt.name))
+    print("\colrule")
+    print("$%s \\rightarrow %s$"%(node_src.name, node_tgt.name))
     delta_pathway = node_tgt.pathway - node_src.pathway
     delta_pathway = delta_pathway[0:len_kegg]
 
@@ -814,20 +814,20 @@ def plot_phylo(C_raw, F, list_funcs, len_kegg, comp_p, pattern, threshold=0.05):
     for idx in range(max(len(list_pos), len(list_neg))):
       if idx+1 <= len(list_pos):
         fun = list_pos[idx][1]
-        if fun in ['RET', 'PI3K-Akt signaling pathway', 'ErbB signaling pathway']:
-          fun = '\\textbf{'+fun+'}'
-        print('& $+%.2f$ & '%(list_pos[idx][0])+fun)
+        if fun in ["RET", "PI3K-Akt signaling pathway", "ErbB signaling pathway"]:
+          fun = "\\textbf{"+fun+"}"
+        print("& $+%.2f$ & "%(list_pos[idx][0])+fun)
       else:
-        print('& & ')
+        print("& & ")
       if idx+1 <= len(list_neg):
         fun = list_neg[idx][1]
-        if fun in ['RET', 'PI3K-Akt signaling pathway', 'ErbB signaling pathway']:
-          fun = '\\textbf{'+fun+'}'
-        print('& $%.2f$ & '%(list_neg[idx][0])+fun)
+        if fun in ["RET", "PI3K-Akt signaling pathway", "ErbB signaling pathway"]:
+          fun = "\\textbf{"+fun+"}"
+        print("& $%.2f$ & "%(list_neg[idx][0])+fun)
       else:
-        print('& & ')
-      print('\\\\')
+        print("& & ")
+      print("\\\\")
     if max(len(list_pos), len(list_neg)) == 0:
-      print('& $<1.0$ & $\emptyset$ & $<1.0$ & $\emptyset$ \\\\')
+      print("& $<1.0$ & $\emptyset$ & $<1.0$ & $\emptyset$ \\\\")
 
 

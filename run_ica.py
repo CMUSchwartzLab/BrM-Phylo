@@ -28,11 +28,11 @@ def unmix(B, dim_k, max_iter=200000):
   M = np.ones(B.shape)
 
   args = {
-      'dim_m':B.shape[0],
-      'dim_n':B.shape[1],
-      'dim_k':dim_k,
-      'learning_rate':1e-5,
-      'weight_decay':0
+      "dim_m":B.shape[0],
+      "dim_n":B.shape[1],
+      "dim_k":dim_k,
+      "learning_rate":1e-5,
+      "weight_decay":0
       }
 
   ica = ICA(args)
@@ -41,7 +41,7 @@ def unmix(B, dim_k, max_iter=200000):
 
   C, F, l2_train, l2_test = ica.train(B, M, M, max_iter=max_iter, inc=20000, verbose=True)
 
-  BCF = {'B':B, 'C':C, 'F':F}
+  BCF = {"B":B, "C":C, "F":F}
 
   plt.figure()
   plt.hist(C.reshape(-1))
@@ -66,23 +66,23 @@ def plot_B_CF(B, C, F):
   B_pca = pca.transform(B.T)
   CF_pca = pca.transform(CF.T)
 
-  sns.set_style('white')
+  sns.set_style("white")
   fig = plt.figure(figsize=(5,5))
 
   for idx in range(B.shape[1]):
     plt.plot(
         [B_pca[idx,0],CF_pca[idx,0]],
         [B_pca[idx,1],CF_pca[idx,1]],
-        'gray',alpha=0.5)
+        "gray",alpha=0.5)
 
-  plt.plot(CF_pca[:,0], CF_pca[:,1], 'x', label='$\hat{B}=CF$')
-  plt.plot(B_pca[:,0], B_pca[:,1], '+', label='$B$')
+  plt.plot(CF_pca[:,0], CF_pca[:,1], "x", label="$\hat{B}=CF$")
+  plt.plot(B_pca[:,0], B_pca[:,1], "+", label="$B$")
 
-  plt.legend(prop={'size':size_legend})
-  plt.xlabel('PCA 1', fontsize=size_label)
-  plt.ylabel('PCA 2', fontsize=size_label)
+  plt.legend(prop={"size":size_legend})
+  plt.xlabel("PCA 1", fontsize=size_label)
+  plt.ylabel("PCA 2", fontsize=size_label)
   plt.tick_params(labelsize=size_tick)
-  ##fig.savefig("figures/fig4pcaica.pdf", bbox_inches='tight')
+  ##fig.savefig("figures/fig4pcaica.pdf", bbox_inches="tight")
 
 
 def plot_F(F):
@@ -92,13 +92,13 @@ def plot_F(F):
   size_label = 18
   size_tick = 18
 
-  sns.set_style('darkgrid')
+  sns.set_style("darkgrid")
   fig = plt.figure()
   plt.hist(F.reshape(-1),bins=24)
-  plt.xlabel('$F_{lj}^{\star}$', fontsize=size_label)
-  plt.ylabel('Frequency', fontsize=size_label)
+  plt.xlabel("$F_{lj}^{\star}$", fontsize=size_label)
+  plt.ylabel("Frequency", fontsize=size_label)
   plt.tick_params(labelsize=size_tick)
-  ##fig.savefig("figures/fig5fdistribution.pdf", bbox_inches='tight')
+  ##fig.savefig("figures/fig5fdistribution.pdf", bbox_inches="tight")
 
 
 data_proc = DataProcessor()
@@ -109,9 +109,9 @@ dim_k = 5
 #BCF = unmix(B, dim_k, max_iter=2000000)
 #with open("data/ica/BCF.pkl", "wb") as f:
 #  pickle.dump(BCF, f)
-BCF = pickle.load(open('data/ica/BCF.pkl', 'rb'))
+BCF = pickle.load(open("data/ica/BCF.pkl", "rb"))
 
-C, F = BCF['C'], BCF['F']
+C, F = BCF["C"], BCF["F"]
 plot_B_CF(B, C, F)
 plot_F(F)
 

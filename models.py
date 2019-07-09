@@ -36,11 +36,11 @@ class ModelBase(nn.Module):
 
     self.epsilon = 1e-10 #1e-4
 
-    self.dim_m = args['dim_m']
-    self.dim_n = args['dim_n']
-    self.dim_k = args['dim_k']
-    self.learning_rate = args['learning_rate']
-    self.weight_decay = args['weight_decay']
+    self.dim_m = args["dim_m"]
+    self.dim_n = args["dim_n"]
+    self.dim_k = args["dim_k"]
+    self.learning_rate = args["learning_rate"]
+    self.weight_decay = args["weight_decay"]
 
 
   def build(self):
@@ -139,7 +139,7 @@ class ICA(ModelBase):
         previous_error = l2
 
     if iter_train >= max_iter-2*inc:
-      print('warning: max_iter too small...')
+      print("warning: max_iter too small...")
     loss = torch.norm((mat_p-mat_b)*M_test, 2)**2
     l2_test = loss.data.numpy() / M_test.sum().numpy()
 
