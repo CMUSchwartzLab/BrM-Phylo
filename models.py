@@ -17,6 +17,7 @@ def _wrap_data(mat):
   """ Wrap default numpy or list data into PyTorch variables.
 
   """
+
   return Variable(torch.FloatTensor(mat))
 
 
@@ -50,8 +51,8 @@ class ModelBase(nn.Module):
     raise NotImplementedError
 
 
-class ICA(ModelBase):
-  """ ICA model for deconvolution.
+class NND(ModelBase):
+  """ NND model for deconvolution.
   """
 
   def __init__(self, args, **kwargs):
@@ -62,7 +63,7 @@ class ICA(ModelBase):
     args: arguments for initializing the model.
     """
 
-    super(ICA, self).__init__(args, **kwargs)
+    super(NND, self).__init__(args, **kwargs)
 
 
   def build(self):

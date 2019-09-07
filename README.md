@@ -1,6 +1,6 @@
 # Phylogenies of Breast Cancer Brain Metastases
 
-<img src="pipeline.png" width="650">
+<img src="pipeline.png" width="700">
 
 
 ## Introduction
@@ -18,7 +18,6 @@ The code runs on `Python 2.7`.
 * Common Python packages need to be installed: `os`, `random`, `numpy`, `pandas`, `pickle`, `scipy`, `sklearn`, `matplotlib`, `seaborn`, `cStringIO`, `collections`.
 * These additional Python packages are required in some experiments: `statsmodels`, `networkx`, `skbio`, `Bio`, `PyTorch`.
 
-
 We will introduce the three-step pipeline below.
 
 ### STEP 1: Data preprocessing and mapping to gene modules/cancer pathways
@@ -29,27 +28,21 @@ from DataProcessor import DataProcessor
 data_proc = DataProcessor()
 df_modu, len_kegg = data_proc.load_modu_data()
 ```
-As you can see, we uses the `DataProcessor` class to conduct the data preprocessing and mapping. The returned `df_modu` is a `pandas.DataFrame`, where each row is a gene module/cancer pathway, and each column is a sample.
+As you can see, we use the `DataProcessor` class to conduct the data preprocessing and mapping. The returned `df_modu` is a `pandas.DataFrame`, where each row is a gene module/cancer pathway, and each column is a sample.
 
 
 ### STEP 2: Deconvolution of bulk data
 
-We want to conduct cross-validation to determine the proper number of cell communities/components for deconvolution:
+We want to conduct cross-validation to determine the proper number of cell communities/components for deconvolution, and then use the optimal number of components to unmix the bulk data:
 ```python
-python cv_ica.py
+python run_nnd.py
 ```
-This step finds the optimal number of components for deconvolution. Results available at `data/ica/results_cv.pkl`.
-
-Then, using the optimal number of components (`dim_k=5`) as parameter, we can conduct the deconvolution:
-```python
-python run_ica.py
-```
-This unmixes the bulk data. Results available at `data/ica/BCF.pkl`.
-
+where `models.NND` is called to perform neural network deconvolution (NND).
+The result of cross-validation is available at `data/ica/results_cv.pkl`. The unmixed matrices are available at `data/ica/BCF.pkl`.
 
 ### STEP 3: Building cell community phylogeny and inferring Steiner node pathways
 
-Some cell components are missing in some patients. We can check the different patterns of exiting components in patients:
+Some cell components are missing in some patients. We can aggregate the different patterns of exiting components in patients:
 ```python
 import pickle
 from DataProcessor import DataProcessor
@@ -65,7 +58,7 @@ comp_p = component_portion(F, plot_mode=True)
 # Aggregate different patterns of components in patients
 list_patterns = classify_patients(F, threshold_0=2.5e-2)
 ```
-Here, the `list_patterns` contains four different patterns of phylogenies. In order to visualize the first pattern and print out the differentially perturbed pathways along edges of this phylogeny:
+Here, the `list_patterns` contains four different patterns of phylogenies. In order to visualize a specific pattern, e.g., the first one, and print out the differentially perturbed pathways along edges of this phylogeny:
 ```python
 pattern = list_patterns[0]
 plot_phylo(C, F, list(df_modu.index), len_kegg, comp_p, pattern, threshold=0.05)
@@ -75,14 +68,9 @@ plot_phylo(C, F, list(df_modu.index), len_kegg, comp_p, pattern, threshold=0.05)
 ## How to replicate results in the paper?
 
 ```python
-python cv_ica.py
+python run_nnd.py
 ```
-It plots Fig. 2b in the paper.
-
-```python
-python run_ica.py
-```
-It plots Fig. A1, Fig. A2 in the paper.
+It plots Fig. 2b, Fig. A1, Fig. A2 in the paper.
 
 ```python
 python analysis.py
@@ -106,7 +94,7 @@ The repository uses MIT license, so feel free to share or adapt the materials. I
 }
 ```
 
-You are welcome to contact us if you have any question.
+You are welcome to reach out to us for any questions.
 
 Contact: Yifeng Tao (yifengt@cs.cmu.edu), Russell Schwartz (russells@andrew.cmu.edu)
 
