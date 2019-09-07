@@ -52,8 +52,8 @@ plot_patients_F(F, threshold_0=2.5e-2)
 component_func(B, C, F, list(df_modu.index), len_kegg, threshold=0.05)
 
 # Phylogeny of components.
-#for pattern in list_patterns:
-pattern = list_patterns[0]
-plot_phylo(C, F, list(df_modu.index), len_kegg, comp_p, pattern, threshold=0.05)
+for pattern in list_patterns:
+  #pattern = list_patterns[0]
+  plot_phylo(C, F, list(df_modu.index), len_kegg, comp_p, pattern, threshold=0.05)
 
 
